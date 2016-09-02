@@ -61,39 +61,53 @@ public class PokeFragment extends Fragment {
             new Thread(new Runnable() { // Makes background thread for networking request.
                 @Override
                 public void run() {
-                    // PokeApi can make calls to get Pokémon #s 1 to 721 (National Pokédex Number)
+                    // PokeApi can make calls to get Pokemon #s 1 to 721 (National Pokedex Number)
                     PokeApi pokeApi = new PokeApiClient();
                     final Pokemon pokemon = pokeApi.getPokemon(1);
                     final PokemonSpecies pokemonSpecies = pokeApi.getPokemonSpecies(1);
 
-                    final String LANG = "en"; // Language for retrieving Pokémon data.
+                    final String LANG = "en"; // Language for retrieving Pokemon data.
 
-                    // Pokémon Data
+                    // Basic Pokemon Data
 
-                    String name = pokemon.getName();
-                    pokemon.getId(); // Pokémon National Pokedex Num.
-                    Log.d(TAG, "Pokémon: " + pokemon.getName() + "# " + pokemon.getId());
-                    pokemon.getHeight(); // Pokémon height in decimeters.
-                    pokemon.getWeight(); // Pokémon weight in hectograms.
+                    pokemon.getName();
+                    pokemon.getId(); // Pokemon National Pokedex Num.
+                    pokemon.getHeight(); // Pokemon height in decimeters.
+                    pokemon.getWeight(); // Pokemon weight in hectograms.
 
-                    pokemon.getTypes().size(); // Number of types for the Pokémon.
+                    pokemon.getTypes().size(); // Number of types for the Pokemon.
                     for(PokemonType t : pokemon.getTypes()) {
-                        t.getType().getName(); // Typing of Pokémon.
-                        Log.d(TAG, t.getType().getName());
+                        t.getType().getName(); // Typing of Pokemon.
                     }
 
-                    // Pokémon Species Data
+                    // Pokemon Species Data
 
-                    pokemonSpecies.getColor().getName(); // Pokémon color.
-                    pokemonSpecies.getShape().getName(); // Pokémon shape.
+                    pokemonSpecies.getColor().getName(); // Pokemon color.
+                    pokemonSpecies.getShape().getName(); // Pokemon shape.
 
-                    if (pokemonSpecies.getEvolvesFromSpecies() != null) {
-                        pokemonSpecies.getEvolvesFromSpecies().getName(); // TODO: Test for Pokémon evolutions.
-                        Log.d(TAG, "Evolves from: " + pokemonSpecies.getEvolvesFromSpecies().getName());
+                    if (pokemonSpecies.getHabitat() != null)
+                        pokemonSpecies.getHabitat().getName(); // Pokemon habitat.
+
+                    pokemonSpecies.getGeneration().getName(); // Pokemon generation.
+
+                    for (Genus gn : pokemonSpecies.getGenera()) {
+                        if (gn.getLanguage().getName().equals(LANG)) { // If genus is in english.
+                            gn.getGenus(); // Pokemon genus.
+                            break;
+                        }
                     }
+
+                    // Flavor Text entries are in order from newest games to oldest games
+                    for (PokemonSpeciesFlavorText fv : pokemonSpecies.getFlavorTextEntries()) {
+                        if (fv.getLanguage().getName().equals(LANG)) { // If description is in english.
+                            fv.getFlavorText(); // Pokemon description.
+                            break;
+                        }
+                    }
+
+                    // Pokemon Evolutions
 
                     EvolutionChain evolutionChain = pokeApi.getEvolutionChain(pokemonSpecies.getEvolutionChain().getId());
-                    Log.d(TAG, "Evolution chain: " + evolutionChain);
 
                     ArrayList<String> evolutions = new ArrayList<String>(); // Names of Pokemon in the evolution chain.
                     ChainLink currentEvolution = evolutionChain.getChain(); // Starts with the first Pokemon in the evolution chain.
@@ -104,28 +118,6 @@ public class PokeFragment extends Fragment {
                             currentEvolution = currentEvolution.getEvolvesTo().get(0); // Gets next evolution in the chain (always located in position zero).
                             evolutions.add(currentEvolution.getSpecies().getName());
                         } while (!currentEvolution.getEvolvesTo().isEmpty()); // Stops if final evolution has been reached.
-                    }
-                    Log.d(TAG, "Evolution names: " + evolutions.toString());
-
-
-                    if (pokemonSpecies.getHabitat() != null)
-                        pokemonSpecies.getHabitat().getName(); // Pokémon habitat.
-
-                    pokemonSpecies.getGeneration().getName(); // Pokémon generation.
-
-                    for (Genus gn : pokemonSpecies.getGenera()) {
-                        if (gn.getLanguage().getName().equals(LANG)) { // If genus is in english.
-                            gn.getGenus(); // Pokémon genus.
-                            break;
-                        }
-                    }
-
-                    // Flavor Text entries are in order from newest games to oldest games
-                    for (PokemonSpeciesFlavorText fv : pokemonSpecies.getFlavorTextEntries()) {
-                        if (fv.getLanguage().getName().equals(LANG)) { // If description is in english.
-                            fv.getFlavorText(); // Pokémon description.
-                            break;
-                        }
                     }
 
                     Handler handler = new Handler(Looper.getMainLooper()); // grabs UI thread.
