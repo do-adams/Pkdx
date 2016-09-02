@@ -15,19 +15,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import java.util.ArrayList;
+import com.mianlabs.pokeluv.model.PokeModel;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import me.sargunvohra.lib.pokekotlin.client.PokeApi;
 import me.sargunvohra.lib.pokekotlin.client.PokeApiClient;
-import me.sargunvohra.lib.pokekotlin.model.ChainLink;
 import me.sargunvohra.lib.pokekotlin.model.EvolutionChain;
-import me.sargunvohra.lib.pokekotlin.model.Genus;
 import me.sargunvohra.lib.pokekotlin.model.Pokemon;
 import me.sargunvohra.lib.pokekotlin.model.PokemonSpecies;
-import me.sargunvohra.lib.pokekotlin.model.PokemonSpeciesFlavorText;
-import me.sargunvohra.lib.pokekotlin.model.PokemonType;
 
 public class PokeFragment extends Fragment {
     private static final String TAG = PokeFragment.class.getSimpleName();
@@ -58,73 +54,23 @@ public class PokeFragment extends Fragment {
 
         if (isNetworkAvailable()) {
             Log.d(TAG, "Making network request");
-            new Thread(new Runnable() { // Makes background thread for networking request.
+            new Thread(new Runnable() { // Background thread for networking requests.
                 @Override
                 public void run() {
                     // PokeApi can make calls to get Pokemon #s 1 to 721 (National Pokedex Number)
                     PokeApi pokeApi = new PokeApiClient();
-                    final Pokemon pokemon = pokeApi.getPokemon(1);
-                    final PokemonSpecies pokemonSpecies = pokeApi.getPokemonSpecies(1);
+                    final Pokemon pokemon = pokeApi.getPokemon(321);
+                    final PokemonSpecies pokemonSpecies = pokeApi.getPokemonSpecies(321);
+                    EvolutionChain evolutionChain =
+                            pokeApi.getEvolutionChain(pokemonSpecies.getEvolutionChain().getId());
 
-                    final String LANG = "en"; // Language for retrieving Pokemon data.
-
-                    // Basic Pokemon Data
-
-                    pokemon.getName();
-                    pokemon.getId(); // Pokemon National Pokedex Num.
-                    pokemon.getHeight(); // Pokemon height in decimeters.
-                    pokemon.getWeight(); // Pokemon weight in hectograms.
-
-                    pokemon.getTypes().size(); // Number of types for the Pokemon.
-                    for(PokemonType t : pokemon.getTypes()) {
-                        t.getType().getName(); // Typing of Pokemon.
-                    }
-
-                    // Pokemon Species Data
-
-                    pokemonSpecies.getColor().getName(); // Pokemon color.
-                    pokemonSpecies.getShape().getName(); // Pokemon shape.
-
-                    if (pokemonSpecies.getHabitat() != null)
-                        pokemonSpecies.getHabitat().getName(); // Pokemon habitat.
-
-                    pokemonSpecies.getGeneration().getName(); // Pokemon generation.
-
-                    for (Genus gn : pokemonSpecies.getGenera()) {
-                        if (gn.getLanguage().getName().equals(LANG)) { // If genus is in english.
-                            gn.getGenus(); // Pokemon genus.
-                            break;
-                        }
-                    }
-
-                    // Flavor Text entries are in order from newest games to oldest games
-                    for (PokemonSpeciesFlavorText fv : pokemonSpecies.getFlavorTextEntries()) {
-                        if (fv.getLanguage().getName().equals(LANG)) { // If description is in english.
-                            fv.getFlavorText(); // Pokemon description.
-                            break;
-                        }
-                    }
-
-                    // Pokemon Evolutions
-
-                    EvolutionChain evolutionChain = pokeApi.getEvolutionChain(pokemonSpecies.getEvolutionChain().getId());
-
-                    ArrayList<String> evolutions = new ArrayList<String>(); // Names of Pokemon in the evolution chain.
-                    ChainLink currentEvolution = evolutionChain.getChain(); // Starts with the first Pokemon in the evolution chain.
-                    evolutions.add(currentEvolution.getSpecies().getName());
-
-                    if (currentEvolution.getEvolvesTo().size() != 0) { // If the Pokemon has an evolutionary line.
-                        do {
-                            currentEvolution = currentEvolution.getEvolvesTo().get(0); // Gets next evolution in the chain (always located in position zero).
-                            evolutions.add(currentEvolution.getSpecies().getName());
-                        } while (!currentEvolution.getEvolvesTo().isEmpty()); // Stops if final evolution has been reached.
-                    }
+                    final PokeModel pokeModel = new PokeModel(pokemon, pokemonSpecies, evolutionChain);
 
                     Handler handler = new Handler(Looper.getMainLooper()); // grabs UI thread.
                     handler.post(new Runnable() {
                         @Override
                         public void run() {
-                            mPokemonTextView.setText(pokemon.toString());
+                            mPokemonTextView.setText(pokeModel.toString());
                             Log.d(TAG, "Posting data to text field");
                         }
                     });
