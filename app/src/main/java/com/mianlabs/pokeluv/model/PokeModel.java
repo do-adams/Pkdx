@@ -10,9 +10,13 @@ import me.sargunvohra.lib.pokekotlin.model.PokemonSpecies;
 import me.sargunvohra.lib.pokekotlin.model.PokemonSpeciesFlavorText;
 import me.sargunvohra.lib.pokekotlin.model.PokemonType;
 
+// TODO: Implement Parcelable to save state across configuration changes.
 public class PokeModel {
     private static final String TAG = PokeModel.class.getSimpleName();
     private static final String LANG = "en"; // Language for retrieving Pokemon data.
+
+    // PokeApi can make calls to get Pokemon #s 1 to 721 (National Pokedex Number)
+    public static final int NUM_OF_POKEMON = 721;
 
     // From Pokemon API Call
     private int mPokedexNum;
@@ -31,7 +35,7 @@ public class PokeModel {
 
     @Override
     public String toString() {
-        return "# " + mPokedexNum + " " + mName + "\nHeight: " + mHeight + "\nWeight: " + mWeight
+        return "No. " + mPokedexNum + " " + mName + "\nHeight: " + mHeight + "\nWeight: " + mWeight
                 + "\nTypes: " + mTypes + "\nColor: " + mColor + "\nShape: " + mShape + "\nHabitat: "
                 + mHabitat + "\nGeneration: " + mGeneration + "\nDescription: "
                 + mDescription + "\nEvolutions: " + mEvolutions;
