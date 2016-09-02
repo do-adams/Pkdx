@@ -13,9 +13,14 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.github.florent37.picassopalette.PicassoPalette;
 import com.mianlabs.pokeluv.model.PokeModel;
+import com.squareup.picasso.Picasso;
+
+import java.util.Random;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -31,6 +36,10 @@ public class PokeFragment extends Fragment {
 
     @BindView(R.id.pokemon)
     TextView mPokemonTextView;
+    @BindView(R.id.pokemon_sprite)
+    ImageView mPokemonSprite;
+    @BindView(R.id.pokemon_color_border)
+    View mColorBorder;
 
     @Override
     public void onAttach(Context context) {
@@ -58,9 +67,11 @@ public class PokeFragment extends Fragment {
                 @Override
                 public void run() {
                     // PokeApi can make calls to get Pokemon #s 1 to 721 (National Pokedex Number)
+                    int randPkmn = new Random().nextInt(PokeModel.NUM_OF_POKEMON + 1);
+
                     PokeApi pokeApi = new PokeApiClient();
-                    final Pokemon pokemon = pokeApi.getPokemon(321);
-                    final PokemonSpecies pokemonSpecies = pokeApi.getPokemonSpecies(321);
+                    final Pokemon pokemon = pokeApi.getPokemon(randPkmn);
+                    final PokemonSpecies pokemonSpecies = pokeApi.getPokemonSpecies(randPkmn);
                     EvolutionChain evolutionChain =
                             pokeApi.getEvolutionChain(pokemonSpecies.getEvolutionChain().getId());
 
@@ -71,7 +82,11 @@ public class PokeFragment extends Fragment {
                         @Override
                         public void run() {
                             mPokemonTextView.setText(pokeModel.toString());
-                            Log.d(TAG, "Posting data to text field");
+                            Picasso.with(mContext).load(pokeModel.getSprite())
+                                    .into(mPokemonSprite, PicassoPalette.with(pokeModel.getSprite(), mPokemonSprite)
+                                                    .use(PicassoPalette.Profile.MUTED_LIGHT).intoBackground(mPokemonSprite)
+                                                    .use(PicassoPalette.Profile.VIBRANT_LIGHT)
+                                                    .intoBackground(mColorBorder));
                         }
                     });
                 }

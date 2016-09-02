@@ -24,6 +24,7 @@ public class PokeModel {
     private String mHeight;
     private String mWeight;
     private ArrayList<String> mTypes = new ArrayList<>();
+    private String mSprite;
 
     // From Pokemon Species API Call
     private String mColor;
@@ -35,10 +36,11 @@ public class PokeModel {
 
     @Override
     public String toString() {
-        return "No. " + mPokedexNum + " " + mName + "\nHeight: " + mHeight + "\nWeight: " + mWeight
-                + "\nTypes: " + mTypes + "\nColor: " + mColor + "\nShape: " + mShape + "\nHabitat: "
-                + mHabitat + "\nGeneration: " + mGeneration + "\nDescription: "
-                + mDescription + "\nEvolutions: " + mEvolutions;
+        return "No. " + mPokedexNum + " " + mName + " " + mSprite + "\nHeight: " + mHeight +
+                "\nWeight: " + mWeight + "\nTypes: " + mTypes + "\nColor: " + mColor
+                + "\nShape: " + mShape + "\nHabitat: " + mHabitat +
+                "\nGeneration: " + mGeneration + "\nDescription: " + mDescription
+                + "\nEvolutions: " + mEvolutions;
     }
 
     private String formatHeight(int height) {
@@ -61,6 +63,7 @@ public class PokeModel {
         mWeight = formatWeight(pokemon.getWeight()); // Pokemon weight in hectograms.
         for (PokemonType t : pokemon.getTypes())
             mTypes.add(t.getType().getName()); // Typing of Pokemon.
+        mSprite = pokemon.getSprites().getFrontDefault();
 
         // Pokemon Species Data
         mColor = pokemonSpecies.getColor().getName(); // Pokemon color.
@@ -87,5 +90,57 @@ public class PokeModel {
             }
             while (!currentEvolution.getEvolvesTo().isEmpty()); // Stops if final evolution has been reached.
         }
+    }
+
+    public String capitalize(String str) {
+        return str.substring(0, 1).toUpperCase() + str.substring(1);
+    }
+
+    public int getPokedexNum() {
+        return mPokedexNum;
+    }
+
+    public String getName() {
+        return capitalize(mName);
+    }
+
+    public String getHeight() {
+        return mHeight;
+    }
+
+    public String getWeight() {
+        return mWeight;
+    }
+
+    public ArrayList<String> getTypes() {
+        return mTypes;
+    }
+
+    public String getSprite() {
+        return mSprite;
+    }
+
+    public String getColor() {
+        return capitalize(mColor);
+    }
+
+    public String getShape() {
+        return capitalize(mShape);
+    }
+
+    public String getHabitat() {
+        return capitalize(mHabitat);
+    }
+
+    public String getGeneration() {
+        return capitalize(mGeneration);
+    }
+
+    public String getDescription() {
+        return mDescription;
+    }
+
+    public ArrayList<String> getEvolutions() {
+        return mEvolutions;
     }
 }
