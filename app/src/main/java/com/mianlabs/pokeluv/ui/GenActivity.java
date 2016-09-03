@@ -1,10 +1,11 @@
-package com.mianlabs.pokeluv;
+package com.mianlabs.pokeluv.ui;
 
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 
+import com.mianlabs.pokeluv.R;
 import com.mianlabs.pokeluv.utilities.BarTypefaceSetter;
 
 import butterknife.BindView;

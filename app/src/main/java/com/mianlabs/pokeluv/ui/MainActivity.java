@@ -1,4 +1,4 @@
-package com.mianlabs.pokeluv;
+package com.mianlabs.pokeluv.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
+import com.mianlabs.pokeluv.R;
 import com.mianlabs.pokeluv.utilities.BarTypefaceSetter;
 
 public class MainActivity extends AppCompatActivity {

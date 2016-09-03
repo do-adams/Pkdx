@@ -1,4 +1,4 @@
-package com.mianlabs.pokeluv;
+package com.mianlabs.pokeluv.ui;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -19,6 +19,7 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.github.florent37.picassopalette.PicassoPalette;
+import com.mianlabs.pokeluv.R;
 import com.mianlabs.pokeluv.model.PokeModel;
 import com.squareup.picasso.Picasso;
 
