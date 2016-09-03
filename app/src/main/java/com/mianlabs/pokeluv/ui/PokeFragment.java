@@ -21,6 +21,7 @@ import android.widget.TextView;
 import com.github.florent37.picassopalette.PicassoPalette;
 import com.mianlabs.pokeluv.R;
 import com.mianlabs.pokeluv.model.PokeModel;
+import com.mianlabs.pokeluv.utilities.TypefaceUtils;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -121,6 +122,8 @@ public class PokeFragment extends Fragment {
                     });
                 }
             }).start();
+        } else {
+            TypefaceUtils.displayToast(mContext, getString(R.string.internet_connection_msg), 8);
         }
 
         return viewRoot;

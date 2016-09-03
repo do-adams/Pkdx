@@ -8,7 +8,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.mianlabs.pokeluv.R;
-import com.mianlabs.pokeluv.utilities.BarTypefaceSetter;
+import com.mianlabs.pokeluv.utilities.TypefaceUtils;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        BarTypefaceSetter.setActionBarTitle(this, getString(R.string.app_name));
+        TypefaceUtils.setActionBarTitle(this, getString(R.string.app_name));
 
         if (savedInstanceState == null) {
             getFragmentManager().beginTransaction().add(R.id.main_frame, new PokeFragment()).commit();
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu, menu);
-        BarTypefaceSetter.setActionBarOptionsText(this, menu);
+        TypefaceUtils.setActionBarOptionsText(this, menu);
         return true;
     }
 

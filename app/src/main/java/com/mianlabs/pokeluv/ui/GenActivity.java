@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 
 import com.mianlabs.pokeluv.R;
-import com.mianlabs.pokeluv.utilities.BarTypefaceSetter;
+import com.mianlabs.pokeluv.utilities.TypefaceUtils;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -32,7 +32,7 @@ public class GenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gen);
         ButterKnife.bind(this);
-        BarTypefaceSetter.setActionBarTitle(this, getString(R.string.app_name));
+        TypefaceUtils.setActionBarTitle(this, getString(R.string.app_name));
 
         mCustomFont = Typeface.createFromAsset(getAssets(), getString(R.string.font_path));
         setCustomTypefaceForViews();
