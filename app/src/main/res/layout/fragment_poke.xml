@@ -72,10 +72,10 @@
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/activity_vertical_margin"
             android:gravity="center"
-            android:paddingBottom="@dimen/pokefragment_header_padding"
+            android:paddingBottom="@dimen/poke_fragment_header_padding"
             android:paddingLeft="@dimen/activity_horizontal_margin"
             android:paddingRight="@dimen/activity_horizontal_margin"
-            android:paddingTop="@dimen/pokefragment_header_padding"
+            android:paddingTop="@dimen/poke_fragment_header_padding"
             tools:background="#C8C8C8"
             tools:text="GRASS \t\t POISON"/>
 
@@ -120,10 +120,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/activity_vertical_margin"
             android:gravity="center"
-            android:paddingBottom="@dimen/pokefragment_header_padding"
+            android:paddingBottom="@dimen/poke_fragment_header_padding"
             android:paddingLeft="@dimen/activity_horizontal_margin"
             android:paddingRight="@dimen/activity_horizontal_margin"
-            android:paddingTop="@dimen/pokefragment_header_padding"
+            android:paddingTop="@dimen/poke_fragment_header_padding"
             tools:background="#B8F870"
             tools:text="GENERATION-I"/>
 
@@ -144,10 +144,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/activity_vertical_margin"
             android:gravity="center"
-            android:paddingBottom="@dimen/pokefragment_header_padding"
+            android:paddingBottom="@dimen/poke_fragment_header_padding"
             android:paddingLeft="@dimen/activity_horizontal_margin"
             android:paddingRight="@dimen/activity_horizontal_margin"
-            android:paddingTop="@dimen/pokefragment_header_padding"
+            android:paddingTop="@dimen/poke_fragment_header_padding"
             android:text="EVOLUTIONS"
             tools:background="#C8C8C8"/>
 

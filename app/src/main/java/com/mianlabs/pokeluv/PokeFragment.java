@@ -37,9 +37,6 @@ import me.sargunvohra.lib.pokekotlin.model.PokemonSpecies;
 public class PokeFragment extends Fragment {
     private static final String TAG = PokeFragment.class.getSimpleName();
 
-    // Custom font provided under a Freeware license at http://www.fontspace.com/jackster-productions/pokemon-gb
-    public static String FONT_PATH = "fonts/Pokemon GB.ttf"; // Path to custom font used by the app.
-
     private Activity mContext;
     private Typeface mCustomFont;
 
@@ -90,7 +87,7 @@ public class PokeFragment extends Fragment {
         View viewRoot = inflater.inflate(R.layout.fragment_poke, container, false);
         ButterKnife.bind(this, viewRoot);
         mContext = getActivity(); // Grabs the context from the parent activity.
-        mCustomFont = Typeface.createFromAsset(mContext.getAssets(), FONT_PATH);
+        mCustomFont = Typeface.createFromAsset(mContext.getAssets(), mContext.getString(R.string.font_path));
         setCustomTypefaceForViews();
         mContainer.setVisibility(View.INVISIBLE); // Hides the Views until properly set with Pokemon data.
 
