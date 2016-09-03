@@ -171,19 +171,12 @@ public class PokeFragment extends Fragment {
         mPokemonEvoLine.setText(formatListToString(pokeModel.getEvolutions()));
     }
 
-    private String formatListToString(List list) {
-        String listStr = list.toString();
+    private String formatListToString(List<String> list) {
         String result = "";
-        for (int i = 0; i < listStr.length(); i++) {
-            char ch = listStr.charAt(i);
-            if (ch != '[' && ch != ']') {
-                if (ch == ',')
-                    result += "\t\t"; // Put space between multiple types.
-                else
-                    result += Character.toUpperCase(ch);
-            }
-        }
-        return result;
+        for (String s : list)
+            result += s + "\t\t";
+        result = result.trim();
+        return result.toUpperCase();
     }
 
     private void loadSpriteAndPalettes(PokeModel pokeModel) {
@@ -192,7 +185,6 @@ public class PokeFragment extends Fragment {
                         .use(PicassoPalette.Profile.VIBRANT)
                         .intoBackground(mPokemonSprite) // Background color for Sprite.
                         .intoTextColor(mPokemonNumBorder, PicassoPalette.Swatch.BODY_TEXT_COLOR) // Text color for Number.
-                        .intoTextColor(mPokemonGeneration, PicassoPalette.Swatch.BODY_TEXT_COLOR) // Text color for Generation.
                         .use(PicassoPalette.Profile.VIBRANT_LIGHT)
                         .intoBackground(mPokemonNumBorder) // Background color for Number.
                         .intoBackground(mPokemonGeneration) // Background color for Generation.
