@@ -189,9 +189,9 @@ public class PokeFragment extends Fragment {
                         .use(PicassoPalette.Profile.VIBRANT_LIGHT)
                         .intoBackground(mPokemonNumBorder) // Background color for Number.
                         .intoBackground(mPokemonGeneration) // Background color for Generation.
+                        .intoBackground(mPokemonEvolutions) // Background color for Evolutions.
                         .use(PicassoPalette.Profile.MUTED_LIGHT)
                         .intoBackground(mPokemonTypes) // Background color for Types.
-                        .intoBackground(mPokemonEvolutions) // Background color for Evolutions.
                 );
     }
 
