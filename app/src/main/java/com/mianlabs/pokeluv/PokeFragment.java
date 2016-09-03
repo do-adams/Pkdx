@@ -103,8 +103,8 @@ public class PokeFragment extends Fragment {
                     int randPkmn = new Random().nextInt(PokeModel.NUM_OF_POKEMON + 1);
 
                     PokeApi pokeApi = new PokeApiClient();
-                    final Pokemon pokemon = pokeApi.getPokemon(randPkmn);
-                    final PokemonSpecies pokemonSpecies = pokeApi.getPokemonSpecies(randPkmn);
+                    Pokemon pokemon = pokeApi.getPokemon(randPkmn);
+                    PokemonSpecies pokemonSpecies = pokeApi.getPokemonSpecies(randPkmn);
                     EvolutionChain evolutionChain =
                             pokeApi.getEvolutionChain(pokemonSpecies.getEvolutionChain().getId());
 

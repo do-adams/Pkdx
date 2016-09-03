@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Applies the custom typeface to the Action Bar.
         SpannableString s = new SpannableString("Poke Luv");
+        // Don't use the full path of the text font, only the font filename.
         s.setSpan(new TypefaceSpan(this, "Pokemon GB.ttf"), 0, s.length(),
                 Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         ActionBar actionBar = getSupportActionBar();

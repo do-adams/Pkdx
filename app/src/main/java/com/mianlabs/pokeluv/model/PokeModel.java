@@ -10,7 +10,7 @@ import me.sargunvohra.lib.pokekotlin.model.PokemonSpecies;
 import me.sargunvohra.lib.pokekotlin.model.PokemonSpeciesFlavorText;
 import me.sargunvohra.lib.pokekotlin.model.PokemonType;
 
-// TODO: Implement Parcelable to save state across configuration changes.
+// TODO: Implement Parcelable to save state across configuration changes and add documentation.
 public class PokeModel {
     private static final String TAG = PokeModel.class.getSimpleName();
     private static final String LANG = "en"; // Language for retrieving Pokemon data.
