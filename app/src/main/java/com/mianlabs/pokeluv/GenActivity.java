@@ -31,6 +31,18 @@ public class GenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gen);
         ButterKnife.bind(this);
-        BarTypefaceSetter.setActionBarText(this, getString(R.string.app_name));
+        BarTypefaceSetter.setActionBarTitle(this, getString(R.string.app_name));
+
+        mCustomFont = Typeface.createFromAsset(getAssets(), getString(R.string.font_path));
+        setCustomTypefaceForViews();
+    }
+
+    private void setCustomTypefaceForViews() {
+        mGenIButton.setTypeface(mCustomFont);
+        mGenIIButton.setTypeface(mCustomFont);
+        mGenIIIButton.setTypeface(mCustomFont);
+        mGenIVButton.setTypeface(mCustomFont);
+        mGenVButton.setTypeface(mCustomFont);
+        mGenVIButton.setTypeface(mCustomFont);
     }
 }

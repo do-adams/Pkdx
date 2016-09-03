@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        BarTypefaceSetter.setActionBarText(this, getString(R.string.app_name));
+        BarTypefaceSetter.setActionBarTitle(this, getString(R.string.app_name));
 
         if (savedInstanceState == null) {
             getFragmentManager().beginTransaction().add(R.id.main_frame, new PokeFragment()).commit();
@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu, menu);
+        BarTypefaceSetter.setActionBarOptionsText(this, menu);
         return true;
     }
 

@@ -2,4 +2,7 @@
     <string name="app_name">Poke Luv</string>
     <!--Custom font provided under a Freeware license at http://www.fontspace.com/jackster-productions/pokemon-gb-->
     <string name="font_path">fonts/Pokemon GB.ttf</string>
+
+    <!-- Menu Options Text -->
+    <string name="menu_more_pokemon">More Pokémon</string>
 </resources>
