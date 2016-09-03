@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView android:id="@+id/pokemon_detail_container"
+            xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -46,29 +47,30 @@
                 android:textSize="32sp"
                 tools:text="Bulbasaur"/>
 
-            <LinearLayout
-                android:layout_width="match_parent"
+            <TextView
+                android:id="@+id/pokemon_height"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_weight="1"
+                android:gravity="center"
                 android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:paddingRight="@dimen/activity_horizontal_margin">
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:textSize="12sp"
+                tools:text="Height: 1 m / 3.3 ft"/>
 
-                <TextView
-                    android:id="@+id/pokemon_height"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    tools:text="Height: 1 m / 3.3 ft"/>
-
-                <TextView
-                    android:id="@+id/pokemon_weight"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    tools:text="Weight: 1 kg / 2.2 lbs"/>
-            </LinearLayout>
+            <TextView
+                android:id="@+id/pokemon_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:textSize="12sp"
+                tools:text="Weight: 1 kg / 2.2 lbs"/>
 
             <TextView
                 android:id="@+id/pokemon_types"
@@ -79,7 +81,7 @@
                 android:gravity="center"
                 android:paddingLeft="@dimen/activity_horizontal_margin"
                 android:paddingRight="@dimen/activity_horizontal_margin"
-                tools:background="#B8F870"
+                tools:background="#C8C8C8"
                 tools:text="GRASS \t\t POISON"/>
 
             <LinearLayout
@@ -140,6 +142,28 @@
                 android:paddingTop="@dimen/activity_vertical_margin"
                 tools:text="Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun’s rays, the seed grows progressively larger."
                 />
+
+            <TextView
+                android:id="@+id/pokemon_evolutions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:gravity="center"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:text="EVOLUTIONS"
+                tools:background="#C8C8C8"/>
+
+            <TextView
+                android:id="@+id/pokemon_evo_line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:gravity="center"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                tools:text="BULBASAUR\t\tIVYSAUR\t\tVENASAUR"/>
 
         </LinearLayout>
     </LinearLayout>
