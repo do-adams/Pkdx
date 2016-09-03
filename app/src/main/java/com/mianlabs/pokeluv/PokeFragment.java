@@ -36,7 +36,10 @@ import me.sargunvohra.lib.pokekotlin.model.PokemonSpecies;
 // TODO: Add documentation.
 public class PokeFragment extends Fragment {
     private static final String TAG = PokeFragment.class.getSimpleName();
+
+    // Custom font provided under a Freeware license at http://www.fontspace.com/jackster-productions/pokemon-gb
     public static String FONT_PATH = "fonts/Pokemon GB.ttf"; // Path to custom font used by the app.
+
     private Activity mContext;
     private Typeface mCustomFont;
 
