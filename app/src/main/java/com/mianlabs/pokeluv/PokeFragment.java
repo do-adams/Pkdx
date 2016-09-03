@@ -192,9 +192,7 @@ public class PokeFragment extends Fragment {
                         .use(PicassoPalette.Profile.VIBRANT)
                         .intoBackground(mPokemonSprite) // Background color for Sprite.
                         .intoTextColor(mPokemonNumBorder, PicassoPalette.Swatch.BODY_TEXT_COLOR) // Text color for Number.
-                        .intoTextColor(mPokemonTypes, PicassoPalette.Swatch.BODY_TEXT_COLOR) // Text color for Types.
                         .intoTextColor(mPokemonGeneration, PicassoPalette.Swatch.BODY_TEXT_COLOR) // Text color for Generation.
-                        .intoTextColor(mPokemonEvolutions, PicassoPalette.Swatch.BODY_TEXT_COLOR) // Text color for Evolutions.
                         .use(PicassoPalette.Profile.VIBRANT_LIGHT)
                         .intoBackground(mPokemonNumBorder) // Background color for Number.
                         .intoBackground(mPokemonGeneration) // Background color for Generation.
