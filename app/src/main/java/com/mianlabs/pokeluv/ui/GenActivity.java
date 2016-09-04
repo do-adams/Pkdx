@@ -3,9 +3,12 @@ package com.mianlabs.pokeluv.ui;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.mianlabs.pokeluv.R;
+import com.mianlabs.pokeluv.utilities.PokePicker;
 import com.mianlabs.pokeluv.utilities.TypefaceUtils;
 
 import butterknife.BindView;
@@ -45,5 +48,40 @@ public class GenActivity extends AppCompatActivity {
         mGenIVButton.setTypeface(mCustomFont);
         mGenVButton.setTypeface(mCustomFont);
         mGenVIButton.setTypeface(mCustomFont);
+    }
+
+    /**
+     * onClickListener for all of the Generations buttons.
+     */
+    public void launchPokeList(View view) {
+        Bundle bundle = new Bundle();
+        PokePicker.Generations genVal;
+
+        switch (view.getId()) {
+            case R.id.button_gen_i:
+                genVal = PokePicker.Generations.GEN_I;
+                break;
+            case R.id.button_gen_ii:
+                genVal = PokePicker.Generations.GEN_II;
+                break;
+            case R.id.button_gen_iii:
+                genVal = PokePicker.Generations.GEN_III;
+                break;
+            case R.id.button_gen_iv:
+                genVal = PokePicker.Generations.GEN_IV;
+                break;
+            case R.id.button_gen_v:
+                genVal = PokePicker.Generations.GEN_V;
+                break;
+            case R.id.button_gen_vi:
+                genVal = PokePicker.Generations.GEN_VI;
+                break;
+            default:
+                genVal = null;
+                break;
+        }
+        if (genVal != null) {
+            Toast.makeText(this, "Gen val: " + genVal, Toast.LENGTH_LONG).show();
+        }
     }
 }
