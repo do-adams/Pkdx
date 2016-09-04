@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         TypefaceUtils.setActionBarTitle(this, getString(R.string.app_name));
 
         if (savedInstanceState == null) {
-            getFragmentManager().beginTransaction().add(R.id.main_frame, new PokeFragment()).commit();
+            getFragmentManager().beginTransaction().add(R.id.main_container, new PokeFragment()).commit();
         }
     }
 

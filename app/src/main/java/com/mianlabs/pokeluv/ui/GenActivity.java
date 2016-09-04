@@ -1,9 +1,7 @@
 package com.mianlabs.pokeluv.ui;
 
-import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -84,7 +82,13 @@ public class GenActivity extends AppCompatActivity {
                 Log.e(TAG, "Error retrieving generation button ids.");
                 break;
         }
-        if (genVal != null)
-            startActivity(new Intent(this, PokeList.class).putExtra(GEN_KEY, (Parcelable) genVal));
+        if (genVal != null) {
+            PokeList pokeList = new PokeList();
+            Bundle bundle = new Bundle();
+            bundle.putParcelable(GEN_KEY, genVal);
+            pokeList.setArguments(bundle);
+            getFragmentManager().beginTransaction().add(R.id.generations_container, pokeList)
+                    .addToBackStack(null).commit();
+        }
     }
 }
