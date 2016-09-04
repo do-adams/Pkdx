@@ -21,6 +21,7 @@ import com.mianlabs.pokeluv.utilities.TypefaceUtils;
  */
 public class PokeList extends Fragment {
     private static final String TAG = PokeList.class.getSimpleName();
+    public static final String POKE_LIST_KEY = "PokeList";
 
     private AppCompatActivity mContext;
     private RecyclerView mPokemonList;

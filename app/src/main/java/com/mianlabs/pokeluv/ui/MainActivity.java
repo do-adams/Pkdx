@@ -8,9 +8,14 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.mianlabs.pokeluv.R;
+import com.mianlabs.pokeluv.model.PokeModel;
 import com.mianlabs.pokeluv.utilities.TypefaceUtils;
 
+import java.util.Random;
+
 public class MainActivity extends AppCompatActivity {
+
+    public static final String MAIN_KEY = "MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,8 +23,24 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TypefaceUtils.setActionBarTitle(this, getString(R.string.app_name));
 
+        // PokeApi can make calls to get Pokemon #s 1 to 721 (National Pokedex Number)
+        int randPkmn = new Random().nextInt(PokeModel.NUM_OF_POKEMON + 1);
+
+        Intent intent = getIntent();
+        PokeFragment pokeFragment = new PokeFragment();
+        Bundle bundle = new Bundle();
+        bundle.putInt(MAIN_KEY, randPkmn);
+
+        if (intent != null) {
+            if (intent.hasExtra(PokeList.POKE_LIST_KEY)) {
+                int pokeNum = intent.getIntExtra(PokeList.POKE_LIST_KEY, 1);
+                bundle.putInt(MAIN_KEY, pokeNum);
+            }
+        }
+
         if (savedInstanceState == null) {
-            getFragmentManager().beginTransaction().add(R.id.main_container, new PokeFragment()).commit();
+            pokeFragment.setArguments(bundle);
+            getFragmentManager().beginTransaction().add(R.id.main_container, pokeFragment).commit();
         }
     }
 

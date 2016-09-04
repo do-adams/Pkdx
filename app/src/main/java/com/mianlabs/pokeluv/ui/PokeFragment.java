@@ -25,7 +25,6 @@ import com.mianlabs.pokeluv.utilities.TypefaceUtils;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
-import java.util.Random;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -38,9 +37,12 @@ import me.sargunvohra.lib.pokekotlin.model.PokemonSpecies;
 // TODO: Add documentation.
 public class PokeFragment extends Fragment {
     private static final String TAG = PokeFragment.class.getSimpleName();
+    public static final String POKE_FRAG_KEY = "PokeFragment";
 
     private Activity mContext;
     private Typeface mCustomFont;
+
+    private int mChosenPokemon;
 
     @BindView(R.id.pokemon_detail_container)
     ScrollView mContainer;
@@ -93,17 +95,18 @@ public class PokeFragment extends Fragment {
         setCustomTypefaceForViews();
         mContainer.setVisibility(View.INVISIBLE); // Hides the Views until properly set with Pokemon data.
 
+        Bundle bundle = getArguments();
+        mChosenPokemon = bundle.getInt(MainActivity.MAIN_KEY, 1);
+
         if (isNetworkAvailable()) {
             new Thread(new Runnable() { // Background thread for networking requests.
                 @Override
                 public void run() {
                     Log.d(TAG, "Attempting PokeAPI network request");
-                    // PokeApi can make calls to get Pokemon #s 1 to 721 (National Pokedex Number)
-                    int randPkmn = new Random().nextInt(PokeModel.NUM_OF_POKEMON + 1);
 
                     PokeApi pokeApi = new PokeApiClient();
-                    Pokemon pokemon = pokeApi.getPokemon(randPkmn);
-                    PokemonSpecies pokemonSpecies = pokeApi.getPokemonSpecies(randPkmn);
+                    Pokemon pokemon = pokeApi.getPokemon(mChosenPokemon);
+                    PokemonSpecies pokemonSpecies = pokeApi.getPokemonSpecies(mChosenPokemon);
                     EvolutionChain evolutionChain =
                             pokeApi.getEvolutionChain(pokemonSpecies.getEvolutionChain().getId());
 

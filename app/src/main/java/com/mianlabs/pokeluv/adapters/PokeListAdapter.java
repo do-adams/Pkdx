@@ -1,6 +1,7 @@
 package com.mianlabs.pokeluv.adapters;
 
-import android.content.Context;
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.mianlabs.pokeluv.R;
+import com.mianlabs.pokeluv.ui.MainActivity;
+import com.mianlabs.pokeluv.ui.PokeList;
 import com.mianlabs.pokeluv.utilities.PokePicker;
 import com.squareup.picasso.Picasso;
 
@@ -15,10 +18,10 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class PokeListAdapter extends RecyclerView.Adapter<PokeListAdapter.PokeViewHolder> {
-    private Context mContext;
+    private AppCompatActivity mContext;
     private int[] mPokemon;
 
-    public PokeListAdapter(Context context, int[] pokemons) {
+    public PokeListAdapter(AppCompatActivity context, int[] pokemons) {
         mContext = context;
         mPokemon = pokemons;
     }
@@ -53,13 +56,15 @@ public class PokeListAdapter extends RecyclerView.Adapter<PokeListAdapter.PokeVi
         /**
          * Sets the image with the provided resId and sets the onClickListener for the View.
          */
-        public void bindPokemonImg(int pokemonNumber) {
+        public void bindPokemonImg(final int pokemonNumber) {
             int resId = PokePicker.GenNumbers.getDrawableResourceFromNumber(mContext, pokemonNumber);
             Picasso.with(mContext).load(resId).into(mImageView);
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-
+                    Intent intent = new Intent(mContext, MainActivity.class);
+                    intent.putExtra(PokeList.POKE_LIST_KEY, pokemonNumber);
+                    mContext.startActivity(intent);
                 }
             });
         }
