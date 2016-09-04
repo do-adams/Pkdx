@@ -1,5 +1,6 @@
 package com.mianlabs.pokeluv.ui;
 
+import android.app.FragmentManager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -16,8 +17,10 @@ import com.mianlabs.pokeluv.utilities.TypefaceUtils;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
-
     public static final String MAIN_KEY = "MainActivity";
+    private static final String TAG_POKE_FRAGMENT = "PKF";
+
+    private PokeFragment mPokeFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,10 +32,8 @@ public class MainActivity extends AppCompatActivity {
         int randPkmn = new Random().nextInt(PokeModel.NUM_OF_POKEMON + 1);
 
         Intent intent = getIntent();
-        PokeFragment pokeFragment = new PokeFragment();
         Bundle bundle = new Bundle();
         bundle.putInt(MAIN_KEY, randPkmn);
-
         if (intent != null) {
             if (intent.hasExtra(PokeList.POKE_LIST_KEY)) {
                 int pokeNum = intent.getIntExtra(PokeList.POKE_LIST_KEY, 1);
@@ -40,9 +41,14 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-        if (savedInstanceState == null) {
-            pokeFragment.setArguments(bundle);
-            getFragmentManager().beginTransaction().add(R.id.main_container, pokeFragment).commit();
+        FragmentManager fragmentManager = getFragmentManager();
+        mPokeFragment = (PokeFragment) fragmentManager.findFragmentByTag(TAG_POKE_FRAGMENT);
+
+        if (mPokeFragment == null) { // PokeFragment was not retained on configuration change.
+            mPokeFragment = new PokeFragment();
+            mPokeFragment.setArguments(bundle);
+            getFragmentManager().beginTransaction()
+                    .add(R.id.main_container, mPokeFragment, TAG_POKE_FRAGMENT).commit();
         }
     }
 
