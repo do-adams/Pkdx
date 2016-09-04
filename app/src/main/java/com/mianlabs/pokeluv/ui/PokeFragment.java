@@ -38,10 +38,13 @@ import me.sargunvohra.lib.pokekotlin.model.PokemonSpecies;
 public class PokeFragment extends Fragment {
     private static final String TAG = PokeFragment.class.getSimpleName();
 
+    // Key for saving state in case of configuration changes.
+    private static final String POKE_MODEL_STATE_KEY = "POKE_MODEL";
+
     private Activity mContext;
     private Typeface mCustomFont;
 
-    private int mChosenPokemon;
+    private PokeModel mPokeModel;
 
     @BindView(R.id.poke_fragment_container)
     ScrollView mContainer;
@@ -94,40 +97,41 @@ public class PokeFragment extends Fragment {
         setCustomTypefaceForViews();
         mContainer.setVisibility(View.INVISIBLE); // Hides the Views until properly set with Pokemon data.
 
-        Bundle bundle = getArguments();
-        mChosenPokemon = bundle.getInt(MainActivity.MAIN_KEY, 1);
+        if (savedInstanceState == null) {
+            Bundle bundle = getArguments();
+            final int chosenPokemon = bundle.getInt(MainActivity.MAIN_KEY, 1);
 
-        if (isNetworkAvailable()) {
-            new Thread(new Runnable() { // Background thread for networking requests.
-                @Override
-                public void run() {
-                    Log.d(TAG, "Attempting PokeAPI network request");
+            if (isNetworkAvailable()) {
+                new Thread(new Runnable() { // Background thread for networking requests.
+                    @Override
+                    public void run() {
+                        Log.d(TAG, "Attempting PokeAPI network request");
+                        PokeApi pokeApi = new PokeApiClient();
+                        Pokemon pokemon = pokeApi.getPokemon(chosenPokemon);
+                        PokemonSpecies pokemonSpecies = pokeApi.getPokemonSpecies(chosenPokemon);
+                        EvolutionChain evolutionChain =
+                                pokeApi.getEvolutionChain(pokemonSpecies.getEvolutionChain().getId());
 
-                    PokeApi pokeApi = new PokeApiClient();
-                    Pokemon pokemon = pokeApi.getPokemon(mChosenPokemon);
-                    PokemonSpecies pokemonSpecies = pokeApi.getPokemonSpecies(mChosenPokemon);
-                    EvolutionChain evolutionChain =
-                            pokeApi.getEvolutionChain(pokemonSpecies.getEvolutionChain().getId());
+                        mPokeModel = new PokeModel(pokemon, pokemonSpecies, evolutionChain);
+                        Log.d(TAG, mPokeModel.toString());
 
-                    final PokeModel pokeModel = new PokeModel(pokemon, pokemonSpecies, evolutionChain);
-                    Log.d(TAG, pokeModel.toString());
-
-                    Handler handler = new Handler(Looper.getMainLooper()); // Grabs UI thread.
-                    handler.post(new Runnable() {
-                        @Override
-                        public void run() {
-                            loadSpriteAndPalettes(pokeModel);
-                            setPokemonData(pokeModel);
-                            Log.d(TAG, "Pokemon data set");
-                            mContainer.setVisibility(View.VISIBLE); // Views are ready to be displayed.
-                        }
-                    });
-                }
-            }).start();
-        } else {
-            TypefaceUtils.displayToast(mContext, getString(R.string.internet_connection_msg), 8);
+                        Handler handler = new Handler(Looper.getMainLooper()); // Grabs UI thread.
+                        handler.post(new Runnable() {
+                            @Override
+                            public void run() {
+                                loadSpriteAndPalettes(mPokeModel.getSprite());
+                                setPokemonData(mPokeModel);
+                                Log.d(TAG, "Pokemon data set");
+                                mContainer.setVisibility(View.VISIBLE); // Views are ready to be displayed.
+                            }
+                        });
+                    }
+                }).start();
+            } else {
+                // Display "no internet connection found" msg.
+                TypefaceUtils.displayToast(mContext, getString(R.string.internet_connection_msg), 8);
+            }
         }
-
         return viewRoot;
     }
 
@@ -144,6 +148,18 @@ public class PokeFragment extends Fragment {
         mPokemonDescription.setTypeface(mCustomFont);
         mPokemonEvolutions.setTypeface(mCustomFont);
         mPokemonEvoLine.setTypeface(mCustomFont);
+    }
+
+    @Override
+    public void onViewStateRestored(Bundle savedInstanceState) {
+        super.onViewStateRestored(savedInstanceState);
+        if (savedInstanceState != null) {
+            Log.d(TAG, "Retrieving saved state Pokemon");
+            mPokeModel = savedInstanceState.getParcelable(POKE_MODEL_STATE_KEY);
+            loadSpriteAndPalettes(mPokeModel.getSprite());
+            setPokemonData(mPokeModel);
+            mContainer.setVisibility(View.VISIBLE); // Views are ready to be displayed.
+        }
     }
 
     /**
@@ -186,9 +202,9 @@ public class PokeFragment extends Fragment {
         return result.toUpperCase();
     }
 
-    private void loadSpriteAndPalettes(PokeModel pokeModel) {
-        Picasso.with(mContext).load(pokeModel.getSprite())
-                .into(mPokemonSprite, PicassoPalette.with(pokeModel.getSprite(), mPokemonSprite)
+    private void loadSpriteAndPalettes(String pokemonSpriteURL) {
+        Picasso.with(mContext).load(pokemonSpriteURL)
+                .into(mPokemonSprite, PicassoPalette.with(pokemonSpriteURL, mPokemonSprite)
                         .use(PicassoPalette.Profile.VIBRANT)
                         .intoBackground(mPokemonSprite) // Background color for Sprite.
                         .intoTextColor(mPokemonNumBorder, PicassoPalette.Swatch.BODY_TEXT_COLOR) // Text color for Number.
@@ -199,6 +215,12 @@ public class PokeFragment extends Fragment {
                         .use(PicassoPalette.Profile.MUTED_LIGHT)
                         .intoBackground(mPokemonTypes) // Background color for Types.
                 );
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putParcelable(POKE_MODEL_STATE_KEY, mPokeModel);
     }
 
     @Override

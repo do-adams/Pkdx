@@ -1,5 +1,8 @@
 package com.mianlabs.pokeluv.model;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 import java.util.ArrayList;
 import java.util.Locale;
 
@@ -10,8 +13,7 @@ import me.sargunvohra.lib.pokekotlin.model.PokemonSpecies;
 import me.sargunvohra.lib.pokekotlin.model.PokemonSpeciesFlavorText;
 import me.sargunvohra.lib.pokekotlin.model.PokemonType;
 
-// TODO: Implement Parcelable to save state across configuration changes and add documentation.
-public class PokeModel {
+public class PokeModel implements Parcelable {
     private static final String TAG = PokeModel.class.getSimpleName();
     private static final String LANG = "en"; // Language for retrieving Pokemon data.
 
@@ -146,4 +148,73 @@ public class PokeModel {
     public ArrayList<String> getEvolutions() {
         return mEvolutions;
     }
+
+    protected PokeModel(Parcel in) {
+        mPokedexNum = in.readInt();
+        mName = in.readString();
+        mHeight = in.readString();
+        mWeight = in.readString();
+        if (in.readByte() == 0x01) {
+            mTypes = new ArrayList<String>();
+            in.readList(mTypes, String.class.getClassLoader());
+        } else {
+            mTypes = null;
+        }
+        mSprite = in.readString();
+        mColor = in.readString();
+        mShape = in.readString();
+        mHabitat = in.readString();
+        mGeneration = in.readString();
+        mDescription = in.readString();
+        if (in.readByte() == 0x01) {
+            mEvolutions = new ArrayList<String>();
+            in.readList(mEvolutions, String.class.getClassLoader());
+        } else {
+            mEvolutions = null;
+        }
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeInt(mPokedexNum);
+        dest.writeString(mName);
+        dest.writeString(mHeight);
+        dest.writeString(mWeight);
+        if (mTypes == null) {
+            dest.writeByte((byte) (0x00));
+        } else {
+            dest.writeByte((byte) (0x01));
+            dest.writeList(mTypes);
+        }
+        dest.writeString(mSprite);
+        dest.writeString(mColor);
+        dest.writeString(mShape);
+        dest.writeString(mHabitat);
+        dest.writeString(mGeneration);
+        dest.writeString(mDescription);
+        if (mEvolutions == null) {
+            dest.writeByte((byte) (0x00));
+        } else {
+            dest.writeByte((byte) (0x01));
+            dest.writeList(mEvolutions);
+        }
+    }
+
+    @SuppressWarnings("unused")
+    public static final Parcelable.Creator<PokeModel> CREATOR = new Parcelable.Creator<PokeModel>() {
+        @Override
+        public PokeModel createFromParcel(Parcel in) {
+            return new PokeModel(in);
+        }
+
+        @Override
+        public PokeModel[] newArray(int size) {
+            return new PokeModel[size];
+        }
+    };
 }
