@@ -1,5 +1,6 @@
 package com.mianlabs.pokeluv.utilities;
 
+import android.content.Context;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.util.Log;
@@ -10,10 +11,23 @@ public class PokePicker {
     private static final String TAG = PokePicker.class.getSimpleName();
 
     /**
+     * Enum for identifying a Generation of Pokemon.
      * Warning: only use this enum for passing around between activities/fragments, NOT for db storage.
      */
     public enum Generations implements Parcelable {
-        GEN_I, GEN_II, GEN_III, GEN_IV, GEN_V, GEN_VI;
+        GEN_I("Generation I"), GEN_II("Generation II"),
+        GEN_III("Generation III"), GEN_IV("Generation IV"),
+        GEN_V("Generation V"), GEN_VI("Generation VI");
+
+        String mName;
+
+        Generations(String name) {
+            mName = name;
+        }
+
+        public String getName() {
+            return mName;
+        }
 
         @Override
         public int describeContents() {
@@ -42,7 +56,7 @@ public class PokePicker {
      * Class for retrieving an array of numbers that includes all Pokemons introduced in
      * any Generation.
      */
-    public static class GenNums {
+    public static class GenNumbers {
         /**
          * Use if you need to debug this class.
          */
@@ -86,6 +100,18 @@ public class PokePicker {
 
         public static int[] getGenSix() {
             return getNumsArray(650, 721);
+        }
+
+        /**
+         * Returns the resource id of the drawable sprite linked to the number of the Pokemon
+         * provided.
+         * Note: Sprites must be in the /drawable dir and must follow a naming convention of:
+         * "p" + "National Pokedex Pokemon Number"
+         */
+        public static int getDrawableResourceFromNumber(Context context, int num) {
+            String resName = "p" + num;
+            return context.getResources().getIdentifier(resName,
+                    "drawable", context.getPackageName());
         }
     }
 }

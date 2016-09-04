@@ -1,11 +1,13 @@
 package com.mianlabs.pokeluv.ui;
 
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 import com.mianlabs.pokeluv.R;
 import com.mianlabs.pokeluv.utilities.PokePicker;
@@ -16,6 +18,8 @@ import butterknife.ButterKnife;
 
 public class GenActivity extends AppCompatActivity {
     private static final String TAG = GenActivity.class.getSimpleName();
+
+    public static String GEN_KEY = "GenActivity";
     private Typeface mCustomFont;
 
     @BindView(R.id.button_gen_i)
@@ -55,9 +59,7 @@ public class GenActivity extends AppCompatActivity {
      * onClickListener for all of the Generations buttons.
      */
     public void launchPokeList(View view) {
-        Bundle bundle = new Bundle();
         PokePicker.Generations genVal;
-
         switch (view.getId()) {
             case R.id.button_gen_i:
                 genVal = PokePicker.Generations.GEN_I;
@@ -79,10 +81,10 @@ public class GenActivity extends AppCompatActivity {
                 break;
             default:
                 genVal = null;
+                Log.e(TAG, "Error retrieving generation button ids.");
                 break;
         }
-        if (genVal != null) {
-            Toast.makeText(this, "Gen val: " + genVal, Toast.LENGTH_LONG).show();
-        }
+        if (genVal != null)
+            startActivity(new Intent(this, PokeList.class).putExtra(GEN_KEY, (Parcelable) genVal));
     }
 }
