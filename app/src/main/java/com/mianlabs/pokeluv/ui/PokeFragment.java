@@ -1,6 +1,5 @@
 package com.mianlabs.pokeluv.ui;
 
-import android.app.Activity;
 import android.app.Fragment;
 import android.content.Context;
 import android.graphics.Typeface;
@@ -10,6 +9,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -38,12 +38,14 @@ import me.sargunvohra.lib.pokekotlin.model.PokemonSpecies;
 public class PokeFragment extends Fragment {
     private static final String TAG = PokeFragment.class.getSimpleName();
 
-    // Key for saving state in case of configuration changes.
+    // Keys for saving state in case of configuration changes.
     private static final String POKE_MODEL_STATE_KEY = "POKE_MODEL";
+    private static final String POKEMON_DAY_STATE_KEY = "POKEMON_DAY";
 
-    private Activity mContext;
+    private AppCompatActivity mContext;
     private Typeface mCustomFont;
 
+    private boolean mIsPokemonOfTheDay;
     private PokeModel mPokeModel;
 
     @BindView(R.id.poke_fragment_container)
@@ -92,15 +94,16 @@ public class PokeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View viewRoot = inflater.inflate(R.layout.fragment_poke, container, false);
         ButterKnife.bind(this, viewRoot);
-        mContext = getActivity(); // Grabs the context from the parent activity.
+        mContext = (AppCompatActivity) getActivity(); // Grabs the context from the parent activity.
         mCustomFont = Typeface.createFromAsset(mContext.getAssets(), mContext.getString(R.string.font_path));
         setCustomTypefaceForViews();
         mContainer.setVisibility(View.INVISIBLE); // Hides the Views until properly set with Pokemon data.
 
-        if (savedInstanceState == null) {
-            Bundle bundle = getArguments();
-            final int chosenPokemon = bundle.getInt(MainActivity.MAIN_KEY, 1);
+        Bundle bundle = getArguments();
+        final int chosenPokemon = bundle.getInt(MainActivity.MAIN_KEY, 1);
+        mIsPokemonOfTheDay = bundle.getBoolean(MainActivity.POKEMON_OF_THE_DAY, false);
 
+        if (savedInstanceState == null) {
             if (isNetworkAvailable()) {
                 new Thread(new Runnable() { // Background thread for networking requests.
                     @Override
@@ -121,8 +124,8 @@ public class PokeFragment extends Fragment {
                             public void run() {
                                 loadSpriteAndPalettes(mPokeModel.getSprite());
                                 setPokemonData(mPokeModel);
+                                displayViewsAfterDataIsSet();
                                 Log.d(TAG, "Pokemon data set");
-                                mContainer.setVisibility(View.VISIBLE); // Views are ready to be displayed.
                             }
                         });
                     }
@@ -133,6 +136,13 @@ public class PokeFragment extends Fragment {
             }
         }
         return viewRoot;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        // Sets the title of the Action Bar.
+        TypefaceUtils.setActionBarTitle(mContext, getString(R.string.app_name));
     }
 
     private void setCustomTypefaceForViews() {
@@ -156,9 +166,10 @@ public class PokeFragment extends Fragment {
         if (savedInstanceState != null) {
             Log.d(TAG, "Retrieving saved state Pokemon");
             mPokeModel = savedInstanceState.getParcelable(POKE_MODEL_STATE_KEY);
+            mIsPokemonOfTheDay = savedInstanceState.getBoolean(POKEMON_DAY_STATE_KEY);
             loadSpriteAndPalettes(mPokeModel.getSprite());
             setPokemonData(mPokeModel);
-            mContainer.setVisibility(View.VISIBLE); // Views are ready to be displayed.
+            displayViewsAfterDataIsSet();
         }
     }
 
@@ -217,10 +228,18 @@ public class PokeFragment extends Fragment {
                 );
     }
 
+    private void displayViewsAfterDataIsSet() {
+        mContainer.setVisibility(View.VISIBLE); // Views are ready to be displayed.
+        if (mIsPokemonOfTheDay)
+            TypefaceUtils.displayToastTop(mContext, mContext.getString(R.string.pokemon_of_the_day_msg), 2,
+                    (int) mContext.getResources().getDimension(R.dimen.daily_toast_y_offset));
+    }
+
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
         outState.putParcelable(POKE_MODEL_STATE_KEY, mPokeModel);
+        outState.putBoolean(POKEMON_DAY_STATE_KEY, mIsPokemonOfTheDay);
     }
 
     @Override

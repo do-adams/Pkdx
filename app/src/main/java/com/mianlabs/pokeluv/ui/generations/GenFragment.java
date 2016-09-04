@@ -1,10 +1,10 @@
 package com.mianlabs.pokeluv.ui.generations;
 
 import android.app.Fragment;
-import android.content.Context;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,6 +13,7 @@ import android.widget.Button;
 
 import com.mianlabs.pokeluv.R;
 import com.mianlabs.pokeluv.utilities.PokePicker;
+import com.mianlabs.pokeluv.utilities.TypefaceUtils;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -21,7 +22,7 @@ public class GenFragment extends Fragment implements View.OnClickListener {
     private static final String TAG = GenFragment.class.getSimpleName();
     public static final String GEN_FRAG_KEY = "GenFragment";
 
-    private Context mContext;
+    private AppCompatActivity mContext;
     private Typeface mCustomFont;
 
 
@@ -43,7 +44,7 @@ public class GenFragment extends Fragment implements View.OnClickListener {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_gen, container, false);
         ButterKnife.bind(this, rootView);
-        mContext = getActivity();
+        mContext = (AppCompatActivity) getActivity();
         mCustomFont = Typeface.createFromAsset(mContext.getAssets(), getString(R.string.font_path));
         setCustomTypefaceForViews();
 
@@ -64,6 +65,13 @@ public class GenFragment extends Fragment implements View.OnClickListener {
         mGenIVButton.setTypeface(mCustomFont);
         mGenVButton.setTypeface(mCustomFont);
         mGenVIButton.setTypeface(mCustomFont);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        // Sets the title of the Action Bar.
+        TypefaceUtils.setActionBarTitle(mContext, getString(R.string.app_name));
     }
 
     /**

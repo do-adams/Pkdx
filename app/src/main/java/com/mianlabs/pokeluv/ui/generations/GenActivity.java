@@ -14,6 +14,9 @@ public class GenActivity extends AppCompatActivity {
         setContentView(R.layout.activity_gen);
         TypefaceUtils.setActionBarTitle(this, getString(R.string.app_name));
 
+        // Important to check for null states, otherwise you can end up with
+        // multiple instances of the same fragment on top of each other in case
+        // of frequent configuration changes.
         if (savedInstanceState == null) {
             getFragmentManager().beginTransaction()
                     .add(R.id.generations_container, new GenFragment()).commit();

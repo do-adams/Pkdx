@@ -1,10 +1,12 @@
 <resources>
     <string name="app_name">Poke Luv</string>
     <string name="internet_connection_msg">Poke Luv requires an internet connection. Please make sure your device is connected!</string>
+    <string name="pokemon_of_the_day_msg">TODAY\'S PKM</string>
 
     <!--Custom font provided under a Freeware license at http://www.fontspace.com/jackster-productions/pokemon-gb-->
     <string name="font_path">fonts/Pokemon GB.ttf</string>
 
     <!-- Menu Options Text -->
-    <string name="menu_more_pokemon">Pokédex</string>
+    <string name="menu_more_pokemon">POKEDEX</string>
+    <string name="menu_pokemon_of_the_day">TODAY\'S PKM</string>
 </resources>

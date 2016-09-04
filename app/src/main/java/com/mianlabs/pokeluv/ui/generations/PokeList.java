@@ -34,12 +34,8 @@ public class PokeList extends Fragment {
         mContext = (AppCompatActivity) getActivity();
 
         Bundle bundle = getArguments();
-        String title; // Title for the Action Bar.
         if (bundle != null) {
             mPokemonGeneration = (PokePicker.Generations) bundle.get(GenFragment.GEN_FRAG_KEY);
-            title = mPokemonGeneration.getName();
-            TypefaceUtils.setActionBarTitle(mContext, title);
-
             // Get the gen. numbers array for the adapter.
             int[] gen;
             switch (mPokemonGeneration) {
@@ -80,9 +76,9 @@ public class PokeList extends Fragment {
     }
 
     @Override
-    public void onStop() {
-        TypefaceUtils.setActionBarTitle(mContext, getString(R.string.app_name));
-        super.onStop();
+    public void onResume() {
+        super.onResume();
+        // Sets the title of the Action Bar.
+        TypefaceUtils.setActionBarTitle(mContext, mPokemonGeneration.getName());
     }
-
 }

@@ -8,6 +8,7 @@ import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.SpannableStringBuilder;
 import android.text.Spanned;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -28,12 +29,42 @@ public class TypefaceUtils {
     }
 
     public static void setActionBarOptionsText(AppCompatActivity context, Menu menu) {
-        // Implements custom font for all Poke Luv menu items.
-        SpannableStringBuilder title = new SpannableStringBuilder(context.getString(R.string.menu_more_pokemon));
-        title.setSpan(new TypefaceSpan(context, RELATIVE_PATH_TO_TYPEFACE), 0, title.length(),
-                Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-        MenuItem menuItem = menu.findItem(R.id.menu_more_pokemon);
-        menuItem.setTitle(title);
+        // Implements custom fonts for all Poke Luv menu items.
+
+        SpannableStringBuilder pokedexTitle =
+                new SpannableStringBuilder(context.getString(R.string.menu_more_pokemon));
+        pokedexTitle
+                .setSpan(new TypefaceSpan(context, RELATIVE_PATH_TO_TYPEFACE), 0, pokedexTitle.length(),
+                        Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+
+        SpannableStringBuilder pokemonOfTheDayTitle =
+                new SpannableStringBuilder(context.getString(R.string.menu_pokemon_of_the_day));
+        pokemonOfTheDayTitle
+                .setSpan(new TypefaceSpan(context, RELATIVE_PATH_TO_TYPEFACE), 0, pokemonOfTheDayTitle.length(),
+                        Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+
+        MenuItem dexItem = menu.findItem(R.id.menu_more_pokemon);
+        dexItem.setTitle(pokedexTitle);
+
+        MenuItem dailyItem = menu.findItem(R.id.menu_pokemon_of_the_day);
+        dailyItem.setTitle(pokemonOfTheDayTitle);
+    }
+
+    private static void runCustomToast(final Toast toast,
+                                       int toastDurationInMilliSeconds,
+                                       int toastRefreshRateInMilliSeconds) {
+        CountDownTimer toastCountDown;
+        toastCountDown = new CountDownTimer(toastDurationInMilliSeconds, toastRefreshRateInMilliSeconds) {
+            public void onTick(long millisUntilFinished) {
+                toast.show();
+            }
+
+            public void onFinish() {
+                toast.cancel();
+            }
+        };
+        toast.show();
+        toastCountDown.start();
     }
 
     /**
@@ -49,16 +80,24 @@ public class TypefaceUtils {
                 Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         final Toast toast = Toast.makeText(context, s, Toast.LENGTH_LONG);
 
-        CountDownTimer toastCountDown;
-        toastCountDown = new CountDownTimer(toastDurationInMilliSeconds, toastRefreshRateInMilliSeconds) {
-            public void onTick(long millisUntilFinished) {
-                toast.show();
-            }
-            public void onFinish() {
-                toast.cancel();
-            }
-        };
-        toast.show();
-        toastCountDown.start();
+        runCustomToast(toast, toastDurationInMilliSeconds, toastRefreshRateInMilliSeconds);
+    }
+
+    /**
+     * Displays a toast msg for a specified amount of time (seconds) in the TOP | CENTER_HORIZONTAL
+     * position.
+     * Implemented using code from: http://blog.cindypotvin.com/toast-specific-duration-android/
+     */
+    public static void displayToastTop(Context context, String msg, int durationInSeconds, int yOffset) {
+        int toastDurationInMilliSeconds = durationInSeconds * 1000;
+        int toastRefreshRateInMilliSeconds = 2 * 1000;
+
+        SpannableString s = new SpannableString(msg);
+        s.setSpan(new TypefaceSpan(context, RELATIVE_PATH_TO_TYPEFACE), 0, s.length(),
+                Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+        final Toast toast = Toast.makeText(context, s, Toast.LENGTH_LONG);
+        toast.setGravity(Gravity.TOP, 0, yOffset);
+
+        runCustomToast(toast, toastDurationInMilliSeconds, toastRefreshRateInMilliSeconds);
     }
 }

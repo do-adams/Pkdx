@@ -18,6 +18,7 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
     public static final String MAIN_KEY = "MainActivity";
+    public static final String POKEMON_OF_THE_DAY = "POKEMON_OF_THE_DAY";
     private static final String TAG_POKE_FRAGMENT = "PKF";
 
     private PokeFragment mPokeFragment;
@@ -26,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TypefaceUtils.setActionBarTitle(this, getString(R.string.app_name));
 
         // PokeApi can make calls to get Pokemon #s 1 to 721 (National Pokedex Number)
         int randPkmn = new Random().nextInt(PokeModel.NUM_OF_POKEMON + 1);
@@ -34,13 +34,19 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = getIntent();
         Bundle bundle = new Bundle();
         bundle.putInt(MAIN_KEY, randPkmn);
+
+        // Intent should always be not null (unless called from constructor).
         if (intent != null) {
-            if (intent.hasExtra(PokeList.POKE_LIST_KEY)) {
+            if (intent.hasExtra(PokeList.POKE_LIST_KEY)) { // If Pokemon has been selected by the user.
                 int pokeNum = intent.getIntExtra(PokeList.POKE_LIST_KEY, 1);
                 bundle.putInt(MAIN_KEY, pokeNum);
+            } else {
+                bundle.putBoolean(POKEMON_OF_THE_DAY, true); // If displaying Pokemon of the Day.
             }
         }
 
+        // The PokeFragment class is retained across configuration changes to avoid
+        // background thread leakage.
         FragmentManager fragmentManager = getFragmentManager();
         mPokeFragment = (PokeFragment) fragmentManager.findFragmentByTag(TAG_POKE_FRAGMENT);
 
@@ -65,6 +71,9 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.menu_more_pokemon:
                 startActivity(new Intent(this, GenActivity.class));
+                return true;
+            case R.id.menu_pokemon_of_the_day:
+                startActivity(new Intent(this, MainActivity.class));
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

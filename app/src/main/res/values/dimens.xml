@@ -3,6 +3,9 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
+    <!-- Y Offset of Daily Pokemon MSG Toast based on Material Design Action Bar dimensions-->
+    <dimen name="daily_toast_y_offset">64dp</dimen>
+
     <dimen name="poke_fragment_header_padding">3dp</dimen>
     <dimen name="gen_fragment_side_padding">32dp</dimen>
     <dimen name="gen_fragment_button_vertical_margins">8dp</dimen>
