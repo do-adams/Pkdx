@@ -1,24 +1,29 @@
-package com.mianlabs.pokeluv.ui;
+package com.mianlabs.pokeluv.ui.generations;
 
+import android.app.Fragment;
+import android.content.Context;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import android.support.annotation.Nullable;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.mianlabs.pokeluv.R;
 import com.mianlabs.pokeluv.utilities.PokePicker;
-import com.mianlabs.pokeluv.utilities.TypefaceUtils;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class GenActivity extends AppCompatActivity {
-    private static final String TAG = GenActivity.class.getSimpleName();
+public class GenFragment extends Fragment implements View.OnClickListener {
+    private static final String TAG = GenFragment.class.getSimpleName();
+    public static final String GEN_FRAG_KEY = "GenFragment";
 
-    public static String GEN_KEY = "GenActivity";
+    private Context mContext;
     private Typeface mCustomFont;
+
 
     @BindView(R.id.button_gen_i)
     Button mGenIButton;
@@ -33,15 +38,23 @@ public class GenActivity extends AppCompatActivity {
     @BindView(R.id.button_gen_vi)
     Button mGenVIButton;
 
+    @Nullable
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gen);
-        ButterKnife.bind(this);
-        TypefaceUtils.setActionBarTitle(this, getString(R.string.app_name));
-
-        mCustomFont = Typeface.createFromAsset(getAssets(), getString(R.string.font_path));
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.fragment_gen, container, false);
+        ButterKnife.bind(this, rootView);
+        mContext = getActivity();
+        mCustomFont = Typeface.createFromAsset(mContext.getAssets(), getString(R.string.font_path));
         setCustomTypefaceForViews();
+
+        mGenIButton.setOnClickListener(this);
+        mGenIIButton.setOnClickListener(this);
+        mGenIIIButton.setOnClickListener(this);
+        mGenIVButton.setOnClickListener(this);
+        mGenVButton.setOnClickListener(this);
+        mGenVIButton.setOnClickListener(this);
+
+        return rootView;
     }
 
     private void setCustomTypefaceForViews() {
@@ -56,9 +69,10 @@ public class GenActivity extends AppCompatActivity {
     /**
      * onClickListener for all of the Generations buttons.
      */
-    public void launchPokeList(View view) {
+    @Override
+    public void onClick(View v) {
         PokePicker.Generations genVal;
-        switch (view.getId()) {
+        switch (v.getId()) {
             case R.id.button_gen_i:
                 genVal = PokePicker.Generations.GEN_I;
                 break;
@@ -85,9 +99,9 @@ public class GenActivity extends AppCompatActivity {
         if (genVal != null) {
             PokeList pokeList = new PokeList();
             Bundle bundle = new Bundle();
-            bundle.putParcelable(GEN_KEY, genVal);
+            bundle.putParcelable(GEN_FRAG_KEY, genVal);
             pokeList.setArguments(bundle);
-            getFragmentManager().beginTransaction().add(R.id.generations_container, pokeList)
+            getFragmentManager().beginTransaction().replace(R.id.generations_container, pokeList)
                     .addToBackStack(null).commit();
         }
     }

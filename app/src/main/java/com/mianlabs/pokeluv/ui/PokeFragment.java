@@ -37,7 +37,6 @@ import me.sargunvohra.lib.pokekotlin.model.PokemonSpecies;
 // TODO: Add documentation.
 public class PokeFragment extends Fragment {
     private static final String TAG = PokeFragment.class.getSimpleName();
-    public static final String POKE_FRAG_KEY = "PokeFragment";
 
     private Activity mContext;
     private Typeface mCustomFont;

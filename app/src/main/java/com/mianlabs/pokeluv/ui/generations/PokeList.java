@@ -1,4 +1,4 @@
-package com.mianlabs.pokeluv.ui;
+package com.mianlabs.pokeluv.ui.generations;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -43,7 +43,7 @@ public class PokeList extends Fragment {
         Bundle bundle = getArguments();
         String title; // Title for the Action Bar.
         if (bundle != null) {
-            mPokemonGeneration = (PokePicker.Generations) bundle.get(GenActivity.GEN_KEY);
+            mPokemonGeneration = (PokePicker.Generations) bundle.get(GenFragment.GEN_FRAG_KEY);
             title = mPokemonGeneration.getName();
             TypefaceUtils.setActionBarTitle(mContext, title);
 

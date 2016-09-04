@@ -4,6 +4,6 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
 
     <dimen name="poke_fragment_header_padding">3dp</dimen>
-    <dimen name="gen_activity_side_padding">32dp</dimen>
-    <dimen name="gen_activity_button_vertical_margins">8dp</dimen>
+    <dimen name="gen_fragment_side_padding">32dp</dimen>
+    <dimen name="gen_fragment_button_vertical_margins">8dp</dimen>
 </resources>

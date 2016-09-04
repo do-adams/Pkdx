@@ -9,6 +9,8 @@ import android.view.MenuItem;
 
 import com.mianlabs.pokeluv.R;
 import com.mianlabs.pokeluv.model.PokeModel;
+import com.mianlabs.pokeluv.ui.generations.GenActivity;
+import com.mianlabs.pokeluv.ui.generations.PokeList;
 import com.mianlabs.pokeluv.utilities.TypefaceUtils;
 
 import java.util.Random;
