@@ -43,7 +43,7 @@ public class PokeFragment extends Fragment {
 
     private int mChosenPokemon;
 
-    @BindView(R.id.pokemon_detail_container)
+    @BindView(R.id.poke_fragment_container)
     ScrollView mContainer;
     @BindView(R.id.pokemon_sprite)
     ImageView mPokemonSprite;

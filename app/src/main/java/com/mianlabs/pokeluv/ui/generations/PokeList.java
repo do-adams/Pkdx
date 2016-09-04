@@ -27,13 +27,6 @@ public class PokeList extends Fragment {
     private RecyclerView mPokemonList;
     private PokePicker.Generations mPokemonGeneration;
 
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        // Retain this fragment across configuration changes.
-        setRetainInstance(true);
-    }
-
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
