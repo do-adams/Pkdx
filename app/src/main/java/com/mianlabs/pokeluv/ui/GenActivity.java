@@ -15,6 +15,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class GenActivity extends AppCompatActivity {
+    private static final String TAG = GenActivity.class.getSimpleName();
     private Typeface mCustomFont;
 
     @BindView(R.id.button_gen_i)
