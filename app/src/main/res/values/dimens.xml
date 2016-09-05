@@ -4,14 +4,21 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
 
     <!--Sizing for PokeFragment views-->
+    <dimen name="poke_fragment_horizontal_padding">0dp</dimen>
+    <dimen name="poke_fragment_elevation">2dp</dimen>
     <dimen name="poke_fragment_num_border_height">20dp</dimen>
+    <dimen name="poke_fragment_header_padding">3dp</dimen>
     <dimen name="poke_fragment_pokemon_name_text">32sp</dimen>
     <dimen name="poke_fragment_height_weight_text">12sp</dimen>
+
 
     <!-- Y Offset of Daily Pokemon MSG Toast based on Material Design Action Bar dimensions-->
     <dimen name="daily_toast_y_offset">64dp</dimen>
 
-    <dimen name="poke_fragment_header_padding">3dp</dimen>
+    <!-- Padding and margins for GenFragment views-->
     <dimen name="gen_fragment_side_padding">32dp</dimen>
     <dimen name="gen_fragment_button_vertical_margins">8dp</dimen>
+
+    <!--Padding for the PokeList RecyclerView -->
+    <dimen name="poke_list_side_padding">16dp</dimen>
 </resources>

@@ -7,6 +7,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Locale;
 
 import me.sargunvohra.lib.pokekotlin.model.ChainLink;
@@ -121,6 +122,18 @@ public class PokeModel implements Parcelable {
             }
             while (!currentEvolution.getEvolvesTo().isEmpty()); // Stops if final evolution has been reached.
         }
+    }
+
+    /**
+     * Formats the List objects from the PokeModel into
+     * formatted Strings that are easily readable.
+     */
+    public static String formatListToString(List<String> list) {
+        String result = "";
+        for (String s : list)
+            result += s + "\t\t";
+        result = result.trim();
+        return result.toUpperCase();
     }
 
     public int getPokedexNum() {

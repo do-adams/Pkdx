@@ -39,39 +39,41 @@ public class PokeList extends Fragment {
         Bundle bundle = getArguments();
         if (bundle != null) {
             mPokemonGeneration = (PokePicker.Generations) bundle.get(GenFragment.GEN_FRAG_KEY);
-            // Get the gen. numbers array for the adapter.
-            int[] gen;
-            switch (mPokemonGeneration) {
-                case GEN_I:
-                    gen = PokePicker.GenerationNumbers.getGenOne();
-                    break;
-                case GEN_II:
-                    gen = PokePicker.GenerationNumbers.getGenTwo();
-                    break;
-                case GEN_III:
-                    gen = PokePicker.GenerationNumbers.getGenThree();
-                    break;
-                case GEN_IV:
-                    gen = PokePicker.GenerationNumbers.getGenFour();
-                    break;
-                case GEN_V:
-                    gen = PokePicker.GenerationNumbers.getGenFive();
-                    break;
-                case GEN_VI:
-                    gen = PokePicker.GenerationNumbers.getGenSix();
-                    break;
-                default:
-                    gen = null;
-                    Log.e(TAG, "Error while retrieving the generations number array");
-                    break;
-            }
+            if (mPokemonGeneration != null) {
+                // Get the gen. numbers array for the adapter.
+                int[] gen;
+                switch (mPokemonGeneration) {
+                    case GEN_I:
+                        gen = PokePicker.GenerationNumbers.getGenOne();
+                        break;
+                    case GEN_II:
+                        gen = PokePicker.GenerationNumbers.getGenTwo();
+                        break;
+                    case GEN_III:
+                        gen = PokePicker.GenerationNumbers.getGenThree();
+                        break;
+                    case GEN_IV:
+                        gen = PokePicker.GenerationNumbers.getGenFour();
+                        break;
+                    case GEN_V:
+                        gen = PokePicker.GenerationNumbers.getGenFive();
+                        break;
+                    case GEN_VI:
+                        gen = PokePicker.GenerationNumbers.getGenSix();
+                        break;
+                    default:
+                        gen = null;
+                        Log.e(TAG, "Error while retrieving Pokemon generation numbers");
+                        break;
+                }
 
-            if (gen != null) {
-                mPokemonList = (RecyclerView) rootView.findViewById(R.id.pokemon_list);
-                PokeListAdapter pokeListAdapter = new PokeListAdapter(mContext, gen);
-                mPokemonList.setAdapter(pokeListAdapter);
-                mPokemonList.setLayoutManager(new GridLayoutManager(mContext, 3));
-                mPokemonList.setHasFixedSize(true);
+                if (gen != null) {
+                    mPokemonList = (RecyclerView) rootView.findViewById(R.id.pokemon_list);
+                    PokeListAdapter pokeListAdapter = new PokeListAdapter(mContext, gen);
+                    mPokemonList.setAdapter(pokeListAdapter);
+                    mPokemonList.setLayoutManager(new GridLayoutManager(mContext, 3));
+                    mPokemonList.setHasFixedSize(true);
+                }
             }
         }
         Log.d(TAG, "Poke List view set");
@@ -82,6 +84,7 @@ public class PokeList extends Fragment {
     public void onResume() {
         super.onResume();
         // Sets the title of the Action Bar.
-        TypefaceUtils.setActionBarTitle(mContext, mPokemonGeneration.getName());
+        if (mPokemonGeneration != null)
+            TypefaceUtils.setActionBarTitle(mContext, mPokemonGeneration.getName());
     }
 }

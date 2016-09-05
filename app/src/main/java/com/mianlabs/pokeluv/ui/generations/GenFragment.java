@@ -78,7 +78,7 @@ public class GenFragment extends Fragment implements View.OnClickListener {
     public void onResume() {
         super.onResume();
         // Sets the title of the Action Bar.
-        TypefaceUtils.setActionBarTitle(mContext, getString(R.string.app_name));
+        TypefaceUtils.setActionBarTitle(mContext, getString(R.string.pokedex_name));
     }
 
     /**
@@ -116,8 +116,12 @@ public class GenFragment extends Fragment implements View.OnClickListener {
             Bundle bundle = new Bundle();
             bundle.putParcelable(GEN_FRAG_KEY, genVal);
             pokeList.setArguments(bundle);
-            getFragmentManager().beginTransaction().replace(R.id.generations_container, pokeList)
-                    .addToBackStack(null).commit();
+
+            if (!GenActivity.isTwoPane())
+                getFragmentManager().beginTransaction().replace(R.id.generations_container, pokeList)
+                        .addToBackStack(null).commit();
+            else
+                getFragmentManager().beginTransaction().replace(R.id.poke_list_container, pokeList).commit();
         }
     }
 }

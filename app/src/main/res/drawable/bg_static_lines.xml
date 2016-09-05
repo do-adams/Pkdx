@@ -2,6 +2,6 @@
 <!-- Background image provided by http://pandora42.deviantart.com/art/Pixel-Heart-Patterns-for-PS-257343227
     Make sure to credit and link back to the person once the app is released!-->
 <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
-        android:src="@drawable/list_pattern"
+        android:src="@drawable/line_static_pattern"
         android:tileMode="repeat">
 </bitmap>
