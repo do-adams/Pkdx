@@ -107,7 +107,7 @@ public class PokeFragment extends Fragment {
         super.onCreate(savedInstanceState);
         mContext = (AppCompatActivity) getActivity(); // Grabs the context from the parent activity.
         setRetainInstance(true); // Retain this fragment across configuration changes.
-        setHasOptionsMenu(true); // Allows this fragment to set its own menu.
+        setHasOptionsMenu(true);
     }
 
     @Nullable
@@ -302,9 +302,10 @@ public class PokeFragment extends Fragment {
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        super.onCreateOptionsMenu(menu, inflater);
         inflater.inflate(R.menu.menu, menu);
         TypefaceUtils.setActionBarOptionsText(mContext, menu);
+        // Parent activity must call to set the action bar title on its onCreateOptionsMenu method.
+        super.onCreateOptionsMenu(menu, inflater);
     }
 
     @Override

@@ -10,6 +10,7 @@
     <!-- Menu Options Text -->
     <string name="menu_more_pokemon">POKEDEX</string>
     <string name="menu_pokemon_of_the_day">TODAY\'S PKM</string>
+    <string name="menu_add_to_favs">ADD TO FAVS</string>
 
     <!--Text for Evolutions Header in PokeFragment-->
     <string name="poke_fragment_evolutions_header">EVOLUTIONS</string>

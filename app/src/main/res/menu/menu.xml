@@ -6,4 +6,7 @@
     <item
         android:id="@+id/menu_pokemon_of_the_day"
         android:title="@string/menu_pokemon_of_the_day"/>
+    <item
+        android:id="@+id/menu_add_to_favs"
+        android:title="@string/menu_add_to_favs"/>
 </menu>

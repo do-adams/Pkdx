@@ -11,6 +11,7 @@ import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.SpannableStringBuilder;
 import android.text.Spanned;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -23,6 +24,8 @@ import com.mianlabs.pokeluv.R;
  * Also provides Toasts with custom typeface and duration abilities.
  */
 public class TypefaceUtils {
+    private static final String TAG = TypefaceUtils.class.getSimpleName();
+
     // Relative path to typeface from the /assets/fonts dir.
     private static final String RELATIVE_PATH_TO_TYPEFACE = "Pokemon GB.ttf";
 
@@ -36,7 +39,10 @@ public class TypefaceUtils {
         s.setSpan(new TypefaceSpan(context, RELATIVE_PATH_TO_TYPEFACE), 0, s.length(),
                 Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         ActionBar actionBar = context.getSupportActionBar();
-        actionBar.setTitle(s);
+        if (actionBar != null)
+            actionBar.setTitle(s);
+        else
+            Log.e(TAG, "Action bar reference is null");
     }
 
     /**
@@ -59,11 +65,20 @@ public class TypefaceUtils {
                 .setSpan(new TypefaceSpan(context, RELATIVE_PATH_TO_TYPEFACE), 0, pokemonOfTheDayTitle.length(),
                         Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
 
+        SpannableStringBuilder addToFavsTitle =
+                new SpannableStringBuilder(context.getString(R.string.menu_add_to_favs));
+        addToFavsTitle
+                .setSpan(new TypefaceSpan(context, RELATIVE_PATH_TO_TYPEFACE), 0, addToFavsTitle.length(),
+                        Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+
         MenuItem dexItem = menu.findItem(R.id.menu_more_pokemon);
         dexItem.setTitle(pokedexTitle);
 
         MenuItem dailyItem = menu.findItem(R.id.menu_pokemon_of_the_day);
         dailyItem.setTitle(pokemonOfTheDayTitle);
+
+        MenuItem addToFavsItem = menu.findItem(R.id.menu_add_to_favs);
+        addToFavsItem.setTitle(addToFavsTitle);
     }
 
     /**

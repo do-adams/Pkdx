@@ -7,10 +7,12 @@ import android.app.FragmentManager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
 
 import com.mianlabs.pokeluv.R;
 import com.mianlabs.pokeluv.model.PokeModel;
 import com.mianlabs.pokeluv.ui.generations.PokeList;
+import com.mianlabs.pokeluv.utilities.TypefaceUtils;
 
 import java.util.Random;
 
@@ -58,5 +60,12 @@ public class MainActivity extends AppCompatActivity {
             getFragmentManager().beginTransaction()
                     .add(R.id.main_container, mPokeFragment, TAG_POKE_FRAGMENT).commit();
         }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Sets the typeface of the activity for the retained fragment.
+        TypefaceUtils.setActionBarTitle(this, getString(R.string.app_name));
+        return super.onCreateOptionsMenu(menu);
     }
 }
