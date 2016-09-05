@@ -160,7 +160,7 @@
                 android:paddingLeft="@dimen/activity_horizontal_margin"
                 android:paddingRight="@dimen/activity_horizontal_margin"
                 android:paddingTop="@dimen/poke_fragment_header_padding"
-                android:text="@string/poke_fragment_evolutions_header"
+                tools:text="@string/poke_fragment_evolutions_header"
                 tools:background="#C8C8C8"/>
 
             <TextView

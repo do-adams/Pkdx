@@ -36,11 +36,19 @@ import me.sargunvohra.lib.pokekotlin.model.Pokemon;
 import me.sargunvohra.lib.pokekotlin.model.PokemonSpecies;
 
 /**
- * Fragment that queries the API for Pokemon data and displays it to the user.
+ * Fragment that safely queries the API for Pokemon data and displays it to the user.
  * Receives the Pokemon ID to load data for from MainActivity.
+ *
+ * Its launching activity must make sure this fragment instance
+ * is retained properly across configuration changes through the use
+ * of a tag in order to avoid memory leaks.
+ *
+ * See: http://www.androiddesignpatterns.com/2013/04/retaining-objects-across-config-changes.html
  */
 public class PokeFragment extends Fragment {
     private static final String TAG = PokeFragment.class.getSimpleName();
+    private static final int NO_INTERNET_MSG_DURATION = 8;
+    private static final int PKM_DAY_MSG_DURATION = 2;
 
     // Keys for saving state in case of configuration changes.
     private static final String POKE_MODEL_STATE_KEY = "POKE_MODEL";
@@ -48,6 +56,9 @@ public class PokeFragment extends Fragment {
 
     private AppCompatActivity mContext;
     private Typeface mCustomFont;
+
+    // Represents whether this fragment has been instantiated or retained.
+    private boolean mHasBeenRetained;
 
     private int mChosenPokemon;
     private boolean mIsPokemonOfTheDay;
@@ -82,16 +93,14 @@ public class PokeFragment extends Fragment {
     @BindView(R.id.pokemon_evo_line)
     TextView mPokemonEvoLine;
 
-    @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
-    }
-
+    /**
+     * This method is called only once when the Fragment is first created.
+     * If retained, it will not be called again across configuration changes.
+     */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // Retain this fragment across configuration changes.
-        setRetainInstance(true);
+        setRetainInstance(true); // Retain this fragment across configuration changes.
     }
 
     @Nullable
@@ -101,21 +110,49 @@ public class PokeFragment extends Fragment {
         ButterKnife.bind(this, viewRoot);
         mContext = (AppCompatActivity) getActivity(); // Grabs the context from the parent activity.
         mCustomFont = Typeface.createFromAsset(mContext.getAssets(), mContext.getString(R.string.font_path));
-        setCustomTypefaceForViews();
-        mContainer.setVisibility(View.INVISIBLE); // Hides the Views until properly set with Pokemon data.
+        setCustomTypefaceForViews(mCustomFont);
+        return viewRoot;
+    }
+
+    /**
+     * Called after onCreateView has inflated the views.
+     */
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
 
         Bundle bundle = getArguments();
         mChosenPokemon = bundle.getInt(MainActivity.MAIN_KEY, 1);
         mIsPokemonOfTheDay = bundle.getBoolean(MainActivity.POKEMON_OF_THE_DAY_KEY, false);
 
-        if (savedInstanceState == null) {
-            if (isNetworkAvailable())
-                getPokemonData(mChosenPokemon);
-            else // Display "no internet connection found" msg.
-                TypefaceUtils.displayToast(mContext, getString(R.string.internet_connection_msg), 8);
-        }
+        if (isNetworkAvailable()) {
+            if (!mHasBeenRetained) {  // Creates a background thread.
+                getPokemonData(mChosenPokemon, mIsPokemonOfTheDay, mContainer);
+                mHasBeenRetained = true;
+            }
+        } else // Display "no internet connection found" msg.
+            TypefaceUtils.displayToast(mContext,
+                    getString(R.string.internet_connection_msg), NO_INTERNET_MSG_DURATION);
+    }
 
-        return viewRoot;
+    /**
+     * Restores and sets the Pokemon data across configuration changes
+     * to prevent unnecessary API calls.
+     */
+    @Override
+    public void onViewStateRestored(Bundle savedInstanceState) {
+        super.onViewStateRestored(savedInstanceState);
+        if (savedInstanceState != null) {
+            Log.d(TAG, "Retrieving saved state Pokemon");
+            mPokeModel = savedInstanceState.getParcelable(POKE_MODEL_STATE_KEY);
+            mIsPokemonOfTheDay = savedInstanceState.getBoolean(POKEMON_OF_THE_DAY_STATE_KEY);
+            if (mPokeModel != null) {
+                loadSpriteAndPalettes(mPokeModel.getSprite());
+                setPokemonData(mPokeModel);
+                displayDailyMsg(mIsPokemonOfTheDay);
+            } else
+                Log.d(TAG, "Waiting for background thread to load Pokemon data");
+        }
     }
 
     @Override
@@ -125,24 +162,6 @@ public class PokeFragment extends Fragment {
         TypefaceUtils.setActionBarTitle(mContext, getString(R.string.app_name));
     }
 
-    /**
-     * Sets the custom typeface for all of the applicable views
-     * in the layout.
-     */
-    private void setCustomTypefaceForViews() {
-        mPokemonNumBorder.setTypeface(mCustomFont);
-        mPokemonName.setTypeface(mCustomFont);
-        mPokemonHeight.setTypeface(mCustomFont);
-        mPokemonWeight.setTypeface(mCustomFont);
-        mPokemonTypes.setTypeface(mCustomFont);
-        mPokemonColor.setTypeface(mCustomFont);
-        mPokemonShape.setTypeface(mCustomFont);
-        mPokemonHabitat.setTypeface(mCustomFont);
-        mPokemonGeneration.setTypeface(mCustomFont);
-        mPokemonDescription.setTypeface(mCustomFont);
-        mPokemonEvolutions.setTypeface(mCustomFont);
-        mPokemonEvoLine.setTypeface(mCustomFont);
-    }
 
     /**
      * Checks to ensure the user can connect to the network,
@@ -166,7 +185,8 @@ public class PokeFragment extends Fragment {
      * Then makes the calls to set, load, and display the data on
      * the fragment layout.
      */
-    private void getPokemonData(final int chosenPokemon) {
+    private void getPokemonData(final int chosenPokemon, final boolean isPokemonOfTheDay,
+                                final View container) {
         new Thread(new Runnable() { // Background thread for networking requests.
             @Override
             public void run() {
@@ -186,12 +206,31 @@ public class PokeFragment extends Fragment {
                     public void run() {
                         loadSpriteAndPalettes(mPokeModel.getSprite());
                         setPokemonData(mPokeModel);
-                        displayViewsAfterDataIsSet(mContainer, mIsPokemonOfTheDay);
+                        displayDailyMsg(isPokemonOfTheDay);
                         Log.d(TAG, "Pokemon data set");
                     }
                 });
             }
         }).start();
+    }
+
+    /**
+     * Sets the custom typeface for all of the applicable views
+     * in the layout.
+     */
+    private void setCustomTypefaceForViews(Typeface customFont) {
+        mPokemonNumBorder.setTypeface(customFont);
+        mPokemonName.setTypeface(customFont);
+        mPokemonHeight.setTypeface(customFont);
+        mPokemonWeight.setTypeface(customFont);
+        mPokemonTypes.setTypeface(customFont);
+        mPokemonColor.setTypeface(customFont);
+        mPokemonShape.setTypeface(customFont);
+        mPokemonHabitat.setTypeface(customFont);
+        mPokemonGeneration.setTypeface(customFont);
+        mPokemonDescription.setTypeface(customFont);
+        mPokemonEvolutions.setTypeface(customFont);
+        mPokemonEvoLine.setTypeface(customFont);
     }
 
     /**
@@ -210,6 +249,7 @@ public class PokeFragment extends Fragment {
             mPokemonHabitat.setText("Habitat: " + pokeModel.getHabitat());
         mPokemonGeneration.setText(pokeModel.getGeneration().toUpperCase());
         mPokemonDescription.setText(pokeModel.getDescription());
+        mPokemonEvolutions.setText(mContext.getString(R.string.poke_fragment_evolutions_header));
         mPokemonEvoLine.setText(PokeModel.formatListToString(pokeModel.getEvolutions()));
     }
 
@@ -240,10 +280,10 @@ public class PokeFragment extends Fragment {
      * to become visible. If the Pokemon being displayed is the Pokemon of the Day,
      * it signals to display a toast to let the user know.
      */
-    private void displayViewsAfterDataIsSet(View view, boolean isPokemonOfTheDay) {
-        view.setVisibility(View.VISIBLE); // Views are ready to be displayed.
+    private void displayDailyMsg(boolean isPokemonOfTheDay) {
         if (isPokemonOfTheDay)
-            TypefaceUtils.displayToastTop(mContext, mContext.getString(R.string.pokemon_of_the_day_msg), 2,
+            TypefaceUtils.displayToastTop(mContext,
+                    mContext.getString(R.string.pokemon_of_the_day_msg), PKM_DAY_MSG_DURATION,
                     (int) mContext.getResources().getDimension(R.dimen.daily_toast_y_offset));
     }
 
@@ -252,25 +292,5 @@ public class PokeFragment extends Fragment {
         super.onSaveInstanceState(outState);
         outState.putParcelable(POKE_MODEL_STATE_KEY, mPokeModel);
         outState.putBoolean(POKEMON_OF_THE_DAY_STATE_KEY, mIsPokemonOfTheDay);
-    }
-
-    /**
-     * Restores and sets the Pokemon data across configuration changes
-     * to prevent unnecessary API calls.
-     */
-    @Override
-    public void onViewStateRestored(Bundle savedInstanceState) {
-        super.onViewStateRestored(savedInstanceState);
-        if (savedInstanceState != null) {
-            Log.d(TAG, "Retrieving saved state Pokemon");
-            mPokeModel = savedInstanceState.getParcelable(POKE_MODEL_STATE_KEY);
-            mIsPokemonOfTheDay = savedInstanceState.getBoolean(POKEMON_OF_THE_DAY_STATE_KEY);
-            if (mPokeModel != null) {
-                loadSpriteAndPalettes(mPokeModel.getSprite());
-                setPokemonData(mPokeModel);
-                displayViewsAfterDataIsSet(mContainer, mIsPokemonOfTheDay);
-            } else // In case of null PokeModel object (API request did not complete before conf. change).
-                getPokemonData(mChosenPokemon);
-        }
     }
 }

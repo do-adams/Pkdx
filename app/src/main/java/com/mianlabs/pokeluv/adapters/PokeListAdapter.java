@@ -24,8 +24,10 @@ import butterknife.ButterKnife;
  * Adapter for use with populating a list of Pokemon.
  * Pokemon to be shown in the list will depend on the numbers
  * present in the array of Pokemon numbers provided.
+ *
  * Sets an OnClickListener for each Pokemon sprite that launches an intent to
  * MainActivity with the Pokemon's number id.
+ *
  * Relies heavily on the PokePicker.GenerationNumbers.getDrawableResourceFromNumber method.
  */
 public class PokeListAdapter extends RecyclerView.Adapter<PokeListAdapter.PokeViewHolder> {

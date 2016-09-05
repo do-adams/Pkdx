@@ -53,7 +53,7 @@ public class GenFragment extends Fragment implements View.OnClickListener {
         ButterKnife.bind(this, rootView);
         mContext = (AppCompatActivity) getActivity();
         mCustomFont = Typeface.createFromAsset(mContext.getAssets(), getString(R.string.font_path));
-        setCustomTypefaceForViews();
+        setCustomTypefaceForViews(mCustomFont);
 
         mGenIButton.setOnClickListener(this);
         mGenIIButton.setOnClickListener(this);
@@ -65,13 +65,13 @@ public class GenFragment extends Fragment implements View.OnClickListener {
         return rootView;
     }
 
-    private void setCustomTypefaceForViews() {
-        mGenIButton.setTypeface(mCustomFont);
-        mGenIIButton.setTypeface(mCustomFont);
-        mGenIIIButton.setTypeface(mCustomFont);
-        mGenIVButton.setTypeface(mCustomFont);
-        mGenVButton.setTypeface(mCustomFont);
-        mGenVIButton.setTypeface(mCustomFont);
+    private void setCustomTypefaceForViews(Typeface customFont) {
+        mGenIButton.setTypeface(customFont);
+        mGenIIButton.setTypeface(customFont);
+        mGenIIIButton.setTypeface(customFont);
+        mGenIVButton.setTypeface(customFont);
+        mGenVButton.setTypeface(customFont);
+        mGenVIButton.setTypeface(customFont);
     }
 
     @Override
