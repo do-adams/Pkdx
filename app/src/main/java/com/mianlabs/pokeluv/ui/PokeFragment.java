@@ -304,7 +304,10 @@ public class PokeFragment extends Fragment {
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         inflater.inflate(R.menu.menu, menu);
         TypefaceUtils.setActionBarOptionsText(mContext, menu);
-        // Parent activity must call to set the custom action bar title on its onCreateOptionsMenu method.
+        TypefaceUtils.setActionBarTitle(mContext, getString(R.string.app_name));
+        // Parent activity must call to set the custom action bar title
+        // on its onCreateOptionsMenu method to preserve the custom
+        // font across retained configuration changes.
         super.onCreateOptionsMenu(menu, inflater);
     }
 
