@@ -23,7 +23,7 @@
         <TextView
             android:id="@+id/pokemon_number_border"
             android:layout_width="match_parent"
-            android:layout_height="20dp"
+            android:layout_height="@dimen/poke_fragment_num_border_height"
             android:gravity="center"
             android:paddingLeft="@dimen/activity_horizontal_margin"
             android:paddingRight="@dimen/activity_horizontal_margin"
@@ -39,7 +39,7 @@
             android:paddingLeft="@dimen/activity_horizontal_margin"
             android:paddingRight="@dimen/activity_horizontal_margin"
             android:paddingTop="@dimen/activity_vertical_margin"
-            android:textSize="32sp"
+            android:textSize="@dimen/poke_fragment_pokemon_name_text"
             tools:text="Bulbasaur"/>
 
         <TextView
@@ -52,7 +52,7 @@
             android:gravity="center"
             android:paddingLeft="@dimen/activity_horizontal_margin"
             android:paddingRight="@dimen/activity_horizontal_margin"
-            android:textSize="12sp"
+            android:textSize="@dimen/poke_fragment_height_weight_text"
             tools:text="Height: 1 m / 3.3 ft"/>
 
         <TextView
@@ -64,7 +64,7 @@
             android:gravity="center"
             android:paddingLeft="@dimen/activity_horizontal_margin"
             android:paddingRight="@dimen/activity_horizontal_margin"
-            android:textSize="12sp"
+            android:textSize="@dimen/poke_fragment_height_weight_text"
             tools:text="Weight: 1 kg / 2.2 lbs"/>
 
         <TextView
@@ -150,7 +150,7 @@
             android:paddingLeft="@dimen/activity_horizontal_margin"
             android:paddingRight="@dimen/activity_horizontal_margin"
             android:paddingTop="@dimen/poke_fragment_header_padding"
-            android:text="EVOLUTIONS"
+            android:text="@string/poke_fragment_evolutions_header"
             tools:background="#C8C8C8"/>
 
         <TextView

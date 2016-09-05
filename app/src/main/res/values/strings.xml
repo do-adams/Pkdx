@@ -9,4 +9,15 @@
     <!-- Menu Options Text -->
     <string name="menu_more_pokemon">POKEDEX</string>
     <string name="menu_pokemon_of_the_day">TODAY\'S PKM</string>
+
+    <!--Text for Evolutions Header in PokeFragment-->
+    <string name="poke_fragment_evolutions_header">EVOLUTIONS</string>
+
+    <!--Text for Generation Buttons-->
+    <string name="gen_I_button">Gen I</string>
+    <string name="gen_II_button">Gen II</string>
+    <string name="gen_III_button">Gen III</string>
+    <string name="gen_IV_button">Gen IV</string>
+    <string name="gen_V_button">Gen V</string>
+    <string name="gen_VI_button">Gen VI</string>
 </resources>

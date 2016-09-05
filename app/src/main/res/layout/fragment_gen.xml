@@ -22,7 +22,7 @@
         android:layout_weight="1"
         android:background="@drawable/button_borders"
         android:stateListAnimator="@null"
-        android:text="Gen I"/>
+        android:text="@string/gen_I_button"/>
 
     <Button
         android:id="@+id/button_gen_ii"
@@ -33,7 +33,7 @@
         android:layout_weight="1"
         android:background="@drawable/button_borders"
         android:stateListAnimator="@null"
-        android:text="Gen II"/>
+        android:text="@string/gen_II_button"/>
 
     <Button
         android:id="@+id/button_gen_iii"
@@ -44,7 +44,7 @@
         android:layout_weight="1"
         android:background="@drawable/button_borders"
         android:stateListAnimator="@null"
-        android:text="Gen III"/>
+        android:text="@string/gen_III_button"/>
 
     <Button
         android:id="@+id/button_gen_iv"
@@ -55,7 +55,7 @@
         android:layout_weight="1"
         android:background="@drawable/button_borders"
         android:stateListAnimator="@null"
-        android:text="Gen IV"/>
+        android:text="@string/gen_IV_button"/>
 
     <Button
         android:id="@+id/button_gen_v"
@@ -66,7 +66,7 @@
         android:layout_weight="1"
         android:background="@drawable/button_borders"
         android:stateListAnimator="@null"
-        android:text="Gen V"/>
+        android:text="@string/gen_V_button"/>
 
     <Button
         android:id="@+id/button_gen_vi"
@@ -77,5 +77,5 @@
         android:layout_weight="1"
         android:background="@drawable/button_borders"
         android:stateListAnimator="@null"
-        android:text="Gen VI"/>
+        android:text="@string/gen_VI_button"/>
 </LinearLayout>
