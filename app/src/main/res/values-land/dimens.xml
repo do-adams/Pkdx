@@ -3,7 +3,7 @@
     <dimen name="activity_horizontal_margin">64dp</dimen>
 
     <!--Sizing for PokeFragment views-->
-    <dimen name="poke_fragment_horizontal_padding">128dp</dimen>
+    <dimen name="poke_fragment_horizontal_margin">128dp</dimen>
 
     <!-- Padding and margins for GenFragment views-->
     <dimen name="gen_fragment_side_padding">128dp</dimen>

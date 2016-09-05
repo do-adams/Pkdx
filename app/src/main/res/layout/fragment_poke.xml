@@ -5,177 +5,171 @@
             xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@drawable/bg_hearts"
             android:scrollbars="none"
             tools:context=".ui.PokeFragment">
 
-    <FrameLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_hearts"
-        android:paddingLeft="@dimen/poke_fragment_horizontal_padding"
-        android:paddingRight="@dimen/poke_fragment_horizontal_padding">
+        android:layout_marginLeft="@dimen/poke_fragment_horizontal_margin"
+        android:layout_marginRight="@dimen/poke_fragment_horizontal_margin"
+        android:background="?android:colorBackground"
+        android:elevation="@dimen/poke_fragment_elevation"
+        android:orientation="vertical">
 
-        <LinearLayout
+        <ImageView
+            android:id="@+id/pokemon_sprite"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="?android:colorBackground"
-            android:elevation="@dimen/poke_fragment_elevation"
-            android:orientation="vertical">
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/p1"/>
 
-            <ImageView
-                android:id="@+id/pokemon_sprite"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                android:scaleType="centerCrop"
-                tools:src="@drawable/p1"/>
+        <TextView
+            android:id="@+id/pokemon_number_border"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/poke_fragment_num_border_height"
+            android:gravity="center"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            tools:background="#B8F870"
+            tools:text="No. 1"/>
 
-            <TextView
-                android:id="@+id/pokemon_number_border"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/poke_fragment_num_border_height"
-                android:gravity="center"
-                android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:paddingRight="@dimen/activity_horizontal_margin"
-                tools:background="#B8F870"
-                tools:text="No. 1"/>
+        <TextView
+            android:id="@+id/pokemon_text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:textSize="@dimen/poke_fragment_pokemon_name_text"
+            tools:text="Bulbasaur"/>
 
-            <TextView
-                android:id="@+id/pokemon_text_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:paddingRight="@dimen/activity_horizontal_margin"
-                android:paddingTop="@dimen/activity_vertical_margin"
-                android:textSize="@dimen/poke_fragment_pokemon_name_text"
-                tools:text="Bulbasaur"/>
+        <TextView
+            android:id="@+id/pokemon_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:textSize="@dimen/poke_fragment_height_weight_text"
+            tools:text="Height: 1 m / 3.3 ft"/>
 
-            <TextView
-                android:id="@+id/pokemon_height"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:paddingRight="@dimen/activity_horizontal_margin"
-                android:textSize="@dimen/poke_fragment_height_weight_text"
-                tools:text="Height: 1 m / 3.3 ft"/>
+        <TextView
+            android:id="@+id/pokemon_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:textSize="@dimen/poke_fragment_height_weight_text"
+            tools:text="Weight: 1 kg / 2.2 lbs"/>
 
-            <TextView
-                android:id="@+id/pokemon_weight"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:paddingRight="@dimen/activity_horizontal_margin"
-                android:textSize="@dimen/poke_fragment_height_weight_text"
-                tools:text="Weight: 1 kg / 2.2 lbs"/>
+        <TextView
+            android:id="@+id/pokemon_types"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:gravity="center"
+            android:paddingBottom="@dimen/poke_fragment_header_padding"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/poke_fragment_header_padding"
+            tools:background="#C8C8C8"
+            tools:text="GRASS \t\t POISON"/>
 
-            <TextView
-                android:id="@+id/pokemon_types"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:gravity="center"
-                android:paddingBottom="@dimen/poke_fragment_header_padding"
-                android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:paddingRight="@dimen/activity_horizontal_margin"
-                android:paddingTop="@dimen/poke_fragment_header_padding"
-                tools:background="#C8C8C8"
-                tools:text="GRASS \t\t POISON"/>
+        <TextView
+            android:id="@+id/pokemon_color"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:text="Color: Green"/>
 
-            <TextView
-                android:id="@+id/pokemon_color"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_gravity="center"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:paddingRight="@dimen/activity_horizontal_margin"
-                android:paddingTop="@dimen/activity_vertical_margin"
-                tools:text="Color: Green"/>
+        <TextView
+            android:id="@+id/pokemon_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            tools:text="Shape: Quadruped"/>
 
-            <TextView
-                android:id="@+id/pokemon_shape"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_gravity="center"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:paddingRight="@dimen/activity_horizontal_margin"
-                tools:text="Shape: Quadruped"/>
+        <TextView
+            android:id="@+id/pokemon_habitat"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            tools:text="Habitat: Grassland"/>
 
-            <TextView
-                android:id="@+id/pokemon_habitat"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_gravity="center"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:paddingBottom="@dimen/activity_vertical_margin"
-                android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:paddingRight="@dimen/activity_horizontal_margin"
-                tools:text="Habitat: Grassland"/>
+        <TextView
+            android:id="@+id/pokemon_generation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:gravity="center"
+            android:paddingBottom="@dimen/poke_fragment_header_padding"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/poke_fragment_header_padding"
+            tools:background="#B8F870"
+            tools:text="GENERATION-I"/>
 
-            <TextView
-                android:id="@+id/pokemon_generation"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:gravity="center"
-                android:paddingBottom="@dimen/poke_fragment_header_padding"
-                android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:paddingRight="@dimen/activity_horizontal_margin"
-                android:paddingTop="@dimen/poke_fragment_header_padding"
-                tools:background="#B8F870"
-                tools:text="GENERATION-I"/>
+        <TextView
+            android:id="@+id/pokemon_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:text="Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun’s rays, the seed grows progressively larger."
+            />
 
-            <TextView
-                android:id="@+id/pokemon_description"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingBottom="@dimen/activity_vertical_margin"
-                android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:paddingRight="@dimen/activity_horizontal_margin"
-                android:paddingTop="@dimen/activity_vertical_margin"
-                tools:text="Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun’s rays, the seed grows progressively larger."
-                />
+        <TextView
+            android:id="@+id/pokemon_evolutions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:gravity="center"
+            android:paddingBottom="@dimen/poke_fragment_header_padding"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/poke_fragment_header_padding"
+            tools:background="#B8F870"
+            tools:text="@string/poke_fragment_evolutions_header"/>
 
-            <TextView
-                android:id="@+id/pokemon_evolutions"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:gravity="center"
-                android:paddingBottom="@dimen/poke_fragment_header_padding"
-                android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:paddingRight="@dimen/activity_horizontal_margin"
-                android:paddingTop="@dimen/poke_fragment_header_padding"
-                tools:text="@string/poke_fragment_evolutions_header"
-                tools:background="#C8C8C8"/>
-
-            <TextView
-                android:id="@+id/pokemon_evo_line"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:gravity="center"
-                android:paddingBottom="@dimen/activity_vertical_margin"
-                android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:paddingRight="@dimen/activity_horizontal_margin"
-                tools:text="BULBASAUR\t\tIVYSAUR\t\tVENASAUR"/>
-        </LinearLayout>
-
-    </FrameLayout>
+        <TextView
+            android:id="@+id/pokemon_evo_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:gravity="center"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            tools:text="BULBASAUR\t\tIVYSAUR\t\tVENASAUR"/>
+    </LinearLayout>
 
 </ScrollView>

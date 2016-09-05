@@ -5,7 +5,7 @@
     <dimen name="daily_toast_y_offset">80dp</dimen>
 
     <!--Sizing for PokeFragment views-->
-    <dimen name="poke_fragment_horizontal_padding">64dp</dimen>
+    <dimen name="poke_fragment_horizontal_margin">64dp</dimen>
 
     <!-- Padding and margins for GenFragment views-->
     <dimen name="gen_fragment_side_padding">64dp</dimen>
