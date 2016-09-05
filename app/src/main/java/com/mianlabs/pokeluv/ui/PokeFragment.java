@@ -304,7 +304,7 @@ public class PokeFragment extends Fragment {
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         inflater.inflate(R.menu.menu, menu);
         TypefaceUtils.setActionBarOptionsText(mContext, menu);
-        // Parent activity must call to set the action bar title on its onCreateOptionsMenu method.
+        // Parent activity must call to set the custom action bar title on its onCreateOptionsMenu method.
         super.onCreateOptionsMenu(menu, inflater);
     }
 
