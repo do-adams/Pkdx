@@ -1,3 +1,6 @@
+/*
+ * Copyright (C) 2016 Damián Adams
+ */
 package com.mianlabs.pokeluv.ui;
 
 import android.app.Fragment;
@@ -34,13 +37,16 @@ import me.sargunvohra.lib.pokekotlin.model.EvolutionChain;
 import me.sargunvohra.lib.pokekotlin.model.Pokemon;
 import me.sargunvohra.lib.pokekotlin.model.PokemonSpecies;
 
-// TODO: Add documentation.
+/**
+ * Fragment that queries the API for Pokemon data and displays it to the user.
+ * Receives the Pokemon ID to load data for from MainActivity.
+ */
 public class PokeFragment extends Fragment {
     private static final String TAG = PokeFragment.class.getSimpleName();
 
     // Keys for saving state in case of configuration changes.
     private static final String POKE_MODEL_STATE_KEY = "POKE_MODEL";
-    private static final String POKEMON_DAY_STATE_KEY = "POKEMON_DAY";
+    private static final String POKEMON_OF_THE_DAY_STATE_KEY = "POKEMON_DAY";
 
     private AppCompatActivity mContext;
     private Typeface mCustomFont;
@@ -101,7 +107,7 @@ public class PokeFragment extends Fragment {
 
         Bundle bundle = getArguments();
         final int chosenPokemon = bundle.getInt(MainActivity.MAIN_KEY, 1);
-        mIsPokemonOfTheDay = bundle.getBoolean(MainActivity.POKEMON_OF_THE_DAY, false);
+        mIsPokemonOfTheDay = bundle.getBoolean(MainActivity.POKEMON_OF_THE_DAY_KEY, false);
 
         if (savedInstanceState == null) {
             if (isNetworkAvailable()) {
@@ -145,6 +151,10 @@ public class PokeFragment extends Fragment {
         TypefaceUtils.setActionBarTitle(mContext, getString(R.string.app_name));
     }
 
+    /**
+     * Sets the custom typeface for all of the applicable views
+     * in the layout.
+     */
     private void setCustomTypefaceForViews() {
         mPokemonNumBorder.setTypeface(mCustomFont);
         mPokemonName.setTypeface(mCustomFont);
@@ -160,13 +170,17 @@ public class PokeFragment extends Fragment {
         mPokemonEvoLine.setTypeface(mCustomFont);
     }
 
+    /**
+     * Restores and sets the Pokemon data across configuration changes
+     * to prevent unnecessary API calls.
+     */
     @Override
     public void onViewStateRestored(Bundle savedInstanceState) {
         super.onViewStateRestored(savedInstanceState);
         if (savedInstanceState != null) {
             Log.d(TAG, "Retrieving saved state Pokemon");
             mPokeModel = savedInstanceState.getParcelable(POKE_MODEL_STATE_KEY);
-            mIsPokemonOfTheDay = savedInstanceState.getBoolean(POKEMON_DAY_STATE_KEY);
+            mIsPokemonOfTheDay = savedInstanceState.getBoolean(POKEMON_OF_THE_DAY_STATE_KEY);
             loadSpriteAndPalettes(mPokeModel.getSprite());
             setPokemonData(mPokeModel);
             displayViewsAfterDataIsSet();
@@ -190,6 +204,10 @@ public class PokeFragment extends Fragment {
         return isAvailable;
     }
 
+    /**
+     * Sets the Pokemon data from a valid PokeModel object into the
+     * layout views.
+     */
     private void setPokemonData(PokeModel pokeModel) {
         mPokemonNumBorder.setText("No. " + pokeModel.getPokedexNum());
         mPokemonName.setText(pokeModel.getName());
@@ -205,6 +223,10 @@ public class PokeFragment extends Fragment {
         mPokemonEvoLine.setText(formatListToString(pokeModel.getEvolutions()));
     }
 
+    /**
+     * Formats the List objects from the PokeModel into
+     * formatted Strings that are easily readable.
+     */
     private String formatListToString(List<String> list) {
         String result = "";
         for (String s : list)
@@ -213,6 +235,12 @@ public class PokeFragment extends Fragment {
         return result.toUpperCase();
     }
 
+    /**
+     * Downloads the Sprite image from the provided URL, loads it into the
+     * appropriate ImageView, extracts a color palette from the image,
+     * and sets the background and text colors of several views
+     * based on it.
+     */
     private void loadSpriteAndPalettes(String pokemonSpriteURL) {
         Picasso.with(mContext).load(pokemonSpriteURL)
                 .into(mPokemonSprite, PicassoPalette.with(pokemonSpriteURL, mPokemonSprite)
@@ -228,6 +256,12 @@ public class PokeFragment extends Fragment {
                 );
     }
 
+    /**
+     * To be used when all the calls for loading and setting PokeModel data
+     * into views have been made. Signals for the parent layout of the PokeFragment
+     * to become visible. If the Pokemon being displayed is the Pokemon of the Day,
+     * it signals to display a toast to let the user know.
+     */
     private void displayViewsAfterDataIsSet() {
         mContainer.setVisibility(View.VISIBLE); // Views are ready to be displayed.
         if (mIsPokemonOfTheDay)
@@ -239,11 +273,6 @@ public class PokeFragment extends Fragment {
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
         outState.putParcelable(POKE_MODEL_STATE_KEY, mPokeModel);
-        outState.putBoolean(POKEMON_DAY_STATE_KEY, mIsPokemonOfTheDay);
-    }
-
-    @Override
-    public void onDetach() {
-        super.onDetach();
+        outState.putBoolean(POKEMON_OF_THE_DAY_STATE_KEY, mIsPokemonOfTheDay);
     }
 }

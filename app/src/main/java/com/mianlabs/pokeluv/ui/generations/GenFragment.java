@@ -1,3 +1,6 @@
+/*
+ * Copyright (C) 2016 Damián Adams
+ */
 package com.mianlabs.pokeluv.ui.generations;
 
 import android.app.Fragment;
@@ -18,6 +21,10 @@ import com.mianlabs.pokeluv.utilities.TypefaceUtils;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+/**
+ * Displays the different generations available in the Pokemon
+ * franchise to the user.
+ */
 public class GenFragment extends Fragment implements View.OnClickListener {
     private static final String TAG = GenFragment.class.getSimpleName();
     public static final String GEN_FRAG_KEY = "GenFragment";
@@ -75,7 +82,7 @@ public class GenFragment extends Fragment implements View.OnClickListener {
     }
 
     /**
-     * onClickListener for all of the Generations buttons.
+     * onClickListener for all of the generations buttons.
      */
     @Override
     public void onClick(View v) {

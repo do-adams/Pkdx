@@ -1,3 +1,6 @@
+/*
+ * Copyright (C) 2016 Damián Adams
+ */
 package com.mianlabs.pokeluv.ui.generations;
 
 import android.app.Fragment;
@@ -17,7 +20,7 @@ import com.mianlabs.pokeluv.utilities.PokePicker;
 import com.mianlabs.pokeluv.utilities.TypefaceUtils;
 
 /**
- * Must be launched from an AppCompatActivity class.
+ * Loads a list of a Pokemon generation using the PokeListAdapter.
  */
 public class PokeList extends Fragment {
     private static final String TAG = PokeList.class.getSimpleName();
@@ -40,22 +43,22 @@ public class PokeList extends Fragment {
             int[] gen;
             switch (mPokemonGeneration) {
                 case GEN_I:
-                    gen = PokePicker.GenNumbers.getGenOne();
+                    gen = PokePicker.GenerationNumbers.getGenOne();
                     break;
                 case GEN_II:
-                    gen = PokePicker.GenNumbers.getGenTwo();
+                    gen = PokePicker.GenerationNumbers.getGenTwo();
                     break;
                 case GEN_III:
-                    gen = PokePicker.GenNumbers.getGenThree();
+                    gen = PokePicker.GenerationNumbers.getGenThree();
                     break;
                 case GEN_IV:
-                    gen = PokePicker.GenNumbers.getGenFour();
+                    gen = PokePicker.GenerationNumbers.getGenFour();
                     break;
                 case GEN_V:
-                    gen = PokePicker.GenNumbers.getGenFive();
+                    gen = PokePicker.GenerationNumbers.getGenFive();
                     break;
                 case GEN_VI:
-                    gen = PokePicker.GenNumbers.getGenSix();
+                    gen = PokePicker.GenerationNumbers.getGenSix();
                     break;
                 default:
                     gen = null;

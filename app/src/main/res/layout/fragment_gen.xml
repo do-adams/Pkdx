@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Damián Adams-->
 <LinearLayout
     android:id="@+id/gen_buttons_container"
     xmlns:android="http://schemas.android.com/apk/res/android"

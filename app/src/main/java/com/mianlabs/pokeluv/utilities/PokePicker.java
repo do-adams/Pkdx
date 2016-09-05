@@ -1,3 +1,6 @@
+/*
+ * Copyright (C) 2016 Damián Adams
+ */
 package com.mianlabs.pokeluv.utilities;
 
 import android.content.Context;
@@ -7,6 +10,10 @@ import android.util.Log;
 
 import java.util.Arrays;
 
+/**
+ * Provides utilities for identifying and retrieving generations of Pokemon,
+ * along with their resource drawables.
+ */
 public class PokePicker {
     private static final String TAG = PokePicker.class.getSimpleName();
 
@@ -54,9 +61,9 @@ public class PokePicker {
 
     /**
      * Class for retrieving an array of numbers that includes all Pokemons introduced in
-     * any Generation.
+     * any particular generation.
      */
-    public static class GenNumbers {
+    public static class GenerationNumbers {
         /**
          * Use if you need to debug this class.
          */
@@ -69,7 +76,11 @@ public class PokePicker {
             Log.d(TAG, "Gen VI: " + Arrays.toString(getGenSix()));
         }
 
-        public static int[] getNumsArray(int startingNum, int finalNum) {
+        /**
+         * Used internally for generating the range of numbered Pokemon
+         * in a generation.
+         */
+        private static int[] getNumsArray(int startingNum, int finalNum) {
             int size = finalNum - startingNum + 1;
             int[] gen = new int[size];
             for (int i = 0; i < size; i++) {
@@ -78,33 +89,51 @@ public class PokePicker {
             return gen;
         }
 
+        /**
+         * Returns the Pokemon introduced in Gen I.
+         */
         public static int[] getGenOne() {
             return getNumsArray(1, 151);
         }
 
+        /**
+         * Returns the Pokemon introduced in Gen II.
+         */
         public static int[] getGenTwo() {
             return getNumsArray(152, 251);
         }
 
+        /**
+         * Returns the Pokemon introduced in Gen III.
+         */
         public static int[] getGenThree() {
             return getNumsArray(252, 386);
         }
 
+        /**
+         * Returns the Pokemon introduced in Gen IV.
+         */
         public static int[] getGenFour() {
             return getNumsArray(387, 493);
         }
 
+        /**
+         * Returns the Pokemon introduced in Gen V.
+         */
         public static int[] getGenFive() {
             return getNumsArray(494, 649);
         }
 
+        /**
+         * Returns the Pokemon introduced in Gen VI.
+         */
         public static int[] getGenSix() {
             return getNumsArray(650, 721);
         }
 
         /**
-         * Returns the resource id of the drawable sprite linked to the number of the Pokemon
-         * provided.
+         * Returns the resource id of the drawable sprite linked to the unique
+         * number of the Pokemon provided.
          * Note: Sprites must be in the /drawable dir and must follow a naming convention of:
          * "p" + "National Pokedex Pokemon Number"
          */

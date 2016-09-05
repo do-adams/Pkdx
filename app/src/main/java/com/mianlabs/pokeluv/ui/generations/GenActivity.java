@@ -1,3 +1,6 @@
+/*
+ * Copyright (C) 2016 Damián Adams
+ */
 package com.mianlabs.pokeluv.ui.generations;
 
 import android.os.Bundle;
@@ -6,6 +9,9 @@ import android.support.v7.app.AppCompatActivity;
 import com.mianlabs.pokeluv.R;
 import com.mianlabs.pokeluv.utilities.TypefaceUtils;
 
+/**
+ * Used for displaying GenFragments and PokeList fragments.
+ */
 public class GenActivity extends AppCompatActivity {
 
     @Override

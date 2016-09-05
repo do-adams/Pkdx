@@ -1,3 +1,6 @@
+/*
+ * Copyright (C) 2016 Damián Adams
+ */
 package com.mianlabs.pokeluv.ui;
 
 import android.app.FragmentManager;
@@ -16,9 +19,13 @@ import com.mianlabs.pokeluv.utilities.TypefaceUtils;
 
 import java.util.Random;
 
+/**
+ * Launches PokeFragments with the Pokemon of the Day
+ * or a user-selected Pokemon from a PokeList fragment.
+ */
 public class MainActivity extends AppCompatActivity {
     public static final String MAIN_KEY = "MainActivity";
-    public static final String POKEMON_OF_THE_DAY = "POKEMON_OF_THE_DAY";
+    public static final String POKEMON_OF_THE_DAY_KEY = "POKEMON_OF_THE_DAY_KEY";
     private static final String TAG_POKE_FRAGMENT = "PKF";
 
     private PokeFragment mPokeFragment;
@@ -41,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 int pokeNum = intent.getIntExtra(PokeList.POKE_LIST_KEY, 1);
                 bundle.putInt(MAIN_KEY, pokeNum);
             } else {
-                bundle.putBoolean(POKEMON_OF_THE_DAY, true); // If displaying Pokemon of the Day.
+                bundle.putBoolean(POKEMON_OF_THE_DAY_KEY, true); // If displaying Pokemon of the Day.
             }
         }
 

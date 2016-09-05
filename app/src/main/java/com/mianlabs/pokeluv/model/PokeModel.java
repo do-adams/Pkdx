@@ -1,3 +1,6 @@
+/*
+ * Copyright (C) 2016 Damián Adams
+ */
 package com.mianlabs.pokeluv.model;
 
 import android.os.Parcel;
@@ -13,6 +16,9 @@ import me.sargunvohra.lib.pokekotlin.model.PokemonSpecies;
 import me.sargunvohra.lib.pokekotlin.model.PokemonSpeciesFlavorText;
 import me.sargunvohra.lib.pokekotlin.model.PokemonType;
 
+/**
+ * Model class used for storing and accessing Pokemon data retrieved by API calls.
+ */
 public class PokeModel implements Parcelable {
     private static final String TAG = PokeModel.class.getSimpleName();
     private static final String LANG = "en"; // Language for retrieving Pokemon data.
@@ -31,11 +37,14 @@ public class PokeModel implements Parcelable {
     // From Pokemon Species API Call
     private String mColor;
     private String mShape;
-    private String mHabitat;
+    private String mHabitat; // Habitat value can be null.
     private String mGeneration;
     private String mDescription;
     private ArrayList<String> mEvolutions = new ArrayList<>(); // Names of Pokemon in the evolution chain.
 
+    /**
+     * Use for debugging in the log.
+     */
     @Override
     public String toString() {
         return "No. " + mPokedexNum + " " + mName + "\n" + mSprite + "\nHeight: " + mHeight +
@@ -45,22 +54,38 @@ public class PokeModel implements Parcelable {
                 + "\nEvolutions: " + mEvolutions;
     }
 
+    /**
+     * Capitalizes the lowercase Strings provided by the API.
+     */
     public String capitalize(String str) {
         return str.substring(0, 1).toUpperCase() + str.substring(1);
     }
 
+    /**
+     * Formats the height value provided by the API in units of decimeters.
+     * Returns a String with the height in two popular units.
+     */
     private String formatHeight(int height) {
         double meters = height * (1.0 / 10.0); // Converts from decimeters to meters.
         double feet = meters * 3.28084; // Converts meters to feet.
         return String.format(Locale.US, "%.1f m / %.1f ft", meters, feet);
     }
 
+    /**
+     * Formats the weight value provided by the API in units of hectograms.
+     * Returns a String with the weight in two popular units.
+     */
     private String formatWeight(int weight) {
         double kilograms = weight * (1.0 / 10.0); // Converts from hectograms to kilograms.
         double pounds = kilograms * 2.20462; // Converts from kilograms to pounds.
         return String.format(Locale.US, "%.1f kg / %.1f lbs", kilograms, pounds);
     }
 
+    /**
+     * Constructor for the class tasked with populating the PokeModel object
+     * from three objects obtained by the PokeKotlin API. All three objects
+     * must contain data on the same Pokemon.
+     */
     public PokeModel(Pokemon pokemon, PokemonSpecies pokemonSpecies, EvolutionChain evolutionChain) {
         // Basic Pokemon Data
         mPokedexNum = pokemon.getId(); // Pokemon National Pokedex Num.

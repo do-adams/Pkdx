@@ -1,3 +1,6 @@
+/*
+ * Copyright (C) 2016 Damián Adams
+ */
 package com.mianlabs.pokeluv.adapters;
 
 import android.content.Intent;
@@ -17,6 +20,14 @@ import com.squareup.picasso.Picasso;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+/**
+ * Adapter for use with populating a list of Pokemon.
+ * Pokemon to be shown in the list will depend on the numbers
+ * present in the array of Pokemon numbers provided.
+ * Sets an OnClickListener for each Pokemon sprite that launches an intent to
+ * MainActivity with the Pokemon's number id.
+ * Relies heavily on the PokePicker.GenerationNumbers.getDrawableResourceFromNumber method.
+ */
 public class PokeListAdapter extends RecyclerView.Adapter<PokeListAdapter.PokeViewHolder> {
     private AppCompatActivity mContext;
     private int[] mPokemon;
@@ -54,10 +65,11 @@ public class PokeListAdapter extends RecyclerView.Adapter<PokeListAdapter.PokeVi
         }
 
         /**
-         * Sets the image with the provided resId and sets the onClickListener for the View.
+         * Sets the image with the provided resId and sets the onClickListener for the View
+         * to launch the MainActivity and its PokeFragment with this Pokemon's number id.
          */
         public void bindPokemonImg(final int pokemonNumber) {
-            int resId = PokePicker.GenNumbers.getDrawableResourceFromNumber(mContext, pokemonNumber);
+            int resId = PokePicker.GenerationNumbers.getDrawableResourceFromNumber(mContext, pokemonNumber);
             Picasso.with(mContext).load(resId).into(mImageView);
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override

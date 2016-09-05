@@ -1,3 +1,6 @@
+/*
+ * Copyright (C) 2016 Damián Adams
+ */
 package com.mianlabs.pokeluv.utilities;
 
 import android.content.Context;
@@ -15,9 +18,17 @@ import android.widget.Toast;
 
 import com.mianlabs.pokeluv.R;
 
+/**
+ * Utility class for implementing a custom typeface into the Action Bar title and menu options.
+ * Also provides Toasts with custom typeface and duration abilities.
+ */
 public class TypefaceUtils {
+    // Relative path to typeface from the /assets/fonts dir.
     private static final String RELATIVE_PATH_TO_TYPEFACE = "Pokemon GB.ttf";
 
+    /**
+     * Sets the Action Bar title with a custom typeface.
+     */
     public static void setActionBarTitle(AppCompatActivity context, String text) {
         // Applies the custom typeface to the Action Bar.
         SpannableString s = new SpannableString(text);
@@ -28,6 +39,11 @@ public class TypefaceUtils {
         actionBar.setTitle(s);
     }
 
+    /**
+     * Sets the options for the activity menu for
+     * the Poke Luv app with a custom typeface.
+     * Menu must be inflated before calling this method.
+     */
     public static void setActionBarOptionsText(AppCompatActivity context, Menu menu) {
         // Implements custom fonts for all Poke Luv menu items.
 
@@ -50,6 +66,10 @@ public class TypefaceUtils {
         dailyItem.setTitle(pokemonOfTheDayTitle);
     }
 
+    /**
+     * Runs or displays a customized toast for a specified duration of time.
+     * Implemented using code from: http://blog.cindypotvin.com/toast-specific-duration-android/
+     */
     private static void runCustomToast(final Toast toast,
                                        int toastDurationInMilliSeconds,
                                        int toastRefreshRateInMilliSeconds) {
@@ -69,7 +89,6 @@ public class TypefaceUtils {
 
     /**
      * Displays a toast msg for a specified amount of time (seconds).
-     * Implemented using code from: http://blog.cindypotvin.com/toast-specific-duration-android/
      */
     public static void displayToast(Context context, String msg, int durationInSeconds) {
         int toastDurationInMilliSeconds = durationInSeconds * 1000;
@@ -84,9 +103,8 @@ public class TypefaceUtils {
     }
 
     /**
-     * Displays a toast msg for a specified amount of time (seconds) in the TOP | CENTER_HORIZONTAL
-     * position.
-     * Implemented using code from: http://blog.cindypotvin.com/toast-specific-duration-android/
+     * Displays a toast msg for a specified amount of time (seconds) in the Gravity.TOP
+     * position along with a yOffset.
      */
     public static void displayToastTop(Context context, String msg, int durationInSeconds, int yOffset) {
         int toastDurationInMilliSeconds = durationInSeconds * 1000;
