@@ -7,15 +7,10 @@ import android.app.FragmentManager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 
 import com.mianlabs.pokeluv.R;
 import com.mianlabs.pokeluv.model.PokeModel;
-import com.mianlabs.pokeluv.ui.generations.GenActivity;
 import com.mianlabs.pokeluv.ui.generations.PokeList;
-import com.mianlabs.pokeluv.utilities.TypefaceUtils;
 
 import java.util.Random;
 
@@ -62,28 +57,6 @@ public class MainActivity extends AppCompatActivity {
             mPokeFragment.setArguments(bundle);
             getFragmentManager().beginTransaction()
                     .add(R.id.main_container, mPokeFragment, TAG_POKE_FRAGMENT).commit();
-        }
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu, menu);
-        TypefaceUtils.setActionBarOptionsText(this, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.menu_more_pokemon:
-                startActivity(new Intent(this, GenActivity.class));
-                return true;
-            case R.id.menu_pokemon_of_the_day:
-                startActivity(new Intent(this, MainActivity.class));
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
         }
     }
 }

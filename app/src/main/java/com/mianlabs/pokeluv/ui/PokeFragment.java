@@ -5,6 +5,7 @@ package com.mianlabs.pokeluv.ui;
 
 import android.app.Fragment;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
@@ -15,6 +16,9 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -24,6 +28,7 @@ import android.widget.TextView;
 import com.github.florent37.picassopalette.PicassoPalette;
 import com.mianlabs.pokeluv.R;
 import com.mianlabs.pokeluv.model.PokeModel;
+import com.mianlabs.pokeluv.ui.generations.GenActivity;
 import com.mianlabs.pokeluv.utilities.TypefaceUtils;
 import com.squareup.picasso.Picasso;
 
@@ -38,11 +43,11 @@ import me.sargunvohra.lib.pokekotlin.model.PokemonSpecies;
 /**
  * Fragment that safely queries the API for Pokemon data and displays it to the user.
  * Receives the Pokemon ID to load data for from MainActivity.
- *
+ * <p>
  * Its launching activity must make sure this fragment instance
  * is retained properly across configuration changes through the use
  * of a tag in order to avoid memory leaks.
- *
+ * <p>
  * See: http://www.androiddesignpatterns.com/2013/04/retaining-objects-across-config-changes.html
  */
 public class PokeFragment extends Fragment {
@@ -100,7 +105,9 @@ public class PokeFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        mContext = (AppCompatActivity) getActivity(); // Grabs the context from the parent activity.
         setRetainInstance(true); // Retain this fragment across configuration changes.
+        setHasOptionsMenu(true); // Allows this fragment to set its own menu.
     }
 
     @Nullable
@@ -108,7 +115,6 @@ public class PokeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View viewRoot = inflater.inflate(R.layout.fragment_poke, container, false);
         ButterKnife.bind(this, viewRoot);
-        mContext = (AppCompatActivity) getActivity(); // Grabs the context from the parent activity.
         mCustomFont = Typeface.createFromAsset(mContext.getAssets(), mContext.getString(R.string.font_path));
         setCustomTypefaceForViews(mCustomFont);
         return viewRoot;
@@ -292,5 +298,26 @@ public class PokeFragment extends Fragment {
         super.onSaveInstanceState(outState);
         outState.putParcelable(POKE_MODEL_STATE_KEY, mPokeModel);
         outState.putBoolean(POKEMON_OF_THE_DAY_STATE_KEY, mIsPokemonOfTheDay);
+    }
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        super.onCreateOptionsMenu(menu, inflater);
+        inflater.inflate(R.menu.menu, menu);
+        TypefaceUtils.setActionBarOptionsText(mContext, menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.menu_more_pokemon:
+                startActivity(new Intent(mContext, GenActivity.class));
+                return true;
+            case R.id.menu_pokemon_of_the_day:
+                startActivity(new Intent(mContext, MainActivity.class));
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }
