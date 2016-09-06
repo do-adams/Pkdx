@@ -25,6 +25,7 @@ import com.mianlabs.pokeluv.utilities.TypefaceUtils;
 public class PokeList extends Fragment {
     private static final String TAG = PokeList.class.getSimpleName();
     public static final String POKE_LIST_KEY = "PokeList";
+    public static final int NUMBER_OF_POKEMON_PER_ROW = 3;
 
     private AppCompatActivity mContext;
     private RecyclerView mPokemonList;
@@ -71,7 +72,7 @@ public class PokeList extends Fragment {
                     mPokemonList = (RecyclerView) rootView.findViewById(R.id.pokemon_list);
                     PokeListAdapter pokeListAdapter = new PokeListAdapter(mContext, gen);
                     mPokemonList.setAdapter(pokeListAdapter);
-                    mPokemonList.setLayoutManager(new GridLayoutManager(mContext, 3));
+                    mPokemonList.setLayoutManager(new GridLayoutManager(mContext, NUMBER_OF_POKEMON_PER_ROW));
                     mPokemonList.setHasFixedSize(true);
                 }
             }
