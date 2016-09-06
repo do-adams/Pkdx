@@ -17,14 +17,14 @@ import android.view.ViewGroup;
 import com.mianlabs.pokeluv.R;
 import com.mianlabs.pokeluv.adapters.PokeListAdapter;
 import com.mianlabs.pokeluv.utilities.PokePicker;
-import com.mianlabs.pokeluv.utilities.TypefaceUtils;
+import com.mianlabs.pokeluv.utilities.typeface.TypefaceUtils;
 
 /**
  * Loads a list of a Pokemon generation using the PokeListAdapter.
  */
-public class PokeList extends Fragment {
-    private static final String TAG = PokeList.class.getSimpleName();
-    public static final String POKE_LIST_KEY = "PokeList";
+public class PokeListFragment extends Fragment {
+    private static final String TAG = PokeListFragment.class.getSimpleName();
+    public static final String POKE_LIST_KEY = "PokeListFragment";
     public static final int NUMBER_OF_POKEMON_PER_ROW = 3;
 
     private AppCompatActivity mContext;

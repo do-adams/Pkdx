@@ -13,7 +13,7 @@ import android.widget.ImageView;
 
 import com.mianlabs.pokeluv.R;
 import com.mianlabs.pokeluv.ui.main.MainActivity;
-import com.mianlabs.pokeluv.ui.generations.PokeList;
+import com.mianlabs.pokeluv.ui.generations.PokeListFragment;
 import com.mianlabs.pokeluv.utilities.PokePicker;
 import com.squareup.picasso.Picasso;
 
@@ -77,7 +77,7 @@ public class PokeListAdapter extends RecyclerView.Adapter<PokeListAdapter.PokeVi
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(mContext, MainActivity.class);
-                    intent.putExtra(PokeList.POKE_LIST_KEY, pokemonNumber);
+                    intent.putExtra(PokeListFragment.POKE_LIST_KEY, pokemonNumber);
                     mContext.startActivity(intent);
                 }
             });

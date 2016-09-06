@@ -13,8 +13,8 @@ import android.support.v7.widget.RecyclerView;
 import com.mianlabs.pokeluv.R;
 import com.mianlabs.pokeluv.adapters.PokeListAdapter;
 import com.mianlabs.pokeluv.database.PokeCursorManager;
-import com.mianlabs.pokeluv.ui.generations.PokeList;
-import com.mianlabs.pokeluv.utilities.TypefaceUtils;
+import com.mianlabs.pokeluv.ui.generations.PokeListFragment;
+import com.mianlabs.pokeluv.utilities.typeface.TypefaceUtils;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -26,14 +26,26 @@ public class PokeFavorites extends AppCompatActivity implements PokeCursorManage
     private static final String LIST_STATE_KEY = "LIST";
     private final int LOADER_ID = new Random().nextInt();
 
+    private static boolean sDisplayFavoriteMsg; // Flag for telling the user how to use this Activity.
+
     private ArrayList<Integer> mPokemonNumbers;
     private RecyclerView mPokemonList;
+
+    static {
+        sDisplayFavoriteMsg = true;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_poke_list);
         mPokemonList = (RecyclerView) findViewById(R.id.pokemon_list);
+
+        if (sDisplayFavoriteMsg) {
+            TypefaceUtils.displayToast(this, getString(R.string.fav_activity_msg),
+                    TypefaceUtils.TOAST_SHORT_DURATION);
+            sDisplayFavoriteMsg = false;
+        }
 
         if (savedInstanceState == null)
             getSupportLoaderManager().initLoader(LOADER_ID, new Bundle(), new PokeCursorManager(this, this));
@@ -62,7 +74,7 @@ public class PokeFavorites extends AppCompatActivity implements PokeCursorManage
         for (int z : pokemonNumbers)
             pokemon[i--] = z; // Display more recent Pokemon first.
         pokemonList.setAdapter(new PokeListAdapter(this, pokemon));
-        pokemonList.setLayoutManager(new GridLayoutManager(this, PokeList.NUMBER_OF_POKEMON_PER_ROW));
+        pokemonList.setLayoutManager(new GridLayoutManager(this, PokeListFragment.NUMBER_OF_POKEMON_PER_ROW));
         pokemonList.setHasFixedSize(true);
     }
 

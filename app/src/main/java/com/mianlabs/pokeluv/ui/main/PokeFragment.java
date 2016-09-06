@@ -35,8 +35,8 @@ import com.mianlabs.pokeluv.database.PokeCursorManager;
 import com.mianlabs.pokeluv.model.PokeModel;
 import com.mianlabs.pokeluv.ui.favorites.PokeFavorites;
 import com.mianlabs.pokeluv.ui.generations.GenActivity;
-import com.mianlabs.pokeluv.utilities.SoundUtils;
-import com.mianlabs.pokeluv.utilities.TypefaceUtils;
+import com.mianlabs.pokeluv.utilities.sound.SoundUtils;
+import com.mianlabs.pokeluv.utilities.typeface.TypefaceUtils;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -63,8 +63,6 @@ import me.sargunvohra.lib.pokekotlin.model.PokemonSpecies;
 public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCall {
     private static final String TAG = PokeFragment.class.getSimpleName();
     private static final int NO_INTERNET_MSG_DURATION = 8;
-    private static final int PKMN_CAUGHT_MSG_DURATION = 2;
-    private static final int MSG_SHORT_DURATION = 2;
 
     // Keys for saving state in case of configuration changes.
     private static final String POKE_MODEL_STATE_KEY = "POKE_MODEL";
@@ -361,7 +359,7 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
             SoundUtils.playPokemonCaughtSound(mContext);
             TypefaceUtils.displayToast(mContext,
                     pokeModel.getName().toUpperCase() + " was caught!",
-                    PKMN_CAUGHT_MSG_DURATION);
+                    TypefaceUtils.TOAST_SHORT_DURATION);
         }
     }
 
@@ -412,10 +410,12 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
         if (pokeModel != null && listOfFavPokemon != null) {
             int pokeNum = pokeModel.getPokedexNum();
             if (listOfFavPokemon.contains(pokeNum))  // If already a favorite.
-                TypefaceUtils.displayToast(mContext, getString(R.string.redundant_fav_pokemon_msg), MSG_SHORT_DURATION);
+                TypefaceUtils.displayToast(mContext, getString(R.string.redundant_fav_pokemon_msg),
+                        TypefaceUtils.TOAST_SHORT_DURATION);
             else {
                 PokeCursorManager.insertPokemonInDb(mContext, pokeNum);
-                TypefaceUtils.displayToast(mContext, getString(R.string.add_pokemon_to_favs_msg), MSG_SHORT_DURATION);
+                TypefaceUtils.displayToast(mContext, getString(R.string.add_pokemon_to_favs_msg),
+                        TypefaceUtils.TOAST_SHORT_DURATION);
             }
         }
     }

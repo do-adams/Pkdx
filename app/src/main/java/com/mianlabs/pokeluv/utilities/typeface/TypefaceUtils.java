@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2016 Damián Adams
  */
-package com.mianlabs.pokeluv.utilities;
+package com.mianlabs.pokeluv.utilities.typeface;
 
 import android.content.Context;
 import android.os.CountDownTimer;
@@ -25,6 +25,7 @@ import com.mianlabs.pokeluv.R;
  */
 public class TypefaceUtils {
     private static final String TAG = TypefaceUtils.class.getSimpleName();
+    public static final int TOAST_SHORT_DURATION = 2; // Duration in seconds.
 
     // Relative path to typeface from the /assets/fonts dir.
     private static final String RELATIVE_PATH_TO_TYPEFACE = "Pokemon GB.ttf";

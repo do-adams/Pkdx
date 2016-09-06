@@ -16,7 +16,7 @@ import android.widget.Button;
 
 import com.mianlabs.pokeluv.R;
 import com.mianlabs.pokeluv.utilities.PokePicker;
-import com.mianlabs.pokeluv.utilities.TypefaceUtils;
+import com.mianlabs.pokeluv.utilities.typeface.TypefaceUtils;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -112,16 +112,16 @@ public class GenFragment extends Fragment implements View.OnClickListener {
                 break;
         }
         if (genVal != null) {
-            PokeList pokeList = new PokeList();
+            PokeListFragment pokeListFragment = new PokeListFragment();
             Bundle bundle = new Bundle();
             bundle.putParcelable(GEN_FRAG_KEY, genVal);
-            pokeList.setArguments(bundle);
+            pokeListFragment.setArguments(bundle);
 
             if (!GenActivity.isTwoPane())
-                getFragmentManager().beginTransaction().replace(R.id.generations_container, pokeList)
+                getFragmentManager().beginTransaction().replace(R.id.generations_container, pokeListFragment)
                         .addToBackStack(null).commit();
             else
-                getFragmentManager().beginTransaction().replace(R.id.poke_list_container, pokeList).commit();
+                getFragmentManager().beginTransaction().replace(R.id.poke_list_container, pokeListFragment).commit();
         }
     }
 }

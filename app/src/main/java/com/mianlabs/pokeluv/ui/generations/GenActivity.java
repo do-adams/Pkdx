@@ -8,10 +8,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 import com.mianlabs.pokeluv.R;
-import com.mianlabs.pokeluv.utilities.TypefaceUtils;
+import com.mianlabs.pokeluv.utilities.typeface.TypefaceUtils;
 
 /**
- * Used for displaying GenFragments and PokeList fragments.
+ * Used for displaying GenFragments and PokeListFragment fragments.
  */
 public class GenActivity extends AppCompatActivity {
     private static final String TAG = GenActivity.class.getSimpleName();

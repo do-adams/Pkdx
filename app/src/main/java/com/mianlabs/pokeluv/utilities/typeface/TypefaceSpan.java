@@ -1,4 +1,4 @@
-package com.mianlabs.pokeluv.utilities;
+package com.mianlabs.pokeluv.utilities.typeface;
 
 import android.content.Context;
 import android.graphics.Paint;

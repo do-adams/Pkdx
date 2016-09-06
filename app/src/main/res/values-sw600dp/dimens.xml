@@ -10,6 +10,6 @@
     <!-- Padding and margins for GenFragment views-->
     <dimen name="gen_fragment_side_padding">64dp</dimen>
 
-    <!--Padding for the PokeList RecyclerView -->
+    <!--Padding for the PokeListFragment RecyclerView -->
     <dimen name="poke_list_side_padding">64dp</dimen>
 </resources>

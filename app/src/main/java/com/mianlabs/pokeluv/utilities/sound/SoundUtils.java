@@ -1,4 +1,7 @@
-package com.mianlabs.pokeluv.utilities;
+/*
+ * Copyright (C) 2016 Damián Adams
+ */
+package com.mianlabs.pokeluv.utilities.sound;
 
 import android.content.Context;
 import android.media.MediaPlayer;

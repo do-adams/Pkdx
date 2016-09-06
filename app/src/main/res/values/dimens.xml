@@ -19,6 +19,6 @@
     <dimen name="gen_fragment_side_padding">32dp</dimen>
     <dimen name="gen_fragment_button_vertical_margins">8dp</dimen>
 
-    <!--Padding for the PokeList RecyclerView -->
+    <!--Padding for the PokeListFragment RecyclerView -->
     <dimen name="poke_list_side_padding">16dp</dimen>
 </resources>

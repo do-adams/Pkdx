@@ -10,13 +10,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 
 import com.mianlabs.pokeluv.R;
-import com.mianlabs.pokeluv.ui.generations.PokeList;
+import com.mianlabs.pokeluv.ui.generations.PokeListFragment;
 import com.mianlabs.pokeluv.utilities.PokePicker;
-import com.mianlabs.pokeluv.utilities.TypefaceUtils;
+import com.mianlabs.pokeluv.utilities.typeface.TypefaceUtils;
 
 /**
  * Launches PokeFragments with a random, "caught" Pokemon
- * or a user-selected Pokemon from a PokeList fragment.
+ * or a user-selected Pokemon from a PokeListFragment fragment.
  */
 public class MainActivity extends AppCompatActivity {
     public static final String MAIN_KEY = "MainActivity";
@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
 
         // Intent should always be not null (unless called from constructor).
         if (intent != null) {
-            if (intent.hasExtra(PokeList.POKE_LIST_KEY)) { // If Pokemon has been selected by the user.
-                int selectedPkmn = intent.getIntExtra(PokeList.POKE_LIST_KEY, 1);
+            if (intent.hasExtra(PokeListFragment.POKE_LIST_KEY)) { // If Pokemon has been selected by the user.
+                int selectedPkmn = intent.getIntExtra(PokeListFragment.POKE_LIST_KEY, 1);
                 bundle.putInt(MAIN_KEY, selectedPkmn);
             } else {
                 bundle.putBoolean(PKMN_CAUGHT_KEY, true); // If displaying caught Pokemon.
