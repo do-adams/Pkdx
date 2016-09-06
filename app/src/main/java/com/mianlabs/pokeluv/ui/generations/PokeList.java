@@ -64,7 +64,7 @@ public class PokeList extends Fragment {
                         break;
                     default:
                         gen = null;
-                        Log.e(TAG, "Error while retrieving Pokemon generation numbers");
+                        Log.e(TAG, "Error while retrieving Pokemon generation numbers.");
                         break;
                 }
 
@@ -77,7 +77,7 @@ public class PokeList extends Fragment {
                 }
             }
         }
-        Log.d(TAG, "Poke List view set");
+        Log.d(TAG, "Poke List view set.");
         return rootView;
     }
 

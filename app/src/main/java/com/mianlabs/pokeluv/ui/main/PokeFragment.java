@@ -80,8 +80,6 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
     private final int LOADER_ID = new Random().nextInt();
     private ArrayList<Integer> mListOfFavPokemon; // List of Pokemon data from the db.
 
-    private boolean mHasBeenRetained; // Represents whether this fragment has been instantiated or retained.
-
     private int mChosenPokemon;
     private boolean mHasPokemonBeenCaught;
     private PokeModel mPokeModel;
@@ -194,9 +192,9 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
         mHasPokemonBeenCaught = bundle.getBoolean(MainActivity.PKMN_CAUGHT_KEY, false);
 
         if (isNetworkAvailable()) {
-            if (!mHasBeenRetained) {  // Creates a background thread.
+            if (savedInstanceState == null) {
+                // Creates a background thread when class is first instantiated.
                 getPokemonData(mChosenPokemon, mHasPokemonBeenCaught);
-                mHasBeenRetained = true;
             }
         } else // Display "no internet connection found" msg.
             TypefaceUtils.displayToast(mContext,
@@ -211,7 +209,7 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
     public void onViewStateRestored(Bundle savedInstanceState) {
         super.onViewStateRestored(savedInstanceState);
         if (savedInstanceState != null) {
-            Log.d(TAG, "Retrieving saved state Pokemon");
+            Log.d(TAG, "Retrieving saved state Pokemon.");
             mPokeModel = savedInstanceState.getParcelable(POKE_MODEL_STATE_KEY);
             mHasPokemonBeenCaught = savedInstanceState.getBoolean(PKMN_CAUGHT_STATE_KEY);
             if (mPokeModel != null) {
@@ -219,7 +217,7 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
                 setPokemonData(mPokeModel);
                 displayCaughtMsg(mPokeModel, mHasPokemonBeenCaught);
             } else
-                Log.d(TAG, "Waiting for background thread to load Pokemon data");
+                Log.d(TAG, "Waiting for background thread to load Pokemon data.");
         }
     }
 
@@ -243,7 +241,7 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
      */
     @Override
     public void onLoadFinished(Loader<Cursor> loader, Cursor cursor) {
-        Log.d(TAG, "Obtained cursor");
+        Log.d(TAG, "Obtained cursor.");
         mListOfFavPokemon = PokeCursorManager.getPokemonInDb(cursor);
     }
 
@@ -274,7 +272,7 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
         new Thread(new Runnable() { // Background thread for networking requests.
             @Override
             public void run() {
-                Log.d(TAG, "Attempting PokeAPI network request");
+                Log.d(TAG, "Attempting PokeAPI network request.");
                 PokeApi pokeApi = new PokeApiClient();
                 Pokemon pokemon = pokeApi.getPokemon(chosenPokemon);
                 PokemonSpecies pokemonSpecies = pokeApi.getPokemonSpecies(chosenPokemon);
@@ -291,7 +289,7 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
                         loadSpriteAndPalettes(mPokeModel.getSprite());
                         setPokemonData(mPokeModel);
                         displayCaughtMsg(mPokeModel, hasPokemonBeenCaught);
-                        Log.d(TAG, "Pokemon data set");
+                        Log.d(TAG, "Pokemon data set.");
                     }
                 });
             }
