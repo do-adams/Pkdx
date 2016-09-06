@@ -357,7 +357,6 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
      * and displays a message to the user.
      */
     private void addPokemonToFavs(PokeModel pokeModel, ArrayList<Integer> listOfFavPokemon) {
-        Log.d(TAG, "In addPokemonToFavs method");
         if (pokeModel != null && listOfFavPokemon != null) {
             int pokeNum = pokeModel.getPokedexNum();
             if (listOfFavPokemon.contains(pokeNum))  // If already a favorite.

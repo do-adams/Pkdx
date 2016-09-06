@@ -1,3 +1,6 @@
+/*
+ * Copyright (C) 2016 Damián Adams
+ */
 package com.mianlabs.pokeluv.ui.favorites;
 
 import android.database.Cursor;
