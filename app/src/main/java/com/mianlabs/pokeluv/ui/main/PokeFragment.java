@@ -35,6 +35,7 @@ import com.mianlabs.pokeluv.database.PokeCursorManager;
 import com.mianlabs.pokeluv.model.PokeModel;
 import com.mianlabs.pokeluv.ui.favorites.PokeFavorites;
 import com.mianlabs.pokeluv.ui.generations.GenActivity;
+import com.mianlabs.pokeluv.utilities.SoundUtils;
 import com.mianlabs.pokeluv.utilities.TypefaceUtils;
 import com.squareup.picasso.Picasso;
 
@@ -353,13 +354,15 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
 
     /**
      * If the Pokemon has been "caught"
-     * it displays a toast to let the user know.
+     * it plays a sound and displays a message to let the user know.
      */
     private void displayCaughtMsg(PokeModel pokeModel, boolean hasPokemonBeenCaught) {
-        if (hasPokemonBeenCaught)
+        if (hasPokemonBeenCaught) {
+            SoundUtils.playPokemonCaughtSound(mContext);
             TypefaceUtils.displayToast(mContext,
                     pokeModel.getName().toUpperCase() + " was caught!",
                     PKMN_CAUGHT_MSG_DURATION);
+        }
     }
 
     @Override
@@ -382,6 +385,7 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        SoundUtils.playMenuItemSound(mContext); // Plays the menu sound.
         switch (item.getItemId()) {
             case R.id.menu_more_pokemon:
                 startActivity(new Intent(mContext, GenActivity.class));
