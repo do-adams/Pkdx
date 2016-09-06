@@ -39,8 +39,8 @@ public class MainActivity extends AppCompatActivity {
         // Intent should always be not null (unless called from constructor).
         if (intent != null) {
             if (intent.hasExtra(PokeList.POKE_LIST_KEY)) { // If Pokemon has been selected by the user.
-                int chosenPkmn = intent.getIntExtra(PokeList.POKE_LIST_KEY, 1);
-                bundle.putInt(MAIN_KEY, chosenPkmn);
+                int pickedPkmn = intent.getIntExtra(PokeList.POKE_LIST_KEY, 1);
+                bundle.putInt(MAIN_KEY, pickedPkmn);
             } else {
                 bundle.putBoolean(PKMN_CAUGHT_KEY, true); // If displaying caught Pokemon.
             }

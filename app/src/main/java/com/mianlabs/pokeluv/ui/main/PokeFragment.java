@@ -66,14 +66,13 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
     private static final String POKE_MODEL_STATE_KEY = "POKE_MODEL";
     private static final String PKMN_CAUGHT_STATE_KEY = "POKEMON_CAUGHT";
 
-    private final int LOADER_ID = new Random().nextInt();
-    // private ArrayList<Integer> mListOfFavPokemon;
-
     private AppCompatActivity mContext;
     private Typeface mCustomFont;
 
-    // Represents whether this fragment has been instantiated or retained.
-    private boolean mHasBeenRetained;
+    private final int LOADER_ID = new Random().nextInt();
+    private ArrayList<Integer> mListOfFavPokemon; // List of Pokemon data from the db.
+
+    private boolean mHasBeenRetained; // Represents whether this fragment has been instantiated or retained.
 
     private int mChosenPokemon;
     private boolean mHasPokemonBeenCaught;
@@ -174,6 +173,23 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
         super.onResume();
         // Sets the title of the Action Bar.
         TypefaceUtils.setActionBarTitle(mContext, getString(R.string.app_name));
+
+        // Initiates a loader for retrieving data from the db.
+        PokeCursorManager pokeCursorManager = new PokeCursorManager(mContext, this);
+        if (mContext.getSupportLoaderManager().getLoader(LOADER_ID) == null) {
+            mContext.getSupportLoaderManager().initLoader(LOADER_ID, new Bundle(), pokeCursorManager);
+        } else {
+            mContext.getSupportLoaderManager().restartLoader(LOADER_ID, new Bundle(), pokeCursorManager);
+        }
+    }
+
+    /**
+     * Retrieves the list of favorite Pokemon from the db.
+     */
+    @Override
+    public void onLoadFinished(Loader<Cursor> loader, Cursor cursor) {
+        Log.d(TAG, "Obtained cursor");
+        mListOfFavPokemon = PokeCursorManager.getPokemonInDb(cursor);
     }
 
 
@@ -326,7 +342,7 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
                 startActivity(new Intent(mContext, MainActivity.class));
                 return true;
             case R.id.menu_add_to_favs:
-                addPokemonToFavs();
+                addPokemonToFavs(mPokeModel, mListOfFavPokemon);
                 return true;
             case R.id.menu_favorites:
                 startActivity(new Intent(mContext, PokeFavorites.class));
@@ -337,35 +353,19 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
     }
 
     /**
-     * Makes the call to onLoadFinished to handle
-     * adding a Pokemon to favorites.
+     * Adds the Pokemon to favorites if applicable
+     * and displays a message to the user.
      */
-    private void addPokemonToFavs() {
-        if (mPokeModel != null) {
-            PokeCursorManager pokeCursorManager = new PokeCursorManager(mContext, this);
-            if (mContext.getSupportLoaderManager().getLoader(LOADER_ID) == null) {
-                mContext.getSupportLoaderManager().initLoader(LOADER_ID, new Bundle(), pokeCursorManager);
-            } else {
-                mContext.getSupportLoaderManager().restartLoader(LOADER_ID, new Bundle(), pokeCursorManager);
+    private void addPokemonToFavs(PokeModel pokeModel, ArrayList<Integer> listOfFavPokemon) {
+        Log.d(TAG, "In addPokemonToFavs method");
+        if (pokeModel != null && listOfFavPokemon != null) {
+            int pokeNum = pokeModel.getPokedexNum();
+            if (listOfFavPokemon.contains(pokeNum))  // If already a favorite.
+                TypefaceUtils.displayToast(mContext, getString(R.string.redundant_fav_pokemon_msg), MSG_SHORT_DURATION);
+            else {
+                PokeCursorManager.insertPokemonInDb(mContext, pokeNum);
+                TypefaceUtils.displayToast(mContext, getString(R.string.add_pokemon_to_favs_msg), MSG_SHORT_DURATION);
             }
-        }
-    }
-
-    /**
-     * Determines whether a Pokemon must be added to the favorites db,
-     * adds it if appropriate, and lets the user know.
-     */
-    @Override
-    public void onLoadFinished(Loader<Cursor> loader, Cursor cursor) {
-        Log.d(TAG, "Obtained cursor");
-        int pokeNum = mPokeModel.getPokedexNum();
-        ArrayList<Integer> list = PokeCursorManager.getPokemonInDb(cursor);
-
-        if (list.contains(pokeNum))  // If already a favorite.
-            TypefaceUtils.displayToast(mContext, getString(R.string.redundant_fav_pokemon_msg), MSG_SHORT_DURATION);
-        else {
-            PokeCursorManager.insertPokemonInDb(mContext, pokeNum);
-            TypefaceUtils.displayToast(mContext, getString(R.string.add_pokemon_to_favs_msg), MSG_SHORT_DURATION);
         }
     }
 }
