@@ -253,15 +253,15 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
      * layout views.
      */
     private void setPokemonData(PokeModel pokeModel) {
-        mPokemonNumBorder.setText("No. " + pokeModel.getPokedexNum());
+        mPokemonNumBorder.setText(getString(R.string.poke_fragment_num_borders) + pokeModel.getPokedexNum());
         mPokemonName.setText(pokeModel.getName());
-        mPokemonWeight.setText("Weight: " + pokeModel.getWeight());
-        mPokemonHeight.setText("Height: " + pokeModel.getHeight());
+        mPokemonWeight.setText(getString(R.string.poke_fragment_weight) + pokeModel.getWeight());
+        mPokemonHeight.setText(getString(R.string.poke_fragment_height) + pokeModel.getHeight());
         mPokemonTypes.setText(PokeModel.formatListToString(pokeModel.getTypes()));
-        mPokemonColor.setText("Color: " + pokeModel.getColor());
-        mPokemonShape.setText("Shape: " + pokeModel.getShape());
+        mPokemonColor.setText(getString(R.string.poke_fragment_color) + pokeModel.getColor());
+        mPokemonShape.setText(getString(R.string.poke_fragment_shape) + pokeModel.getShape());
         if (pokeModel.getHabitat() != null)
-            mPokemonHabitat.setText("Habitat: " + pokeModel.getHabitat());
+            mPokemonHabitat.setText(getString(R.string.poke_fragment_habitat) + pokeModel.getHabitat());
         mPokemonGeneration.setText(pokeModel.getGeneration().toUpperCase());
         mPokemonDescription.setText(pokeModel.getDescription());
         mPokemonEvolutions.setText(mContext.getString(R.string.poke_fragment_evolutions_header));
