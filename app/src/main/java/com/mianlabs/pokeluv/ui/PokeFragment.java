@@ -6,7 +6,6 @@ package com.mianlabs.pokeluv.ui;
 import android.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
-import android.content.Loader;
 import android.database.Cursor;
 import android.graphics.Typeface;
 import android.net.ConnectivityManager;
@@ -15,6 +14,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.support.annotation.Nullable;
+import android.support.v4.content.Loader;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -29,8 +29,7 @@ import android.widget.TextView;
 
 import com.github.florent37.picassopalette.PicassoPalette;
 import com.mianlabs.pokeluv.R;
-import com.mianlabs.pokeluv.database.PokeCursorLoader;
-import com.mianlabs.pokeluv.database.PokeDBContract;
+import com.mianlabs.pokeluv.database.PokeCursorManager;
 import com.mianlabs.pokeluv.model.PokeModel;
 import com.mianlabs.pokeluv.ui.generations.GenActivity;
 import com.mianlabs.pokeluv.utilities.TypefaceUtils;
@@ -57,7 +56,7 @@ import me.sargunvohra.lib.pokekotlin.model.PokemonSpecies;
  * <p>
  * See: http://www.androiddesignpatterns.com/2013/04/retaining-objects-across-config-changes.html
  */
-public class PokeFragment extends Fragment implements PokeCursorLoader.Callback {
+public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCall {
     private static final String TAG = PokeFragment.class.getSimpleName();
     private static final int NO_INTERNET_MSG_DURATION = 8;
     private static final int PKM_DAY_MSG_DURATION = 2;
@@ -338,20 +337,32 @@ public class PokeFragment extends Fragment implements PokeCursorLoader.Callback 
         }
     }
 
+    /**
+     * Makes the call to onLoadFinished to handle
+     * adding a Pokemon to favorites.
+     */
     private void addPokemonToFavs() {
-        if (mPokeModel != null) { // Get a cursor to the db and call onLoadFinished.
-            PokeCursorLoader pokeCursorLoader = new PokeCursorLoader(mContext, this);
-            mContext.getLoaderManager().initLoader(LOADER_ID, new Bundle(), pokeCursorLoader);
+        if (mPokeModel != null) {
+            PokeCursorManager pokeCursorManager = new PokeCursorManager(mContext, this);
+            mContext.getSupportLoaderManager().initLoader(LOADER_ID, new Bundle(), pokeCursorManager);
         }
     }
 
     /**
-     * Used to retrieve a cursor for querying the db to determine
-     * if the current Pokemon has been added to favorites in the past.
-     * Trigerred by the user tapping in the "Add to Favs" item in the menu.
+     * Determines whether a Pokemon must be added to the favorites db,
+     * adds it if appropriate, and lets the user know.
      */
     @Override
     public void onLoadFinished(Loader<Cursor> loader, Cursor cursor) {
+        Log.d(TAG, "Obtained cursor");
+        int pokeNum = mPokeModel.getPokedexNum();
+        ArrayList<Integer> list = PokeCursorManager.getPokemonInDb(cursor);
 
+        if (list.contains(pokeNum))  // If already a favorite.
+            TypefaceUtils.displayToast(mContext, "Already in favorites!", MSG_SHORT_DURATION);
+        else {
+            PokeCursorManager.insertPokemonInDb(mContext, pokeNum);
+            TypefaceUtils.displayToast(mContext, "Added to favorites!", MSG_SHORT_DURATION);
+        }
     }
 }
