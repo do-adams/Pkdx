@@ -52,11 +52,11 @@ import me.sargunvohra.lib.pokekotlin.model.PokemonSpecies;
 /**
  * Fragment that safely queries the API for Pokemon data and displays it to the user.
  * Receives the Pokemon ID to load data for from MainActivity.
- * <p>
+ * <p/>
  * Its launching activity must make sure this fragment instance
  * is retained properly across configuration changes through the use
  * of a tag in order to avoid memory leaks.
- * <p>
+ * <p/>
  * See: http://www.androiddesignpatterns.com/2013/04/retaining-objects-across-config-changes.html
  */
 public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCall {
@@ -298,22 +298,36 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
 
     /**
      * Sets the Pokemon data from a valid PokeModel object into the
-     * layout views.
+     * layout views and updates their content descriptions.
      */
     private void setPokemonData(PokeModel pokeModel) {
         mPokemonNumBorder.setText(getString(R.string.poke_fragment_num_borders) + pokeModel.getPokedexNum());
+        mPokemonNumBorder.setContentDescription(getString(R.string.poke_fragment_num_borders) + pokeModel.getPokedexNum());
         mPokemonName.setText(pokeModel.getName());
+        mPokemonName.setContentDescription(pokeModel.getName());
         mPokemonWeight.setText(getString(R.string.poke_fragment_weight) + pokeModel.getWeight());
+        mPokemonWeight.setContentDescription(getString(R.string.poke_fragment_weight) + pokeModel.getWeight());
         mPokemonHeight.setText(getString(R.string.poke_fragment_height) + pokeModel.getHeight());
+        mPokemonHeight.setContentDescription(getString(R.string.poke_fragment_height) + pokeModel.getHeight());
         mPokemonTypes.setText(PokeModel.formatListToString(pokeModel.getTypes()));
+        mPokemonTypes.setContentDescription(PokeModel.formatListToString(pokeModel.getTypes()));
         mPokemonColor.setText(getString(R.string.poke_fragment_color) + pokeModel.getColor());
+        mPokemonColor.setContentDescription(getString(R.string.poke_fragment_color) + pokeModel.getColor());
         mPokemonShape.setText(getString(R.string.poke_fragment_shape) + pokeModel.getShape());
-        if (pokeModel.getHabitat() != null)
+        mPokemonShape.setContentDescription(getString(R.string.poke_fragment_shape) + pokeModel.getShape());
+        if (pokeModel.getHabitat() != null) {
             mPokemonHabitat.setText(getString(R.string.poke_fragment_habitat) + pokeModel.getHabitat());
+            mPokemonHabitat.setContentDescription(getString(R.string.poke_fragment_habitat) + pokeModel.getHabitat());
+        }
         mPokemonGeneration.setText(pokeModel.getGeneration().toUpperCase());
+        mPokemonGeneration.setContentDescription(pokeModel.getGeneration().toUpperCase());
         mPokemonDescription.setText(pokeModel.getDescription());
+        mPokemonDescription.setContentDescription(pokeModel.getDescription());
         mPokemonEvolutions.setText(mContext.getString(R.string.poke_fragment_evolutions_header));
+        mPokemonEvolutions.setContentDescription(mContext.getString(R.string.poke_fragment_evolutions_header));
         mPokemonEvoLine.setText(PokeModel.formatListToString(pokeModel.getEvolutions()));
+        // Lowercases the evolutions for the content desc. for proper pronunciation.
+        mPokemonEvoLine.setContentDescription(PokeModel.formatListToString(pokeModel.getEvolutions()).toLowerCase());
     }
 
     /**

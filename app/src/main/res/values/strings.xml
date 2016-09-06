@@ -19,7 +19,7 @@
     <string name="menu_add_to_favs">DEPOSIT PKMN</string>
     <string name="menu_favorites">YOUR PC</string>
 
-    <!--Text for the Pokemon Fragment Layout-->
+    <!--Text and Content Desc. for the Pokemon Fragment Layout-->
     <string name="poke_fragment_num_borders">"No. "</string>
     <string name="poke_fragment_weight">"Weight: "</string>
     <string name="poke_fragment_height">"Height: "</string>
@@ -28,6 +28,14 @@
     <string name="poke_fragment_habitat">"Habitat: "</string>
     <string name="poke_fragment_evolutions_header">EVOLUTIONS</string>
 
+    <string name="content_desc_pokemon_img">Pokémon Image</string>
+    <string name="content_desc_pokemon_num">Pokémon Number</string>
+    <string name="content_desc_pokemon_name">Pokémon Name</string>
+    <string name="content_desc_pokemon_types">Type</string>
+    <string name="content_desc_pokemon_generation">Generation</string>
+    <string name="content_desc_pokemon_description">Description</string>
+    <string name="content_desc_pokemon_evoline">Evolutionary Line</string>
+
     <!--Text for Generation Buttons-->
     <string name="gen_I_button">Gen I</string>
     <string name="gen_II_button">Gen II</string>
@@ -35,4 +43,7 @@
     <string name="gen_IV_button">Gen IV</string>
     <string name="gen_V_button">Gen V</string>
     <string name="gen_VI_button">Gen VI</string>
+
+    <!-- Content Desc. for Poke List-->
+    <string name="content_desc_pokemon_list">Pokémon</string>
 </resources>
