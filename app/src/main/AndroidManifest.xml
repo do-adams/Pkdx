@@ -20,6 +20,8 @@
         </activity>
         <activity android:name=".ui.generations.GenActivity">
         </activity>
+        <activity android:name=".ui.favorites.PokeFavorites">
+        </activity>
 
         <provider
             android:name=".database.PokeProvider"

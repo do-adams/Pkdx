@@ -9,4 +9,7 @@
     <item
         android:id="@+id/menu_add_to_favs"
         android:title="@string/menu_add_to_favs"/>
+    <item
+        android:id="@+id/menu_favorites"
+        android:title="@string/menu_favorites"/>
 </menu>

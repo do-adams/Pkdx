@@ -33,7 +33,7 @@ public class PokeList extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_poke_list, container, false);
+        View rootView = inflater.inflate(R.layout.layout_poke_list, container, false);
         mContext = (AppCompatActivity) getActivity();
 
         Bundle bundle = getArguments();

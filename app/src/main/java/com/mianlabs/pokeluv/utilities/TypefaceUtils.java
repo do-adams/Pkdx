@@ -52,7 +52,6 @@ public class TypefaceUtils {
      */
     public static void setActionBarOptionsText(AppCompatActivity context, Menu menu) {
         // Implements custom fonts for all Poke Luv menu items.
-
         SpannableStringBuilder pokedexTitle =
                 new SpannableStringBuilder(context.getString(R.string.menu_more_pokemon));
         pokedexTitle
@@ -71,6 +70,12 @@ public class TypefaceUtils {
                 .setSpan(new TypefaceSpan(context, RELATIVE_PATH_TO_TYPEFACE), 0, addToFavsTitle.length(),
                         Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
 
+        SpannableStringBuilder favoritesTitle =
+                new SpannableStringBuilder(context.getString(R.string.menu_favorites));
+        favoritesTitle
+                .setSpan(new TypefaceSpan(context, RELATIVE_PATH_TO_TYPEFACE), 0, favoritesTitle.length(),
+                        Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+
         MenuItem dexItem = menu.findItem(R.id.menu_more_pokemon);
         dexItem.setTitle(pokedexTitle);
 
@@ -79,6 +84,9 @@ public class TypefaceUtils {
 
         MenuItem addToFavsItem = menu.findItem(R.id.menu_add_to_favs);
         addToFavsItem.setTitle(addToFavsTitle);
+
+        MenuItem favoritesItem = menu.findItem(R.id.menu_favorites);
+        favoritesItem.setTitle(favoritesTitle);
     }
 
     /**

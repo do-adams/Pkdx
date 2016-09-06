@@ -31,6 +31,7 @@ import com.github.florent37.picassopalette.PicassoPalette;
 import com.mianlabs.pokeluv.R;
 import com.mianlabs.pokeluv.database.PokeCursorManager;
 import com.mianlabs.pokeluv.model.PokeModel;
+import com.mianlabs.pokeluv.ui.favorites.PokeFavorites;
 import com.mianlabs.pokeluv.ui.generations.GenActivity;
 import com.mianlabs.pokeluv.utilities.TypefaceUtils;
 import com.squareup.picasso.Picasso;
@@ -66,7 +67,7 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
     private static final String POKE_MODEL_STATE_KEY = "POKE_MODEL";
     private static final String POKEMON_OF_THE_DAY_STATE_KEY = "POKEMON_DAY";
 
-    private static final int LOADER_ID = new Random().nextInt();
+    private final int LOADER_ID = new Random().nextInt();
 
     private AppCompatActivity mContext;
     private Typeface mCustomFont;
@@ -331,6 +332,9 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
                 return true;
             case R.id.menu_add_to_favs:
                 addPokemonToFavs();
+                return true;
+            case R.id.menu_favorites:
+                startActivity(new Intent(mContext, PokeFavorites.class));
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

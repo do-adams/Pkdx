@@ -34,9 +34,9 @@ public class PokeListAdapter extends RecyclerView.Adapter<PokeListAdapter.PokeVi
     private AppCompatActivity mContext;
     private int[] mPokemon;
 
-    public PokeListAdapter(AppCompatActivity context, int[] pokemons) {
+    public PokeListAdapter(AppCompatActivity context, int[] pokemon) {
         mContext = context;
-        mPokemon = pokemons;
+        mPokemon = pokemon;
     }
 
     @Override
