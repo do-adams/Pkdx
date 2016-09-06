@@ -15,6 +15,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.support.annotation.Nullable;
 import android.support.v4.content.Loader;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -23,7 +24,9 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.ViewTreeObserver;
 import android.widget.ImageView;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.github.florent37.picassopalette.PicassoPalette;
@@ -49,11 +52,11 @@ import me.sargunvohra.lib.pokekotlin.model.PokemonSpecies;
 /**
  * Fragment that safely queries the API for Pokemon data and displays it to the user.
  * Receives the Pokemon ID to load data for from MainActivity.
- * <p/>
+ * <p>
  * Its launching activity must make sure this fragment instance
  * is retained properly across configuration changes through the use
  * of a tag in order to avoid memory leaks.
- * <p/>
+ * <p>
  * See: http://www.androiddesignpatterns.com/2013/04/retaining-objects-across-config-changes.html
  */
 public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCall {
@@ -68,6 +71,11 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
 
     private AppCompatActivity mContext;
     private Typeface mCustomFont;
+
+    @BindView(R.id.poke_fragment_swipe_refresh_layout)
+    SwipeRefreshLayout mSwipeRefreshLayout;
+    @BindView(R.id.poke_fragment_scroll_view)
+    ScrollView mScrollView;
 
     private final int LOADER_ID = new Random().nextInt();
     private ArrayList<Integer> mListOfFavPokemon; // List of Pokemon data from the db.
@@ -122,9 +130,56 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View viewRoot = inflater.inflate(R.layout.fragment_poke, container, false);
         ButterKnife.bind(this, viewRoot);
+        setUpSwipeRefreshLayout(mSwipeRefreshLayout, mScrollView);
         mCustomFont = Typeface.createFromAsset(mContext.getAssets(), mContext.getString(R.string.font_path));
         setCustomTypefaceForViews(mCustomFont);
         return viewRoot;
+    }
+
+    /**
+     * Cleanly sets up the two layout View parent's
+     * (SwipeRefreshLayout and ScrollView)
+     * scrolling behaviors for the PokeFragment layout.
+     * Technique implemented from: http://stackoverflow.com/a/26296897
+     */
+    private void setUpSwipeRefreshLayout(SwipeRefreshLayout swipeRefreshLayout, ScrollView scrollView) {
+        mSwipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                mSwipeRefreshLayout.setRefreshing(false);
+                // Catches a new Pokemon!
+                startActivity(new Intent(mContext, MainActivity.class));
+            }
+        });
+        mScrollView.getViewTreeObserver().addOnScrollChangedListener(new ViewTreeObserver.OnScrollChangedListener() {
+            @Override
+            public void onScrollChanged() {
+                int scrollY = mScrollView.getScrollY();
+                if (scrollY == 0)
+                    mSwipeRefreshLayout.setEnabled(true);
+                else
+                    mSwipeRefreshLayout.setEnabled(false);
+            }
+        });
+    }
+
+    /**
+     * Sets the custom typeface for all of the applicable views
+     * in the layout.
+     */
+    private void setCustomTypefaceForViews(Typeface customFont) {
+        mPokemonNumBorder.setTypeface(customFont);
+        mPokemonName.setTypeface(customFont);
+        mPokemonHeight.setTypeface(customFont);
+        mPokemonWeight.setTypeface(customFont);
+        mPokemonTypes.setTypeface(customFont);
+        mPokemonColor.setTypeface(customFont);
+        mPokemonShape.setTypeface(customFont);
+        mPokemonHabitat.setTypeface(customFont);
+        mPokemonGeneration.setTypeface(customFont);
+        mPokemonDescription.setTypeface(customFont);
+        mPokemonEvolutions.setTypeface(customFont);
+        mPokemonEvoLine.setTypeface(customFont);
     }
 
     /**
@@ -241,25 +296,6 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
                 });
             }
         }).start();
-    }
-
-    /**
-     * Sets the custom typeface for all of the applicable views
-     * in the layout.
-     */
-    private void setCustomTypefaceForViews(Typeface customFont) {
-        mPokemonNumBorder.setTypeface(customFont);
-        mPokemonName.setTypeface(customFont);
-        mPokemonHeight.setTypeface(customFont);
-        mPokemonWeight.setTypeface(customFont);
-        mPokemonTypes.setTypeface(customFont);
-        mPokemonColor.setTypeface(customFont);
-        mPokemonShape.setTypeface(customFont);
-        mPokemonHabitat.setTypeface(customFont);
-        mPokemonGeneration.setTypeface(customFont);
-        mPokemonDescription.setTypeface(customFont);
-        mPokemonEvolutions.setTypeface(customFont);
-        mPokemonEvoLine.setTypeface(customFont);
     }
 
     /**
