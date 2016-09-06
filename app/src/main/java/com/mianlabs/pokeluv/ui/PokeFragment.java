@@ -6,6 +6,8 @@ package com.mianlabs.pokeluv.ui;
 import android.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
+import android.content.Loader;
+import android.database.Cursor;
 import android.graphics.Typeface;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
@@ -27,10 +29,15 @@ import android.widget.TextView;
 
 import com.github.florent37.picassopalette.PicassoPalette;
 import com.mianlabs.pokeluv.R;
+import com.mianlabs.pokeluv.database.PokeCursorLoader;
+import com.mianlabs.pokeluv.database.PokeDBContract;
 import com.mianlabs.pokeluv.model.PokeModel;
 import com.mianlabs.pokeluv.ui.generations.GenActivity;
 import com.mianlabs.pokeluv.utilities.TypefaceUtils;
 import com.squareup.picasso.Picasso;
+
+import java.util.ArrayList;
+import java.util.Random;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -50,14 +57,17 @@ import me.sargunvohra.lib.pokekotlin.model.PokemonSpecies;
  * <p>
  * See: http://www.androiddesignpatterns.com/2013/04/retaining-objects-across-config-changes.html
  */
-public class PokeFragment extends Fragment {
+public class PokeFragment extends Fragment implements PokeCursorLoader.Callback {
     private static final String TAG = PokeFragment.class.getSimpleName();
     private static final int NO_INTERNET_MSG_DURATION = 8;
     private static final int PKM_DAY_MSG_DURATION = 2;
+    private static final int MSG_SHORT_DURATION = 2;
 
     // Keys for saving state in case of configuration changes.
     private static final String POKE_MODEL_STATE_KEY = "POKE_MODEL";
     private static final String POKEMON_OF_THE_DAY_STATE_KEY = "POKEMON_DAY";
+
+    private static final int LOADER_ID = new Random().nextInt();
 
     private AppCompatActivity mContext;
     private Typeface mCustomFont;
@@ -320,8 +330,28 @@ public class PokeFragment extends Fragment {
             case R.id.menu_pokemon_of_the_day:
                 startActivity(new Intent(mContext, MainActivity.class));
                 return true;
+            case R.id.menu_add_to_favs:
+                addPokemonToFavs();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    private void addPokemonToFavs() {
+        if (mPokeModel != null) { // Get a cursor to the db and call onLoadFinished.
+            PokeCursorLoader pokeCursorLoader = new PokeCursorLoader(mContext, this);
+            mContext.getLoaderManager().initLoader(LOADER_ID, new Bundle(), pokeCursorLoader);
+        }
+    }
+
+    /**
+     * Used to retrieve a cursor for querying the db to determine
+     * if the current Pokemon has been added to favorites in the past.
+     * Trigerred by the user tapping in the "Add to Favs" item in the menu.
+     */
+    @Override
+    public void onLoadFinished(Loader<Cursor> loader, Cursor cursor) {
+
     }
 }
