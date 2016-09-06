@@ -2,6 +2,7 @@
 <!-- Copyright (C) 2016 Damián Adams-->
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -15,7 +16,9 @@
         android:layout_height="match_parent"
         android:background="@drawable/bg_hearts"
         android:contentDescription="@string/content_desc_pokemon_list"
+        android:paddingEnd="@dimen/poke_list_side_padding"
         android:paddingLeft="@dimen/poke_list_side_padding"
-        android:paddingRight="@dimen/poke_list_side_padding"/>
+        android:paddingRight="@dimen/poke_list_side_padding"
+        android:paddingStart="@dimen/poke_list_side_padding"/>
 
 </FrameLayout>
