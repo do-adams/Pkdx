@@ -24,9 +24,6 @@ public class PokeModel implements Parcelable {
     private static final String TAG = PokeModel.class.getSimpleName();
     private static final String LANG = "en"; // Language for retrieving Pokemon data.
 
-    // PokeApi can make calls to get Pokemon #s 1 to 721 (National Pokedex Number)
-    public static final int NUM_OF_POKEMON = 721;
-
     // From Pokemon API Call
     private int mPokedexNum;
     private String mName;

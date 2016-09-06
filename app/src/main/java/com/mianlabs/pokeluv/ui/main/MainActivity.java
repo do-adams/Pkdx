@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2016 Damián Adams
  */
-package com.mianlabs.pokeluv.ui;
+package com.mianlabs.pokeluv.ui.main;
 
 import android.app.FragmentManager;
 import android.content.Intent;
@@ -10,19 +10,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 
 import com.mianlabs.pokeluv.R;
-import com.mianlabs.pokeluv.model.PokeModel;
 import com.mianlabs.pokeluv.ui.generations.PokeList;
+import com.mianlabs.pokeluv.utilities.PokePicker;
 import com.mianlabs.pokeluv.utilities.TypefaceUtils;
 
-import java.util.Random;
-
 /**
- * Launches PokeFragments with the Pokemon of the Day
+ * Launches PokeFragments with a random, "caught" Pokemon
  * or a user-selected Pokemon from a PokeList fragment.
  */
 public class MainActivity extends AppCompatActivity {
     public static final String MAIN_KEY = "MainActivity";
-    public static final String POKEMON_OF_THE_DAY_KEY = "POKEMON_OF_THE_DAY_KEY";
+    public static final String PKMN_CAUGHT_KEY = "PKMN_CAUGHT";
     private static final String TAG_POKE_FRAGMENT = "PKF";
 
     private PokeFragment mPokeFragment;
@@ -32,20 +30,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // PokeApi can make calls to get Pokemon #s 1 to 721 (National Pokedex Number)
-        int randPkmn = new Random().nextInt(PokeModel.NUM_OF_POKEMON + 1);
+        int caughtPkmn = PokePicker.catchRandomPokemon();
 
         Intent intent = getIntent();
         Bundle bundle = new Bundle();
-        bundle.putInt(MAIN_KEY, randPkmn);
+        bundle.putInt(MAIN_KEY, caughtPkmn);
 
         // Intent should always be not null (unless called from constructor).
         if (intent != null) {
             if (intent.hasExtra(PokeList.POKE_LIST_KEY)) { // If Pokemon has been selected by the user.
-                int pokeNum = intent.getIntExtra(PokeList.POKE_LIST_KEY, 1);
-                bundle.putInt(MAIN_KEY, pokeNum);
+                int chosenPkmn = intent.getIntExtra(PokeList.POKE_LIST_KEY, 1);
+                bundle.putInt(MAIN_KEY, chosenPkmn);
             } else {
-                bundle.putBoolean(POKEMON_OF_THE_DAY_KEY, true); // If displaying Pokemon of the Day.
+                bundle.putBoolean(PKMN_CAUGHT_KEY, true); // If displaying caught Pokemon.
             }
         }
 

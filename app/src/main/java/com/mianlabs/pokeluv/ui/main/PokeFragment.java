@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2016 Damián Adams
  */
-package com.mianlabs.pokeluv.ui;
+package com.mianlabs.pokeluv.ui.main;
 
 import android.app.Fragment;
 import android.content.Context;
@@ -24,7 +24,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.github.florent37.picassopalette.PicassoPalette;
@@ -50,24 +49,25 @@ import me.sargunvohra.lib.pokekotlin.model.PokemonSpecies;
 /**
  * Fragment that safely queries the API for Pokemon data and displays it to the user.
  * Receives the Pokemon ID to load data for from MainActivity.
- * <p>
+ * <p/>
  * Its launching activity must make sure this fragment instance
  * is retained properly across configuration changes through the use
  * of a tag in order to avoid memory leaks.
- * <p>
+ * <p/>
  * See: http://www.androiddesignpatterns.com/2013/04/retaining-objects-across-config-changes.html
  */
 public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCall {
     private static final String TAG = PokeFragment.class.getSimpleName();
     private static final int NO_INTERNET_MSG_DURATION = 8;
-    private static final int PKM_DAY_MSG_DURATION = 2;
+    private static final int PKMN_CAUGHT_MSG_DURATION = 2;
     private static final int MSG_SHORT_DURATION = 2;
 
     // Keys for saving state in case of configuration changes.
     private static final String POKE_MODEL_STATE_KEY = "POKE_MODEL";
-    private static final String POKEMON_OF_THE_DAY_STATE_KEY = "POKEMON_DAY";
+    private static final String PKMN_CAUGHT_STATE_KEY = "POKEMON_CAUGHT";
 
     private final int LOADER_ID = new Random().nextInt();
+    // private ArrayList<Integer> mListOfFavPokemon;
 
     private AppCompatActivity mContext;
     private Typeface mCustomFont;
@@ -76,11 +76,9 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
     private boolean mHasBeenRetained;
 
     private int mChosenPokemon;
-    private boolean mIsPokemonOfTheDay;
+    private boolean mHasPokemonBeenCaught;
     private PokeModel mPokeModel;
 
-    @BindView(R.id.poke_fragment_container)
-    ScrollView mContainer;
     @BindView(R.id.pokemon_sprite)
     ImageView mPokemonSprite;
     @BindView(R.id.pokemon_number_border)
@@ -139,11 +137,11 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
 
         Bundle bundle = getArguments();
         mChosenPokemon = bundle.getInt(MainActivity.MAIN_KEY, 1);
-        mIsPokemonOfTheDay = bundle.getBoolean(MainActivity.POKEMON_OF_THE_DAY_KEY, false);
+        mHasPokemonBeenCaught = bundle.getBoolean(MainActivity.PKMN_CAUGHT_KEY, false);
 
         if (isNetworkAvailable()) {
             if (!mHasBeenRetained) {  // Creates a background thread.
-                getPokemonData(mChosenPokemon, mIsPokemonOfTheDay, mContainer);
+                getPokemonData(mChosenPokemon, mHasPokemonBeenCaught);
                 mHasBeenRetained = true;
             }
         } else // Display "no internet connection found" msg.
@@ -161,11 +159,11 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
         if (savedInstanceState != null) {
             Log.d(TAG, "Retrieving saved state Pokemon");
             mPokeModel = savedInstanceState.getParcelable(POKE_MODEL_STATE_KEY);
-            mIsPokemonOfTheDay = savedInstanceState.getBoolean(POKEMON_OF_THE_DAY_STATE_KEY);
+            mHasPokemonBeenCaught = savedInstanceState.getBoolean(PKMN_CAUGHT_STATE_KEY);
             if (mPokeModel != null) {
                 loadSpriteAndPalettes(mPokeModel.getSprite());
                 setPokemonData(mPokeModel);
-                displayDailyMsg(mIsPokemonOfTheDay);
+                displayCaughtMsg(mPokeModel, mHasPokemonBeenCaught);
             } else
                 Log.d(TAG, "Waiting for background thread to load Pokemon data");
         }
@@ -201,8 +199,7 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
      * Then makes the calls to set, load, and display the data on
      * the fragment layout.
      */
-    private void getPokemonData(final int chosenPokemon, final boolean isPokemonOfTheDay,
-                                final View container) {
+    private void getPokemonData(final int chosenPokemon, final boolean hasPokemonBeenCaught) {
         new Thread(new Runnable() { // Background thread for networking requests.
             @Override
             public void run() {
@@ -222,7 +219,7 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
                     public void run() {
                         loadSpriteAndPalettes(mPokeModel.getSprite());
                         setPokemonData(mPokeModel);
-                        displayDailyMsg(isPokemonOfTheDay);
+                        displayCaughtMsg(mPokeModel, hasPokemonBeenCaught);
                         Log.d(TAG, "Pokemon data set");
                     }
                 });
@@ -291,23 +288,21 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
     }
 
     /**
-     * To be used when all the calls for loading and setting PokeModel data
-     * into views have been made. Signals for the parent layout of the PokeFragment
-     * to become visible. If the Pokemon being displayed is the Pokemon of the Day,
-     * it signals to display a toast to let the user know.
+     * If the Pokemon has been "caught"
+     * it displays a toast to let the user know.
      */
-    private void displayDailyMsg(boolean isPokemonOfTheDay) {
-        if (isPokemonOfTheDay)
-            TypefaceUtils.displayToastTop(mContext,
-                    mContext.getString(R.string.pokemon_of_the_day_msg), PKM_DAY_MSG_DURATION,
-                    (int) mContext.getResources().getDimension(R.dimen.daily_toast_y_offset));
+    private void displayCaughtMsg(PokeModel pokeModel, boolean hasPokemonBeenCaught) {
+        if (hasPokemonBeenCaught)
+            TypefaceUtils.displayToast(mContext,
+                    pokeModel.getName().toUpperCase() + " was caught!",
+                    PKMN_CAUGHT_MSG_DURATION);
     }
 
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
         outState.putParcelable(POKE_MODEL_STATE_KEY, mPokeModel);
-        outState.putBoolean(POKEMON_OF_THE_DAY_STATE_KEY, mIsPokemonOfTheDay);
+        outState.putBoolean(PKMN_CAUGHT_STATE_KEY, mHasPokemonBeenCaught);
     }
 
     @Override
@@ -327,7 +322,7 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
             case R.id.menu_more_pokemon:
                 startActivity(new Intent(mContext, GenActivity.class));
                 return true;
-            case R.id.menu_pokemon_of_the_day:
+            case R.id.menu_catch_pokemon:
                 startActivity(new Intent(mContext, MainActivity.class));
                 return true;
             case R.id.menu_add_to_favs:
@@ -348,7 +343,11 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
     private void addPokemonToFavs() {
         if (mPokeModel != null) {
             PokeCursorManager pokeCursorManager = new PokeCursorManager(mContext, this);
-            mContext.getSupportLoaderManager().initLoader(LOADER_ID, new Bundle(), pokeCursorManager);
+            if (mContext.getSupportLoaderManager().getLoader(LOADER_ID) == null) {
+                mContext.getSupportLoaderManager().initLoader(LOADER_ID, new Bundle(), pokeCursorManager);
+            } else {
+                mContext.getSupportLoaderManager().restartLoader(LOADER_ID, new Bundle(), pokeCursorManager);
+            }
         }
     }
 

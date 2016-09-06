@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.mianlabs.pokeluv.R;
-import com.mianlabs.pokeluv.ui.MainActivity;
+import com.mianlabs.pokeluv.ui.main.MainActivity;
 import com.mianlabs.pokeluv.ui.generations.PokeList;
 import com.mianlabs.pokeluv.utilities.PokePicker;
 import com.squareup.picasso.Picasso;

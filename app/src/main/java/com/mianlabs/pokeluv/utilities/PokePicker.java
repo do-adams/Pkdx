@@ -9,6 +9,7 @@ import android.os.Parcelable;
 import android.util.Log;
 
 import java.util.Arrays;
+import java.util.Random;
 
 /**
  * Provides utilities for identifying and retrieving generations of Pokemon,
@@ -16,6 +17,16 @@ import java.util.Arrays;
  */
 public class PokePicker {
     private static final String TAG = PokePicker.class.getSimpleName();
+
+    // PokeApi can make calls to get Pokemon #s 1 to 721 (National Pokedex Number)
+    public static final int NUM_OF_POKEMON = 721;
+
+    /**
+     * Generates a random, valid Pokemon number.
+     */
+    public static int catchRandomPokemon() {
+        return new Random().nextInt(NUM_OF_POKEMON + 1);
+    }
 
     /**
      * Enum for identifying a Generation of Pokemon.

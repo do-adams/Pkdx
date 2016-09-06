@@ -3,22 +3,21 @@
 
     <!--Names used for the Action Bar Titles-->
     <string name="pokedex_name">Pokédex</string>
-    <string name="favorites_name">Favorites</string>
+    <string name="favorites_name">BOX No. 1</string>
 
     <!--Msgs to Display to the User-->
     <string name="internet_connection_msg">Poke Luv requires an internet connection. Please make sure your device is connected!</string>
-    <string name="pokemon_of_the_day_msg">Pokémon of the Day</string>
-    <string name="redundant_fav_pokemon_msg">Already in favorites!</string>
-    <string name="add_pokemon_to_favs_msg">Added to favorites!</string>
+    <string name="add_pokemon_to_favs_msg">Added to your PC BOX.</string>
+    <string name="redundant_fav_pokemon_msg">Already in your PC!</string>
 
     <!--Custom font provided under a Freeware license at http://www.fontspace.com/jackster-productions/pokemon-gb-->
     <string name="font_path">fonts/Pokemon GB.ttf</string>
 
     <!-- Menu Options Text -->
-    <string name="menu_more_pokemon">POKEDEX</string>
-    <string name="menu_pokemon_of_the_day">PKM OF THE DAY</string>
-    <string name="menu_add_to_favs">ADD TO FAVS</string>
-    <string name="menu_favorites">FAVORITES</string>
+    <string name="menu_more_pokemon">POKéDEX</string>
+    <string name="menu_catch_pokemon">CATCH PKMN</string>
+    <string name="menu_add_to_favs">DEPOSIT PKMN</string>
+    <string name="menu_favorites">YOUR PC</string>
 
     <!--Text for the Pokemon Fragment Layout-->
     <string name="poke_fragment_num_borders">"No. "</string>

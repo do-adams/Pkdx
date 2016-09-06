@@ -59,7 +59,7 @@ public class TypefaceUtils {
                         Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
 
         SpannableStringBuilder pokemonOfTheDayTitle =
-                new SpannableStringBuilder(context.getString(R.string.menu_pokemon_of_the_day));
+                new SpannableStringBuilder(context.getString(R.string.menu_catch_pokemon));
         pokemonOfTheDayTitle
                 .setSpan(new TypefaceSpan(context, RELATIVE_PATH_TO_TYPEFACE), 0, pokemonOfTheDayTitle.length(),
                         Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
@@ -79,7 +79,7 @@ public class TypefaceUtils {
         MenuItem dexItem = menu.findItem(R.id.menu_more_pokemon);
         dexItem.setTitle(pokedexTitle);
 
-        MenuItem dailyItem = menu.findItem(R.id.menu_pokemon_of_the_day);
+        MenuItem dailyItem = menu.findItem(R.id.menu_catch_pokemon);
         dailyItem.setTitle(pokemonOfTheDayTitle);
 
         MenuItem addToFavsItem = menu.findItem(R.id.menu_add_to_favs);

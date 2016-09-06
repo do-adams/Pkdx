@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2016 Damián Adams-->
-<ScrollView android:id="@+id/poke_fragment_container"
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:tools="http://schemas.android.com/tools"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/bg_hearts"
-            android:scrollbars="none"
-            tools:context=".ui.PokeFragment">
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_hearts"
+    android:scrollbars="none"
+    tools:context=".ui.main.PokeFragment">
 
     <LinearLayout
         android:layout_width="match_parent"

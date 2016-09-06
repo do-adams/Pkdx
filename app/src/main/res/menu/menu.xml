@@ -4,8 +4,8 @@
         android:id="@+id/menu_more_pokemon"
         android:title="@string/menu_more_pokemon"/>
     <item
-        android:id="@+id/menu_pokemon_of_the_day"
-        android:title="@string/menu_pokemon_of_the_day"/>
+        android:id="@+id/menu_catch_pokemon"
+        android:title="@string/menu_catch_pokemon"/>
     <item
         android:id="@+id/menu_add_to_favs"
         android:title="@string/menu_add_to_favs"/>
