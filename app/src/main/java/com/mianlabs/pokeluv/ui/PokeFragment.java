@@ -359,10 +359,10 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
         ArrayList<Integer> list = PokeCursorManager.getPokemonInDb(cursor);
 
         if (list.contains(pokeNum))  // If already a favorite.
-            TypefaceUtils.displayToast(mContext, "Already in favorites!", MSG_SHORT_DURATION);
+            TypefaceUtils.displayToast(mContext, getString(R.string.redundant_fav_pokemon_msg), MSG_SHORT_DURATION);
         else {
             PokeCursorManager.insertPokemonInDb(mContext, pokeNum);
-            TypefaceUtils.displayToast(mContext, "Added to favorites!", MSG_SHORT_DURATION);
+            TypefaceUtils.displayToast(mContext, getString(R.string.add_pokemon_to_favs_msg), MSG_SHORT_DURATION);
         }
     }
 }

@@ -1,8 +1,6 @@
 <resources>
     <string name="app_name">Poke Luv</string>
     <string name="pokedex_name">Pokédex</string>
-    <string name="internet_connection_msg">Poke Luv requires an internet connection. Please make sure your device is connected!</string>
-    <string name="pokemon_of_the_day_msg">PKM OF THE DAY</string>
 
     <!--Custom font provided under a Freeware license at http://www.fontspace.com/jackster-productions/pokemon-gb-->
     <string name="font_path">fonts/Pokemon GB.ttf</string>
@@ -14,6 +12,12 @@
 
     <!--Text for Evolutions Header in PokeFragment-->
     <string name="poke_fragment_evolutions_header">EVOLUTIONS</string>
+
+    <!--Msgs to Display to the User-->
+    <string name="internet_connection_msg">Poke Luv requires an internet connection. Please make sure your device is connected!</string>
+    <string name="pokemon_of_the_day_msg">PKM OF THE DAY</string>
+    <string name="redundant_fav_pokemon_msg">Already in favorites!</string>
+    <string name="add_pokemon_to_favs_msg">Added to favorites!</string>
 
     <!--Text for Generation Buttons-->
     <string name="gen_I_button">Gen I</string>
