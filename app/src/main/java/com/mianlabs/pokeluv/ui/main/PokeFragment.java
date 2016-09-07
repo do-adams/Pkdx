@@ -32,6 +32,7 @@ import android.widget.TextView;
 import com.github.florent37.picassopalette.PicassoPalette;
 import com.mianlabs.pokeluv.R;
 import com.mianlabs.pokeluv.database.PokeCursorManager;
+import com.mianlabs.pokeluv.database.PokeDBContract;
 import com.mianlabs.pokeluv.model.PokeModel;
 import com.mianlabs.pokeluv.ui.favorites.PokeFavorites;
 import com.mianlabs.pokeluv.ui.generations.GenActivity;
@@ -227,7 +228,8 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
         TypefaceUtils.setActionBarTitle(mContext, getString(R.string.app_name));
 
         // Initiates a loader for retrieving data from the db.
-        PokeCursorManager pokeCursorManager = new PokeCursorManager(mContext, this);
+        PokeCursorManager pokeCursorManager = new PokeCursorManager(mContext, this,
+                PokeDBContract.FavoritePokemonEntry.TABLE_NAME);
         if (mContext.getSupportLoaderManager().getLoader(LOADER_ID) == null) {
             mContext.getSupportLoaderManager().initLoader(LOADER_ID, new Bundle(), pokeCursorManager);
         } else {
@@ -242,7 +244,9 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
     public void onLoadFinished(Loader<Cursor> loader, Cursor cursor) {
         Log.d(TAG, "Obtained cursor.");
         if (isAdded()) // If the fragment has not been destroyed by the user (back button).
-            mListOfFavPokemon = PokeCursorManager.getFavPokemonInDb(cursor);
+            mListOfFavPokemon = PokeCursorManager.getPokemonInDb(cursor,
+                    PokeDBContract.FavoritePokemonEntry.TABLE_NAME,
+                    PokeDBContract.FavoritePokemonEntry.COLUMN_NUMBER);
     }
 
 
@@ -403,7 +407,7 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
                 startActivity(new Intent(mContext, PokeFavorites.class));
                 return true;
             default:
-                return super.onOptionsItemSelected(item);
+                return false;
         }
     }
 
@@ -421,7 +425,9 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
                         TypefaceUtils.TOAST_SHORT_DURATION);
             } else {
                 if (hasPokemonBeenCaught) { // Can only favorite "caught" Pokémon.
-                    PokeCursorManager.insertFavPokemonInDb(mContext, pokeNum);
+                    PokeCursorManager.insertPokemonInDb(mContext, pokeNum,
+                            PokeDBContract.FavoritePokemonEntry.TABLE_NAME,
+                            PokeDBContract.FavoritePokemonEntry.COLUMN_NUMBER);
                     TypefaceUtils.displayToast(mContext, getString(R.string.add_pokemon_to_favs_msg),
                             TypefaceUtils.TOAST_SHORT_DURATION);
                 } else {

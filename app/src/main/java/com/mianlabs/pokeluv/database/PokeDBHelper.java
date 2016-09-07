@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class PokeDBHelper extends SQLiteOpenHelper {
     private static final int DATABASE_VERSION = 1;
-    private static final String DATABASE_NAME = "favoritePokemon.db";
+    private static final String DATABASE_NAME = "pokemon.db";
 
     public PokeDBHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -21,6 +21,10 @@ public class PokeDBHelper extends SQLiteOpenHelper {
     }
 
     private void addFavoritesTable(SQLiteDatabase db) {
+        db.execSQL("CREATE TABLE " + PokeDBContract.CaughtPokemonEntry.TABLE_NAME + " (" +
+                PokeDBContract.CaughtPokemonEntry._ID + " INTEGER PRIMARY KEY AUTOINCREMENT," +
+                PokeDBContract.CaughtPokemonEntry.COLUMN_NUMBER + " INTEGER NOT NULL);"
+        );
         db.execSQL("CREATE TABLE " + PokeDBContract.FavoritePokemonEntry.TABLE_NAME + " (" +
                 PokeDBContract.FavoritePokemonEntry._ID + " INTEGER PRIMARY KEY AUTOINCREMENT," +
                 PokeDBContract.FavoritePokemonEntry.COLUMN_NUMBER + " INTEGER NOT NULL);"
@@ -33,6 +37,8 @@ public class PokeDBHelper extends SQLiteOpenHelper {
         // In case of expanding the db, implement a better upgrade solution that store's
         // the user's favorite Pokemon.
         db.execSQL("DROP TABLE IF EXISTS " + PokeDBContract.FavoritePokemonEntry.TABLE_NAME);
+        onCreate(db);
+        db.execSQL("DROP TABLE IF EXISTS " + PokeDBContract.CaughtPokemonEntry.TABLE_NAME);
         onCreate(db);
     }
 }

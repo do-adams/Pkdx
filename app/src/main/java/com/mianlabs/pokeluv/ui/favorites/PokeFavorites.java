@@ -13,6 +13,7 @@ import android.support.v7.widget.RecyclerView;
 import com.mianlabs.pokeluv.R;
 import com.mianlabs.pokeluv.adapters.PokeListAdapter;
 import com.mianlabs.pokeluv.database.PokeCursorManager;
+import com.mianlabs.pokeluv.database.PokeDBContract;
 import com.mianlabs.pokeluv.ui.generations.PokeListFragment;
 import com.mianlabs.pokeluv.utilities.typeface.TypefaceUtils;
 
@@ -48,7 +49,8 @@ public class PokeFavorites extends AppCompatActivity implements PokeCursorManage
         }
 
         if (savedInstanceState == null)
-            getSupportLoaderManager().initLoader(LOADER_ID, new Bundle(), new PokeCursorManager(this, this));
+            getSupportLoaderManager().initLoader(LOADER_ID, new Bundle(),
+                    new PokeCursorManager(this, this, PokeDBContract.FavoritePokemonEntry.TABLE_NAME));
         else { // No need to query the cursor again across configuration changes.
             mPokemonNumbers = savedInstanceState.getIntegerArrayList(LIST_STATE_KEY);
             setPokemonList(mPokemonNumbers, mPokemonList);
@@ -63,7 +65,9 @@ public class PokeFavorites extends AppCompatActivity implements PokeCursorManage
 
     @Override
     public void onLoadFinished(Loader<Cursor> loader, Cursor cursor) {
-        mPokemonNumbers = PokeCursorManager.getFavPokemonInDb(cursor);
+        mPokemonNumbers = PokeCursorManager.getPokemonInDb(cursor,
+                PokeDBContract.FavoritePokemonEntry.TABLE_NAME,
+                PokeDBContract.FavoritePokemonEntry.COLUMN_NUMBER);
         setPokemonList(mPokemonNumbers, mPokemonList);
 
     }
