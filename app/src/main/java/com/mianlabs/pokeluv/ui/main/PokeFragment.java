@@ -285,10 +285,14 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
                 handler.post(new Runnable() {
                     @Override
                     public void run() {
-                        loadSpriteAndPalettes(mPokeModel.getSprite());
-                        setPokemonData(mPokeModel);
-                        displayCaughtMsg(mPokeModel, hasPokemonBeenCaught);
-                        Log.d(TAG, "Pokemon data set.");
+                        if (isAdded()) { // If the fragment has not been destroyed by the user (back button).
+                            loadSpriteAndPalettes(mPokeModel.getSprite());
+                            setPokemonData(mPokeModel);
+                            displayCaughtMsg(mPokeModel, hasPokemonBeenCaught);
+                            Log.d(TAG, "Pokemon data set.");
+                        } else {
+                            Log.d(TAG, "PokeFragment is detached.");
+                        }
                     }
                 });
             }
