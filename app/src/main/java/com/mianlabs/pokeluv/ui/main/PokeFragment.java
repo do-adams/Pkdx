@@ -242,7 +242,7 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
     public void onLoadFinished(Loader<Cursor> loader, Cursor cursor) {
         Log.d(TAG, "Obtained cursor.");
         if (isAdded()) // If the fragment has not been destroyed by the user (back button).
-            mListOfFavPokemon = PokeCursorManager.getPokemonInDb(cursor);
+            mListOfFavPokemon = PokeCursorManager.getFavPokemonInDb(cursor);
     }
 
 
@@ -418,7 +418,7 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
                 TypefaceUtils.displayToast(mContext, getString(R.string.redundant_fav_pokemon_msg),
                         TypefaceUtils.TOAST_SHORT_DURATION);
             else {
-                PokeCursorManager.insertPokemonInDb(mContext, pokeNum);
+                PokeCursorManager.insertFavPokemonInDb(mContext, pokeNum);
                 TypefaceUtils.displayToast(mContext, getString(R.string.add_pokemon_to_favs_msg),
                         TypefaceUtils.TOAST_SHORT_DURATION);
             }

@@ -63,7 +63,7 @@ public class PokeFavorites extends AppCompatActivity implements PokeCursorManage
 
     @Override
     public void onLoadFinished(Loader<Cursor> loader, Cursor cursor) {
-        mPokemonNumbers = PokeCursorManager.getPokemonInDb(cursor);
+        mPokemonNumbers = PokeCursorManager.getFavPokemonInDb(cursor);
         setPokemonList(mPokemonNumbers, mPokemonList);
 
     }

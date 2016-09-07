@@ -71,7 +71,7 @@ public class PokeCursorManager implements LoaderManager.LoaderCallbacks<Cursor> 
      * intact cursor reference loaded by
      * this very same class.
      */
-    public static ArrayList<Integer> getPokemonInDb(Cursor cursor) {
+    public static ArrayList<Integer> getFavPokemonInDb(Cursor cursor) {
         ArrayList<Integer> list = new ArrayList<>();
         if (cursor != null) { // Checks if the cursor is null.
             if (cursor.moveToFirst()) { // Checks if the cursor is empty.
@@ -92,7 +92,7 @@ public class PokeCursorManager implements LoaderManager.LoaderCallbacks<Cursor> 
     /**
      * Inserts a Pokemon into the db (favoritePokemon table).
      */
-    public static void insertPokemonInDb(Context context, int pokemonNumber) {
+    public static void insertFavPokemonInDb(Context context, int pokemonNumber) {
         ContentValues contentValues = new ContentValues();
         contentValues.put(PokeDBContract.FavoritePokemonEntry.COLUMN_NUMBER, pokemonNumber);
         context.getContentResolver().insert(PokeDBContract.FavoritePokemonEntry.CONTENT_URI, contentValues);
