@@ -77,7 +77,7 @@ public class PokeListAdapter extends RecyclerView.Adapter<PokeListAdapter.PokeVi
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(mContext, MainActivity.class);
-                    intent.putExtra(PokeListFragment.POKE_LIST_KEY, pokemonNumber);
+                    intent.putExtra(PokeListFragment.POKE_LIST_FRAG_KEY, pokemonNumber);
                     mContext.startActivity(intent);
                 }
             });

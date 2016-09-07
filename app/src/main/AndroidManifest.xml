@@ -29,6 +29,15 @@
             android:exported="false"
             android:protectionLevel="signature"
             android:syncable="true"/>
+
+        <receiver android:name=".widget.PokeWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/poke_widget_info"/>
+        </receiver>
     </application>
 
 </manifest>

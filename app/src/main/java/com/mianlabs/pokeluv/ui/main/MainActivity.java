@@ -13,12 +13,15 @@ import com.mianlabs.pokeluv.R;
 import com.mianlabs.pokeluv.ui.generations.PokeListFragment;
 import com.mianlabs.pokeluv.utilities.PokePicker;
 import com.mianlabs.pokeluv.utilities.typeface.TypefaceUtils;
+import com.mianlabs.pokeluv.widget.PokeWidget;
 
 /**
  * Launches PokeFragments with a random, "caught" Pokemon
  * or a user-selected Pokemon from a PokeListFragment fragment.
  */
 public class MainActivity extends AppCompatActivity {
+    private static final String TAG = "MainActivity.class";
+
     public static final String MAIN_KEY = "MainActivity";
     public static final String PKMN_CAUGHT_KEY = "PKMN_CAUGHT";
     private static final String TAG_POKE_FRAGMENT = "PKF";
@@ -38,11 +41,16 @@ public class MainActivity extends AppCompatActivity {
 
         // Intent should always be not null (unless called from constructor).
         if (intent != null) {
-            if (intent.hasExtra(PokeListFragment.POKE_LIST_KEY)) { // If Pokemon has been selected by the user.
-                int selectedPkmn = intent.getIntExtra(PokeListFragment.POKE_LIST_KEY, 1);
+            int selectedPkmn;
+            if (intent.hasExtra(PokeListFragment.POKE_LIST_FRAG_KEY)) { // If Pokemon has been selected by the user.
+                selectedPkmn = intent.getIntExtra(PokeListFragment.POKE_LIST_FRAG_KEY, 1);
                 bundle.putInt(MAIN_KEY, selectedPkmn);
             } else {
                 bundle.putBoolean(PKMN_CAUGHT_KEY, true); // If displaying caught Pokemon.
+                if (intent.hasExtra(PokeWidget.POKE_WIDGET_KEY)) { // If Pokemon has been sent by the widget.
+                    selectedPkmn = intent.getIntExtra(PokeWidget.POKE_WIDGET_KEY, 1);
+                    bundle.putInt(MAIN_KEY, selectedPkmn);
+                }
             }
         }
 

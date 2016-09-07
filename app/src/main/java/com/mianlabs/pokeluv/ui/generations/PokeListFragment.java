@@ -24,7 +24,7 @@ import com.mianlabs.pokeluv.utilities.typeface.TypefaceUtils;
  */
 public class PokeListFragment extends Fragment {
     private static final String TAG = PokeListFragment.class.getSimpleName();
-    public static final String POKE_LIST_KEY = "PokeListFragment";
+    public static final String POKE_LIST_FRAG_KEY = "PokeListFragment";
     public static final int NUMBER_OF_POKEMON_PER_ROW = 3;
 
     private AppCompatActivity mContext;

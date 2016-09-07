@@ -9,4 +9,4 @@
     android:adjustViewBounds="true"
     android:contentDescription="@string/content_desc_pokemon_list"
     android:scaleType="centerCrop"
-    tools:background="@android:color/white"/>
+    tools:background="@drawable/p1"/>
