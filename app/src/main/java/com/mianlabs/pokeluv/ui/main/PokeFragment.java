@@ -241,7 +241,8 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
     @Override
     public void onLoadFinished(Loader<Cursor> loader, Cursor cursor) {
         Log.d(TAG, "Obtained cursor.");
-        mListOfFavPokemon = PokeCursorManager.getPokemonInDb(cursor);
+        if (isAdded()) // If the fragment has not been destroyed by the user (back button).
+            mListOfFavPokemon = PokeCursorManager.getPokemonInDb(cursor);
     }
 
 
