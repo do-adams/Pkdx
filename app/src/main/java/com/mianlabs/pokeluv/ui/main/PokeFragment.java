@@ -397,7 +397,7 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
                 startActivity(new Intent(mContext, MainActivity.class));
                 return true;
             case R.id.menu_add_to_favs:
-                addPokemonToFavs(mPokeModel, mListOfFavPokemon);
+                addPokemonToFavs(mPokeModel, mListOfFavPokemon, mHasPokemonBeenCaught);
                 return true;
             case R.id.menu_favorites:
                 startActivity(new Intent(mContext, PokeFavorites.class));
@@ -411,16 +411,23 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
      * Adds the Pokemon to favorites if applicable
      * and displays a message to the user.
      */
-    private void addPokemonToFavs(PokeModel pokeModel, ArrayList<Integer> listOfFavPokemon) {
+    private void addPokemonToFavs(PokeModel pokeModel, ArrayList<Integer> listOfFavPokemon,
+                                  boolean hasPokemonBeenCaught) {
         if (pokeModel != null && listOfFavPokemon != null) {
             int pokeNum = pokeModel.getPokedexNum();
-            if (listOfFavPokemon.contains(pokeNum))  // If already a favorite.
+
+            if (listOfFavPokemon.contains(pokeNum)) { // If already a favorite.
                 TypefaceUtils.displayToast(mContext, getString(R.string.redundant_fav_pokemon_msg),
                         TypefaceUtils.TOAST_SHORT_DURATION);
-            else {
-                PokeCursorManager.insertFavPokemonInDb(mContext, pokeNum);
-                TypefaceUtils.displayToast(mContext, getString(R.string.add_pokemon_to_favs_msg),
-                        TypefaceUtils.TOAST_SHORT_DURATION);
+            } else {
+                if (hasPokemonBeenCaught) { // Can only favorite "caught" Pokémon.
+                    PokeCursorManager.insertFavPokemonInDb(mContext, pokeNum);
+                    TypefaceUtils.displayToast(mContext, getString(R.string.add_pokemon_to_favs_msg),
+                            TypefaceUtils.TOAST_SHORT_DURATION);
+                } else {
+                    TypefaceUtils.displayToast(mContext, getString(R.string.not_caught_fav_pokemon_msg),
+                            TypefaceUtils.TOAST_SHORT_DURATION);
+                }
             }
         }
     }
