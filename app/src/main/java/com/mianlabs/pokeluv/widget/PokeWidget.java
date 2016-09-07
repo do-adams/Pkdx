@@ -39,7 +39,7 @@ public class PokeWidget extends AppWidgetProvider {
             Intent intent = new Intent(context, MainActivity.class);
             intent.putExtra(POKE_WIDGET_KEY, caughtPkmn);
             PendingIntent pendingIntent = PendingIntent.getActivity(context, 0,
-                    intent, PendingIntent.FLAG_UPDATE_CURRENT);
+                    intent, PendingIntent.FLAG_CANCEL_CURRENT);
 
             Drawable drawable = ResourcesCompat.getDrawable(context.getResources(),
                     PokePicker.GenerationNumbers.getDrawableResourceFromNumber(context, caughtPkmn),
