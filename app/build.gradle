@@ -30,4 +30,11 @@ dependencies {
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.github.florent37:picassopalette:2.0.0'
     compile 'com.android.support:recyclerview-v7:23.4.0'
+    // Should disable Instant Run or be on AS 2.2+ to receive bg notifications
+    // from the Firebase Console. Both dependencies are needed.
+    compile 'com.google.firebase:firebase-core:9.4.0'
+    compile 'com.google.firebase:firebase-messaging:9.4.0'
 }
+
+// Plugin used for bg Firebase app notifications.
+apply plugin: 'com.google.gms.google-services'
