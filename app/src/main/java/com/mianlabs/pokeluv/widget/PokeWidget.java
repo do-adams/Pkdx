@@ -34,15 +34,15 @@ public class PokeWidget extends AppWidgetProvider {
         final int N = appWidgetIds.length;
         for (int i = 0; i < N; i++) {
             int appWidgetId = appWidgetIds[i];
-            int caughtPkmn = PokePicker.catchRandomPokemon();
+            int caughtPokemon = PokePicker.catchRandomPokemon();
 
             Intent intent = new Intent(context, MainActivity.class);
-            intent.putExtra(POKE_WIDGET_KEY, caughtPkmn);
+            intent.putExtra(POKE_WIDGET_KEY, caughtPokemon);
             PendingIntent pendingIntent = PendingIntent.getActivity(context, 0,
                     intent, PendingIntent.FLAG_CANCEL_CURRENT);
 
             Drawable drawable = ResourcesCompat.getDrawable(context.getResources(),
-                    PokePicker.GenerationNumbers.getDrawableResourceFromNumber(context, caughtPkmn),
+                    PokePicker.GenerationNumbers.getDrawableResourceFromNumber(context, caughtPokemon),
                     null);
             if (drawable != null) {
                 Bitmap bitmap = ((BitmapDrawable) drawable).getBitmap();
