@@ -18,7 +18,7 @@
     <!-- Menu Options Text -->
     <string name="menu_more_pokemon">POKéDEX</string>
     <string name="menu_catch_pokemon">CATCH PKMN</string>
-    <string name="menu_add_to_favs">DEPOSIT PKMN</string>
+    <string name="menu_add_to_favs">TRANSFER TO PC</string>
     <string name="menu_favorites">YOUR PC</string>
 
     <!--Text and Content Desc. for the Pokemon Fragment Layout-->
