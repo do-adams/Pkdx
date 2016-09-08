@@ -34,4 +34,8 @@ public class SoundUtils {
     public static void playMenuItemSound(Context context) {
         playSound(context, R.raw.menu_item_selected);
     }
+
+    public static void playFavoritesSound(Context context) {
+        playSound(context, R.raw.favorites_pc_box);
+    }
 }

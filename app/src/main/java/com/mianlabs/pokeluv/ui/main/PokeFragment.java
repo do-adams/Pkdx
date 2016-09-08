@@ -392,18 +392,21 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        SoundUtils.playMenuItemSound(mContext); // Plays the menu sound.
         switch (item.getItemId()) {
             case R.id.menu_more_pokemon:
+                SoundUtils.playMenuItemSound(mContext);
                 startActivity(new Intent(mContext, GenActivity.class));
                 return true;
             case R.id.menu_catch_pokemon:
+                SoundUtils.playMenuItemSound(mContext);
                 startActivity(new Intent(mContext, MainActivity.class));
                 return true;
             case R.id.menu_add_to_favs:
+                SoundUtils.playMenuItemSound(mContext);
                 addPokemonToFavs(mPokeModel, mListOfFavPokemon, mHasPokemonBeenCaught);
                 return true;
             case R.id.menu_favorites:
+                SoundUtils.playFavoritesSound(mContext);
                 startActivity(new Intent(mContext, PokeFavorites.class));
                 return true;
             default:
