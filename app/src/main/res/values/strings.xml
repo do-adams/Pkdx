@@ -39,12 +39,12 @@
     <string name="content_desc_pokemon_evoline">Evolutionary Line</string>
 
     <!--Text for Generation Buttons-->
-    <string name="gen_I_button">Gen I</string>
-    <string name="gen_II_button">Gen II</string>
-    <string name="gen_III_button">Gen III</string>
-    <string name="gen_IV_button">Gen IV</string>
-    <string name="gen_V_button">Gen V</string>
-    <string name="gen_VI_button">Gen VI</string>
+    <string name="gen_I_button">Kanto</string>
+    <string name="gen_II_button">Johto</string>
+    <string name="gen_III_button">Hoenn</string>
+    <string name="gen_IV_button">Sinnoh</string>
+    <string name="gen_V_button">Unova</string>
+    <string name="gen_VI_button">Kalos</string>
 
     <!-- Content Desc. for Poke List-->
     <string name="content_desc_pokemon_list">Pokémon</string>
