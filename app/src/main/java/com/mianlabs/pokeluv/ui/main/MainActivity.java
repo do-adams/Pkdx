@@ -20,6 +20,7 @@ import com.mianlabs.pokeluv.utilities.PokePicker;
 import com.mianlabs.pokeluv.utilities.typeface.TypefaceUtils;
 import com.mianlabs.pokeluv.widget.PokeWidget;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 /**
@@ -33,6 +34,8 @@ public class MainActivity extends AppCompatActivity implements PokeCursorManager
     public static final String MAIN_KEY = "MainActivity";
     public static final String PKMN_CAUGHT_KEY = "PKMN_CAUGHT";
     private static final String TAG_POKE_FRAGMENT = "PKF";
+
+    private static final String LOADER_STATE_KEY = "LOADER";
 
     private final int LOADER_ID = new Random().nextInt();
     private boolean mHasLoaderFinished;
@@ -48,6 +51,8 @@ public class MainActivity extends AppCompatActivity implements PokeCursorManager
         setContentView(R.layout.activity_main);
 
         mCaughtPokemon = PokePicker.catchRandomPokemon();
+        if (savedInstanceState != null)
+            mHasLoaderFinished = savedInstanceState.getBoolean(LOADER_STATE_KEY, false);
 
         Intent intent = getIntent();
         Bundle bundle = new Bundle();
@@ -119,14 +124,15 @@ public class MainActivity extends AppCompatActivity implements PokeCursorManager
      * Stores the caught Pokemon in the database.
      */
     private void storeCaughtPokemon(Cursor cursor) {
-        // Add the caught Pokemon to the db.
-        PokeCursorManager.insertPokemonInDb(this, mCaughtPokemon, PokeDBContract.CaughtPokemonEntry.TABLE_NAME,
-                PokeDBContract.CaughtPokemonEntry.COLUMN_NUMBER);
-        Log.d(TAG, "Pokemon has been caught.");
-        // Log the table contents.
-        PokeCursorManager.getPokemonInDb(cursor,
+        ArrayList<Integer> listOfCaughtPokemon = PokeCursorManager.getPokemonInDb(cursor,
                 PokeDBContract.CaughtPokemonEntry.TABLE_NAME,
                 PokeDBContract.CaughtPokemonEntry.COLUMN_NUMBER);
+
+        // Add the caught Pokemon to the db.
+        if (!listOfCaughtPokemon.contains(mCaughtPokemon))
+            PokeCursorManager.insertPokemonInDb(this, mCaughtPokemon, PokeDBContract.CaughtPokemonEntry.TABLE_NAME,
+                    PokeDBContract.CaughtPokemonEntry.COLUMN_NUMBER);
+        Log.d(TAG, "Pokemon has been caught.");
     }
 
     @Override
@@ -136,5 +142,12 @@ public class MainActivity extends AppCompatActivity implements PokeCursorManager
         getSupportLoaderManager().destroyLoader(LOADER_ID);
         Log.d(TAG, "Loader destroyed");
         super.onPause();
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        // To prevent storing another Pokemon when the configuration changes.
+        outState.putBoolean(LOADER_STATE_KEY, mHasLoaderFinished);
     }
 }

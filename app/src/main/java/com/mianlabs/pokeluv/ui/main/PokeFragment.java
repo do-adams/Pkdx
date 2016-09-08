@@ -227,7 +227,7 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
         // Sets the title of the Action Bar.
         TypefaceUtils.setActionBarTitle(mContext, getString(R.string.app_name));
 
-        // Initiates a loader for retrieving data from the db.
+        // Initiates or retrieves a loader for retrieving data from the db (resists config changes).
         PokeCursorManager pokeCursorManager = new PokeCursorManager(mContext, this,
                 PokeDBContract.FavoritePokemonEntry.TABLE_NAME);
         if (mContext.getSupportLoaderManager().getLoader(LOADER_ID) == null) {
@@ -424,16 +424,11 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
                 TypefaceUtils.displayToast(mContext, getString(R.string.redundant_fav_pokemon_msg),
                         TypefaceUtils.TOAST_SHORT_DURATION);
             } else {
-                if (hasPokemonBeenCaught) { // Can only favorite "caught" Pokémon.
-                    PokeCursorManager.insertPokemonInDb(mContext, pokeNum,
-                            PokeDBContract.FavoritePokemonEntry.TABLE_NAME,
-                            PokeDBContract.FavoritePokemonEntry.COLUMN_NUMBER);
-                    TypefaceUtils.displayToast(mContext, getString(R.string.add_pokemon_to_favs_msg),
-                            TypefaceUtils.TOAST_SHORT_DURATION);
-                } else {
-                    TypefaceUtils.displayToast(mContext, getString(R.string.not_caught_fav_pokemon_msg),
-                            TypefaceUtils.TOAST_SHORT_DURATION);
-                }
+                PokeCursorManager.insertPokemonInDb(mContext, pokeNum,
+                        PokeDBContract.FavoritePokemonEntry.TABLE_NAME,
+                        PokeDBContract.FavoritePokemonEntry.COLUMN_NUMBER);
+                TypefaceUtils.displayToast(mContext, getString(R.string.add_pokemon_to_favs_msg),
+                        TypefaceUtils.TOAST_SHORT_DURATION);
             }
         }
     }

@@ -9,8 +9,8 @@
     <string name="internet_connection_msg">Poke Luv requires an internet connection. Please make sure your device is connected!</string>
     <string name="add_pokemon_to_favs_msg">Added to your PC BOX.</string>
     <string name="redundant_fav_pokemon_msg">Already in your PC!</string>
-    <string name="not_caught_fav_pokemon_msg">You haven\'t caught this Pokémon yet!</string>
     <string name="fav_activity_msg">Deposit your favorite Pokémon here!</string>
+    <string name="poke_list_fragment_msg">Catch more Pokémon to complete your Pokédex!</string>
 
     <!--Custom font provided under a Freeware license at http://www.fontspace.com/jackster-productions/pokemon-gb-->
     <string name="font_path">fonts/Pokemon GB.ttf</string>
