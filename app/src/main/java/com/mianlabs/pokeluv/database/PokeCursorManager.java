@@ -42,7 +42,7 @@ public class PokeCursorManager implements LoaderManager.LoaderCallbacks<Cursor> 
     private Uri mTableUri;
 
     public PokeCursorManager(Context context, LoaderCall loaderCall, String tableName) {
-        mContext = context;
+        mContext = context.getApplicationContext(); // To avoid memory leaks (CursorLoader uses the App. Context).
         mLoaderCall = loaderCall;
         mTableName = tableName;
         mTableUri = PokeDBContract.getTableContentUri(tableName);
