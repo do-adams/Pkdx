@@ -4,6 +4,7 @@
 package com.mianlabs.pokeluv.ui.generations;
 
 import android.app.Fragment;
+import android.content.Context;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -16,6 +17,7 @@ import android.widget.Button;
 
 import com.mianlabs.pokeluv.R;
 import com.mianlabs.pokeluv.utilities.PokePicker;
+import com.mianlabs.pokeluv.utilities.PokeSharedPreferences;
 import com.mianlabs.pokeluv.utilities.typeface.TypefaceUtils;
 
 import butterknife.BindView;
@@ -78,7 +80,11 @@ public class GenFragment extends Fragment implements View.OnClickListener {
     public void onResume() {
         super.onResume();
         // Sets the title of the Action Bar.
-        TypefaceUtils.setActionBarTitle(mContext, getString(R.string.pokedex_name));
+        int countOfCaughtPokemon = mContext
+                .getSharedPreferences(PokeSharedPreferences.COUNT_CAUGHT_POKEMON_FILENAME, Context.MODE_PRIVATE)
+                .getInt(PokeSharedPreferences.COUNT_CAUGHT_POKEMON_KEY, 0);
+        TypefaceUtils.setActionBarTitle(mContext, getString(R.string.pokedex_name) +
+                " " + countOfCaughtPokemon + "/" + PokePicker.NUM_OF_POKEMON);
     }
 
     /**

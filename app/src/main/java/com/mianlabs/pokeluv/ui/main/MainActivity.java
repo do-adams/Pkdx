@@ -17,6 +17,7 @@ import com.mianlabs.pokeluv.database.PokeCursorManager;
 import com.mianlabs.pokeluv.database.PokeDBContract;
 import com.mianlabs.pokeluv.ui.generations.PokeListFragment;
 import com.mianlabs.pokeluv.utilities.PokePicker;
+import com.mianlabs.pokeluv.utilities.PokeSharedPreferences;
 import com.mianlabs.pokeluv.utilities.typeface.TypefaceUtils;
 import com.mianlabs.pokeluv.widget.PokeWidget;
 
@@ -128,11 +129,18 @@ public class MainActivity extends AppCompatActivity implements PokeCursorManager
                 PokeDBContract.CaughtPokemonEntry.TABLE_NAME,
                 PokeDBContract.CaughtPokemonEntry.COLUMN_NUMBER);
 
+        int countOfCaughtPokemon = listOfCaughtPokemon.size(); // Keeps the count of caught Pokemon.
+
         // Add the caught Pokemon to the db.
-        if (!listOfCaughtPokemon.contains(mCaughtPokemon))
+        if (!listOfCaughtPokemon.contains(mCaughtPokemon)) {
             PokeCursorManager.insertPokemonInDb(this, mCaughtPokemon, PokeDBContract.CaughtPokemonEntry.TABLE_NAME,
                     PokeDBContract.CaughtPokemonEntry.COLUMN_NUMBER);
-        Log.d(TAG, "Pokemon has been caught.");
+            countOfCaughtPokemon++;
+            Log.d(TAG, "Pokemon has been caught.");
+        }
+        // Stores the count in a file.
+        getSharedPreferences(PokeSharedPreferences.COUNT_CAUGHT_POKEMON_FILENAME, MODE_PRIVATE)
+                .edit().putInt(PokeSharedPreferences.COUNT_CAUGHT_POKEMON_KEY, countOfCaughtPokemon).apply();
     }
 
     @Override
