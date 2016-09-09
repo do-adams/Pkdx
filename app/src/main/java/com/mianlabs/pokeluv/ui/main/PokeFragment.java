@@ -261,10 +261,12 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
     @Override
     public void onLoadFinished(Loader<Cursor> loader, Cursor cursor) {
         Log.d(TAG, "Obtained cursor.");
-        if (isAdded()) // If the fragment has not been destroyed by the user (back button).
+        // If the fragment has not been destroyed by the user (back button).
+        if (isAdded()) {
             mListOfFavPokemon = PokeCursorManager.getPokemonInDb(cursor,
                     PokeDBContract.FavoritePokemonEntry.TABLE_NAME,
                     PokeDBContract.FavoritePokemonEntry.COLUMN_NUMBER);
+        }
     }
 
     /**
@@ -408,6 +410,10 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
                 SoundUtils.playMenuItemSound(mContext);
                 addPokemonToFavs(mPokeModel, mListOfFavPokemon, mHasPokemonBeenCaught);
                 return true;
+            case R.id.menu_remove_from_favs:
+                SoundUtils.playMenuItemSound(mContext);
+                removePokemonFromFavs(mPokeModel, mListOfFavPokemon, mChosenPokemon);
+                return true;
             case R.id.menu_favorites:
                 SoundUtils.playFavoritesSound(mContext);
                 startActivity(new Intent(mContext, PokeFavorites.class));
@@ -434,6 +440,27 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
                         PokeDBContract.FavoritePokemonEntry.TABLE_NAME,
                         PokeDBContract.FavoritePokemonEntry.COLUMN_NUMBER);
                 TypefaceUtils.displayToast(mContext, getString(R.string.add_pokemon_to_favs_msg),
+                        TypefaceUtils.TOAST_SHORT_DURATION);
+            }
+        }
+    }
+
+    /**
+     * Removes a Pokemon from the favorites table in the db.
+     */
+    private void removePokemonFromFavs(PokeModel pokeModel, ArrayList<Integer> listOfFavPokemon,
+                                       int chosenPokemon) {
+        if (pokeModel != null && listOfFavPokemon != null) {
+            if (mListOfFavPokemon.contains(mChosenPokemon)) {
+                mContext.getContentResolver()
+                        .delete(PokeDBContract.FavoritePokemonEntry.CONTENT_URI,
+                                PokeDBContract.FavoritePokemonEntry.COLUMN_NUMBER + " = " + mChosenPokemon,
+                                null);
+                TypefaceUtils.displayToast(mContext,
+                        getString(R.string.remove_fav_pokemon_msg), TypefaceUtils.TOAST_SHORT_DURATION);
+            } else {
+                TypefaceUtils.displayToast(mContext,
+                        getString(R.string.redundant_remove_fav_pokemon_msg),
                         TypefaceUtils.TOAST_SHORT_DURATION);
             }
         }

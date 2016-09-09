@@ -9,6 +9,8 @@
     <string name="internet_connection_msg">Poke Luv requires an internet connection. Please make sure your device is connected!</string>
     <string name="add_pokemon_to_favs_msg">Added to your PC BOX.</string>
     <string name="redundant_fav_pokemon_msg">Already in your PC!</string>
+    <string name="remove_fav_pokemon_msg">Pokémon removed from PC Box No. 1</string>
+    <string name="redundant_remove_fav_pokemon_msg">You haven\'t transferred this Pokémon to your PC yet!</string>
     <string name="fav_activity_msg">Transfer your favorite Pokémon here!</string>
     <string name="poke_list_fragment_msg">Catch more Pokémon to complete your Pokédex!</string>
 
@@ -19,6 +21,7 @@
     <string name="menu_more_pokemon">POKéDEX</string>
     <string name="menu_catch_pokemon">CATCH PKMN</string>
     <string name="menu_add_to_favs">TRANSFER TO PC</string>
+    <string name="menu_remove_from_favs">REMOVE FROM PC</string>
     <string name="menu_favorites">YOUR PC</string>
 
     <!--Text and Content Desc. for the Pokemon Fragment Layout-->

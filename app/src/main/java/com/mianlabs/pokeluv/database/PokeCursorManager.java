@@ -74,7 +74,7 @@ public class PokeCursorManager implements LoaderManager.LoaderCallbacks<Cursor> 
      * Returns a List containing all of the numbers
      * of the Pokemon in a given DB table's numeric column.
      * <p/>
-     * Must be passed an intact cursor reference loaded by
+     * Must be passed a cursor reference loaded by
      * this very same class and the name of the table
      * and column you want to get the Pokemon numbers from.
      */

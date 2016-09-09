@@ -72,6 +72,12 @@ public class TypefaceUtils {
                 .setSpan(new TypefaceSpan(context, RELATIVE_PATH_TO_TYPEFACE), 0, addToFavsTitle.length(),
                         Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
 
+        SpannableStringBuilder removeFromFavsTitle =
+                new SpannableStringBuilder(context.getString(R.string.menu_remove_from_favs));
+        removeFromFavsTitle
+                .setSpan(new TypefaceSpan(context, RELATIVE_PATH_TO_TYPEFACE), 0, removeFromFavsTitle.length(),
+                        Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+
         SpannableStringBuilder favoritesTitle =
                 new SpannableStringBuilder(context.getString(R.string.menu_favorites));
         favoritesTitle
@@ -86,6 +92,9 @@ public class TypefaceUtils {
 
         MenuItem addToFavsItem = menu.findItem(R.id.menu_add_to_favs);
         addToFavsItem.setTitle(addToFavsTitle);
+
+        MenuItem removeFromFavsItem = menu.findItem(R.id.menu_remove_from_favs);
+        removeFromFavsItem.setTitle(removeFromFavsTitle);
 
         MenuItem favoritesItem = menu.findItem(R.id.menu_favorites);
         favoritesItem.setTitle(favoritesTitle);
