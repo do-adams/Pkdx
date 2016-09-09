@@ -57,7 +57,8 @@ import me.sargunvohra.lib.pokekotlin.model.PokemonSpecies;
  * <p/>
  * Its launching activity must make sure this fragment instance
  * is retained properly across configuration changes through the use
- * of a tag in order to avoid memory leaks.
+ * of a tag in order to avoid memory leaks and make sure this class
+ * retrieves data properly.
  * <p/>
  * See: http://www.androiddesignpatterns.com/2013/04/retaining-objects-across-config-changes.html
  */
@@ -233,7 +234,6 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
             if (mPokeModel != null) {
                 loadSpriteAndPalettes(mPokeModel.getSprite());
                 setPokemonData(mPokeModel);
-                displayCaughtMsg(mPokeModel, mHasPokemonBeenCaught);
             } else
                 Log.d(TAG, "Waiting for background thread to load Pokemon data.");
         }

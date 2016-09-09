@@ -40,10 +40,11 @@ public class TypefaceUtils {
         s.setSpan(new TypefaceSpan(context, RELATIVE_PATH_TO_TYPEFACE), 0, s.length(),
                 Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         ActionBar actionBar = context.getSupportActionBar();
-        if (actionBar != null)
+        if (actionBar != null) {
             actionBar.setTitle(s);
-        else
+        } else {
             Log.e(TAG, "Action bar reference is null");
+        }
     }
 
     /**
@@ -128,7 +129,7 @@ public class TypefaceUtils {
 
     /**
      * Displays a toast msg for a specified amount of time (seconds) in the Gravity.TOP
-     * position along with a yOffset.
+     * position along with a y-offset.
      */
     public static void displayToastTop(Context context, String msg, int durationInSeconds, int yOffset) {
         int toastDurationInMilliSeconds = durationInSeconds * 1000;

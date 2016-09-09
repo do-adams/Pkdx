@@ -24,17 +24,13 @@ import java.util.Random;
  * Activity for displaying the user's favorite Pokemon.
  */
 public class PokeFavorites extends AppCompatActivity implements PokeCursorManager.LoaderCall {
+    private static boolean sDisplayFavoriteMsg = true; // Flag for telling the user how to use this Activity.
+
     private static final String LIST_STATE_KEY = "LIST";
     private final int LOADER_ID = new Random().nextInt();
 
-    private static boolean sDisplayFavoriteMsg; // Flag for telling the user how to use this Activity.
-
     private ArrayList<Integer> mPokemonNumbers;
     private RecyclerView mPokemonList;
-
-    static {
-        sDisplayFavoriteMsg = true;
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,10 +44,10 @@ public class PokeFavorites extends AppCompatActivity implements PokeCursorManage
             sDisplayFavoriteMsg = false;
         }
 
-        if (savedInstanceState == null)
+        if (savedInstanceState == null) {
             getSupportLoaderManager().initLoader(LOADER_ID, new Bundle(),
                     new PokeCursorManager(this, this, PokeDBContract.FavoritePokemonEntry.TABLE_NAME));
-        else { // No need to query the cursor again across configuration changes.
+        } else { // No need to query the cursor again across configuration changes.
             mPokemonNumbers = savedInstanceState.getIntegerArrayList(LIST_STATE_KEY);
             setPokemonList(mPokemonNumbers, mPokemonList);
         }

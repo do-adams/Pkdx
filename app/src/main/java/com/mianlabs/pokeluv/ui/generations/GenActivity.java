@@ -31,6 +31,7 @@ public class GenActivity extends AppCompatActivity {
         // Sets the two pane value.
         mIsTwoPane = (findViewById(R.id.poke_list_container) != null ?
                 true : false);
+        Log.d(TAG, "Value of isTwoPane: " + mIsTwoPane);
 
         // Important to check for null states, otherwise you can end up with
         // multiple instances of the same fragment on top of each other in case
@@ -38,6 +39,5 @@ public class GenActivity extends AppCompatActivity {
         if (savedInstanceState == null)
             getFragmentManager().beginTransaction()
                     .add(R.id.generations_container, new GenFragment()).commit();
-        Log.d(TAG, "Value of isTwoPane: " + mIsTwoPane);
     }
 }

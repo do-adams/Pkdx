@@ -63,7 +63,6 @@ public class PokeListAdapter extends RecyclerView.Adapter<PokeListAdapter.PokeVi
         public PokeViewHolder(View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);
-            // mImageView = (ImageView) itemView.findViewById(R.id.pokemon_list_img);
         }
 
         /**

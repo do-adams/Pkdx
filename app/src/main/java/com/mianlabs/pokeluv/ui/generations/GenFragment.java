@@ -29,6 +29,7 @@ import butterknife.ButterKnife;
  */
 public class GenFragment extends Fragment implements View.OnClickListener {
     private static final String TAG = GenFragment.class.getSimpleName();
+
     public static final String GEN_FRAG_KEY = "GenFragment";
 
     private AppCompatActivity mContext;
@@ -123,11 +124,12 @@ public class GenFragment extends Fragment implements View.OnClickListener {
             bundle.putParcelable(GEN_FRAG_KEY, genVal);
             pokeListFragment.setArguments(bundle);
 
-            if (!GenActivity.isTwoPane())
+            if (!GenActivity.isTwoPane()) {
                 getFragmentManager().beginTransaction().replace(R.id.generations_container, pokeListFragment)
                         .addToBackStack(null).commit();
-            else
+            } else {
                 getFragmentManager().beginTransaction().replace(R.id.poke_list_container, pokeListFragment).commit();
+            }
         }
     }
 }

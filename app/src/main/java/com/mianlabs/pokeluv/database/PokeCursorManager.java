@@ -75,8 +75,8 @@ public class PokeCursorManager implements LoaderManager.LoaderCallbacks<Cursor> 
      * of the Pokemon in a given DB table's numeric column.
      * <p/>
      * Must be passed an intact cursor reference loaded by
-     * this very same class and the name of the column
-     * in the table you want to get the Pokemon numbers from.
+     * this very same class and the name of the table
+     * and column you want to get the Pokemon numbers from.
      */
     public static ArrayList<Integer> getPokemonInDb(Cursor cursor, String tableName, String columnName) {
         if (PokeDBContract.doesTableHaveColumn(tableName, columnName)) {
@@ -89,14 +89,17 @@ public class PokeCursorManager implements LoaderManager.LoaderCallbacks<Cursor> 
                         list.add(dbNum);
                     }
                     while (cursor.moveToNext());
-                } else
-                    Log.d(TAG, "Cursor is empty");
-            } else
-                Log.e(TAG, "Cursor is null");
+                } else {
+                    Log.d(TAG, "Cursor for " + tableName + " is empty");
+                }
+            } else {
+                Log.e(TAG, "Cursor for " + tableName + " is null");
+            }
             Log.d(TAG, "Pokemon in table " + tableName + ": " + list.toString());
             return list;
-        } else
+        } else {
             throw new IllegalArgumentException("Column not found in table.");
+        }
     }
 
     /**
@@ -109,7 +112,8 @@ public class PokeCursorManager implements LoaderManager.LoaderCallbacks<Cursor> 
             contentValues.put(columnName, pokemonNumber);
             context.getContentResolver().insert(PokeDBContract.getTableContentUri(tableName), contentValues);
             Log.d(TAG, "Successfully inserted Pokemon #" + pokemonNumber + " in table " + tableName);
-        } else
+        } else {
             throw new IllegalArgumentException("Column not found in table.");
+        }
     }
 }

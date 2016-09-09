@@ -57,7 +57,8 @@ public class PokeProvider extends ContentProvider {
     }
 
     @Override
-    public Cursor query(Uri uri, String[] projection, String selection, String[] selectionArgs, String sortOrder) {
+    public Cursor query(Uri uri, String[] projection, String selection,
+                        String[] selectionArgs, String sortOrder) {
         final SQLiteDatabase db = mPokeDBHelper.getWritableDatabase();
         Cursor retCursor;
         long _id;
@@ -152,10 +153,12 @@ public class PokeProvider extends ContentProvider {
         int rows;
         switch (sUriMatcher.match(uri)) {
             case CAUGHT_POKEMON:
-                rows = db.update(PokeDBContract.CaughtPokemonEntry.TABLE_NAME, values, selection, selectionArgs);
+                rows = db.update(PokeDBContract.CaughtPokemonEntry.TABLE_NAME, values,
+                        selection, selectionArgs);
                 break;
             case FAVORITE_POKEMON:
-                rows = db.update(PokeDBContract.FavoritePokemonEntry.TABLE_NAME, values, selection, selectionArgs);
+                rows = db.update(PokeDBContract.FavoritePokemonEntry.TABLE_NAME, values,
+                        selection, selectionArgs);
                 break;
             default:
                 throw new UnsupportedOperationException("Unknown uri: " + uri);
@@ -172,10 +175,12 @@ public class PokeProvider extends ContentProvider {
         int rows; // Number of rows targeted.
         switch (sUriMatcher.match(uri)) {
             case CAUGHT_POKEMON:
-                rows = db.delete(PokeDBContract.CaughtPokemonEntry.TABLE_NAME, selection, selectionArgs);
+                rows = db.delete(PokeDBContract.CaughtPokemonEntry.TABLE_NAME,
+                        selection, selectionArgs);
                 break;
             case FAVORITE_POKEMON:
-                rows = db.delete(PokeDBContract.FavoritePokemonEntry.TABLE_NAME, selection, selectionArgs);
+                rows = db.delete(PokeDBContract.FavoritePokemonEntry.TABLE_NAME,
+                        selection, selectionArgs);
                 break;
             default:
                 throw new UnsupportedOperationException("Unknown uri: " + uri);

@@ -28,7 +28,6 @@ public class SoundUtils {
 
     public static void playPokemonCaughtSound(Context context) {
         playSound(context, R.raw.pokemon_caught);
-
     }
 
     public static void playMenuItemSound(Context context) {

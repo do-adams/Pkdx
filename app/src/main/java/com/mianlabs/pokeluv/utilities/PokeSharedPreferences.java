@@ -11,7 +11,7 @@ package com.mianlabs.pokeluv.utilities;
  */
 public class PokeSharedPreferences {
     // Filename used for accessing the SharedPreferences app file.
-    public static final String COUNT_CAUGHT_POKEMON_FILENAME = "caughtPokemonCount";
+    public static final String COUNT_CAUGHT_POKEMON_FILENAME = "caughtPokemon";
     // Key used for storing and retrieving the number of Pokemon the user has caught.
     public static final String COUNT_CAUGHT_POKEMON_KEY = "CAUGHT_POKEMON";
 }

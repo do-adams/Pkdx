@@ -31,10 +31,11 @@ import java.util.Random;
  */
 public class PokeListFragment extends Fragment implements PokeCursorManager.LoaderCall {
     private static final String TAG = PokeListFragment.class.getSimpleName();
+
+    private static boolean sDisplayFavoriteMsg = true; // Flag for telling the user how to use this Activity.
+
     public static final String POKE_LIST_FRAG_KEY = "PokeListFragment";
     public static final int NUMBER_OF_POKEMON_PER_ROW = 3;
-
-    private static boolean sDisplayFavoriteMsg; // Flag for telling the user how to use this Activity.
 
     private final int LOADER_ID = new Random().nextInt();
 
@@ -46,13 +47,10 @@ public class PokeListFragment extends Fragment implements PokeCursorManager.Load
     private RecyclerView mPokemonList;
     private PokeListAdapter mPokeListAdapter;
 
-    static {
-        sDisplayFavoriteMsg = true;
-    }
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // All right to grab context here since this fragment is not retained.
         mContext = (AppCompatActivity) getActivity();
 
         if (sDisplayFavoriteMsg) {
@@ -94,7 +92,6 @@ public class PokeListFragment extends Fragment implements PokeCursorManager.Load
                         break;
                     default:
                         mGen = null;
-                        Log.e(TAG, "Error while retrieving Pokemon generation numbers.");
                         break;
                 }
                 if (mGen != null) {
@@ -108,8 +105,14 @@ public class PokeListFragment extends Fragment implements PokeCursorManager.Load
                     mContext.getSupportLoaderManager().initLoader(LOADER_ID, new Bundle(),
                             new PokeCursorManager(mContext, this,
                                     PokeDBContract.CaughtPokemonEntry.TABLE_NAME));
+                } else {
+                    Log.e(TAG, "Error while retrieving Pokemon generation numbers.");
                 }
+            } else {
+                Log.e(TAG, "No Pokemon Generation enum found for PokeListFragment");
             }
+        } else {
+            Log.e(TAG, "No bundle found for PokeListFragment");
         }
         return rootView;
     }

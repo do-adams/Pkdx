@@ -15,8 +15,6 @@ import java.util.Random;
  * Provides utilities for identifying and retrieving generations of Pokemon,
  * along with their resource drawables.
  * <p/>
- * Also contains the Filename and Key used for keeping track across Activities
- * of how many Pokemon the user has caught.
  */
 public class PokePicker {
     private static final String TAG = PokePicker.class.getSimpleName();

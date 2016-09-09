@@ -51,8 +51,9 @@ public class PokeWidget extends AppWidgetProvider {
                 views.setOnClickPendingIntent(R.id.pokemon_list_img, pendingIntent);
 
                 appWidgetManager.updateAppWidget(appWidgetId, views);
-            } else
+            } else {
                 Log.e(TAG, "Widget drawable is null");
+            }
         }
     }
 }
