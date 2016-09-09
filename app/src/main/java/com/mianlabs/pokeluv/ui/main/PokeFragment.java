@@ -72,13 +72,14 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
     private AppCompatActivity mContext;
     private Typeface mCustomFont;
 
+    // Parent container layouts.
     @BindView(R.id.poke_fragment_swipe_refresh_layout)
     SwipeRefreshLayout mSwipeRefreshLayout;
     @BindView(R.id.poke_fragment_scroll_view)
     ScrollView mScrollView;
 
     private final int LOADER_ID = new Random().nextInt();
-    private ArrayList<Integer> mListOfFavPokemon; // List of Pokemon data from the db.
+    private ArrayList<Integer> mListOfFavPokemon; // List of favorite Pokemon data from the db.
 
     private int mChosenPokemon;
     private boolean mHasPokemonBeenCaught;
@@ -118,7 +119,6 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mContext = (AppCompatActivity) getActivity(); // Grabs the context from the parent activity.
         setRetainInstance(true); // Retain this fragment across configuration changes.
         setHasOptionsMenu(true);
     }
@@ -128,6 +128,7 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View viewRoot = inflater.inflate(R.layout.fragment_poke, container, false);
         ButterKnife.bind(this, viewRoot);
+        mContext = (AppCompatActivity) getActivity(); // Grabs the context from the current parent activity.
         setUpSwipeRefreshLayout(mSwipeRefreshLayout, mScrollView);
         mCustomFont = Typeface.createFromAsset(mContext.getAssets(), mContext.getString(R.string.font_path));
         setCustomTypefaceForViews(mCustomFont);
@@ -192,63 +193,15 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
         mHasPokemonBeenCaught = bundle.getBoolean(MainActivity.PKMN_CAUGHT_KEY, false);
 
         if (isNetworkAvailable()) {
+            // If the Fragment state has not been saved.
             if (savedInstanceState == null) {
-                // Creates a background thread when class is first instantiated.
+                // Creates a background thread to fetch and set API data.
                 getPokemonData(mChosenPokemon, mHasPokemonBeenCaught);
             }
         } else // Display "no internet connection found" msg.
             TypefaceUtils.displayToast(mContext,
                     getString(R.string.internet_connection_msg), NO_INTERNET_MSG_DURATION);
     }
-
-    /**
-     * Restores and sets the Pokemon data across configuration changes
-     * to prevent unnecessary API calls.
-     */
-    @Override
-    public void onViewStateRestored(Bundle savedInstanceState) {
-        super.onViewStateRestored(savedInstanceState);
-        if (savedInstanceState != null) {
-            Log.d(TAG, "Retrieving saved state Pokemon.");
-            mPokeModel = savedInstanceState.getParcelable(POKE_MODEL_STATE_KEY);
-            mHasPokemonBeenCaught = savedInstanceState.getBoolean(PKMN_CAUGHT_STATE_KEY);
-            if (mPokeModel != null) {
-                loadSpriteAndPalettes(mPokeModel.getSprite());
-                setPokemonData(mPokeModel);
-                displayCaughtMsg(mPokeModel, mHasPokemonBeenCaught);
-            } else
-                Log.d(TAG, "Waiting for background thread to load Pokemon data.");
-        }
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-        // Sets the title of the Action Bar.
-        TypefaceUtils.setActionBarTitle(mContext, getString(R.string.app_name));
-
-        // Initiates or retrieves a loader for retrieving data from the db (resists config changes).
-        PokeCursorManager pokeCursorManager = new PokeCursorManager(mContext, this,
-                PokeDBContract.FavoritePokemonEntry.TABLE_NAME);
-        if (mContext.getSupportLoaderManager().getLoader(LOADER_ID) == null) {
-            mContext.getSupportLoaderManager().initLoader(LOADER_ID, new Bundle(), pokeCursorManager);
-        } else {
-            mContext.getSupportLoaderManager().restartLoader(LOADER_ID, new Bundle(), pokeCursorManager);
-        }
-    }
-
-    /**
-     * Retrieves the list of favorite Pokemon from the db.
-     */
-    @Override
-    public void onLoadFinished(Loader<Cursor> loader, Cursor cursor) {
-        Log.d(TAG, "Obtained cursor.");
-        if (isAdded()) // If the fragment has not been destroyed by the user (back button).
-            mListOfFavPokemon = PokeCursorManager.getPokemonInDb(cursor,
-                    PokeDBContract.FavoritePokemonEntry.TABLE_NAME,
-                    PokeDBContract.FavoritePokemonEntry.COLUMN_NUMBER);
-    }
-
 
     /**
      * Checks to ensure the user can connect to the network,
@@ -265,6 +218,53 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
             isAvailable = true;
         }
         return isAvailable;
+    }
+
+    /**
+     * Restores and sets the Pokemon data across configuration changes
+     * to prevent unnecessary API calls.
+     */
+    @Override
+    public void onViewStateRestored(Bundle savedInstanceState) {
+        super.onViewStateRestored(savedInstanceState);
+        if (savedInstanceState != null) {
+            Log.d(TAG, "Retrieving saved state Pokemon.");
+            mPokeModel = savedInstanceState.getParcelable(POKE_MODEL_STATE_KEY);
+            if (mPokeModel != null) {
+                loadSpriteAndPalettes(mPokeModel.getSprite());
+                setPokemonData(mPokeModel);
+                displayCaughtMsg(mPokeModel, mHasPokemonBeenCaught);
+            } else
+                Log.d(TAG, "Waiting for background thread to load Pokemon data.");
+        }
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        // Sets the title of the Action Bar.
+        TypefaceUtils.setActionBarTitle(mContext, getString(R.string.app_name));
+
+        // Initiates or restarts a loader for retrieving data from the db (resists config changes).
+        PokeCursorManager pokeCursorManager = new PokeCursorManager(mContext, this,
+                PokeDBContract.FavoritePokemonEntry.TABLE_NAME);
+        if (mContext.getSupportLoaderManager().getLoader(LOADER_ID) == null) {
+            mContext.getSupportLoaderManager().initLoader(LOADER_ID, new Bundle(), pokeCursorManager);
+        } else {
+            mContext.getSupportLoaderManager().restartLoader(LOADER_ID, new Bundle(), pokeCursorManager);
+        }
+    }
+
+    /**
+     * Retrieves the list of favorite Pokemon from the db using the loader.
+     */
+    @Override
+    public void onLoadFinished(Loader<Cursor> loader, Cursor cursor) {
+        Log.d(TAG, "Obtained cursor.");
+        if (isAdded()) // If the fragment has not been destroyed by the user (back button).
+            mListOfFavPokemon = PokeCursorManager.getPokemonInDb(cursor,
+                    PokeDBContract.FavoritePokemonEntry.TABLE_NAME,
+                    PokeDBContract.FavoritePokemonEntry.COLUMN_NUMBER);
     }
 
     /**
@@ -372,11 +372,14 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
         }
     }
 
+    /**
+     * Saves Fragment state across configuration changes.
+     * Stores the PokeModel object instance.
+     */
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
         outState.putParcelable(POKE_MODEL_STATE_KEY, mPokeModel);
-        outState.putBoolean(PKMN_CAUGHT_STATE_KEY, mHasPokemonBeenCaught);
     }
 
     @Override
