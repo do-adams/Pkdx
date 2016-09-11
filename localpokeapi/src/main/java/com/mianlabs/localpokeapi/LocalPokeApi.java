@@ -8,18 +8,22 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
+/**
+ * Use this class for making a request for Pokemon data.
+ */
 public class LocalPokeApi {
-    // PokeApi can make calls to get Pokemon #s 1 to 721 (National Pokedex Number)
-    public static final int NUM_OF_POKEMON = 721;
-
     // the file path matters depending on the way you load the text file (getClassLoader or getClass)
     public static final String PATH_TO_FILE = "/data/";
 
-    public static PokeModel getPokemonData(int num) {
+    /**
+     * Returns Pokemon data in the form of a PokeModel object.
+     * Returns null if something went wrong while fetching the data.
+     */
+    public static PokeModel getPokemonData(int pokemonNumber) {
         PokeModel pokeModel = null;
         String data = null;
         InputStream inputStream = LocalPokeApi.class
-                .getResourceAsStream(PATH_TO_FILE + num + ".txt"); // Gradle re-directs to resources dir.
+                .getResourceAsStream(PATH_TO_FILE + pokemonNumber + ".txt"); // Gradle re-directs to resources dir.
         if (inputStream != null) {
             BufferedReader bufferedReader = null;
             try {

@@ -8,7 +8,8 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Model class used for storing and accessing Pokemon data retrieved by API calls.
+ * Model class used for storing and accessing Pokemon data retrieved by
+ * the LocalPokeAPI.
  */
 public class PokeModel {
     private static final String TAG = PokeModel.class.getSimpleName();
@@ -114,10 +115,7 @@ public class PokeModel {
     }
 
     public String getHabitat() {
-        if (mHabitat != null)
-            return mHabitat;
-        else
-            return null;
+        return mHabitat;
     }
 
     public String getGeneration() {

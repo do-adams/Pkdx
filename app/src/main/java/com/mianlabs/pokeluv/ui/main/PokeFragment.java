@@ -4,15 +4,19 @@
 package com.mianlabs.pokeluv.ui.main;
 
 import android.app.Fragment;
+import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Typeface;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
+import android.support.annotation.AnyRes;
+import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.content.Loader;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -30,12 +34,15 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.github.florent37.picassopalette.PicassoPalette;
+import com.google.gson.Gson;
+import com.mianlabs.localpokeapi.LocalPokeApi;
+import com.mianlabs.localpokeapi.PokeModel;
 import com.mianlabs.pokeluv.R;
 import com.mianlabs.pokeluv.database.PokeCursorManager;
 import com.mianlabs.pokeluv.database.PokeDBContract;
-import com.mianlabs.pokeluv.model.PokeModel;
 import com.mianlabs.pokeluv.ui.favorites.PokeFavorites;
 import com.mianlabs.pokeluv.ui.generations.GenActivity;
+import com.mianlabs.pokeluv.utilities.PokePicker;
 import com.mianlabs.pokeluv.utilities.sound.SoundUtils;
 import com.mianlabs.pokeluv.utilities.typeface.TypefaceUtils;
 import com.squareup.picasso.Picasso;
@@ -45,11 +52,6 @@ import java.util.Random;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import me.sargunvohra.lib.pokekotlin.client.PokeApi;
-import me.sargunvohra.lib.pokekotlin.client.PokeApiClient;
-import me.sargunvohra.lib.pokekotlin.model.EvolutionChain;
-import me.sargunvohra.lib.pokekotlin.model.Pokemon;
-import me.sargunvohra.lib.pokekotlin.model.PokemonSpecies;
 
 /**
  * Fragment that safely queries the API for Pokemon data and displays it to the user.
@@ -68,7 +70,6 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
 
     // Keys for saving state in case of configuration changes.
     private static final String POKE_MODEL_STATE_KEY = "POKE_MODEL";
-    private static final String PKMN_CAUGHT_STATE_KEY = "POKEMON_CAUGHT";
 
     private AppCompatActivity mContext;
     private Typeface mCustomFont;
@@ -209,7 +210,8 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
      * as per Google's Android Developer guidelines.
      */
     private boolean isNetworkAvailable() {
-        ConnectivityManager manager = (ConnectivityManager) mContext.getSystemService(Context.CONNECTIVITY_SERVICE);
+        ConnectivityManager manager = (ConnectivityManager) mContext
+                .getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = manager.getActiveNetworkInfo();
 
         // This method requires permission ACCESS_NETWORK_STATE.
@@ -230,9 +232,10 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
         super.onViewStateRestored(savedInstanceState);
         if (savedInstanceState != null) {
             Log.d(TAG, "Retrieving saved state Pokemon.");
-            mPokeModel = savedInstanceState.getParcelable(POKE_MODEL_STATE_KEY);
+            mPokeModel = new Gson()
+                    .fromJson(savedInstanceState.getString(POKE_MODEL_STATE_KEY), PokeModel.class);
             if (mPokeModel != null) {
-                loadSpriteAndPalettes(mPokeModel.getSprite());
+                loadSpriteAndPalettes(mPokeModel);
                 setPokemonData(mPokeModel);
             } else
                 Log.d(TAG, "Waiting for background thread to load Pokemon data.");
@@ -278,22 +281,17 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
         new Thread(new Runnable() { // Background thread for networking requests.
             @Override
             public void run() {
-                Log.d(TAG, "Attempting PokeAPI network request.");
-                PokeApi pokeApi = new PokeApiClient();
-                Pokemon pokemon = pokeApi.getPokemon(chosenPokemon);
-                PokemonSpecies pokemonSpecies = pokeApi.getPokemonSpecies(chosenPokemon);
-                EvolutionChain evolutionChain =
-                        pokeApi.getEvolutionChain(pokemonSpecies.getEvolutionChain().getId());
-
-                mPokeModel = new PokeModel(pokemon, pokemonSpecies, evolutionChain);
+                Log.d(TAG, "Fetching PokeAPI data.");
+                mPokeModel = LocalPokeApi.getPokemonData(chosenPokemon);
                 Log.d(TAG, mPokeModel.toString());
 
                 Handler handler = new Handler(Looper.getMainLooper()); // Grabs UI thread.
                 handler.post(new Runnable() {
                     @Override
                     public void run() {
-                        if (isAdded()) { // If the fragment has not been destroyed by the user (back button).
-                            loadSpriteAndPalettes(mPokeModel.getSprite());
+                        if (isAdded() && mPokeModel != null) {
+                            // If the fragment has not been destroyed by the user (back button).
+                            loadSpriteAndPalettes(mPokeModel);
                             setPokemonData(mPokeModel);
                             displayCaughtMsg(mPokeModel, hasPokemonBeenCaught);
                             Log.d(TAG, "Pokemon data set.");
@@ -341,14 +339,31 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
     }
 
     /**
+     * Returns a URI for any given drawable resource id
+     * present in this app.
+     * Code implemented from: http://stackoverflow.com/a/36062748
+     */
+    private final Uri getUriToDrawable(@NonNull Context context, @AnyRes int drawableId) {
+        Uri imageUri = Uri.parse(ContentResolver.SCHEME_ANDROID_RESOURCE +
+                "://" + context.getResources().getResourcePackageName(drawableId)
+                + '/' + context.getResources().getResourceTypeName(drawableId)
+                + '/' + context.getResources().getResourceEntryName(drawableId));
+        return imageUri;
+    }
+
+    /**
      * Downloads the Sprite image from the provided URL, loads it into the
      * appropriate ImageView, extracts a color palette from the image,
      * and sets the background and text colors of several views
      * based on it.
      */
-    private void loadSpriteAndPalettes(String pokemonSpriteURL) {
-        Picasso.with(mContext).load(pokemonSpriteURL)
-                .into(mPokemonSprite, PicassoPalette.with(pokemonSpriteURL, mPokemonSprite)
+    private void loadSpriteAndPalettes(PokeModel pokeModel) {
+        int resId = PokePicker.GenerationNumbers
+                .getDrawableResourceFromNumber(mContext, pokeModel.getPokedexNum());
+        String url = getUriToDrawable(mContext, resId).toString(); // Gets the internal URL to the drawable.
+
+        Picasso.with(mContext).load(resId)
+                .into(mPokemonSprite, PicassoPalette.with(url, mPokemonSprite)
                         .use(PicassoPalette.Profile.VIBRANT)
                         .intoBackground(mPokemonSprite) // Background color for Sprite.
                         .intoTextColor(mPokemonNumBorder, PicassoPalette.Swatch.BODY_TEXT_COLOR) // Text color for Number.
@@ -381,7 +396,7 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        outState.putParcelable(POKE_MODEL_STATE_KEY, mPokeModel);
+        outState.putString(POKE_MODEL_STATE_KEY, new Gson().toJson(mPokeModel));
     }
 
     @Override
