@@ -4,6 +4,7 @@
 package com.mianlabs.pokeluv.ui.generations;
 
 import android.app.Fragment;
+import android.content.Context;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -21,6 +22,7 @@ import com.mianlabs.pokeluv.adapters.PokeListAdapter;
 import com.mianlabs.pokeluv.database.PokeCursorManager;
 import com.mianlabs.pokeluv.database.PokeDBContract;
 import com.mianlabs.pokeluv.utilities.PokePicker;
+import com.mianlabs.pokeluv.utilities.PokeSharedPreferences;
 import com.mianlabs.pokeluv.utilities.typeface.TypefaceUtils;
 
 import java.util.ArrayList;
@@ -52,8 +54,10 @@ public class PokeListFragment extends Fragment implements PokeCursorManager.Load
         super.onCreate(savedInstanceState);
         // All right to grab context here since this fragment is not retained.
         mContext = (AppCompatActivity) getActivity();
-
-        if (sDisplayFavoriteMsg) {
+        int countOfCaughtPokemon = mContext
+                .getSharedPreferences(PokeSharedPreferences.COUNT_CAUGHT_POKEMON_FILENAME, Context.MODE_PRIVATE)
+                .getInt(PokeSharedPreferences.COUNT_CAUGHT_POKEMON_KEY, 0);
+        if (sDisplayFavoriteMsg && countOfCaughtPokemon < PokePicker.NUM_OF_POKEMON) {
             TypefaceUtils.displayToast(mContext, getString(R.string.poke_list_fragment_msg),
                     TypefaceUtils.TOAST_SHORT_DURATION);
             sDisplayFavoriteMsg = false;
