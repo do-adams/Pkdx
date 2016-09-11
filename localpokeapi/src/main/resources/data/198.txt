@@ -1,0 +1,14 @@
+198
+!~Murkrow
+!~0.5 m / 1.6 ft
+!~2.1 kg / 4.6 lbs
+!~[Flying, Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png
+!~Black
+!~Wings
+!~Forest
+!~Generation-ii
+!~Murkrow was feared and loathed as the alleged bearer of ill
+fortune. This Pokémon shows strong interest in anything that
+sparkles or glitters. It will even try to steal rings from women.
+!~[Murkrow, Honchkrow]

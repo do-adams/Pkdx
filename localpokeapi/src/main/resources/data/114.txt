@@ -1,0 +1,15 @@
+114
+!~Tangela
+!~1.0 m / 3.3 ft
+!~35.0 kg / 77.2 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png
+!~Blue
+!~Legs
+!~Grassland
+!~Generation-i
+!~Tangela’s vines snap off easily if they are grabbed. This
+happens without pain, allowing it to make a quick getaway.
+The lost vines are replaced by newly grown vines the very
+next day.
+!~[Tangela, Tangrowth]

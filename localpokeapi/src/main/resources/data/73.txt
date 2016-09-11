@@ -1,0 +1,15 @@
+73
+!~Tentacruel
+!~1.6 m / 5.2 ft
+!~55.0 kg / 121.3 lbs
+!~[Poison, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png
+!~Blue
+!~Tentacles
+!~Sea
+!~Generation-i
+!~Tentacruel has tentacles that can be freely elongated
+and shortened at will. It ensnares prey with its tentacles
+and weakens the prey by dosing it with a harsh toxin.
+It can catch up to 80 prey at the same time.
+!~[Tentacool, Tentacruel]

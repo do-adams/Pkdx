@@ -1,0 +1,13 @@
+510
+!~Liepard
+!~1.1 m / 3.6 ft
+!~37.5 kg / 82.7 lbs
+!~[Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/510.png
+!~Purple
+!~Quadruped
+!~null
+!~Generation-v
+!~Stealthily, it sneaks up on its target, striking from
+behind before its victim has a chance to react.
+!~[Purrloin, Liepard]

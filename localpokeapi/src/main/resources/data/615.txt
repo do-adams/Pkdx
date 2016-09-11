@@ -1,0 +1,14 @@
+615
+!~Cryogonal
+!~1.1 m / 3.6 ft
+!~148.0 kg / 326.3 lbs
+!~[Ice]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/615.png
+!~Blue
+!~Ball
+!~null
+!~Generation-v
+!~They are composed of ice crystals. They capture
+prey with chains of ice, freezing the prey at
+-148 degrees Fahrenheit.
+!~[Cryogonal]

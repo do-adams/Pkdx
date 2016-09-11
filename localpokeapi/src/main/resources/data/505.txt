@@ -1,0 +1,14 @@
+505
+!~Watchog
+!~1.1 m / 3.6 ft
+!~27.0 kg / 59.5 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/505.png
+!~Brown
+!~Upright
+!~null
+!~Generation-v
+!~When they see an enemy, their tails stand high,
+and they spit the seeds of berries stored in their
+cheek pouches.
+!~[Patrat, Watchog]

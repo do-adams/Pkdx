@@ -1,0 +1,14 @@
+48
+!~Venonat
+!~1.0 m / 3.3 ft
+!~30.0 kg / 66.1 lbs
+!~[Poison, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png
+!~Purple
+!~Humanoid
+!~Forest
+!~Generation-i
+!~Venonat is said to have evolved with a coat of thin, stiff hair
+that covers its entire body for protection. It possesses large
+eyes that never fail to spot even minuscule prey.
+!~[Venonat, Venomoth]

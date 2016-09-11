@@ -1,0 +1,14 @@
+249
+!~Lugia
+!~5.2 m / 17.1 ft
+!~216.0 kg / 476.2 lbs
+!~[Flying, Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/249.png
+!~White
+!~Wings
+!~Rare
+!~Generation-ii
+!~Lugia’s wings pack devastating power—a light fluttering of its
+wings can blow apart regular houses. As a result, this
+Pokémon chooses to live out of sight deep under the sea.
+!~[Lugia]

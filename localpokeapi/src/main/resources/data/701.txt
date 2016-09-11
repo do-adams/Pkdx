@@ -1,0 +1,14 @@
+701
+!~Hawlucha
+!~0.8 m / 2.6 ft
+!~21.5 kg / 47.4 lbs
+!~[Flying, Fighting]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/701.png
+!~Green
+!~Humanoid
+!~null
+!~Generation-vi
+!~With its wings, it controls its position in the air.
+It likes to attack from above, a maneuver that
+is difficult to defend against.
+!~[Hawlucha]

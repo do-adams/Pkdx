@@ -1,0 +1,13 @@
+540
+!~Sewaddle
+!~0.3 m / 1.0 ft
+!~2.5 kg / 5.5 lbs
+!~[Grass, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/540.png
+!~Yellow
+!~Armor
+!~null
+!~Generation-v
+!~Since this Pokémon makes its own clothes out of
+leaves, it is a popular mascot for fashion designers.
+!~[Sewaddle, Swadloon, Leavanny]

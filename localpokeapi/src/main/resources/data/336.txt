@@ -1,0 +1,14 @@
+336
+!~Seviper
+!~2.7 m / 8.9 ft
+!~52.5 kg / 115.7 lbs
+!~[Poison]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/336.png
+!~Black
+!~Squiggle
+!~Grassland
+!~Generation-iii
+!~Seviper’s swordlike tail serves two purposes—it slashes foes
+and douses them with secreted poison. This Pokémon will not
+give up its long-running blood feud with Zangoose.
+!~[Seviper]

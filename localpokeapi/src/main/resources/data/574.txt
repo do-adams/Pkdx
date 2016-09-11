@@ -1,0 +1,14 @@
+574
+!~Gothita
+!~0.4 m / 1.3 ft
+!~5.8 kg / 12.8 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/574.png
+!~Purple
+!~Humanoid
+!~null
+!~Generation-v
+!~They intently observe both Trainers and Pokémon.
+Apparently, they are looking at something that only
+Gothita can see.
+!~[Gothita, Gothorita, Gothitelle]

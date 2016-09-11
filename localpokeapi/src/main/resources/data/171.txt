@@ -1,0 +1,15 @@
+171
+!~Lanturn
+!~1.2 m / 3.9 ft
+!~22.5 kg / 49.6 lbs
+!~[Electric, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/171.png
+!~Blue
+!~Fish
+!~Sea
+!~Generation-ii
+!~Lanturn is known to emit light. If you peer down into the dark
+sea from a ship at night, you can sometimes see this
+Pokémon’s light rising from the depths where it swims. It gives
+the sea an appearance of a starlit night.
+!~[Chinchou, Lanturn]

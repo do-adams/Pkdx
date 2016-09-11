@@ -1,0 +1,14 @@
+343
+!~Baltoy
+!~0.5 m / 1.6 ft
+!~21.5 kg / 47.4 lbs
+!~[Psychic, Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/343.png
+!~Brown
+!~Arms
+!~Rough-terrain
+!~Generation-iii
+!~As soon as it spots others of its kind, Baltoy congregates with
+them and then begins crying noisily in unison. This Pokémon
+sleeps while cleverly balancing itself on its one foot.
+!~[Baltoy, Claydol]

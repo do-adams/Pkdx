@@ -1,0 +1,14 @@
+382
+!~Kyogre
+!~4.5 m / 14.8 ft
+!~352.0 kg / 776.0 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/382.png
+!~Blue
+!~Fish
+!~Sea
+!~Generation-iii
+!~Kyogre is said to be the personification of the sea itself.
+Legends tell of its many clashes against Groudon,
+as each sought to gain the power of nature.
+!~[Kyogre]

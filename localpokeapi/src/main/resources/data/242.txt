@@ -1,0 +1,14 @@
+242
+!~Blissey
+!~1.5 m / 4.9 ft
+!~46.8 kg / 103.2 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png
+!~Pink
+!~Humanoid
+!~Urban
+!~Generation-ii
+!~Blissey senses sadness with its fluffy coat of fur. If it does so,
+this Pokémon will rush over to a sad person, no matter how far
+away, to share a Lucky Egg that brings a smile to any face.
+!~[Happiny, Chansey, Blissey]

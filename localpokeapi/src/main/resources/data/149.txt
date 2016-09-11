@@ -1,0 +1,14 @@
+149
+!~Dragonite
+!~2.2 m / 7.2 ft
+!~210.0 kg / 463.0 lbs
+!~[Flying, Dragon]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png
+!~Brown
+!~Upright
+!~Waters-edge
+!~Generation-i
+!~Dragonite is capable of circling the globe in just 16 hours.
+It is a kindhearted Pokémon that leads lost and foundering
+ships in a storm to the safety of land.
+!~[Dratini, Dragonair, Dragonite]

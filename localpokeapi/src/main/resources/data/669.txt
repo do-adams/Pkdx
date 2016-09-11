@@ -1,0 +1,14 @@
+669
+!~Flabebe
+!~0.1 m / 0.3 ft
+!~0.1 kg / 0.2 lbs
+!~[Fairy]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/669.png
+!~White
+!~Arms
+!~null
+!~Generation-vi
+!~When it finds a flower it likes, it dwells on
+that flower its whole life long. It floats in the
+wind’s embrace with an untroubled heart.
+!~[Flabebe, Floette, Florges]

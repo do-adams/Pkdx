@@ -1,0 +1,14 @@
+700
+!~Sylveon
+!~1.0 m / 3.3 ft
+!~23.5 kg / 51.8 lbs
+!~[Fairy]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/700.png
+!~Pink
+!~Quadruped
+!~null
+!~Generation-vi
+!~It wraps its ribbonlike feelers around
+the arm of its beloved Trainer
+and walks with him or her.
+!~[Eevee, Vaporeon]

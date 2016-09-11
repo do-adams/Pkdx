@@ -1,0 +1,14 @@
+660
+!~Diggersby
+!~1.0 m / 3.3 ft
+!~42.4 kg / 93.5 lbs
+!~[Ground, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/660.png
+!~Brown
+!~Upright
+!~null
+!~Generation-vi
+!~As powerful as an excavator, its ears
+can reduce dense bedrock to rubble.
+When it’s finished digging, it lounges lazily.
+!~[Bunnelby, Diggersby]

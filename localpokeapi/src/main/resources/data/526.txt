@@ -1,0 +1,14 @@
+526
+!~Gigalith
+!~1.7 m / 5.6 ft
+!~260.0 kg / 573.2 lbs
+!~[Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/526.png
+!~Blue
+!~Tentacles
+!~null
+!~Generation-v
+!~Compressing the energy from its internal core
+lets it fire off an attack capable of blowing away
+a mountain.
+!~[Roggenrola, Boldore, Gigalith]

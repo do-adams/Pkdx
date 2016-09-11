@@ -1,0 +1,14 @@
+557
+!~Dwebble
+!~0.3 m / 1.0 ft
+!~14.5 kg / 32.0 lbs
+!~[Rock, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/557.png
+!~Red
+!~Armor
+!~null
+!~Generation-v
+!~When it finds a stone of a suitable size, it secretes
+a liquid from its mouth to open up a hole to
+crawl into.
+!~[Dwebble, Crustle]

@@ -1,0 +1,14 @@
+84
+!~Doduo
+!~1.4 m / 4.6 ft
+!~39.2 kg / 86.4 lbs
+!~[Flying, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png
+!~Brown
+!~Legs
+!~Grassland
+!~Generation-i
+!~Doduo’s two heads contain completely identical brains. A
+scientific study reported that on rare occasions, there will be
+examples of this Pokémon possessing different sets of brains.
+!~[Doduo, Dodrio]

@@ -1,0 +1,15 @@
+29
+!~Nidoran-f
+!~0.4 m / 1.3 ft
+!~7.0 kg / 15.4 lbs
+!~[Poison]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png
+!~Blue
+!~Quadruped
+!~Grassland
+!~Generation-i
+!~Nidoran♀ has barbs that secrete a powerful poison.
+They are thought to have developed as protection for
+this small-bodied Pokémon. When enraged, it releases
+a horrible toxin from its horn.
+!~[Nidoran-f, Nidorina, Nidoqueen]

@@ -1,0 +1,13 @@
+605
+!~Elgyem
+!~0.5 m / 1.6 ft
+!~9.0 kg / 19.8 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/605.png
+!~Blue
+!~Upright
+!~null
+!~Generation-v
+!~Rumors of its origin are linked to a UFO crash site
+in the desert 50 years ago.
+!~[Elgyem, Beheeyem]

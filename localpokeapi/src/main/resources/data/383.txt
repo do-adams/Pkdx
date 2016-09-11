@@ -1,0 +1,14 @@
+383
+!~Groudon
+!~3.5 m / 11.5 ft
+!~950.0 kg / 2094.4 lbs
+!~[Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/383.png
+!~Red
+!~Upright
+!~Rough-terrain
+!~Generation-iii
+!~Through Primal Reversion and with nature’s full power,
+it will take back its true form. It can cause magma to
+erupt and expand the landmass of the world.
+!~[Groudon]

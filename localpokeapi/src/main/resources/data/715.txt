@@ -1,0 +1,14 @@
+715
+!~Noivern
+!~1.5 m / 4.9 ft
+!~85.0 kg / 187.4 lbs
+!~[Dragon, Flying]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/715.png
+!~Purple
+!~Wings
+!~null
+!~Generation-vi
+!~The ultrasonic waves it emits from its ears
+can reduce a large boulder to pebbles.
+It swoops out of the dark to attack.
+!~[Noibat, Noivern]

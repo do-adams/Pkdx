@@ -1,0 +1,14 @@
+572
+!~Minccino
+!~0.4 m / 1.3 ft
+!~5.8 kg / 12.8 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/572.png
+!~Gray
+!~Quadruped
+!~null
+!~Generation-v
+!~These Pokémon prefer a tidy habitat. They are
+always sweeping and dusting, using their tails
+as brooms.
+!~[Minccino, Cinccino]

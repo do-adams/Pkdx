@@ -1,0 +1,14 @@
+477
+!~Dusknoir
+!~2.2 m / 7.2 ft
+!~106.6 kg / 235.0 lbs
+!~[Ghost]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/477.png
+!~Black
+!~Arms
+!~null
+!~Generation-iv
+!~The antenna on its head captures radio waves from
+the world of spirits that command it to take
+people there.
+!~[Duskull, Dusclops, Dusknoir]

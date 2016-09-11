@@ -1,0 +1,14 @@
+273
+!~Seedot
+!~0.5 m / 1.6 ft
+!~4.0 kg / 8.8 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/273.png
+!~Brown
+!~Legs
+!~Forest
+!~Generation-iii
+!~Seedot looks exactly like an acorn when it is dangling from a
+tree branch. It startles other Pokémon by suddenly moving.
+This Pokémon polishes its body once a day using leaves.
+!~[Seedot, Nuzleaf, Shiftry]

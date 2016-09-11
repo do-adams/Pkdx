@@ -1,0 +1,15 @@
+266
+!~Silcoon
+!~0.6 m / 2.0 ft
+!~10.0 kg / 22.0 lbs
+!~[Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/266.png
+!~White
+!~Ball
+!~Forest
+!~Generation-iii
+!~Silcoon was thought to endure hunger and not consume
+anything before its evolution. However, it is now thought
+that this Pokémon slakes its thirst by drinking rainwater
+that collects on its silk.
+!~[Wurmple, Silcoon, Beautifly]

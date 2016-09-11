@@ -1,0 +1,15 @@
+59
+!~Arcanine
+!~1.9 m / 6.2 ft
+!~155.0 kg / 341.7 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png
+!~Brown
+!~Quadruped
+!~Grassland
+!~Generation-i
+!~Arcanine is known for its high speed. It is said to be capable
+of running over 6,200 miles in a single day and night. The
+fire that blazes wildly within this Pokémon’s body is its source
+of power.
+!~[Growlithe, Arcanine]

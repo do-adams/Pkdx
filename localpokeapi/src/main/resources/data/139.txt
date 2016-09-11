@@ -1,0 +1,15 @@
+139
+!~Omastar
+!~1.0 m / 3.3 ft
+!~35.0 kg / 77.2 lbs
+!~[Water, Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png
+!~Blue
+!~Tentacles
+!~Sea
+!~Generation-i
+!~Omastar uses its tentacles to capture its prey. It is
+believed to have become extinct because its shell grew too
+large and heavy, causing its movements to become too slow
+and ponderous.
+!~[Omanyte, Omastar]

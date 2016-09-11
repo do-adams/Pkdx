@@ -1,0 +1,15 @@
+106
+!~Hitmonlee
+!~1.5 m / 4.9 ft
+!~49.8 kg / 109.8 lbs
+!~[Fighting]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png
+!~Brown
+!~Humanoid
+!~Urban
+!~Generation-i
+!~Hitmonlee’s legs freely contract and stretch. Using these
+springlike legs, it bowls over foes with devastating kicks.
+After battle, it rubs down its legs and loosens the muscles
+to overcome fatigue.
+!~[Tyrogue, Hitmonlee]

@@ -1,0 +1,14 @@
+279
+!~Pelipper
+!~1.2 m / 3.9 ft
+!~28.0 kg / 61.7 lbs
+!~[Flying, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/279.png
+!~Yellow
+!~Wings
+!~Sea
+!~Generation-iii
+!~Pelipper searches for food while in flight by skimming the wave
+tops. This Pokémon dips its large bill in the sea to scoop up
+food, then swallows everything in one big gulp.
+!~[Wingull, Pelipper]

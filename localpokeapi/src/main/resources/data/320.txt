@@ -1,0 +1,15 @@
+320
+!~Wailmer
+!~2.0 m / 6.6 ft
+!~130.0 kg / 286.6 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/320.png
+!~Blue
+!~Fish
+!~Sea
+!~Generation-iii
+!~Wailmer can store water inside its body to transform itself
+into a ball for bouncing around on the ground. By filling itself
+up with more water, this Pokémon can elevate the height of
+its bounces.
+!~[Wailmer, Wailord]

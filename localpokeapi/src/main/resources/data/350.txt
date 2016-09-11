@@ -1,0 +1,14 @@
+350
+!~Milotic
+!~6.2 m / 20.3 ft
+!~162.0 kg / 357.1 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png
+!~Pink
+!~Squiggle
+!~Waters-edge
+!~Generation-iii
+!~Milotic live at the bottom of large lakes. When this
+Pokémon’s body glows a vivid pink, it releases a pulsing
+wave of energy that brings soothing calm to troubled hearts.
+!~[Feebas, Milotic]

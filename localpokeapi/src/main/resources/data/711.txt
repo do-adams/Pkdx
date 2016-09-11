@@ -1,0 +1,14 @@
+711
+!~Gourgeist-average
+!~0.9 m / 3.0 ft
+!~12.5 kg / 27.6 lbs
+!~[Grass, Ghost]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png
+!~Brown
+!~Blob
+!~null
+!~Generation-vi
+!~It enwraps its prey in its hairlike arms.
+It sings joyfully as it observes the
+suffering of its prey.
+!~[Pumpkaboo, Gourgeist]

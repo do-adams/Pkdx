@@ -1,0 +1,15 @@
+35
+!~Clefairy
+!~0.6 m / 2.0 ft
+!~7.5 kg / 16.5 lbs
+!~[Fairy]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png
+!~Pink
+!~Upright
+!~Mountain
+!~Generation-i
+!~On every night of a full moon, groups of this Pokémon
+come out to play. When dawn arrives, the tired Clefairy
+return to their quiet mountain retreats and go to sleep
+nestled up against each other.
+!~[Cleffa, Clefairy, Clefable]

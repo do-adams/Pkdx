@@ -1,0 +1,15 @@
+75
+!~Graveler
+!~1.0 m / 3.3 ft
+!~105.0 kg / 231.5 lbs
+!~[Ground, Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png
+!~Brown
+!~Humanoid
+!~Mountain
+!~Generation-i
+!~Rocks are Graveler’s favorite food. This Pokémon will climb a
+mountain from the base to the summit, crunchingly feasting on
+rocks all the while. Upon reaching the peak, it rolls back down
+to the bottom.
+!~[Geodude, Graveler, Golem]

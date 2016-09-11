@@ -1,0 +1,14 @@
+623
+!~Golurk
+!~2.8 m / 9.2 ft
+!~330.0 kg / 727.5 lbs
+!~[Ghost, Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/623.png
+!~Green
+!~Humanoid
+!~null
+!~Generation-v
+!~It flies across the sky at Mach speeds. Removing
+the seal on its chest makes its internal energy go
+out of control.
+!~[Golett, Golurk]

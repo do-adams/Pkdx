@@ -1,0 +1,14 @@
+282
+!~Gardevoir
+!~1.6 m / 5.2 ft
+!~48.4 kg / 106.7 lbs
+!~[Fairy, Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png
+!~White
+!~Humanoid
+!~Urban
+!~Generation-iii
+!~Gardevoir has the psychokinetic power to distort the
+dimensions and create a small black hole. This Pokémon
+will try to protect its Trainer even at the risk of its own life.
+!~[Ralts, Kirlia, Gardevoir]

@@ -1,0 +1,13 @@
+632
+!~Durant
+!~0.3 m / 1.0 ft
+!~33.0 kg / 72.8 lbs
+!~[Steel, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/632.png
+!~Gray
+!~Armor
+!~null
+!~Generation-v
+!~They attack in groups, covering themselves in steel
+armor to protect themselves from Heatmor.
+!~[Durant]

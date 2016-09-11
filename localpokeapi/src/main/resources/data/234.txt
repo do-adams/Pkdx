@@ -1,0 +1,14 @@
+234
+!~Stantler
+!~1.4 m / 4.6 ft
+!~71.2 kg / 157.0 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/234.png
+!~Brown
+!~Quadruped
+!~Forest
+!~Generation-ii
+!~Stantler’s magnificent antlers were traded at high prices as
+works of art. As a result, this Pokémon was hunted close to
+extinction by those who were after the priceless antlers.
+!~[Stantler]

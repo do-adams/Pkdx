@@ -1,0 +1,14 @@
+634
+!~Zweilous
+!~1.4 m / 4.6 ft
+!~50.0 kg / 110.2 lbs
+!~[Dragon, Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/634.png
+!~Blue
+!~Quadruped
+!~null
+!~Generation-v
+!~After it has eaten up all the food in its territory,
+it moves to another area. Its two heads do not
+get along.
+!~[Deino, Zweilous, Hydreigon]

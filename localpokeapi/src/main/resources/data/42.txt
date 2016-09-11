@@ -1,0 +1,14 @@
+42
+!~Golbat
+!~1.6 m / 5.2 ft
+!~55.0 kg / 121.3 lbs
+!~[Flying, Poison]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png
+!~Purple
+!~Wings
+!~Cave
+!~Generation-i
+!~Golbat bites down on prey with its four fangs and drinks
+the victim’s blood. It becomes active on inky dark
+moonless nights, flying around to attack people and Pokémon.
+!~[Zubat, Golbat, Crobat]

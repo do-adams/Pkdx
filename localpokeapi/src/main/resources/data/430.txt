@@ -1,0 +1,13 @@
+430
+!~Honchkrow
+!~0.9 m / 3.0 ft
+!~27.3 kg / 60.2 lbs
+!~[Flying, Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/430.png
+!~Black
+!~Wings
+!~null
+!~Generation-iv
+!~Becoming active at night, it is known to swarm with
+numerous Murkrow in tow.
+!~[Murkrow, Honchkrow]

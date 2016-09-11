@@ -1,0 +1,14 @@
+677
+!~Espurr
+!~0.3 m / 1.0 ft
+!~3.5 kg / 7.7 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/677.png
+!~Gray
+!~Upright
+!~null
+!~Generation-vi
+!~It has enough psychic energy to blast
+everything within 300 feet of itself,
+but it has no control over its power.
+!~[Espurr, Meowstic]

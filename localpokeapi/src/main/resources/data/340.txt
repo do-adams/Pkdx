@@ -1,0 +1,14 @@
+340
+!~Whiscash
+!~0.9 m / 3.0 ft
+!~23.6 kg / 52.0 lbs
+!~[Ground, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/340.png
+!~Blue
+!~Fish
+!~Waters-edge
+!~Generation-iii
+!~If Whiscash goes on a wild rampage, it sets off a quake-like
+tremor with a radius of over three miles. This Pokémon has
+the ability to predict real earthquakes.
+!~[Barboach, Whiscash]

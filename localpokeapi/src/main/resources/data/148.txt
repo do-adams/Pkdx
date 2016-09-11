@@ -1,0 +1,14 @@
+148
+!~Dragonair
+!~4.0 m / 13.1 ft
+!~16.5 kg / 36.4 lbs
+!~[Dragon]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png
+!~Blue
+!~Squiggle
+!~Waters-edge
+!~Generation-i
+!~Dragonair stores an enormous amount of energy inside
+its body. It is said to alter weather conditions in its vicinity
+by discharging energy from the crystals on its neck and tail.
+!~[Dratini, Dragonair, Dragonite]

@@ -1,0 +1,14 @@
+12
+!~Butterfree
+!~1.1 m / 3.6 ft
+!~32.0 kg / 70.5 lbs
+!~[Flying, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png
+!~White
+!~Bug-wings
+!~Forest
+!~Generation-i
+!~Butterfree has a superior ability to search for delicious honey
+from flowers. It can even search out, extract, and carry honey
+from flowers that are blooming over six miles from its nest.
+!~[Caterpie, Metapod, Butterfree]

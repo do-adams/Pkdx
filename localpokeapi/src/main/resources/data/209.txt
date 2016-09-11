@@ -1,0 +1,14 @@
+209
+!~Snubbull
+!~0.6 m / 2.0 ft
+!~7.8 kg / 17.2 lbs
+!~[Fairy]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/209.png
+!~Pink
+!~Humanoid
+!~Urban
+!~Generation-ii
+!~By baring its fangs and making a scary face, Snubbull sends
+smaller Pokémon scurrying away in terror. However, this
+Pokémon seems a little sad at making its foes flee.
+!~[Snubbull, Granbull]

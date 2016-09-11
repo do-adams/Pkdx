@@ -1,0 +1,14 @@
+248
+!~Tyranitar
+!~2.0 m / 6.6 ft
+!~202.0 kg / 445.3 lbs
+!~[Dark, Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/248.png
+!~Green
+!~Upright
+!~Mountain
+!~Generation-ii
+!~Tyranitar is so overwhelmingly powerful, it can bring down a
+whole mountain to make its nest. This Pokémon wanders about
+in mountains seeking new opponents to fight.
+!~[Larvitar, Pupitar, Tyranitar]

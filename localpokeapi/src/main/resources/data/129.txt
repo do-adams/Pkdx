@@ -1,0 +1,15 @@
+129
+!~Magikarp
+!~0.9 m / 3.0 ft
+!~10.0 kg / 22.0 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png
+!~Red
+!~Fish
+!~Waters-edge
+!~Generation-i
+!~Magikarp is virtually useless in battle as it can only splash
+around. As a result, it is considered to be weak. However,
+it is actually a very hardy Pokémon that can survive in any
+body of water no matter how polluted it is.
+!~[Magikarp, Gyarados]

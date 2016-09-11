@@ -1,0 +1,13 @@
+490
+!~Manaphy
+!~0.3 m / 1.0 ft
+!~1.4 kg / 3.1 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/490.png
+!~Blue
+!~Humanoid
+!~null
+!~Generation-iv
+!~It starts its life with a wondrous power that permits
+it to bond with any kind of Pokémon.
+!~[Manaphy]

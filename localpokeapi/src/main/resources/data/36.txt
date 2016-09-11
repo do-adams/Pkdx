@@ -1,0 +1,14 @@
+36
+!~Clefable
+!~1.3 m / 4.3 ft
+!~40.0 kg / 88.2 lbs
+!~[Fairy]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png
+!~Pink
+!~Upright
+!~Mountain
+!~Generation-i
+!~Clefable moves by skipping lightly as if it were flying using
+its wings. Its bouncy step lets it even walk on water.
+It is known to take strolls on lakes on quiet, moonlit nights.
+!~[Cleffa, Clefairy, Clefable]

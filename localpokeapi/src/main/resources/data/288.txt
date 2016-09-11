@@ -1,0 +1,15 @@
+288
+!~Vigoroth
+!~1.4 m / 4.6 ft
+!~46.5 kg / 102.5 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/288.png
+!~White
+!~Upright
+!~Forest
+!~Generation-iii
+!~Vigoroth is simply incapable of remaining still. Even when it
+tries to sleep, the blood in its veins grows agitated, compelling
+this Pokémon to run wild throughout the jungle before it can
+settle down.
+!~[Slakoth, Vigoroth, Slaking]

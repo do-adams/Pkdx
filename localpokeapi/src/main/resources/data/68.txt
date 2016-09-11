@@ -1,0 +1,15 @@
+68
+!~Machamp
+!~1.6 m / 5.2 ft
+!~130.0 kg / 286.6 lbs
+!~[Fighting]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png
+!~Gray
+!~Humanoid
+!~Mountain
+!~Generation-i
+!~Machamp is known as the Pokémon that has mastered
+every kind of martial arts. If it grabs hold of the foe with its
+four arms, the battle is all but over. The hapless foe is thrown
+far over the horizon.
+!~[Machop, Machoke, Machamp]

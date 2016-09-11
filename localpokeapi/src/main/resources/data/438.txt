@@ -1,0 +1,13 @@
+438
+!~Bonsly
+!~0.5 m / 1.6 ft
+!~15.0 kg / 33.1 lbs
+!~[Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/438.png
+!~Brown
+!~Legs
+!~null
+!~Generation-iv
+!~It prefers an arid atmosphere. It leaks water that
+looks like tears when adjusting its moisture level.
+!~[Bonsly, Sudowoodo]

@@ -1,0 +1,13 @@
+588
+!~Karrablast
+!~0.5 m / 1.6 ft
+!~5.9 kg / 13.0 lbs
+!~[Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/588.png
+!~Blue
+!~Humanoid
+!~null
+!~Generation-v
+!~For some reason they evolve when they receive
+electrical energy while they are attacking Shelmet.
+!~[Karrablast, Escavalier]

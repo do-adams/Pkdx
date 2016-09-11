@@ -1,0 +1,13 @@
+467
+!~Magmortar
+!~1.6 m / 5.2 ft
+!~68.0 kg / 149.9 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png
+!~Red
+!~Upright
+!~null
+!~Generation-iv
+!~It blasts fireballs of over 3,600 degrees Fahrenheit
+out of its arms. Its breath also sears and sizzles.
+!~[Magby, Magmar, Magmortar]

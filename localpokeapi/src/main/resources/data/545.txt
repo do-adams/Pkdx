@@ -1,0 +1,13 @@
+545
+!~Scolipede
+!~2.5 m / 8.2 ft
+!~200.5 kg / 442.0 lbs
+!~[Poison, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/545.png
+!~Red
+!~Armor
+!~null
+!~Generation-v
+!~With quick movements, it chases down its foes,
+attacking relentlessly with its horns until it prevails.
+!~[Venipede, Whirlipede, Scolipede]

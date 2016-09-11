@@ -1,0 +1,13 @@
+614
+!~Beartic
+!~2.6 m / 8.5 ft
+!~260.0 kg / 573.2 lbs
+!~[Ice]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/614.png
+!~White
+!~Quadruped
+!~null
+!~Generation-v
+!~It freezes its breath to create fangs and claws of ice
+to fight with. Cold northern areas are its habitat.
+!~[Cubchoo, Beartic]

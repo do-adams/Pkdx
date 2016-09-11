@@ -1,0 +1,15 @@
+240
+!~Magby
+!~0.7 m / 2.3 ft
+!~21.4 kg / 47.2 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/240.png
+!~Red
+!~Upright
+!~Mountain
+!~Generation-ii
+!~Magby’s state of health is determined by observing the fire it
+breathes. If the Pokémon is spouting yellow flames from its
+mouth, it is in good health. When it is fatigued, black smoke
+will be mixed in with the flames.
+!~[Magby, Magmar, Magmortar]

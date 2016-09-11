@@ -1,0 +1,14 @@
+641
+!~Tornadus-incarnate
+!~1.5 m / 4.9 ft
+!~63.0 kg / 138.9 lbs
+!~[Flying]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/641.png
+!~Green
+!~Arms
+!~null
+!~Generation-v
+!~Tornadus expels massive energy from its tail,
+causing severe storms. Its power is great enough
+to blow houses away.
+!~[Tornadus]

@@ -1,0 +1,14 @@
+672
+!~Skiddo
+!~0.9 m / 3.0 ft
+!~31.0 kg / 68.3 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/672.png
+!~Brown
+!~Quadruped
+!~null
+!~Generation-vi
+!~If it has sunshine and water, it doesn’t
+need to eat, because it can generate
+energy from the leaves on its back.
+!~[Skiddo, Gogoat]

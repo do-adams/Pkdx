@@ -1,0 +1,14 @@
+717
+!~Yveltal
+!~5.8 m / 19.0 ft
+!~203.0 kg / 447.5 lbs
+!~[Flying, Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/717.png
+!~Red
+!~Wings
+!~null
+!~Generation-vi
+!~When its life comes to an end, it absorbs
+the life energy of every living thing
+and turns into a cocoon once more.
+!~[Yveltal]

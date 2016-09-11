@@ -1,0 +1,13 @@
+445
+!~Garchomp
+!~1.9 m / 6.2 ft
+!~95.0 kg / 209.4 lbs
+!~[Ground, Dragon]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png
+!~Blue
+!~Upright
+!~null
+!~Generation-iv
+!~It flies at speeds equal to a jet fighter plane.
+It never allows its prey to escape.
+!~[Gible, Gabite, Garchomp]

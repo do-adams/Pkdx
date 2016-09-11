@@ -1,0 +1,14 @@
+366
+!~Clamperl
+!~0.4 m / 1.3 ft
+!~52.5 kg / 115.7 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/366.png
+!~Blue
+!~Ball
+!~Sea
+!~Generation-iii
+!~Clamperl grows while being protected by its rock-hard shell.
+When its body becomes too large to fit inside the shell, it is
+sure evidence that this Pokémon is getting close to evolution.
+!~[Clamperl, Huntail]

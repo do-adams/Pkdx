@@ -1,0 +1,14 @@
+174
+!~Igglybuff
+!~0.3 m / 1.0 ft
+!~1.0 kg / 2.2 lbs
+!~[Fairy, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png
+!~Pink
+!~Humanoid
+!~Grassland
+!~Generation-ii
+!~Igglybuff has a soft and plushy body that feels very much like
+a marshmallow. From this body wafts a gently sweet fragrance
+that soothes and calms the emotions of its foes.
+!~[Igglybuff, Jigglypuff, Wigglytuff]

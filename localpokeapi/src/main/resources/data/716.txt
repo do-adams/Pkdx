@@ -1,0 +1,14 @@
+716
+!~Xerneas
+!~3.0 m / 9.8 ft
+!~215.0 kg / 474.0 lbs
+!~[Fairy]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/716.png
+!~Blue
+!~Quadruped
+!~null
+!~Generation-vi
+!~When the horns on its head shine
+in seven colors, it is said to be
+sharing everlasting life.
+!~[Xerneas]

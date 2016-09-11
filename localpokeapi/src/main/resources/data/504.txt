@@ -1,0 +1,14 @@
+504
+!~Patrat
+!~0.5 m / 1.6 ft
+!~11.6 kg / 25.6 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/504.png
+!~Brown
+!~Quadruped
+!~null
+!~Generation-v
+!~Extremely cautious, one of them will always be on
+the lookout, but it won’t notice a foe coming
+from behind.
+!~[Patrat, Watchog]

@@ -1,0 +1,13 @@
+594
+!~Alomomola
+!~1.2 m / 3.9 ft
+!~31.6 kg / 69.7 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/594.png
+!~Pink
+!~Fish
+!~null
+!~Generation-v
+!~It gently holds injured and weak Pokémon in its
+fins. Its special membrane heals their wounds.
+!~[Alomomola]

@@ -1,0 +1,13 @@
+485
+!~Heatran
+!~1.7 m / 5.6 ft
+!~430.0 kg / 948.0 lbs
+!~[Steel, Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/485.png
+!~Brown
+!~Quadruped
+!~null
+!~Generation-iv
+!~Boiling blood, like magma, circulates through its
+body. It makes its dwelling place in volcanic caves.
+!~[Heatran]

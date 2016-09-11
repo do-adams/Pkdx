@@ -1,0 +1,14 @@
+189
+!~Jumpluff
+!~0.8 m / 2.6 ft
+!~3.0 kg / 6.6 lbs
+!~[Flying, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/189.png
+!~Blue
+!~Upright
+!~Grassland
+!~Generation-ii
+!~Jumpluff rides warm southern winds to cross the sea and fly to
+foreign lands. The Pokémon descends to the ground when it
+encounters cold air while it is floating.
+!~[Hoppip, Skiploom, Jumpluff]

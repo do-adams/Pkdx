@@ -1,0 +1,14 @@
+646
+!~Kyurem
+!~3.0 m / 9.8 ft
+!~325.0 kg / 716.5 lbs
+!~[Ice, Dragon]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/646.png
+!~Gray
+!~Upright
+!~null
+!~Generation-v
+!~It generates a powerful, freezing energy inside
+itself, but its body became frozen when the energy
+leaked out.
+!~[Kyurem]

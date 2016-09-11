@@ -1,0 +1,13 @@
+397
+!~Staravia
+!~0.6 m / 2.0 ft
+!~15.5 kg / 34.2 lbs
+!~[Flying, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/397.png
+!~Brown
+!~Wings
+!~null
+!~Generation-iv
+!~It lives in forests and fields. Squabbles over
+territory occur when flocks collide.
+!~[Starly, Staravia, Staraptor]

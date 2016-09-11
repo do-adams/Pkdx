@@ -1,0 +1,14 @@
+396
+!~Starly
+!~0.3 m / 1.0 ft
+!~2.0 kg / 4.4 lbs
+!~[Flying, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/396.png
+!~Brown
+!~Wings
+!~null
+!~Generation-iv
+!~They flock around mountains and fields, chasing
+after bug Pokémon. Their singing is noisy
+and annoying.
+!~[Starly, Staravia, Staraptor]

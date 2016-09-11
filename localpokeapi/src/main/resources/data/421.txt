@@ -1,0 +1,13 @@
+421
+!~Cherrim
+!~0.5 m / 1.6 ft
+!~9.3 kg / 20.5 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/421.png
+!~Pink
+!~Legs
+!~null
+!~Generation-iv
+!~If it senses strong sunlight, it opens its folded
+petals to absorb the sun’s rays with its whole body.
+!~[Cherubi, Cherrim]

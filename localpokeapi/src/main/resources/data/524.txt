@@ -1,0 +1,14 @@
+524
+!~Roggenrola
+!~0.4 m / 1.3 ft
+!~18.0 kg / 39.7 lbs
+!~[Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/524.png
+!~Blue
+!~Legs
+!~null
+!~Generation-v
+!~They were discovered a hundred years ago in an
+earthquake fissure. Inside each one is an
+energy core.
+!~[Roggenrola, Boldore, Gigalith]

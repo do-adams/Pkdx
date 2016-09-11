@@ -1,0 +1,14 @@
+183
+!~Marill
+!~0.4 m / 1.3 ft
+!~8.5 kg / 18.7 lbs
+!~[Fairy, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/183.png
+!~Blue
+!~Upright
+!~Waters-edge
+!~Generation-ii
+!~When fishing for food at the edge of a fast-running stream,
+Marill wraps its tail around the trunk of a tree. This Pokémon’s
+tail is flexible and configured to stretch.
+!~[Azurill, Marill, Azumarill]

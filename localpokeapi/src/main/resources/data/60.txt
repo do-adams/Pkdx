@@ -1,0 +1,15 @@
+60
+!~Poliwag
+!~0.6 m / 2.0 ft
+!~12.4 kg / 27.3 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png
+!~Blue
+!~Legs
+!~Waters-edge
+!~Generation-i
+!~Poliwag has a very thin skin. It is possible to see the
+Pokémon’s spiral innards right through the skin. Despite its
+thinness, however, the skin is also very flexible. Even sharp
+fangs bounce right off it.
+!~[Poliwag, Poliwhirl, Poliwrath]

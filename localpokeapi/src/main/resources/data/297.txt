@@ -1,0 +1,14 @@
+297
+!~Hariyama
+!~2.3 m / 7.5 ft
+!~253.8 kg / 559.5 lbs
+!~[Fighting]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/297.png
+!~Brown
+!~Humanoid
+!~Mountain
+!~Generation-iii
+!~Hariyama’s thick body may appear fat, but it is actually a hunk
+of solid muscle. If this Pokémon bears down and tightens all its
+muscles, its body becomes as hard as a rock.
+!~[Makuhita, Hariyama]

@@ -1,0 +1,15 @@
+191
+!~Sunkern
+!~0.3 m / 1.0 ft
+!~1.8 kg / 4.0 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/191.png
+!~Yellow
+!~Ball
+!~Grassland
+!~Generation-ii
+!~Sunkern tries to move as little as it possibly can. It does so
+because it tries to conserve all the nutrients it has stored in its
+body for its evolution. It will not eat a thing, subsisting only on
+morning dew.
+!~[Sunkern, Sunflora]

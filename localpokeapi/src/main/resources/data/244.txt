@@ -1,0 +1,15 @@
+244
+!~Entei
+!~2.1 m / 6.9 ft
+!~198.0 kg / 436.5 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/244.png
+!~Brown
+!~Quadruped
+!~Grassland
+!~Generation-ii
+!~Entei embodies the passion of magma. This Pokémon is
+thought to have been born in the eruption of a volcano.
+It sends up massive bursts of fire that utterly consume all
+that they touch.
+!~[Entei]

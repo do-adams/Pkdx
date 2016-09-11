@@ -1,0 +1,14 @@
+600
+!~Klang
+!~0.6 m / 2.0 ft
+!~51.0 kg / 112.4 lbs
+!~[Steel]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/600.png
+!~Gray
+!~Heads
+!~null
+!~Generation-v
+!~A minigear and big gear comprise its body. If the
+minigear it launches at a foe doesn’t return, it
+will die.
+!~[Klink, Klang, Klinklang]

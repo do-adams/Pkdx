@@ -1,0 +1,13 @@
+390
+!~Chimchar
+!~0.5 m / 1.6 ft
+!~6.2 kg / 13.7 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png
+!~Brown
+!~Upright
+!~null
+!~Generation-iv
+!~The gas made in its belly burns from its rear end.
+The fire burns weakly when it feels sick.
+!~[Chimchar, Monferno, Infernape]

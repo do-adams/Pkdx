@@ -1,0 +1,14 @@
+252
+!~Treecko
+!~0.5 m / 1.6 ft
+!~5.0 kg / 11.0 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png
+!~Green
+!~Upright
+!~Forest
+!~Generation-iii
+!~Treecko is cool, calm, and collected—it never panics under
+any situation. If a bigger foe were to glare at this Pokémon,
+it would glare right back without conceding an inch of ground.
+!~[Treecko, Grovyle, Sceptile]

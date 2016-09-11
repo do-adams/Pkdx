@@ -1,0 +1,14 @@
+642
+!~Thundurus-incarnate
+!~1.5 m / 4.9 ft
+!~61.0 kg / 134.5 lbs
+!~[Flying, Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/642.png
+!~Blue
+!~Arms
+!~null
+!~Generation-v
+!~As it flies around, it shoots lightning all over
+the place and causes forest fires. It is
+therefore disliked.
+!~[Thundurus]

@@ -1,0 +1,13 @@
+559
+!~Scraggy
+!~0.6 m / 2.0 ft
+!~11.8 kg / 26.0 lbs
+!~[Fighting, Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/559.png
+!~Yellow
+!~Upright
+!~null
+!~Generation-v
+!~Proud of its sturdy skull, it suddenly headbutts
+everything, but its weight makes it unstable, too.
+!~[Scraggy, Scrafty]

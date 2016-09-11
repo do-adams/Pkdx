@@ -1,0 +1,15 @@
+207
+!~Gligar
+!~1.1 m / 3.6 ft
+!~64.8 kg / 142.9 lbs
+!~[Flying, Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/207.png
+!~Purple
+!~Wings
+!~Mountain
+!~Generation-ii
+!~Gligar glides through the air without a sound as if it were
+sliding. This Pokémon hangs on to the face of its foe using
+its clawed hind legs and the large pincers on its forelegs, then
+injects the prey with its poison barb.
+!~[Gligar, Gliscor]

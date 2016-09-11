@@ -1,0 +1,14 @@
+631
+!~Heatmor
+!~1.4 m / 4.6 ft
+!~58.0 kg / 127.9 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/631.png
+!~Red
+!~Upright
+!~null
+!~Generation-v
+!~It draws in air through its tail, transforms it into fire,
+and uses it like a tongue. It melts Durant and
+eats them.
+!~[Heatmor]

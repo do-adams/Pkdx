@@ -1,0 +1,14 @@
+535
+!~Tympole
+!~0.5 m / 1.6 ft
+!~4.5 kg / 9.9 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/535.png
+!~Blue
+!~Fish
+!~null
+!~Generation-v
+!~By vibrating its cheeks, it emits sound waves
+imperceptible to humans. It uses the rhythm of
+these sounds to talk.
+!~[Tympole, Palpitoad, Seismitoad]

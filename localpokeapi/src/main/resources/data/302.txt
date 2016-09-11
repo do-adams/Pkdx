@@ -1,0 +1,14 @@
+302
+!~Sableye
+!~0.5 m / 1.6 ft
+!~11.0 kg / 24.3 lbs
+!~[Ghost, Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/302.png
+!~Purple
+!~Humanoid
+!~Cave
+!~Generation-iii
+!~Sableye digs the ground with sharpened claws to find rocks
+that it eats. Substances in the eaten rocks crystallize and rise
+up to the Pokémon’s body surface.
+!~[Sableye]

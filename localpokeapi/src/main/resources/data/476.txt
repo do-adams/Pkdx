@@ -1,0 +1,13 @@
+476
+!~Probopass
+!~1.4 m / 4.6 ft
+!~340.0 kg / 749.6 lbs
+!~[Steel, Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/476.png
+!~Gray
+!~Heads
+!~null
+!~Generation-iv
+!~It freely controls three small units called Mini-Noses
+using magnetic force.
+!~[Nosepass, Probopass]

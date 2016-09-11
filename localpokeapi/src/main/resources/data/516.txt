@@ -1,0 +1,14 @@
+516
+!~Simipour
+!~1.0 m / 3.3 ft
+!~29.0 kg / 63.9 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/516.png
+!~Blue
+!~Upright
+!~null
+!~Generation-v
+!~It prefers places with clean water. When its tuft runs
+low, it replenishes it by siphoning up water with
+its tail.
+!~[Panpour, Simipour]

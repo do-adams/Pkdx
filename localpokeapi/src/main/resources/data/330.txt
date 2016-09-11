@@ -1,0 +1,15 @@
+330
+!~Flygon
+!~2.0 m / 6.6 ft
+!~82.0 kg / 180.8 lbs
+!~[Dragon, Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/330.png
+!~Green
+!~Wings
+!~Rough-terrain
+!~Generation-iii
+!~Flygon whips up a sandstorm by flapping its wings. The wings
+create a series of notes that sound like singing. Because the
+“singing” is the only thing that can be heard in a sandstorm,
+this Pokémon is said to be the desert spirit.
+!~[Trapinch, Vibrava, Flygon]

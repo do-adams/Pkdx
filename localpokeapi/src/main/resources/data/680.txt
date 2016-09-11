@@ -1,0 +1,14 @@
+680
+!~Doublade
+!~0.8 m / 2.6 ft
+!~4.5 kg / 9.9 lbs
+!~[Ghost, Steel]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/680.png
+!~Brown
+!~Heads
+!~null
+!~Generation-vi
+!~The complex attack patterns of its two swords
+are unstoppable, even for an opponent
+greatly accomplished at swordplay.
+!~[Honedge, Doublade, Aegislash]

@@ -1,0 +1,14 @@
+91
+!~Cloyster
+!~1.5 m / 4.9 ft
+!~132.5 kg / 292.1 lbs
+!~[Ice, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png
+!~Purple
+!~Ball
+!~Sea
+!~Generation-i
+!~Cloyster is capable of swimming in the sea. It does so by
+swallowing water, then jetting it out toward the rear. This
+Pokémon shoots spikes from its shell using the same system.
+!~[Shellder, Cloyster]

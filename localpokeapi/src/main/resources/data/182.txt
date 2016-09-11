@@ -1,0 +1,14 @@
+182
+!~Bellossom
+!~0.4 m / 1.3 ft
+!~5.8 kg / 12.8 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/182.png
+!~Green
+!~Humanoid
+!~Grassland
+!~Generation-ii
+!~A Bellossom grows flowers more beautifully if it has evolved
+from a smelly Gloom—the more stinky the better. At night, this
+Pokémon closes its petals and goes to sleep.
+!~[Oddish, Gloom, Vileplume]

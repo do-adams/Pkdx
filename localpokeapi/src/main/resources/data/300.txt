@@ -1,0 +1,14 @@
+300
+!~Skitty
+!~0.6 m / 2.0 ft
+!~11.0 kg / 24.3 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/300.png
+!~Pink
+!~Quadruped
+!~Forest
+!~Generation-iii
+!~Skitty is known to chase around playfully after its own tail.
+In the wild, this Pokémon lives in holes in the trees of forests.
+It is very popular as a pet because of its adorable looks.
+!~[Skitty, Delcatty]

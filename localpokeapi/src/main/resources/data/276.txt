@@ -1,0 +1,14 @@
+276
+!~Taillow
+!~0.3 m / 1.0 ft
+!~2.3 kg / 5.1 lbs
+!~[Flying, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/276.png
+!~Blue
+!~Wings
+!~Grassland
+!~Generation-iii
+!~Taillow is young—it has only just left its nest. As a result,
+it sometimes becomes lonesome and cries at night.
+This Pokémon feeds on Wurmple that live in forests.
+!~[Taillow, Swellow]

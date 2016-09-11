@@ -1,0 +1,14 @@
+61
+!~Poliwhirl
+!~1.0 m / 3.3 ft
+!~20.0 kg / 44.1 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png
+!~Blue
+!~Humanoid
+!~Waters-edge
+!~Generation-i
+!~The surface of Poliwhirl’s body is always wet and slick with
+a slimy fluid. Because of this slippery covering, it can easily
+slip and slide out of the clutches of any enemy in battle.
+!~[Poliwag, Poliwhirl, Poliwrath]

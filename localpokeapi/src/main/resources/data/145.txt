@@ -1,0 +1,14 @@
+145
+!~Zapdos
+!~1.6 m / 5.2 ft
+!~52.6 kg / 116.0 lbs
+!~[Flying, Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png
+!~Yellow
+!~Wings
+!~Rare
+!~Generation-i
+!~Zapdos is a legendary bird Pokémon that has the ability
+to control electricity. It usually lives in thunderclouds.
+The Pokémon gains power if it is stricken by lightning bolts.
+!~[Zapdos]

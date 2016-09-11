@@ -1,0 +1,14 @@
+458
+!~Mantyke
+!~1.0 m / 3.3 ft
+!~65.0 kg / 143.3 lbs
+!~[Flying, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/458.png
+!~Blue
+!~Wings
+!~null
+!~Generation-iv
+!~When it swims close to the surface of the ocean,
+people aboard ships are able to observe the pattern
+on its back.
+!~[Mantyke, Mantine]

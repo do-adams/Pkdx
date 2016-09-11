@@ -1,0 +1,14 @@
+565
+!~Carracosta
+!~1.2 m / 3.9 ft
+!~81.0 kg / 178.6 lbs
+!~[Rock, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png
+!~Blue
+!~Upright
+!~null
+!~Generation-v
+!~It could knock out a foe with a slap from one of its
+developed front appendages and chew it up, shell
+or bones and all.
+!~[Tirtouga, Carracosta]

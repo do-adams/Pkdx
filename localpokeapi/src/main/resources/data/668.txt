@@ -1,0 +1,14 @@
+668
+!~Pyroar
+!~1.5 m / 4.9 ft
+!~81.5 kg / 179.7 lbs
+!~[Normal, Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/668.png
+!~Brown
+!~Quadruped
+!~null
+!~Generation-vi
+!~With fiery breath of more than 10,000 degrees
+Fahrenheit, they viciously threaten any challenger.
+The females protect the pride’s cubs.
+!~[Litleo, Pyroar]

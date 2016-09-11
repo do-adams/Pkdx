@@ -1,0 +1,13 @@
+486
+!~Regigigas
+!~3.7 m / 12.1 ft
+!~420.0 kg / 925.9 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/486.png
+!~White
+!~Humanoid
+!~null
+!~Generation-iv
+!~There is an enduring legend that states this
+Pokémon towed continents with ropes.
+!~[Regigigas]

@@ -1,0 +1,14 @@
+144
+!~Articuno
+!~1.7 m / 5.6 ft
+!~55.4 kg / 122.1 lbs
+!~[Flying, Ice]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png
+!~Blue
+!~Wings
+!~Rare
+!~Generation-i
+!~Articuno is a legendary bird Pokémon that can control ice.
+The flapping of its wings chills the air. As a result, it is said
+that when this Pokémon flies, snow will fall.
+!~[Articuno]

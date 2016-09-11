@@ -1,0 +1,14 @@
+229
+!~Houndoom
+!~1.4 m / 4.6 ft
+!~35.0 kg / 77.2 lbs
+!~[Fire, Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/229.png
+!~Black
+!~Quadruped
+!~Rough-terrain
+!~Generation-ii
+!~In a Houndoom pack, the one with its horns raked sharply
+toward the back serves a leadership role. These Pokémon
+choose their leader by fighting among themselves.
+!~[Houndour, Houndoom]

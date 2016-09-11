@@ -1,0 +1,14 @@
+32
+!~Nidoran-m
+!~0.5 m / 1.6 ft
+!~9.0 kg / 19.8 lbs
+!~[Poison]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png
+!~Purple
+!~Quadruped
+!~Grassland
+!~Generation-i
+!~Nidoran♂ has developed muscles for moving its ears. Thanks
+to them, the ears can be freely moved in any direction. Even
+the slightest sound does not escape this Pokémon’s notice.
+!~[Nidoran-m, Nidorino, Nidoking]

@@ -1,0 +1,14 @@
+344
+!~Claydol
+!~1.5 m / 4.9 ft
+!~108.0 kg / 238.1 lbs
+!~[Psychic, Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/344.png
+!~Black
+!~Arms
+!~Rough-terrain
+!~Generation-iii
+!~Claydol is an enigma that appeared from a clay statue made by
+an ancient civilization dating back 20,000 years. This Pokémon
+shoots beams from both its hands.
+!~[Baltoy, Claydol]

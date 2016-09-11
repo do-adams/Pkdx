@@ -1,0 +1,14 @@
+410
+!~Shieldon
+!~0.5 m / 1.6 ft
+!~57.0 kg / 125.7 lbs
+!~[Steel, Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/410.png
+!~Gray
+!~Quadruped
+!~null
+!~Generation-iv
+!~It was generated from a fossil dug out of a layer of
+clay that was older than anyone knows. It has a
+sturdy face.
+!~[Shieldon, Bastiodon]

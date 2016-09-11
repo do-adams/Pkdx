@@ -1,0 +1,13 @@
+389
+!~Torterra
+!~2.2 m / 7.2 ft
+!~310.0 kg / 683.4 lbs
+!~[Ground, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/389.png
+!~Green
+!~Quadruped
+!~null
+!~Generation-iv
+!~Small Pokémon occasionally gather on its unmoving
+back to begin building their nests.
+!~[Turtwig, Grotle, Torterra]

@@ -1,0 +1,14 @@
+613
+!~Cubchoo
+!~0.5 m / 1.6 ft
+!~8.5 kg / 18.7 lbs
+!~[Ice]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/613.png
+!~White
+!~Upright
+!~null
+!~Generation-v
+!~Their snot is a barometer of health. When healthy,
+their snot is sticky and the power of their ice
+moves increases.
+!~[Cubchoo, Beartic]

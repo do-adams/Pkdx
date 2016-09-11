@@ -1,0 +1,14 @@
+359
+!~Absol
+!~1.2 m / 3.9 ft
+!~47.0 kg / 103.6 lbs
+!~[Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/359.png
+!~White
+!~Quadruped
+!~Mountain
+!~Generation-iii
+!~Absol has the ability to foretell the coming of natural disasters.
+It lives in a harsh, rugged mountain environment. This
+Pokémon very rarely ventures down from the mountains.
+!~[Absol]

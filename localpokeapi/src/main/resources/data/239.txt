@@ -1,0 +1,14 @@
+239
+!~Elekid
+!~0.6 m / 2.0 ft
+!~23.5 kg / 51.8 lbs
+!~[Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/239.png
+!~Yellow
+!~Humanoid
+!~Grassland
+!~Generation-ii
+!~Elekid stores electricity in its body. If it touches metal and
+accidentally discharges all its built-up electricity, this Pokémon
+begins swinging its arms in circles to recharge itself.
+!~[Elekid, Electabuzz, Electivire]

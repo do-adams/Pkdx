@@ -1,0 +1,14 @@
+681
+!~Aegislash-shield
+!~1.7 m / 5.6 ft
+!~53.0 kg / 116.8 lbs
+!~[Ghost, Steel]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/681.png
+!~Brown
+!~Blob
+!~null
+!~Generation-vi
+!~Apparently, it can detect the innate qualities
+of leadership. According to legend, whoever it
+recognizes is destined to become king.
+!~[Honedge, Doublade, Aegislash]

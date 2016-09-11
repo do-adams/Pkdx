@@ -1,0 +1,13 @@
+409
+!~Rampardos
+!~1.6 m / 5.2 ft
+!~102.5 kg / 226.0 lbs
+!~[Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/409.png
+!~Blue
+!~Upright
+!~null
+!~Generation-iv
+!~Its skull is as hard as iron. It is a brute that tears
+down jungle trees while catching prey.
+!~[Cranidos, Rampardos]

@@ -1,0 +1,13 @@
+461
+!~Weavile
+!~1.1 m / 3.6 ft
+!~34.0 kg / 75.0 lbs
+!~[Ice, Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png
+!~Black
+!~Upright
+!~null
+!~Generation-iv
+!~They live in cold regions, forming groups of four or
+five that hunt prey with impressive coordination.
+!~[Sneasel, Weavile]

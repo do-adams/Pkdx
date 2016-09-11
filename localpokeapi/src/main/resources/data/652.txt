@@ -1,0 +1,13 @@
+652
+!~Chesnaught
+!~1.6 m / 5.2 ft
+!~90.0 kg / 198.4 lbs
+!~[Fighting, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/652.png
+!~Green
+!~Upright
+!~null
+!~Generation-vi
+!~When it takes a defensive posture with its fists
+guarding its face, it could withstand a bomb blast.
+!~[Chespin, Quilladin, Chesnaught]

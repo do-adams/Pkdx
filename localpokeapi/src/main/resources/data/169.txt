@@ -1,0 +1,14 @@
+169
+!~Crobat
+!~1.8 m / 5.9 ft
+!~75.0 kg / 165.3 lbs
+!~[Flying, Poison]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png
+!~Purple
+!~Bug-wings
+!~Cave
+!~Generation-ii
+!~Crobat sneaks up on its intended prey using wings that barely
+make a sound. This Pokémon rests by hanging on a tree
+branch with its rear legs that serve as wings.
+!~[Zubat, Golbat, Crobat]

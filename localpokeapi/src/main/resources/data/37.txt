@@ -1,0 +1,15 @@
+37
+!~Vulpix
+!~0.6 m / 2.0 ft
+!~9.9 kg / 21.8 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png
+!~Brown
+!~Quadruped
+!~Grassland
+!~Generation-i
+!~Inside Vulpix’s body burns a flame that never goes out.
+During the daytime, when the temperatures rise, this
+Pokémon releases flames from its mouth to prevent its
+body from growing too hot.
+!~[Vulpix, Ninetales]

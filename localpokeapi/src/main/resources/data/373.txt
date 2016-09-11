@@ -1,0 +1,15 @@
+373
+!~Salamence
+!~1.5 m / 4.9 ft
+!~102.6 kg / 226.2 lbs
+!~[Flying, Dragon]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/373.png
+!~Blue
+!~Quadruped
+!~Rough-terrain
+!~Generation-iii
+!~By evolving into Salamence, this Pokémon finally
+realizes its long-held dream of growing wings. To express
+its joy, it flies and wheels all over the sky while spouting
+flames from its mouth.
+!~[Bagon, Shelgon, Salamence]

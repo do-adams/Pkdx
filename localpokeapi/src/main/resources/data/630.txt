@@ -1,0 +1,14 @@
+630
+!~Mandibuzz
+!~1.2 m / 3.9 ft
+!~39.5 kg / 87.1 lbs
+!~[Flying, Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/630.png
+!~Brown
+!~Wings
+!~null
+!~Generation-v
+!~Watching from the sky, they swoop to strike
+weakened Pokémon on the ground. They decorate
+themselves with bones.
+!~[Vullaby, Mandibuzz]

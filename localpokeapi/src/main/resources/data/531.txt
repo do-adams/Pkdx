@@ -1,0 +1,14 @@
+531
+!~Audino
+!~1.1 m / 3.6 ft
+!~31.0 kg / 68.3 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/531.png
+!~Pink
+!~Upright
+!~null
+!~Generation-v
+!~It touches others with the feelers on its ears, using
+the sound of their heartbeats to tell how they
+are feeling.
+!~[Audino]

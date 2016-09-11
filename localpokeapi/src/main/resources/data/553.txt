@@ -1,0 +1,14 @@
+553
+!~Krookodile
+!~1.5 m / 4.9 ft
+!~96.3 kg / 212.3 lbs
+!~[Dark, Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/553.png
+!~Red
+!~Upright
+!~null
+!~Generation-v
+!~They never allow prey to escape. Their jaws
+are so powerful, they can crush the body of
+an automobile.
+!~[Sandile, Krokorok, Krookodile]

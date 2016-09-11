@@ -1,0 +1,13 @@
+392
+!~Infernape
+!~1.2 m / 3.9 ft
+!~55.0 kg / 121.3 lbs
+!~[Fighting, Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/392.png
+!~Brown
+!~Upright
+!~null
+!~Generation-iv
+!~It tosses its enemies around with agility. It uses all
+its limbs to fight in its own unique style.
+!~[Chimchar, Monferno, Infernape]

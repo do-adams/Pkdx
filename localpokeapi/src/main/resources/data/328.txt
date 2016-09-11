@@ -1,0 +1,14 @@
+328
+!~Trapinch
+!~0.7 m / 2.3 ft
+!~15.0 kg / 33.1 lbs
+!~[Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/328.png
+!~Brown
+!~Armor
+!~Rough-terrain
+!~Generation-iii
+!~Trapinch is a patient hunter. It digs an inescapable pit in a
+desert and waits for its prey to come tumbling down. This
+Pokémon can go a whole week without access to any water.
+!~[Trapinch, Vibrava, Flygon]

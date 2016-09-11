@@ -1,0 +1,15 @@
+38
+!~Ninetales
+!~1.1 m / 3.6 ft
+!~19.9 kg / 43.9 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png
+!~Yellow
+!~Quadruped
+!~Grassland
+!~Generation-i
+!~Legend has it that Ninetales came into being when
+nine wizards possessing sacred powers merged into one.
+This Pokémon is highly intelligent—it can understand
+human speech.
+!~[Vulpix, Ninetales]

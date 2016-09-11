@@ -1,0 +1,13 @@
+649
+!~Genesect
+!~1.5 m / 4.9 ft
+!~82.5 kg / 181.9 lbs
+!~[Steel, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/649.png
+!~Purple
+!~Humanoid
+!~null
+!~Generation-v
+!~This Pokémon existed 300 million years ago. Team
+Plasma altered it and attached a cannon to its back.
+!~[Genesect]

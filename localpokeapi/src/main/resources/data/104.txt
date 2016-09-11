@@ -1,0 +1,14 @@
+104
+!~Cubone
+!~0.4 m / 1.3 ft
+!~6.5 kg / 14.3 lbs
+!~[Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png
+!~Brown
+!~Upright
+!~Mountain
+!~Generation-i
+!~Cubone pines for the mother it will never see again. Seeing a
+likeness of its mother in the full moon, it cries. The stains on
+the skull the Pokémon wears are made by the tears it sheds.
+!~[Cubone, Marowak]

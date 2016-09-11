@@ -1,0 +1,14 @@
+194
+!~Wooper
+!~0.4 m / 1.3 ft
+!~8.5 kg / 18.7 lbs
+!~[Ground, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/194.png
+!~Blue
+!~Legs
+!~Waters-edge
+!~Generation-ii
+!~Wooper usually lives in water. However, it occasionally comes
+out onto land in search of food. On land, it coats its body with
+a gooey, toxic film.
+!~[Wooper, Quagsire]

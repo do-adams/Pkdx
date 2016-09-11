@@ -1,0 +1,14 @@
+267
+!~Beautifly
+!~1.0 m / 3.3 ft
+!~28.4 kg / 62.6 lbs
+!~[Flying, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/267.png
+!~Yellow
+!~Bug-wings
+!~Forest
+!~Generation-iii
+!~Beautifly has a long mouth like a coiled needle, which is very
+convenient for collecting pollen from flowers. This Pokémon
+rides the spring winds as it flits around gathering pollen.
+!~[Wurmple, Silcoon, Beautifly]

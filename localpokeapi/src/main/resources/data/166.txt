@@ -1,0 +1,15 @@
+166
+!~Ledian
+!~1.4 m / 4.6 ft
+!~35.6 kg / 78.5 lbs
+!~[Flying, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/166.png
+!~Red
+!~Wings
+!~Forest
+!~Generation-ii
+!~It is said that in lands with clean air, where the stars fill the
+sky, there live Ledian in countless numbers. There is a good
+reason for this—the Pokémon uses the light of the stars as
+its energy.
+!~[Ledyba, Ledian]

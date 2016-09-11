@@ -1,0 +1,13 @@
+489
+!~Phione
+!~0.4 m / 1.3 ft
+!~3.1 kg / 6.8 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/489.png
+!~Blue
+!~Arms
+!~null
+!~Generation-iv
+!~It drifts in warm seas. It always returns to where it
+was born, no matter how far it may have drifted.
+!~[Manaphy]

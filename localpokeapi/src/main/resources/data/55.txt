@@ -1,0 +1,14 @@
+55
+!~Golduck
+!~1.7 m / 5.6 ft
+!~76.6 kg / 168.9 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png
+!~Blue
+!~Upright
+!~Waters-edge
+!~Generation-i
+!~Golduck is the fastest swimmer among all Pokémon. It swims
+effortlessly, even in a rough, stormy sea. It sometimes rescues
+people from wrecked ships floundering in high seas.
+!~[Psyduck, Golduck]

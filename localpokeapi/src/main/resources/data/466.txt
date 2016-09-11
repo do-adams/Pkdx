@@ -1,0 +1,13 @@
+466
+!~Electivire
+!~1.8 m / 5.9 ft
+!~138.6 kg / 305.6 lbs
+!~[Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/466.png
+!~Yellow
+!~Upright
+!~null
+!~Generation-iv
+!~It pushes the tips of its two tails against the foe,
+then lets loose with over 20,000 volts of power.
+!~[Elekid, Electabuzz, Electivire]

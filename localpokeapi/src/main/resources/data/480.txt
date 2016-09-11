@@ -1,0 +1,13 @@
+480
+!~Uxie
+!~0.3 m / 1.0 ft
+!~0.3 kg / 0.7 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/480.png
+!~Yellow
+!~Upright
+!~null
+!~Generation-iv
+!~It is said that its emergence gave humans the
+intelligence to improve their quality of life.
+!~[Uxie]

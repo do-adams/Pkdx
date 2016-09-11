@@ -1,0 +1,13 @@
+690
+!~Skrelp
+!~0.5 m / 1.6 ft
+!~7.3 kg / 16.1 lbs
+!~[Water, Poison]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/690.png
+!~Brown
+!~Blob
+!~null
+!~Generation-vi
+!~It looks just like rotten kelp. It hides from foes
+while storing up power for its evolution.
+!~[Skrelp, Dragalge]

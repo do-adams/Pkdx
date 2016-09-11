@@ -1,0 +1,15 @@
+110
+!~Weezing
+!~1.2 m / 3.9 ft
+!~9.5 kg / 20.9 lbs
+!~[Poison]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png
+!~Purple
+!~Heads
+!~Urban
+!~Generation-i
+!~Weezing alternately shrinks and inflates its twin bodies to mix
+together toxic gases inside. The more the gases are mixed,
+the more powerful the toxins become. The Pokémon also
+becomes more putrid.
+!~[Koffing, Weezing]

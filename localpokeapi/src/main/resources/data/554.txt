@@ -1,0 +1,14 @@
+554
+!~Darumaka
+!~0.6 m / 2.0 ft
+!~37.5 kg / 82.7 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/554.png
+!~Red
+!~Humanoid
+!~null
+!~Generation-v
+!~When it sleeps, it pulls its limbs into its
+body and its internal fire goes down to
+1,100 degrees Fahrenheit.
+!~[Darumaka, Darmanitan]

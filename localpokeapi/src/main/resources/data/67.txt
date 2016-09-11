@@ -1,0 +1,15 @@
+67
+!~Machoke
+!~1.5 m / 4.9 ft
+!~70.5 kg / 155.4 lbs
+!~[Fighting]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png
+!~Gray
+!~Humanoid
+!~Mountain
+!~Generation-i
+!~Machoke undertakes bodybuilding every day even as
+it helps people with tough, physically demanding labor.
+On its days off, this Pokémon heads to the fields and
+mountains to exercise and train.
+!~[Machop, Machoke, Machamp]

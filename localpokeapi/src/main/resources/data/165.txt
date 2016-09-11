@@ -1,0 +1,15 @@
+165
+!~Ledyba
+!~1.0 m / 3.3 ft
+!~10.8 kg / 23.8 lbs
+!~[Flying, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/165.png
+!~Red
+!~Wings
+!~Forest
+!~Generation-ii
+!~Ledyba secretes an aromatic fluid from where its legs join its
+body. This fluid is used for communicating with others.
+This Pokémon conveys its feelings to others by altering the
+fluid’s scent.
+!~[Ledyba, Ledian]

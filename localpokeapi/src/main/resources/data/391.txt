@@ -1,0 +1,13 @@
+391
+!~Monferno
+!~0.9 m / 3.0 ft
+!~22.0 kg / 48.5 lbs
+!~[Fighting, Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/391.png
+!~Brown
+!~Upright
+!~null
+!~Generation-iv
+!~It uses ceilings and walls to launch aerial attacks.
+Its fiery tail is but one weapon.
+!~[Chimchar, Monferno, Infernape]

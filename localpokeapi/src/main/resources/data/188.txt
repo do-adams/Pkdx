@@ -1,0 +1,15 @@
+188
+!~Skiploom
+!~0.6 m / 2.0 ft
+!~1.0 kg / 2.2 lbs
+!~[Flying, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/188.png
+!~Green
+!~Upright
+!~Grassland
+!~Generation-ii
+!~Skiploom’s flower blossoms when the temperature rises
+above 64 degrees Fahrenheit. How much the flower opens
+depends on the temperature. For that reason, this Pokémon
+is sometimes used as a thermometer.
+!~[Hoppip, Skiploom, Jumpluff]

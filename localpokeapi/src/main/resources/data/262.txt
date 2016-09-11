@@ -1,0 +1,14 @@
+262
+!~Mightyena
+!~1.0 m / 3.3 ft
+!~37.0 kg / 81.6 lbs
+!~[Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/262.png
+!~Gray
+!~Quadruped
+!~Grassland
+!~Generation-iii
+!~Mightyena travel and act as a pack in the wild. The memory
+of its life in the wild compels the Pokémon to obey only
+those Trainers that it recognizes to possess superior skill.
+!~[Poochyena, Mightyena]

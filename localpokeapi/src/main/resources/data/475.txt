@@ -1,0 +1,13 @@
+475
+!~Gallade
+!~1.6 m / 5.2 ft
+!~52.0 kg / 114.6 lbs
+!~[Fighting, Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/475.png
+!~White
+!~Humanoid
+!~null
+!~Generation-iv
+!~A master of courtesy and swordsmanship, it fights
+using extending swords on its elbows.
+!~[Ralts, Kirlia, Gardevoir]

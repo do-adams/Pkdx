@@ -1,0 +1,14 @@
+341
+!~Corphish
+!~0.6 m / 2.0 ft
+!~11.5 kg / 25.4 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/341.png
+!~Red
+!~Armor
+!~Waters-edge
+!~Generation-iii
+!~Corphish catches prey with its sharp claws. It has no
+likes or dislikes when it comes to food—it will eat anything.
+This Pokémon has no trouble living in filthy water.
+!~[Corphish, Crawdaunt]

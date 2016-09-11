@@ -1,0 +1,13 @@
+670
+!~Floette
+!~0.2 m / 0.7 ft
+!~0.9 kg / 2.0 lbs
+!~[Fairy]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/670.png
+!~White
+!~Arms
+!~null
+!~Generation-vi
+!~When the flowers of a well-tended flower bed bloom,
+it appears and celebrates with an elegant dance.
+!~[Flabebe, Floette, Florges]

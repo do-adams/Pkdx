@@ -1,0 +1,13 @@
+439
+!~Mime-jr
+!~0.6 m / 2.0 ft
+!~13.0 kg / 28.7 lbs
+!~[Fairy, Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png
+!~Pink
+!~Humanoid
+!~null
+!~Generation-iv
+!~It habitually mimics foes. Once mimicked, the foe
+cannot take its eyes off this Pokémon.
+!~[Mime-jr, Mr-mime]

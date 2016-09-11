@@ -1,0 +1,15 @@
+18
+!~Pidgeot
+!~1.5 m / 4.9 ft
+!~39.5 kg / 87.1 lbs
+!~[Flying, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png
+!~Brown
+!~Wings
+!~Forest
+!~Generation-i
+!~This Pokémon has a dazzling plumage of beautifully
+glossy feathers. Many Trainers are captivated by the
+striking beauty of the feathers on its head, compelling
+them to choose Pidgeot as their Pokémon.
+!~[Pidgey, Pidgeotto, Pidgeot]

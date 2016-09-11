@@ -1,0 +1,15 @@
+8
+!~Wartortle
+!~1.0 m / 3.3 ft
+!~22.5 kg / 49.6 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png
+!~Blue
+!~Upright
+!~Waters-edge
+!~Generation-i
+!~Its tail is large and covered with a rich, thick fur. The tail
+becomes increasingly deeper in color as Wartortle ages.
+The scratches on its shell are evidence of this Pokémon’s
+toughness as a battler.
+!~[Squirtle, Wartortle, Blastoise]

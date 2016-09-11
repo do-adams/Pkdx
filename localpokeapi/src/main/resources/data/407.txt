@@ -1,0 +1,13 @@
+407
+!~Roserade
+!~0.9 m / 3.0 ft
+!~14.5 kg / 32.0 lbs
+!~[Poison, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png
+!~Green
+!~Humanoid
+!~null
+!~Generation-iv
+!~With the movements of a dancer, it strikes with
+whips that are densely lined with poison thorns.
+!~[Budew, Roselia, Roserade]

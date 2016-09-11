@@ -1,0 +1,14 @@
+163
+!~Hoothoot
+!~0.7 m / 2.3 ft
+!~21.2 kg / 46.7 lbs
+!~[Flying, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/163.png
+!~Brown
+!~Wings
+!~Forest
+!~Generation-ii
+!~Hoothoot has an internal organ that senses and tracks the
+earth’s rotation. Using this special organ, this Pokémon
+begins hooting at precisely the same time every day.
+!~[Hoothoot, Noctowl]

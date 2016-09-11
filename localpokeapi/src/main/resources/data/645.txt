@@ -1,0 +1,14 @@
+645
+!~Landorus-incarnate
+!~1.5 m / 4.9 ft
+!~68.0 kg / 149.9 lbs
+!~[Flying, Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/645.png
+!~Brown
+!~Arms
+!~null
+!~Generation-v
+!~From the forces of lightning and wind, it creates
+energy to give nutrients to the soil and make the
+land abundant.
+!~[Landorus]

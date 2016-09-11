@@ -1,0 +1,14 @@
+277
+!~Swellow
+!~0.7 m / 2.3 ft
+!~19.8 kg / 43.7 lbs
+!~[Flying, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/277.png
+!~Blue
+!~Wings
+!~Grassland
+!~Generation-iii
+!~Swellow is very conscientious about the upkeep of its glossy
+wings. Once two Swellow are gathered, they diligently take
+care of cleaning each other’s wings.
+!~[Taillow, Swellow]

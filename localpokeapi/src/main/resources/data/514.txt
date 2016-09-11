@@ -1,0 +1,14 @@
+514
+!~Simisear
+!~1.0 m / 3.3 ft
+!~28.0 kg / 61.7 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/514.png
+!~Red
+!~Upright
+!~null
+!~Generation-v
+!~When it gets excited, embers rise from its head
+and tail and it gets hot. For some reason, it
+loves sweets.
+!~[Pansear, Simisear]

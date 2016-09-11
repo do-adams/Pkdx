@@ -1,0 +1,15 @@
+150
+!~Mewtwo
+!~2.0 m / 6.6 ft
+!~122.0 kg / 269.0 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png
+!~Purple
+!~Upright
+!~Rare
+!~Generation-i
+!~Mewtwo is a Pokémon that was created by genetic
+manipulation. However, even though the scientific power
+of humans created this Pokémon’s body, they failed to
+endow Mewtwo with a compassionate heart.
+!~[Mewtwo]

@@ -1,0 +1,14 @@
+558
+!~Crustle
+!~1.4 m / 4.6 ft
+!~200.0 kg / 440.9 lbs
+!~[Rock, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/558.png
+!~Red
+!~Armor
+!~null
+!~Generation-v
+!~Competing for territory, Crustle fight viciously.
+The one whose boulder is broken is the loser of
+the battle.
+!~[Dwebble, Crustle]

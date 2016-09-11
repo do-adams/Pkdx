@@ -1,0 +1,14 @@
+221
+!~Piloswine
+!~1.1 m / 3.6 ft
+!~55.8 kg / 123.0 lbs
+!~[Ground, Ice]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/221.png
+!~Brown
+!~Quadruped
+!~Cave
+!~Generation-ii
+!~Piloswine is covered by a thick coat of long hair that enables
+it to endure the freezing cold. This Pokémon uses its tusks to
+dig up food that has been buried under ice.
+!~[Swinub, Piloswine, Mamoswine]

@@ -1,0 +1,14 @@
+372
+!~Shelgon
+!~1.1 m / 3.6 ft
+!~110.5 kg / 243.6 lbs
+!~[Dragon]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/372.png
+!~White
+!~Quadruped
+!~Rough-terrain
+!~Generation-iii
+!~Covering Shelgon’s body are outgrowths much like bones.
+The shell is very hard and bounces off enemy attacks.
+When awaiting evolution, this Pokémon hides away in a cavern.
+!~[Bagon, Shelgon, Salamence]

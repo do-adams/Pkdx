@@ -1,0 +1,14 @@
+433
+!~Chingling
+!~0.2 m / 0.7 ft
+!~0.6 kg / 1.3 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/433.png
+!~Yellow
+!~Humanoid
+!~null
+!~Generation-iv
+!~There is an orb inside its mouth. When it hops,
+the orb bounces all over and makes a
+ringing sound.
+!~[Chingling, Chimecho]

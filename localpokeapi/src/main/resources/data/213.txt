@@ -1,0 +1,15 @@
+213
+!~Shuckle
+!~0.6 m / 2.0 ft
+!~20.5 kg / 45.2 lbs
+!~[Rock, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/213.png
+!~Yellow
+!~Armor
+!~Mountain
+!~Generation-ii
+!~Shuckle quietly hides itself under rocks, keeping its body
+concealed inside its hard shell while eating berries it has
+stored away. The berries mix with its body fluids to become
+a juice.
+!~[Shuckle]

@@ -1,0 +1,15 @@
+17
+!~Pidgeotto
+!~1.1 m / 3.6 ft
+!~30.0 kg / 66.1 lbs
+!~[Flying, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png
+!~Brown
+!~Wings
+!~Forest
+!~Generation-i
+!~Pidgeotto claims a large area as its own territory. This
+Pokémon flies around, patrolling its living space. If its territory
+is violated, it shows no mercy in thoroughly punishing the foe
+with its sharp claws.
+!~[Pidgey, Pidgeotto, Pidgeot]

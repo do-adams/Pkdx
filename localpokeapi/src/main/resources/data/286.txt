@@ -1,0 +1,14 @@
+286
+!~Breloom
+!~1.2 m / 3.9 ft
+!~39.2 kg / 86.4 lbs
+!~[Fighting, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/286.png
+!~Green
+!~Upright
+!~Forest
+!~Generation-iii
+!~The seeds ringing Breloom’s tail are made of hardened toxic
+spores. It is horrible to eat the seeds. Just taking a bite of this
+Pokémon’s seed will cause your stomach to rumble.
+!~[Shroomish, Breloom]

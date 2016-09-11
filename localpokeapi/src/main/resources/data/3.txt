@@ -1,0 +1,14 @@
+3
+!~Venusaur
+!~2.0 m / 6.6 ft
+!~100.0 kg / 220.5 lbs
+!~[Poison, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png
+!~Green
+!~Quadruped
+!~Grassland
+!~Generation-i
+!~There is a large flower on Venusaur’s back. The flower is said
+to take on vivid colors if it gets plenty of nutrition and sunlight.
+The flower’s aroma soothes the emotions of people.
+!~[Bulbasaur, Ivysaur, Venusaur]

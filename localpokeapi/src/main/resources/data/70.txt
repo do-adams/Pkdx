@@ -1,0 +1,15 @@
+70
+!~Weepinbell
+!~1.0 m / 3.3 ft
+!~6.4 kg / 14.1 lbs
+!~[Poison, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png
+!~Green
+!~Blob
+!~Forest
+!~Generation-i
+!~Weepinbell has a large hook on its rear end. At night, the
+Pokémon hooks on to a tree branch and goes to sleep.
+If it moves around in its sleep, it may wake up to find itself
+on the ground.
+!~[Bellsprout, Weepinbell, Victreebel]

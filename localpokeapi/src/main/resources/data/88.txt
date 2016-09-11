@@ -1,0 +1,14 @@
+88
+!~Grimer
+!~0.9 m / 3.0 ft
+!~30.0 kg / 66.1 lbs
+!~[Poison]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png
+!~Purple
+!~Arms
+!~Urban
+!~Generation-i
+!~Grimer emerged from the sludge that settled on a polluted
+seabed. This Pokémon loves anything filthy. It constantly
+leaks a horribly germ-infested fluid from all over its body.
+!~[Grimer, Muk]

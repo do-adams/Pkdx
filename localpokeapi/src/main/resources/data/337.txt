@@ -1,0 +1,15 @@
+337
+!~Lunatone
+!~1.0 m / 3.3 ft
+!~168.0 kg / 370.4 lbs
+!~[Psychic, Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/337.png
+!~Yellow
+!~Ball
+!~Cave
+!~Generation-iii
+!~Lunatone becomes active around the time of the full moon.
+Instead of walking, it moves by floating in midair.
+The Pokémon’s intimidating red eyes cause all those who
+see it to become transfixed with fear.
+!~[Lunatone]

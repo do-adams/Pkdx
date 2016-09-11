@@ -1,0 +1,14 @@
+451
+!~Skorupi
+!~0.8 m / 2.6 ft
+!~12.0 kg / 26.5 lbs
+!~[Bug, Poison]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/451.png
+!~Purple
+!~Armor
+!~null
+!~Generation-iv
+!~It burrows under the sand to lie in wait for prey.
+Its tail claws can inject its prey with a
+savage poison.
+!~[Skorupi, Drapion]

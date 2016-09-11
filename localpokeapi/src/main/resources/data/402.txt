@@ -1,0 +1,13 @@
+402
+!~Kricketune
+!~1.0 m / 3.3 ft
+!~25.5 kg / 56.2 lbs
+!~[Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/402.png
+!~Red
+!~Bug-wings
+!~null
+!~Generation-iv
+!~It signals its emotions with its melodies. Scientists
+are studying these melodic patterns.
+!~[Kricketot, Kricketune]

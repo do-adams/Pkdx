@@ -1,0 +1,14 @@
+692
+!~Clauncher
+!~0.5 m / 1.6 ft
+!~8.3 kg / 18.3 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/692.png
+!~Blue
+!~Armor
+!~null
+!~Generation-vi
+!~Through controlled explosions of internal gas,
+it can expel water like a pistol shot.
+At close distances, it can shatter rock.
+!~[Clauncher, Clawitzer]

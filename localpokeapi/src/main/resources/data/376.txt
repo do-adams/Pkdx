@@ -1,0 +1,15 @@
+376
+!~Metagross
+!~1.6 m / 5.2 ft
+!~550.0 kg / 1212.5 lbs
+!~[Psychic, Steel]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/376.png
+!~Blue
+!~Heads
+!~Rough-terrain
+!~Generation-iii
+!~Metagross is the result of two Metang achieving fusion.
+When hunting, this Pokémon pins the prey to the ground under
+its massive body. It then eats the helpless victim using the
+large mouth on its stomach.
+!~[Beldum, Metang, Metagross]

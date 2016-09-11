@@ -1,0 +1,14 @@
+246
+!~Larvitar
+!~0.6 m / 2.0 ft
+!~72.0 kg / 158.7 lbs
+!~[Ground, Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/246.png
+!~Green
+!~Upright
+!~Mountain
+!~Generation-ii
+!~Larvitar is born deep under the ground. To come up to the
+surface, this Pokémon must eat its way through the soil above.
+Until it does so, Larvitar cannot see its parents.
+!~[Larvitar, Pupitar, Tyranitar]

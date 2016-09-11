@@ -1,0 +1,14 @@
+133
+!~Eevee
+!~0.3 m / 1.0 ft
+!~6.5 kg / 14.3 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png
+!~Brown
+!~Quadruped
+!~Urban
+!~Generation-i
+!~Eevee has an unstable genetic makeup that suddenly mutates
+due to the environment in which it lives. Radiation from various
+stones causes this Pokémon to evolve.
+!~[Eevee, Vaporeon]

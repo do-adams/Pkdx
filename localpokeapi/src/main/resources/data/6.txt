@@ -1,0 +1,15 @@
+6
+!~Charizard
+!~1.7 m / 5.6 ft
+!~90.5 kg / 199.5 lbs
+!~[Flying, Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png
+!~Red
+!~Upright
+!~Mountain
+!~Generation-i
+!~Charizard flies around the sky in search of powerful opponents.
+It breathes fire of such great heat that it melts anything.
+However, it never turns its fiery breath on any opponent
+weaker than itself.
+!~[Charmander, Charmeleon, Charizard]

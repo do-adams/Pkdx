@@ -1,0 +1,15 @@
+4
+!~Charmander
+!~0.6 m / 2.0 ft
+!~8.5 kg / 18.7 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png
+!~Red
+!~Upright
+!~Mountain
+!~Generation-i
+!~The flame that burns at the tip of its tail is an indication
+of its emotions. The flame wavers when Charmander
+is enjoying itself. If the Pokémon becomes enraged,
+the flame burns fiercely.
+!~[Charmander, Charmeleon, Charizard]

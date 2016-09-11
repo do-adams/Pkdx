@@ -1,0 +1,14 @@
+313
+!~Volbeat
+!~0.7 m / 2.3 ft
+!~17.7 kg / 39.0 lbs
+!~[Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/313.png
+!~Gray
+!~Upright
+!~Forest
+!~Generation-iii
+!~Volbeat’s tail glows like a lightbulb. With other Volbeat,
+it uses its tail to draw geometric shapes in the night sky.
+This Pokémon loves the sweet aroma given off by Illumise.
+!~[Volbeat]

@@ -1,0 +1,13 @@
+422
+!~Shellos
+!~0.3 m / 1.0 ft
+!~6.3 kg / 13.9 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422.png
+!~Purple
+!~Armor
+!~null
+!~Generation-iv
+!~Its shape and coloration vary, depending on
+its habitat.
+!~[Shellos, Gastrodon]

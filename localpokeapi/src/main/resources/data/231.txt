@@ -1,0 +1,15 @@
+231
+!~Phanpy
+!~0.5 m / 1.6 ft
+!~33.5 kg / 73.9 lbs
+!~[Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/231.png
+!~Blue
+!~Quadruped
+!~Rough-terrain
+!~Generation-ii
+!~Phanpy uses its long nose to shower itself. When others
+gather around, they thoroughly douse each other with water.
+These Pokémon can be seen drying their soaking-wet
+bodies at the edge of water.
+!~[Phanpy, Donphan]

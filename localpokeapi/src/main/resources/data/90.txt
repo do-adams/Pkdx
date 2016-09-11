@@ -1,0 +1,14 @@
+90
+!~Shellder
+!~0.3 m / 1.0 ft
+!~4.0 kg / 8.8 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png
+!~Purple
+!~Ball
+!~Sea
+!~Generation-i
+!~At night, this Pokémon uses its broad tongue to burrow a hole
+in the seafloor sand and then sleep in it. While it is sleeping,
+Shellder closes its shell, but leaves its tongue hanging out.
+!~[Shellder, Cloyster]

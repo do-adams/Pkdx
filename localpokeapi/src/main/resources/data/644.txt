@@ -1,0 +1,14 @@
+644
+!~Zekrom
+!~2.9 m / 9.5 ft
+!~345.0 kg / 760.6 lbs
+!~[Electric, Dragon]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/644.png
+!~Black
+!~Upright
+!~null
+!~Generation-v
+!~Concealing itself in lightning clouds, it flies
+throughout the Unova region. It creates electricity
+in its tail.
+!~[Zekrom]

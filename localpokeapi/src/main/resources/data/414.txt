@@ -1,0 +1,13 @@
+414
+!~Mothim
+!~0.9 m / 3.0 ft
+!~23.3 kg / 51.4 lbs
+!~[Flying, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/414.png
+!~Yellow
+!~Bug-wings
+!~null
+!~Generation-iv
+!~It flutters around at night and steals honey from
+the Combee hive.
+!~[Burmy, Wormadam]

@@ -1,0 +1,15 @@
+327
+!~Spinda
+!~1.1 m / 3.6 ft
+!~5.0 kg / 11.0 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/327.png
+!~Brown
+!~Upright
+!~Mountain
+!~Generation-iii
+!~No two Spinda are said to have identical spot patterns on their
+hides. This Pokémon moves in a curious manner as if it is
+stumbling in dizziness. Its lurching movements can cause the
+opponent to become confused.
+!~[Spinda]

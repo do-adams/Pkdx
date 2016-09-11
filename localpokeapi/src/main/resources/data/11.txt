@@ -1,0 +1,15 @@
+11
+!~Metapod
+!~0.7 m / 2.3 ft
+!~9.9 kg / 21.8 lbs
+!~[Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png
+!~Green
+!~Squiggle
+!~Forest
+!~Generation-i
+!~The shell covering this Pokémon’s body is as hard as an
+iron slab. Metapod does not move very much.
+It stays still because it is preparing its soft innards for
+evolution inside the hard shell.
+!~[Caterpie, Metapod, Butterfree]

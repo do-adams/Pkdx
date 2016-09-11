@@ -1,0 +1,14 @@
+351
+!~Castform
+!~0.3 m / 1.0 ft
+!~0.8 kg / 1.8 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/351.png
+!~White
+!~Ball
+!~Grassland
+!~Generation-iii
+!~Castform borrows the power of nature to transform itself
+into the guises of the sun, rain, and snow-clouds.
+This Pokémon’s feelings change with the weather.
+!~[Castform]

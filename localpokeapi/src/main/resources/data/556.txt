@@ -1,0 +1,13 @@
+556
+!~Maractus
+!~1.0 m / 3.3 ft
+!~28.0 kg / 61.7 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/556.png
+!~Green
+!~Blob
+!~null
+!~Generation-v
+!~Arid regions are their habitat. They move
+rhythmically, making a sound similar to maracas.
+!~[Maractus]

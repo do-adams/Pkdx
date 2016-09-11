@@ -1,0 +1,15 @@
+94
+!~Gengar
+!~1.5 m / 4.9 ft
+!~40.5 kg / 89.3 lbs
+!~[Poison, Ghost]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png
+!~Purple
+!~Upright
+!~Cave
+!~Generation-i
+!~Sometimes, on a dark night, your shadow thrown by a
+streetlight will suddenly and startlingly overtake you.
+It is actually a Gengar running past you, pretending to be
+your shadow.
+!~[Gastly, Haunter, Gengar]

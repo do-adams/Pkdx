@@ -1,0 +1,14 @@
+714
+!~Noibat
+!~0.5 m / 1.6 ft
+!~8.0 kg / 17.6 lbs
+!~[Dragon, Flying]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/714.png
+!~Purple
+!~Wings
+!~null
+!~Generation-vi
+!~Even a robust wrestler will become
+dizzy and unable to stand when exposed
+to its 200,000-hertz ultrasonic waves.
+!~[Noibat, Noivern]

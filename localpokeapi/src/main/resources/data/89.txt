@@ -1,0 +1,14 @@
+89
+!~Muk
+!~1.2 m / 3.9 ft
+!~30.0 kg / 66.1 lbs
+!~[Poison]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png
+!~Purple
+!~Arms
+!~Urban
+!~Generation-i
+!~This Pokémon’s favorite food is anything that is repugnantly
+filthy. In dirty towns where people think nothing of throwing
+away litter on the streets, Muk are certain to gather.
+!~[Grimer, Muk]

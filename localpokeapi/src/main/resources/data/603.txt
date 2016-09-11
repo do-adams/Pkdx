@@ -1,0 +1,14 @@
+603
+!~Eelektrik
+!~1.2 m / 3.9 ft
+!~22.0 kg / 48.5 lbs
+!~[Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/603.png
+!~Blue
+!~Fish
+!~null
+!~Generation-v
+!~These Pokémon have a big appetite. When they
+spot their prey, they attack it and paralyze it
+with electricity.
+!~[Tynamo, Eelektrik, Eelektross]

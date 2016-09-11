@@ -1,0 +1,15 @@
+82
+!~Magneton
+!~1.0 m / 3.3 ft
+!~60.0 kg / 132.3 lbs
+!~[Steel, Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png
+!~Gray
+!~Heads
+!~Rough-terrain
+!~Generation-i
+!~Magneton emits a powerful magnetic force that is fatal to
+electronics and precision instruments. Because of this, it is
+said that some towns warn people to keep this Pokémon
+inside a Poké Ball.
+!~[Magnemite, Magneton, Magnezone]

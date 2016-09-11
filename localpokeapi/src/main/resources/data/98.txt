@@ -1,0 +1,15 @@
+98
+!~Krabby
+!~0.4 m / 1.3 ft
+!~6.5 kg / 14.3 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png
+!~Red
+!~Armor
+!~Waters-edge
+!~Generation-i
+!~Krabby live on beaches, burrowed inside holes dug into
+the sand. On sandy beaches with little in the way of food,
+these Pokémon can be seen squabbling with each other
+over territory.
+!~[Krabby, Kingler]

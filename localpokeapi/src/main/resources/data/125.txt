@@ -1,0 +1,15 @@
+125
+!~Electabuzz
+!~1.1 m / 3.6 ft
+!~30.0 kg / 66.1 lbs
+!~[Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png
+!~Yellow
+!~Upright
+!~Grassland
+!~Generation-i
+!~When a storm arrives, gangs of this Pokémon compete with
+each other to scale heights that are likely to be stricken by
+lightning bolts. Some towns use Electabuzz in place of
+lightning rods.
+!~[Elekid, Electabuzz, Electivire]

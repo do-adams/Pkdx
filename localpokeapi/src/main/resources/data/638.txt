@@ -1,0 +1,13 @@
+638
+!~Cobalion
+!~2.1 m / 6.9 ft
+!~250.0 kg / 551.2 lbs
+!~[Fighting, Steel]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/638.png
+!~Blue
+!~Quadruped
+!~null
+!~Generation-v
+!~It has a body and heart of steel. It worked with its
+allies to punish people when they hurt Pokémon.
+!~[Cobalion]

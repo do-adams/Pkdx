@@ -1,0 +1,14 @@
+604
+!~Eelektross
+!~2.1 m / 6.9 ft
+!~80.5 kg / 177.5 lbs
+!~[Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/604.png
+!~Blue
+!~Fish
+!~null
+!~Generation-v
+!~They crawl out of the ocean using their arms.
+They will attack prey on shore and immediately drag
+it into the ocean.
+!~[Tynamo, Eelektrik, Eelektross]

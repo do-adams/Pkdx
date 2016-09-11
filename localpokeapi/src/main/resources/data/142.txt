@@ -1,0 +1,14 @@
+142
+!~Aerodactyl
+!~1.8 m / 5.9 ft
+!~59.0 kg / 130.1 lbs
+!~[Flying, Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png
+!~Purple
+!~Wings
+!~Mountain
+!~Generation-i
+!~Aerodactyl is a Pokémon from the age of dinosaurs. It was
+regenerated from genetic material extracted from amber. It is
+imagined to have been the king of the skies in ancient times.
+!~[Aerodactyl]

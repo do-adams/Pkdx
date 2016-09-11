@@ -1,0 +1,14 @@
+16
+!~Pidgey
+!~0.3 m / 1.0 ft
+!~1.8 kg / 4.0 lbs
+!~[Flying, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png
+!~Brown
+!~Wings
+!~Forest
+!~Generation-i
+!~Pidgey has an extremely sharp sense of direction.
+It is capable of unerringly returning home to its nest,
+however far it may be removed from its familiar surroundings.
+!~[Pidgey, Pidgeotto, Pidgeot]

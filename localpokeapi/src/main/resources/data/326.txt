@@ -1,0 +1,14 @@
+326
+!~Grumpig
+!~0.9 m / 3.0 ft
+!~71.5 kg / 157.6 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/326.png
+!~Purple
+!~Upright
+!~Mountain
+!~Generation-iii
+!~Grumpig uses the black pearls on its body to wield
+its fantastic powers. When it is doing so, it dances bizarrely.
+This Pokémon’s black pearls are valuable as works of art.
+!~[Spoink, Grumpig]

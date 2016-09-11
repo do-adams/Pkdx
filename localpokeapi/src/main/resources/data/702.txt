@@ -1,0 +1,14 @@
+702
+!~Dedenne
+!~0.2 m / 0.7 ft
+!~2.2 kg / 4.9 lbs
+!~[Fairy, Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/702.png
+!~Yellow
+!~Upright
+!~null
+!~Generation-vi
+!~It uses its tail to absorb electricity from
+power plants or from outlets in houses,
+and then it fires the electricity from its whiskers.
+!~[Dedenne]

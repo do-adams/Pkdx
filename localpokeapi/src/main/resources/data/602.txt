@@ -1,0 +1,14 @@
+602
+!~Tynamo
+!~0.2 m / 0.7 ft
+!~0.3 kg / 0.7 lbs
+!~[Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/602.png
+!~White
+!~Fish
+!~null
+!~Generation-v
+!~One alone can emit only a trickle of electricity,
+so a group of them gathers to unleash a powerful
+electric shock.
+!~[Tynamo, Eelektrik, Eelektross]

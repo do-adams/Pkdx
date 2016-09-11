@@ -1,0 +1,14 @@
+347
+!~Anorith
+!~0.7 m / 2.3 ft
+!~12.5 kg / 27.6 lbs
+!~[Bug, Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/347.png
+!~Gray
+!~Armor
+!~Waters-edge
+!~Generation-iii
+!~Anorith is said to be a type of Pokémon predecessor, with
+eight wings at the sides of its body. This Pokémon swam in the
+primordial sea by undulating these eight wings.
+!~[Anorith, Armaldo]

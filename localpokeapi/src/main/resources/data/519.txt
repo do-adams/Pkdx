@@ -1,0 +1,13 @@
+519
+!~Pidove
+!~0.3 m / 1.0 ft
+!~2.1 kg / 4.6 lbs
+!~[Flying, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/519.png
+!~Gray
+!~Wings
+!~null
+!~Generation-v
+!~These Pokémon live in cities. They are accustomed
+to people. Flocks often gather in parks and plazas.
+!~[Pidove, Tranquill, Unfezant]

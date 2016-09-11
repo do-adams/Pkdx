@@ -1,0 +1,15 @@
+269
+!~Dustox
+!~1.2 m / 3.9 ft
+!~31.6 kg / 69.7 lbs
+!~[Poison, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/269.png
+!~Green
+!~Bug-wings
+!~Forest
+!~Generation-iii
+!~When Dustox flaps its wings, a fine dust is scattered all over.
+This dust is actually a powerful poison that will even make a
+pro wrestler sick. This Pokémon searches for food using its
+antennae like radar.
+!~[Wurmple, Silcoon, Beautifly]

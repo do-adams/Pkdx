@@ -1,0 +1,14 @@
+228
+!~Houndour
+!~0.6 m / 2.0 ft
+!~10.8 kg / 23.8 lbs
+!~[Fire, Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/228.png
+!~Black
+!~Quadruped
+!~Rough-terrain
+!~Generation-ii
+!~Houndour hunt as a coordinated pack. They communicate
+with each other using a variety of cries to corner their prey.
+This Pokémon’s remarkable teamwork is unparalleled.
+!~[Houndour, Houndoom]

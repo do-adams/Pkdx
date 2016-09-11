@@ -1,0 +1,15 @@
+71
+!~Victreebel
+!~1.7 m / 5.6 ft
+!~15.5 kg / 34.2 lbs
+!~[Poison, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png
+!~Green
+!~Blob
+!~Forest
+!~Generation-i
+!~Victreebel has a long vine that extends from its head.
+This vine is waved and flicked about as if it were an animal
+to attract prey. When an unsuspecting prey draws near,
+this Pokémon swallows it whole.
+!~[Bellsprout, Weepinbell, Victreebel]

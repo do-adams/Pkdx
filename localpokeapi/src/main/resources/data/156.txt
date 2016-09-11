@@ -1,0 +1,15 @@
+156
+!~Quilava
+!~0.9 m / 3.0 ft
+!~19.0 kg / 41.9 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/156.png
+!~Yellow
+!~Quadruped
+!~Grassland
+!~Generation-ii
+!~Quilava keeps its foes at bay with the intensity of its flames
+and gusts of superheated air. This Pokémon applies its
+outstanding nimbleness to dodge attacks even while scorching
+the foe with flames.
+!~[Cyndaquil, Quilava, Typhlosion]

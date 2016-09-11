@@ -1,0 +1,14 @@
+222
+!~Corsola
+!~0.6 m / 2.0 ft
+!~5.0 kg / 11.0 lbs
+!~[Rock, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/222.png
+!~Pink
+!~Armor
+!~Sea
+!~Generation-ii
+!~Clusters of Corsola congregate in warm seas where they serve
+as ideal hiding places for smaller Pokémon. When the water
+temperature falls, this Pokémon migrates to the southern seas.
+!~[Corsola]

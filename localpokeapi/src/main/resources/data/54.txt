@@ -1,0 +1,15 @@
+54
+!~Psyduck
+!~0.8 m / 2.6 ft
+!~19.6 kg / 43.2 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png
+!~Yellow
+!~Upright
+!~Waters-edge
+!~Generation-i
+!~If it uses its mysterious power, Psyduck can’t remember
+having done so. It apparently can’t form a memory of such
+an event because it goes into an altered state that is much
+like deep sleep.
+!~[Psyduck, Golduck]

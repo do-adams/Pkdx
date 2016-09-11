@@ -1,0 +1,14 @@
+158
+!~Totodile
+!~0.6 m / 2.0 ft
+!~9.5 kg / 20.9 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/158.png
+!~Blue
+!~Upright
+!~Waters-edge
+!~Generation-ii
+!~Despite the smallness of its body, Totodile’s jaws are very
+powerful. While the Pokémon may think it is just playfully
+nipping, its bite has enough power to cause serious injury.
+!~[Totodile, Croconaw, Feraligatr]

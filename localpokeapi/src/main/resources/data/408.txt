@@ -1,0 +1,13 @@
+408
+!~Cranidos
+!~0.9 m / 3.0 ft
+!~31.5 kg / 69.4 lbs
+!~[Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png
+!~Blue
+!~Upright
+!~null
+!~Generation-iv
+!~A lifelong jungle dweller from 100 million years
+ago, it would snap obstructing trees with headbutts.
+!~[Cranidos, Rampardos]

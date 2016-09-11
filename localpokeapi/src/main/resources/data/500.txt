@@ -1,0 +1,13 @@
+500
+!~Emboar
+!~1.6 m / 5.2 ft
+!~150.0 kg / 330.7 lbs
+!~[Fighting, Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/500.png
+!~Red
+!~Upright
+!~null
+!~Generation-v
+!~It has mastered fast and powerful fighting moves.
+It grows a beard of fire.
+!~[Tepig, Pignite, Emboar]

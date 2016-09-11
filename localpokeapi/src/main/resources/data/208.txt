@@ -1,0 +1,15 @@
+208
+!~Steelix
+!~9.2 m / 30.2 ft
+!~400.0 kg / 881.8 lbs
+!~[Ground, Steel]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png
+!~Gray
+!~Squiggle
+!~Cave
+!~Generation-ii
+!~Steelix lives even further underground than Onix.
+This Pokémon is known to dig toward the earth’s core.
+There are records of this Pokémon reaching a depth of
+over six-tenths of a mile underground.
+!~[Onix, Steelix]

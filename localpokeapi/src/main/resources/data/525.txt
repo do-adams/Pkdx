@@ -1,0 +1,14 @@
+525
+!~Boldore
+!~0.9 m / 3.0 ft
+!~102.0 kg / 224.9 lbs
+!~[Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/525.png
+!~Blue
+!~Tentacles
+!~null
+!~Generation-v
+!~When it is healthy, its core sticks out. Always facing
+the same way, it swiftly moves front to back and left
+to right.
+!~[Roggenrola, Boldore, Gigalith]

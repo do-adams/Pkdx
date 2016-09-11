@@ -1,0 +1,14 @@
+138
+!~Omanyte
+!~0.4 m / 1.3 ft
+!~7.5 kg / 16.5 lbs
+!~[Water, Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png
+!~Blue
+!~Tentacles
+!~Sea
+!~Generation-i
+!~Omanyte is one of the ancient and long-since-extinct Pokémon
+that have been regenerated from fossils by people. If attacked
+by an enemy, it withdraws itself inside its hard shell.
+!~[Omanyte, Omastar]

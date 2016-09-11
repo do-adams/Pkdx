@@ -1,0 +1,14 @@
+323
+!~Camerupt
+!~1.9 m / 6.2 ft
+!~220.0 kg / 485.0 lbs
+!~[Ground, Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/323.png
+!~Red
+!~Quadruped
+!~Mountain
+!~Generation-iii
+!~The humps on Camerupt’s back are formed by a transformation
+of its bones. They sometimes blast out molten magma.
+This Pokémon apparently erupts often when it is enraged.
+!~[Numel, Camerupt]

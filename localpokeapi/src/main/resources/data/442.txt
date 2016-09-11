@@ -1,0 +1,13 @@
+442
+!~Spiritomb
+!~1.0 m / 3.3 ft
+!~108.0 kg / 238.1 lbs
+!~[Dark, Ghost]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/442.png
+!~Purple
+!~Blob
+!~null
+!~Generation-iv
+!~It was bound to a fissure in an odd keystone as
+punishment for misdeeds 500 years ago.
+!~[Spiritomb]

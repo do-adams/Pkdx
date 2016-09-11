@@ -1,0 +1,14 @@
+707
+!~Klefki
+!~0.2 m / 0.7 ft
+!~3.0 kg / 6.6 lbs
+!~[Fairy, Steel]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/707.png
+!~Gray
+!~Ball
+!~null
+!~Generation-vi
+!~It never lets go of a key that it likes,
+so people give it the keys to vaults and
+safes as a way to prevent crime.
+!~[Klefki]

@@ -1,0 +1,13 @@
+640
+!~Virizion
+!~2.0 m / 6.6 ft
+!~200.0 kg / 440.9 lbs
+!~[Fighting, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/640.png
+!~Green
+!~Quadruped
+!~null
+!~Generation-v
+!~Legends say this Pokémon confounded opponents
+with its swift movements.
+!~[Virizion]

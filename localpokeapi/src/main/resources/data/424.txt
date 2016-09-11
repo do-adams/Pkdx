@@ -1,0 +1,13 @@
+424
+!~Ambipom
+!~1.2 m / 3.9 ft
+!~20.3 kg / 44.8 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png
+!~Purple
+!~Upright
+!~null
+!~Generation-iv
+!~To eat, it deftly shucks nuts with its two tails.
+It rarely uses its arms now.
+!~[Aipom, Ambipom]

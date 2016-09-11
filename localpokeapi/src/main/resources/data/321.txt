@@ -1,0 +1,14 @@
+321
+!~Wailord
+!~14.5 m / 47.6 ft
+!~398.0 kg / 877.4 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/321.png
+!~Blue
+!~Fish
+!~Sea
+!~Generation-iii
+!~When chasing prey, Wailord herds them by leaping out of the
+water and making a humongous splash. It is breathtaking to
+see this Pokémon leaping out of the sea with others in its pod.
+!~[Wailmer, Wailord]

@@ -1,0 +1,14 @@
+592
+!~Frillish
+!~1.2 m / 3.9 ft
+!~33.0 kg / 72.8 lbs
+!~[Ghost, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/592.png
+!~White
+!~Tentacles
+!~null
+!~Generation-v
+!~If its veil-like arms stun and wrap a foe, that foe will
+be dragged miles below the surface, never
+to return.
+!~[Frillish, Jellicent]

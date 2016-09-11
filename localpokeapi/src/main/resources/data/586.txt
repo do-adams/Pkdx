@@ -1,0 +1,13 @@
+586
+!~Sawsbuck
+!~1.9 m / 6.2 ft
+!~92.5 kg / 203.9 lbs
+!~[Grass, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586.png
+!~Brown
+!~Quadruped
+!~null
+!~Generation-v
+!~They migrate according to the seasons, so some
+people call Sawsbuck the harbingers of spring.
+!~[Deerling, Sawsbuck]

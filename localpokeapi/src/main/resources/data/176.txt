@@ -1,0 +1,14 @@
+176
+!~Togetic
+!~0.6 m / 2.0 ft
+!~3.2 kg / 7.1 lbs
+!~[Flying, Fairy]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png
+!~White
+!~Humanoid
+!~Forest
+!~Generation-ii
+!~Togetic is said to be a Pokémon that brings good fortune.
+When the Pokémon spots someone who is pure of heart,
+it is said to appear and share its happiness with that person.
+!~[Togepi, Togetic, Togekiss]

@@ -1,0 +1,15 @@
+299
+!~Nosepass
+!~1.0 m / 3.3 ft
+!~97.0 kg / 213.8 lbs
+!~[Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/299.png
+!~Gray
+!~Humanoid
+!~Cave
+!~Generation-iii
+!~Nosepass had been said to be completely unmoving, with its
+magnetic nose pointed due north. However, close observation
+has revealed that the Pokémon actually moves by a little over
+3/8 of an inch every year.
+!~[Nosepass, Probopass]

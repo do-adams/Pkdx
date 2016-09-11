@@ -1,0 +1,13 @@
+650
+!~Chespin
+!~0.4 m / 1.3 ft
+!~9.0 kg / 19.8 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png
+!~Green
+!~Upright
+!~null
+!~Generation-vi
+!~Such a thick shell of wood covers its head and back
+that even a direct hit from a truck wouldn’t faze it.
+!~[Chespin, Quilladin, Chesnaught]

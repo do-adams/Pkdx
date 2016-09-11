@@ -1,0 +1,13 @@
+694
+!~Helioptile
+!~0.5 m / 1.6 ft
+!~6.0 kg / 13.2 lbs
+!~[Normal, Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/694.png
+!~Yellow
+!~Upright
+!~null
+!~Generation-vi
+!~The frills on either side of its head have cells
+that generate electricity when exposed to sunlight.
+!~[Helioptile, Heliolisk]

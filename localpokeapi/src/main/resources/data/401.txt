@@ -1,0 +1,13 @@
+401
+!~Kricketot
+!~0.3 m / 1.0 ft
+!~2.2 kg / 4.9 lbs
+!~[Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/401.png
+!~Red
+!~Humanoid
+!~null
+!~Generation-iv
+!~When its antennae hit each other, it sounds like the
+music of a xylophone.
+!~[Kricketot, Kricketune]

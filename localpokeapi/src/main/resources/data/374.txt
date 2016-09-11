@@ -1,0 +1,14 @@
+374
+!~Beldum
+!~0.6 m / 2.0 ft
+!~95.2 kg / 209.9 lbs
+!~[Psychic, Steel]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/374.png
+!~Blue
+!~Blob
+!~Rough-terrain
+!~Generation-iii
+!~Beldum keeps itself floating by generating a magnetic force
+that repels earth’s natural magnetism. When it sleeps, this
+Pokémon anchors itself to a cliff using the hooks on its rear.
+!~[Beldum, Metang, Metagross]

@@ -1,0 +1,13 @@
+388
+!~Grotle
+!~1.1 m / 3.6 ft
+!~97.0 kg / 213.8 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/388.png
+!~Green
+!~Quadruped
+!~null
+!~Generation-iv
+!~It knows where pure water wells up. It carries fellow
+Pokémon there on its back.
+!~[Turtwig, Grotle, Torterra]

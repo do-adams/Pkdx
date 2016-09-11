@@ -1,0 +1,14 @@
+446
+!~Munchlax
+!~0.6 m / 2.0 ft
+!~105.0 kg / 231.5 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png
+!~Black
+!~Humanoid
+!~null
+!~Generation-iv
+!~It conceals food under the long fur on its body.
+It carts around this food stash and swallows it
+without chewing.
+!~[Munchlax, Snorlax]

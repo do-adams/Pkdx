@@ -1,0 +1,14 @@
+63
+!~Abra
+!~0.9 m / 3.0 ft
+!~19.5 kg / 43.0 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png
+!~Brown
+!~Upright
+!~Urban
+!~Generation-i
+!~Abra needs to sleep for eighteen hours a day. If it doesn’t,
+this Pokémon loses its ability to use telekinetic powers. If it is
+attacked, Abra escapes using Teleport while it is still sleeping.
+!~[Abra, Kadabra, Alakazam]

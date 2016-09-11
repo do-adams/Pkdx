@@ -1,0 +1,13 @@
+517
+!~Munna
+!~0.6 m / 2.0 ft
+!~23.3 kg / 51.4 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/517.png
+!~Pink
+!~Quadruped
+!~null
+!~Generation-v
+!~It eats the dreams of people and Pokémon. When it
+eats a pleasant dream, it expels pink-colored mist.
+!~[Munna, Musharna]

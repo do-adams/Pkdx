@@ -1,0 +1,14 @@
+625
+!~Bisharp
+!~1.6 m / 5.2 ft
+!~70.0 kg / 154.3 lbs
+!~[Steel, Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/625.png
+!~Red
+!~Humanoid
+!~null
+!~Generation-v
+!~Bisharp pursues prey in the company of a large
+group of Pawniard. Then Bisharp finishes off
+the prey.
+!~[Pawniard, Bisharp]

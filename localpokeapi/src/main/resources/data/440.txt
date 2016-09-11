@@ -1,0 +1,13 @@
+440
+!~Happiny
+!~0.6 m / 2.0 ft
+!~24.4 kg / 53.8 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/440.png
+!~Pink
+!~Humanoid
+!~null
+!~Generation-iv
+!~It carefully carries a round, white rock that it thinks
+is an egg. It’s bothered by how curly its hair looks.
+!~[Happiny, Chansey, Blissey]

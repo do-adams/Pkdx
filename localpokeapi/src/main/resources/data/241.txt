@@ -1,0 +1,14 @@
+241
+!~Miltank
+!~1.2 m / 3.9 ft
+!~75.5 kg / 166.4 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/241.png
+!~Pink
+!~Upright
+!~Grassland
+!~Generation-ii
+!~Miltank gives over five gallons of milk on a daily basis. Its
+sweet milk is enjoyed by children and grown-ups alike. People
+who can’t drink milk turn it into yogurt and eat it instead.
+!~[Miltank]

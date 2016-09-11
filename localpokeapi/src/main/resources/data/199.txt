@@ -1,0 +1,15 @@
+199
+!~Slowking
+!~2.0 m / 6.6 ft
+!~79.5 kg / 175.3 lbs
+!~[Psychic, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/199.png
+!~Pink
+!~Upright
+!~Waters-edge
+!~Generation-ii
+!~Slowking undertakes research every day in an effort to solve
+the mysteries of the world. However, this Pokémon apparently
+forgets everything it has learned if the Shellder on its head
+comes off.
+!~[Slowpoke, Slowbro]

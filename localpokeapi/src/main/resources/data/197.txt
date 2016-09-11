@@ -1,0 +1,14 @@
+197
+!~Umbreon
+!~1.0 m / 3.3 ft
+!~27.0 kg / 59.5 lbs
+!~[Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png
+!~Black
+!~Quadruped
+!~Urban
+!~Generation-ii
+!~Umbreon evolved as a result of exposure to the moon’s waves.
+It hides silently in darkness and waits for its foes to make a
+move. The rings on its body glow when it leaps to attack.
+!~[Eevee, Vaporeon]

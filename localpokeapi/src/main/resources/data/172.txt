@@ -1,0 +1,14 @@
+172
+!~Pichu
+!~0.3 m / 1.0 ft
+!~2.0 kg / 4.4 lbs
+!~[Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/172.png
+!~Yellow
+!~Quadruped
+!~Forest
+!~Generation-ii
+!~When Pichu plays with others, it may short out electricity with
+another Pichu, creating a shower of sparks. In that event, this
+Pokémon will begin crying, startled by the flash of sparks.
+!~[Pichu, Pikachu, Raichu]

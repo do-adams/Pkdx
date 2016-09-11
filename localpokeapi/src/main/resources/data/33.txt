@@ -1,0 +1,14 @@
+33
+!~Nidorino
+!~0.9 m / 3.0 ft
+!~19.5 kg / 43.0 lbs
+!~[Poison]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png
+!~Purple
+!~Quadruped
+!~Grassland
+!~Generation-i
+!~Nidorino has a horn that is harder than a diamond. If it senses
+a hostile presence, all the barbs on its back bristle up at once,
+and it challenges the foe with all its might.
+!~[Nidoran-m, Nidorino, Nidoking]

@@ -1,0 +1,15 @@
+223
+!~Remoraid
+!~0.6 m / 2.0 ft
+!~12.0 kg / 26.5 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/223.png
+!~Gray
+!~Fish
+!~Sea
+!~Generation-ii
+!~Remoraid sucks in water, then expels it at high velocity using
+its abdominal muscles to shoot down flying prey. When
+evolution draws near, this Pokémon travels downstream
+from rivers.
+!~[Remoraid, Octillery]

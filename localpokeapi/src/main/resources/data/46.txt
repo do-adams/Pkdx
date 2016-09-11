@@ -1,0 +1,15 @@
+46
+!~Paras
+!~0.3 m / 1.0 ft
+!~5.4 kg / 11.9 lbs
+!~[Grass, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png
+!~Red
+!~Armor
+!~Forest
+!~Generation-i
+!~Paras has parasitic mushrooms growing on its back called
+tochukaso. They grow large by drawing nutrients from this
+Bug Pokémon host. They are highly valued as a medicine
+for extending life.
+!~[Paras, Parasect]

@@ -1,0 +1,13 @@
+543
+!~Venipede
+!~0.4 m / 1.3 ft
+!~5.3 kg / 11.7 lbs
+!~[Poison, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/543.png
+!~Red
+!~Armor
+!~null
+!~Generation-v
+!~Its bite injects a potent poison, enough to paralyze
+large bird Pokémon that try to prey on it.
+!~[Venipede, Whirlipede, Scolipede]

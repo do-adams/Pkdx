@@ -1,0 +1,14 @@
+495
+!~Snivy
+!~0.6 m / 2.0 ft
+!~8.1 kg / 17.9 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/495.png
+!~Green
+!~Upright
+!~null
+!~Generation-v
+!~They photosynthesize by bathing their tails in
+sunlight. When they are not feeling well, their
+tails droop.
+!~[Snivy, Servine, Serperior]

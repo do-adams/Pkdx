@@ -1,0 +1,14 @@
+653
+!~Fennekin
+!~0.4 m / 1.3 ft
+!~9.4 kg / 20.7 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png
+!~Red
+!~Quadruped
+!~null
+!~Generation-vi
+!~As it walks, it munches on a twig in place
+of a snack. It intimidates opponents
+by puffing hot air out of its ears.
+!~[Fennekin, Braixen, Delphox]

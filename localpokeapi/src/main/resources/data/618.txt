@@ -1,0 +1,14 @@
+618
+!~Stunfisk
+!~0.7 m / 2.3 ft
+!~11.0 kg / 24.3 lbs
+!~[Electric, Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/618.png
+!~Brown
+!~Fish
+!~null
+!~Generation-v
+!~It conceals itself in the mud of the seashore.
+Then it waits. When prey touch it, it delivers a jolt
+of electricity.
+!~[Stunfisk]

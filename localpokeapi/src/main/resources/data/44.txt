@@ -1,0 +1,14 @@
+44
+!~Gloom
+!~0.8 m / 2.6 ft
+!~8.6 kg / 19.0 lbs
+!~[Poison, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png
+!~Blue
+!~Humanoid
+!~Grassland
+!~Generation-i
+!~From its mouth Gloom drips honey that smells absolutely
+horrible. Apparently, it loves the horrid stench. It sniffs the
+noxious fumes and then drools even more of its honey.
+!~[Oddish, Gloom, Vileplume]

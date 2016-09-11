@@ -1,0 +1,14 @@
+541
+!~Swadloon
+!~0.5 m / 1.6 ft
+!~7.3 kg / 16.1 lbs
+!~[Grass, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/541.png
+!~Green
+!~Arms
+!~null
+!~Generation-v
+!~It protects itself from the cold by wrapping up in
+leaves. It stays on the move, eating leaves
+in forests.
+!~[Sewaddle, Swadloon, Leavanny]

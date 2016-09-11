@@ -1,0 +1,13 @@
+537
+!~Seismitoad
+!~1.5 m / 4.9 ft
+!~62.0 kg / 136.7 lbs
+!~[Ground, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/537.png
+!~Blue
+!~Humanoid
+!~null
+!~Generation-v
+!~They shoot paralyzing liquid from their head bumps.
+They use vibration to hurt their opponents.
+!~[Tympole, Palpitoad, Seismitoad]

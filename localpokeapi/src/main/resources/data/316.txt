@@ -1,0 +1,14 @@
+316
+!~Gulpin
+!~0.4 m / 1.3 ft
+!~10.3 kg / 22.7 lbs
+!~[Poison]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/316.png
+!~Green
+!~Arms
+!~Grassland
+!~Generation-iii
+!~Most of Gulpin’s body is made up of its stomach—its heart and
+brain are very small in comparison. This Pokémon’s stomach
+contains special enzymes that dissolve anything.
+!~[Gulpin, Swalot]

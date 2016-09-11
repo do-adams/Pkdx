@@ -1,0 +1,15 @@
+124
+!~Jynx
+!~1.4 m / 4.6 ft
+!~40.6 kg / 89.5 lbs
+!~[Psychic, Ice]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png
+!~Red
+!~Humanoid
+!~Urban
+!~Generation-i
+!~Jynx walks rhythmically, swaying and shaking its hips
+as if it were dancing. Its motions are so bouncingly alluring,
+people seeing it are compelled to shake their hips without
+giving any thought to what they are doing.
+!~[Smoochum, Jynx]

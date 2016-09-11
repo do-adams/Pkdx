@@ -1,0 +1,14 @@
+474
+!~Porygon-z
+!~0.9 m / 3.0 ft
+!~34.0 kg / 75.0 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/474.png
+!~Red
+!~Arms
+!~null
+!~Generation-iv
+!~Its programming was modified to enable it to travel
+through alien dimensions. Seems there might have
+been an error...
+!~[Porygon, Porygon2, Porygon-z]

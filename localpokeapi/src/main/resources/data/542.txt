@@ -1,0 +1,14 @@
+542
+!~Leavanny
+!~1.2 m / 3.9 ft
+!~20.5 kg / 45.2 lbs
+!~[Grass, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/542.png
+!~Yellow
+!~Humanoid
+!~null
+!~Generation-v
+!~It keeps its eggs warm with heat from fermenting
+leaves. It also uses leaves to make warm wrappings
+for Sewaddle.
+!~[Sewaddle, Swadloon, Leavanny]

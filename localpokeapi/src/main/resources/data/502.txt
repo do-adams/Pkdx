@@ -1,0 +1,13 @@
+502
+!~Dewott
+!~0.8 m / 2.6 ft
+!~24.5 kg / 54.0 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/502.png
+!~Blue
+!~Upright
+!~null
+!~Generation-v
+!~As a result of strict training, each Dewott learns
+different forms for using the scalchops.
+!~[Oshawott, Dewott, Samurott]

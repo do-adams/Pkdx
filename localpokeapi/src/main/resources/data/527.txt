@@ -1,0 +1,14 @@
+527
+!~Woobat
+!~0.4 m / 1.3 ft
+!~2.1 kg / 4.6 lbs
+!~[Flying, Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/527.png
+!~Blue
+!~Wings
+!~null
+!~Generation-v
+!~The heart-shaped mark left on a body after a
+Woobat has been attached to it is said to bring
+good fortune.
+!~[Woobat, Swoobat]

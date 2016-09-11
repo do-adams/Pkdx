@@ -1,0 +1,14 @@
+230
+!~Kingdra
+!~1.8 m / 5.9 ft
+!~152.0 kg / 335.1 lbs
+!~[Dragon, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/230.png
+!~Blue
+!~Blob
+!~Sea
+!~Generation-ii
+!~Kingdra sleeps on the seafloor where it is otherwise devoid
+of life. When a storm arrives, the Pokémon is said to awaken
+and wander about in search of prey.
+!~[Horsea, Seadra, Kingdra]

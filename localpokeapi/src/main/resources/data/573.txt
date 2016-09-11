@@ -1,0 +1,13 @@
+573
+!~Cinccino
+!~0.5 m / 1.6 ft
+!~7.5 kg / 16.5 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/573.png
+!~Gray
+!~Quadruped
+!~null
+!~Generation-v
+!~Cinccino’s body is coated in a special oil that helps
+it deflect attacks, such as punches.
+!~[Minccino, Cinccino]

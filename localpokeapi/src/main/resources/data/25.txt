@@ -1,0 +1,15 @@
+25
+!~Pikachu
+!~0.4 m / 1.3 ft
+!~6.0 kg / 13.2 lbs
+!~[Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png
+!~Yellow
+!~Quadruped
+!~Forest
+!~Generation-i
+!~This Pokémon has electricity-storing pouches on its cheeks.
+These appear to become electrically charged during the night
+while Pikachu sleeps. It occasionally discharges electricity
+when it is dozy after waking up.
+!~[Pichu, Pikachu, Raichu]

@@ -1,0 +1,13 @@
+704
+!~Goomy
+!~0.3 m / 1.0 ft
+!~2.8 kg / 6.2 lbs
+!~[Dragon]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/704.png
+!~Purple
+!~Squiggle
+!~null
+!~Generation-vi
+!~It’s covered in a slimy membrane that makes
+any punches or kicks slide off it harmlessly.
+!~[Goomy, Sliggoo, Goodra]

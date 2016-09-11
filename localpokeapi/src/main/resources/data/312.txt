@@ -1,0 +1,14 @@
+312
+!~Minun
+!~0.4 m / 1.3 ft
+!~4.2 kg / 9.3 lbs
+!~[Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/312.png
+!~Yellow
+!~Upright
+!~Grassland
+!~Generation-iii
+!~Minun loves to cheer on its partner in battle. It gives off sparks
+from its body while it is doing so. If its partner is in trouble,
+this Pokémon gives off increasing amounts of sparks.
+!~[Minun]

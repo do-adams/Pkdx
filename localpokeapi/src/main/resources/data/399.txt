@@ -1,0 +1,13 @@
+399
+!~Bidoof
+!~0.5 m / 1.6 ft
+!~20.0 kg / 44.1 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/399.png
+!~Brown
+!~Quadruped
+!~null
+!~Generation-iv
+!~It constantly gnaws on logs and rocks to whittle
+down its front teeth. It nests alongside water.
+!~[Bidoof, Bibarel]

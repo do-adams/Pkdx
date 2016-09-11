@@ -1,0 +1,14 @@
+464
+!~Rhyperior
+!~2.4 m / 7.9 ft
+!~282.8 kg / 623.5 lbs
+!~[Rock, Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png
+!~Gray
+!~Upright
+!~null
+!~Generation-iv
+!~It puts rocks in holes in its palms and uses its
+muscles to shoot them. Geodude are shot at
+rare times.
+!~[Rhyhorn, Rhydon, Rhyperior]

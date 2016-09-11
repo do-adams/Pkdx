@@ -1,0 +1,14 @@
+310
+!~Manectric
+!~1.5 m / 4.9 ft
+!~40.2 kg / 88.6 lbs
+!~[Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/310.png
+!~Yellow
+!~Quadruped
+!~Grassland
+!~Generation-iii
+!~Manectric discharges strong electricity from its mane.
+The mane is used for collecting electricity in the atmosphere.
+This Pokémon creates thunderclouds above its head.
+!~[Electrike, Manectric]

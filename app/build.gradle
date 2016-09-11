@@ -42,6 +42,7 @@ dependencies {
     // from the Firebase Console. Both dependencies are needed.
     compile 'com.google.firebase:firebase-core:9.4.0'
     compile 'com.google.firebase:firebase-messaging:9.4.0'
+    compile project(':localpokeapi')
 }
 
 // Plugin used for bg Firebase app notifications.

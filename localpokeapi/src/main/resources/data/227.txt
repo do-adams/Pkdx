@@ -1,0 +1,14 @@
+227
+!~Skarmory
+!~1.7 m / 5.6 ft
+!~50.5 kg / 111.3 lbs
+!~[Flying, Steel]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/227.png
+!~Gray
+!~Wings
+!~Rough-terrain
+!~Generation-ii
+!~Skarmory’s steel wings become tattered and bashed in from
+repeated battles. Once a year, the battered wings grow back
+completely, restoring the cutting edges to their pristine state.
+!~[Skarmory]

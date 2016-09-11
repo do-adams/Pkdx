@@ -1,0 +1,14 @@
+331
+!~Cacnea
+!~0.4 m / 1.3 ft
+!~51.3 kg / 113.1 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/331.png
+!~Green
+!~Humanoid
+!~Rough-terrain
+!~Generation-iii
+!~The more arid and harsh the environment, the more pretty and
+fragrant a flower Cacnea grows. This Pokémon battles by
+wildly swinging its thorny arms.
+!~[Cacnea, Cacturne]

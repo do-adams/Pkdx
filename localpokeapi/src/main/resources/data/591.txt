@@ -1,0 +1,14 @@
+591
+!~Amoonguss
+!~0.6 m / 2.0 ft
+!~10.5 kg / 23.1 lbs
+!~[Poison, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/591.png
+!~White
+!~Arms
+!~null
+!~Generation-v
+!~It lures prey close by dancing and waving its
+arm caps, which resemble Poké Balls, in a
+swaying motion.
+!~[Foongus, Amoonguss]

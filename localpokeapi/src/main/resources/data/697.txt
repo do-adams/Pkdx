@@ -1,0 +1,14 @@
+697
+!~Tyrantrum
+!~2.5 m / 8.2 ft
+!~270.0 kg / 595.2 lbs
+!~[Dragon, Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/697.png
+!~Red
+!~Upright
+!~null
+!~Generation-vi
+!~Nothing could stop this Pokémon
+100 million years ago,
+so it behaved like a king.
+!~[Tyrunt, Tyrantrum]

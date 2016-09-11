@@ -1,0 +1,14 @@
+41
+!~Zubat
+!~0.8 m / 2.6 ft
+!~7.5 kg / 16.5 lbs
+!~[Flying, Poison]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png
+!~Purple
+!~Wings
+!~Cave
+!~Generation-i
+!~Zubat avoids sunlight because exposure causes it to become
+unhealthy. During the daytime, it stays in caves or under
+the eaves of old houses, sleeping while hanging upside down.
+!~[Zubat, Golbat, Crobat]

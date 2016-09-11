@@ -1,0 +1,14 @@
+206
+!~Dunsparce
+!~1.5 m / 4.9 ft
+!~14.0 kg / 30.9 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/206.png
+!~Yellow
+!~Squiggle
+!~Cave
+!~Generation-ii
+!~Dunsparce has a drill for its tail. It uses this tail to burrow into
+the ground backward. This Pokémon is known to make its
+nest in complex shapes deep under the ground.
+!~[Dunsparce]

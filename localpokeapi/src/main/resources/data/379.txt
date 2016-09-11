@@ -1,0 +1,14 @@
+379
+!~Registeel
+!~1.9 m / 6.2 ft
+!~205.0 kg / 451.9 lbs
+!~[Steel]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/379.png
+!~Gray
+!~Humanoid
+!~Cave
+!~Generation-iii
+!~Registeel was imprisoned by people in ancient times.
+The metal composing its body is thought to be a curious
+substance that is not of this earth.
+!~[Registeel]

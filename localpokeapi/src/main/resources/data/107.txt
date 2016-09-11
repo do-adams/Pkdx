@@ -1,0 +1,15 @@
+107
+!~Hitmonchan
+!~1.4 m / 4.6 ft
+!~50.2 kg / 110.7 lbs
+!~[Fighting]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png
+!~Brown
+!~Humanoid
+!~Urban
+!~Generation-i
+!~Hitmonchan is said to possess the spirit of a boxer who had
+been working toward a world championship. This Pokémon
+has an indomitable spirit and will never give up in the face
+of adversity.
+!~[Tyrogue, Hitmonlee]

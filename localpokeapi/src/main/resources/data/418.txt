@@ -1,0 +1,14 @@
+418
+!~Buizel
+!~0.7 m / 2.3 ft
+!~29.5 kg / 65.0 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/418.png
+!~Brown
+!~Quadruped
+!~null
+!~Generation-iv
+!~It inflates the flotation sac around its neck and
+pokes its head out of the water to see what is
+going on.
+!~[Buizel, Floatzel]

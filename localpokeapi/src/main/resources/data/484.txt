@@ -1,0 +1,13 @@
+484
+!~Palkia
+!~4.2 m / 13.8 ft
+!~336.0 kg / 740.8 lbs
+!~[Dragon, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/484.png
+!~Purple
+!~Upright
+!~null
+!~Generation-iv
+!~It has the ability to distort space. It is described as
+a deity in Sinnoh-region mythology.
+!~[Palkia]

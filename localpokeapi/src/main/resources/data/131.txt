@@ -1,0 +1,14 @@
+131
+!~Lapras
+!~2.5 m / 8.2 ft
+!~220.0 kg / 485.0 lbs
+!~[Ice, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png
+!~Blue
+!~Fish
+!~Sea
+!~Generation-i
+!~People have driven Lapras almost to the point of extinction.
+In the evenings, this Pokémon is said to sing plaintively as
+it seeks what few others of its kind still remain.
+!~[Lapras]

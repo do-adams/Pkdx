@@ -1,0 +1,14 @@
+607
+!~Litwick
+!~0.3 m / 1.0 ft
+!~3.1 kg / 6.8 lbs
+!~[Fire, Ghost]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/607.png
+!~White
+!~Blob
+!~null
+!~Generation-v
+!~Litwick shines a light that absorbs the life energy of
+people and Pokémon, which becomes the fuel that
+it burns.
+!~[Litwick, Lampent, Chandelure]

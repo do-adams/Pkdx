@@ -1,0 +1,14 @@
+611
+!~Fraxure
+!~1.0 m / 3.3 ft
+!~36.0 kg / 79.4 lbs
+!~[Dragon]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/611.png
+!~Green
+!~Upright
+!~null
+!~Generation-v
+!~A broken tusk will not grow back, so it diligently
+sharpens its tusks on river rocks after the end of
+a battle.
+!~[Axew, Fraxure, Haxorus]

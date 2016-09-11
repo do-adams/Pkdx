@@ -1,0 +1,14 @@
+492
+!~Shaymin-land
+!~0.2 m / 0.7 ft
+!~2.1 kg / 4.6 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/492.png
+!~Green
+!~Quadruped
+!~null
+!~Generation-iv
+!~The blooming of Gracidea flowers confers the
+power of flight upon it. Feelings of gratitude are
+the message it delivers.
+!~[Shaymin]

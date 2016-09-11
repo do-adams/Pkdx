@@ -1,0 +1,13 @@
+436
+!~Bronzor
+!~0.5 m / 1.6 ft
+!~60.5 kg / 133.4 lbs
+!~[Psychic, Steel]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/436.png
+!~Green
+!~Ball
+!~null
+!~Generation-iv
+!~Implements shaped like it were discovered in
+ancient tombs. It is unknown if they are related.
+!~[Bronzor, Bronzong]

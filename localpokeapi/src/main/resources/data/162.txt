@@ -1,0 +1,14 @@
+162
+!~Furret
+!~1.8 m / 5.9 ft
+!~32.5 kg / 71.7 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/162.png
+!~Brown
+!~Quadruped
+!~Grassland
+!~Generation-ii
+!~Furret has a very slim build. When under attack, it can slickly
+squirm through narrow spaces and get away. In spite of its
+short limbs, this Pokémon is very nimble and fleet.
+!~[Sentret, Furret]

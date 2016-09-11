@@ -1,0 +1,15 @@
+180
+!~Flaaffy
+!~0.8 m / 2.6 ft
+!~13.3 kg / 29.3 lbs
+!~[Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/180.png
+!~Pink
+!~Upright
+!~Grassland
+!~Generation-ii
+!~Flaaffy’s wool quality changes so that it can generate
+a high amount of static electricity with a small amount of
+wool. The bare and slick parts of its hide are shielded
+against electricity.
+!~[Mareep, Flaaffy, Ampharos]

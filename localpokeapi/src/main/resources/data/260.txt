@@ -1,0 +1,14 @@
+260
+!~Swampert
+!~1.5 m / 4.9 ft
+!~81.9 kg / 180.6 lbs
+!~[Ground, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/260.png
+!~Blue
+!~Upright
+!~Waters-edge
+!~Generation-iii
+!~Swampert predicts storms by sensing subtle differences in the
+sounds of waves and tidal winds with its fins. If a storm is
+approaching, it piles up boulders to protect itself.
+!~[Mudkip, Marshtomp, Swampert]

@@ -1,0 +1,14 @@
+195
+!~Quagsire
+!~1.4 m / 4.6 ft
+!~75.0 kg / 165.3 lbs
+!~[Ground, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/195.png
+!~Blue
+!~Upright
+!~Waters-edge
+!~Generation-ii
+!~Quagsire hunts for food by leaving its mouth wide open in
+water and waiting for its prey to blunder in unaware. Because
+the Pokémon does not move, it does not get very hungry.
+!~[Wooper, Quagsire]

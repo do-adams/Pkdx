@@ -1,0 +1,14 @@
+93
+!~Haunter
+!~1.6 m / 5.2 ft
+!~0.1 kg / 0.2 lbs
+!~[Poison, Ghost]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png
+!~Purple
+!~Arms
+!~Cave
+!~Generation-i
+!~Haunter is a dangerous Pokémon. If one beckons you while
+floating in darkness, you must never approach it. This Pokémon
+will try to lick you with its tongue and steal your life away.
+!~[Gastly, Haunter, Gengar]

@@ -1,0 +1,14 @@
+360
+!~Wynaut
+!~0.6 m / 2.0 ft
+!~14.0 kg / 30.9 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/360.png
+!~Blue
+!~Upright
+!~Cave
+!~Generation-iii
+!~Wynaut gather on moonlit nights to play by squeezing up
+against each other. By being squeezed, this Pokémon gains
+endurance and is trained to dole out powerful counterattacks.
+!~[Wynaut, Wobbuffet]

@@ -1,0 +1,14 @@
+673
+!~Gogoat
+!~1.7 m / 5.6 ft
+!~91.0 kg / 200.6 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/673.png
+!~Brown
+!~Quadruped
+!~null
+!~Generation-vi
+!~They inhabit mountainous regions.
+The leader of the herd is decided by
+a battle of clashing horns.
+!~[Skiddo, Gogoat]

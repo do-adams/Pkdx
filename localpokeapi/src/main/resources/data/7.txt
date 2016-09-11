@@ -1,0 +1,15 @@
+7
+!~Squirtle
+!~0.5 m / 1.6 ft
+!~9.0 kg / 19.8 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png
+!~Blue
+!~Upright
+!~Waters-edge
+!~Generation-i
+!~Squirtle’s shell is not merely used for protection.
+The shell’s rounded shape and the grooves on its
+surface help minimize resistance in water,
+enabling this Pokémon to swim at high speeds.
+!~[Squirtle, Wartortle, Blastoise]

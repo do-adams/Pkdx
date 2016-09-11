@@ -1,0 +1,14 @@
+513
+!~Pansear
+!~0.6 m / 2.0 ft
+!~11.0 kg / 24.3 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/513.png
+!~Red
+!~Upright
+!~null
+!~Generation-v
+!~This Pokémon lives in caves in volcanoes.
+The fire within the tuft on its head can reach
+600 degrees Fahrenheit.
+!~[Pansear, Simisear]

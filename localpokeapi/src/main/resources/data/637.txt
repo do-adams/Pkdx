@@ -1,0 +1,14 @@
+637
+!~Volcarona
+!~1.6 m / 5.2 ft
+!~46.0 kg / 101.4 lbs
+!~[Fire, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/637.png
+!~White
+!~Bug-wings
+!~null
+!~Generation-v
+!~When volcanic ash darkened the atmosphere, it is
+said that Volcarona’s fire provided a replacement
+for the sun.
+!~[Larvesta, Volcarona]

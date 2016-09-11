@@ -1,0 +1,14 @@
+284
+!~Masquerain
+!~0.8 m / 2.6 ft
+!~3.6 kg / 7.9 lbs
+!~[Flying, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/284.png
+!~Blue
+!~Bug-wings
+!~Waters-edge
+!~Generation-iii
+!~Masquerain’s antennas have eyelike patterns that usually
+give it an angry look. If the “eyes” are droopy and appear sad,
+it is said to be a sign that a heavy rainfall is on its way.
+!~[Surskit, Masquerain]

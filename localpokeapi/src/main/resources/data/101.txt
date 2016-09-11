@@ -1,0 +1,15 @@
+101
+!~Electrode
+!~1.2 m / 3.9 ft
+!~66.6 kg / 146.8 lbs
+!~[Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png
+!~Red
+!~Ball
+!~Urban
+!~Generation-i
+!~One of Electrode’s characteristics is its attraction to electricity.
+It is a problematical Pokémon that congregates mostly at
+electrical power plants to feed on electricity that has just
+been generated.
+!~[Voltorb, Electrode]

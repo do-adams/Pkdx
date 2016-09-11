@@ -1,0 +1,14 @@
+186
+!~Politoed
+!~1.1 m / 3.6 ft
+!~33.9 kg / 74.7 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/186.png
+!~Green
+!~Humanoid
+!~Waters-edge
+!~Generation-ii
+!~The curled hair on Politoed’s head is proof of its status as a
+king. It is said that the longer and more curled the hair, the
+more respect this Pokémon earns from its peers.
+!~[Poliwag, Poliwhirl, Poliwrath]

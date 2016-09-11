@@ -1,0 +1,15 @@
+9
+!~Blastoise
+!~1.6 m / 5.2 ft
+!~85.5 kg / 188.5 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png
+!~Blue
+!~Upright
+!~Waters-edge
+!~Generation-i
+!~Blastoise has water spouts that protrude from its shell.
+The water spouts are very accurate.
+They can shoot bullets of water with enough accuracy
+to strike empty cans from a distance of over 160 feet.
+!~[Squirtle, Wartortle, Blastoise]

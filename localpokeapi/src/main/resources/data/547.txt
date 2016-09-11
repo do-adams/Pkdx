@@ -1,0 +1,14 @@
+547
+!~Whimsicott
+!~0.7 m / 2.3 ft
+!~6.6 kg / 14.6 lbs
+!~[Fairy, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/547.png
+!~Green
+!~Humanoid
+!~null
+!~Generation-v
+!~Like the wind, it can slip through any gap,
+no matter how small. It leaves balls of white
+fluff behind.
+!~[Cottonee, Whimsicott]

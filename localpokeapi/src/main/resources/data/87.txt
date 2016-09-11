@@ -1,0 +1,14 @@
+87
+!~Dewgong
+!~1.7 m / 5.6 ft
+!~120.0 kg / 264.6 lbs
+!~[Ice, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png
+!~White
+!~Fish
+!~Sea
+!~Generation-i
+!~Dewgong loves to snooze on bitterly cold ice. The sight of
+this Pokémon sleeping on a glacier was mistakenly thought
+to be a mermaid by a mariner long ago.
+!~[Seel, Dewgong]

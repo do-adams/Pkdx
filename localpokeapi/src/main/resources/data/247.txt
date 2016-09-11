@@ -1,0 +1,14 @@
+247
+!~Pupitar
+!~1.2 m / 3.9 ft
+!~152.0 kg / 335.1 lbs
+!~[Ground, Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/247.png
+!~Gray
+!~Squiggle
+!~Mountain
+!~Generation-ii
+!~Pupitar creates a gas inside its body that it compresses and
+forcefully ejects to propel itself like a jet. The body is very
+durable—it avoids damage even if it hits solid steel.
+!~[Larvitar, Pupitar, Tyranitar]

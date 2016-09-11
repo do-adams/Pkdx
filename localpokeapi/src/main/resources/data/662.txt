@@ -1,0 +1,14 @@
+662
+!~Fletchinder
+!~0.7 m / 2.3 ft
+!~16.0 kg / 35.3 lbs
+!~[Flying, Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/662.png
+!~Red
+!~Wings
+!~null
+!~Generation-vi
+!~The hotter the flame sac on its belly,
+the faster it can fly, but it takes some
+time to get the fire going.
+!~[Fletchling, Fletchinder, Talonflame]

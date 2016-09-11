@@ -1,0 +1,14 @@
+179
+!~Mareep
+!~0.6 m / 2.0 ft
+!~7.8 kg / 17.2 lbs
+!~[Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/179.png
+!~White
+!~Quadruped
+!~Grassland
+!~Generation-ii
+!~Mareep’s fluffy coat of wool rubs together and builds a static
+charge. The more static electricity is charged, the more brightly
+the lightbulb at the tip of its tail glows.
+!~[Mareep, Flaaffy, Ampharos]

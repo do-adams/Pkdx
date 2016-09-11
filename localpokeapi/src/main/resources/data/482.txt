@@ -1,0 +1,13 @@
+482
+!~Azelf
+!~0.3 m / 1.0 ft
+!~0.3 kg / 0.7 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/482.png
+!~Blue
+!~Upright
+!~null
+!~Generation-iv
+!~It is thought that Uxie, Mesprit, and Azelf all came
+from the same egg.
+!~[Azelf]

@@ -1,0 +1,15 @@
+118
+!~Goldeen
+!~0.6 m / 2.0 ft
+!~15.0 kg / 33.1 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png
+!~Red
+!~Fish
+!~Waters-edge
+!~Generation-i
+!~Goldeen loves swimming wild and free in rivers and ponds.
+If one of these Pokémon is placed in an aquarium, it will
+shatter even the thickest glass with one ram of its horn
+and make its escape.
+!~[Goldeen, Seaking]

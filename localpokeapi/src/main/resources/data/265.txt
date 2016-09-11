@@ -1,0 +1,15 @@
+265
+!~Wurmple
+!~0.3 m / 1.0 ft
+!~3.6 kg / 7.9 lbs
+!~[Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/265.png
+!~Red
+!~Squiggle
+!~Forest
+!~Generation-iii
+!~Wurmple is targeted by Swellow as prey. This Pokémon
+will try to resist by pointing the spikes on its rear at the
+attacking predator. It will weaken the foe by leaking poison
+from the spikes.
+!~[Wurmple, Silcoon, Beautifly]

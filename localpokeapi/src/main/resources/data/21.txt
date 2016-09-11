@@ -1,0 +1,14 @@
+21
+!~Spearow
+!~0.3 m / 1.0 ft
+!~2.0 kg / 4.4 lbs
+!~[Flying, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png
+!~Brown
+!~Wings
+!~Rough-terrain
+!~Generation-i
+!~Spearow has a very loud cry that can be heard over
+half a mile away. If its high, keening cry is heard echoing all
+around, it is a sign that they are warning each other of danger.
+!~[Spearow, Fearow]

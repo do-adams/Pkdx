@@ -1,0 +1,15 @@
+65
+!~Alakazam
+!~1.5 m / 4.9 ft
+!~48.0 kg / 105.8 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png
+!~Brown
+!~Humanoid
+!~Urban
+!~Generation-i
+!~Alakazam’s brain continually grows, infinitely multiplying
+brain cells. This amazing brain gives this Pokémon an
+astoundingly high IQ of 5,000. It has a thorough memory
+of everything that has occurred in the world.
+!~[Abra, Kadabra, Alakazam]

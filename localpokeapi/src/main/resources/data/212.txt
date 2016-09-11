@@ -1,0 +1,14 @@
+212
+!~Scizor
+!~1.8 m / 5.9 ft
+!~118.0 kg / 260.1 lbs
+!~[Steel, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png
+!~Red
+!~Bug-wings
+!~Grassland
+!~Generation-ii
+!~Scizor has a body with the hardness of steel. It is not easily
+fazed by ordinary sorts of attacks. This Pokémon flaps its
+wings to regulate its body temperature.
+!~[Scyther, Scizor]

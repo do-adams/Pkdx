@@ -1,0 +1,14 @@
+377
+!~Regirock
+!~1.7 m / 5.6 ft
+!~230.0 kg / 507.1 lbs
+!~[Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/377.png
+!~Brown
+!~Humanoid
+!~Cave
+!~Generation-iii
+!~Regirock’s body is composed entirely of rocks. Recently,
+a study made the startling discovery that the rocks were all
+unearthed from different locations.
+!~[Regirock]

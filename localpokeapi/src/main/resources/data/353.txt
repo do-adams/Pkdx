@@ -1,0 +1,14 @@
+353
+!~Shuppet
+!~0.6 m / 2.0 ft
+!~2.3 kg / 5.1 lbs
+!~[Ghost]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/353.png
+!~Black
+!~Ball
+!~Urban
+!~Generation-iii
+!~Shuppet grows by feeding on dark emotions, such as
+vengefulness and envy, in the hearts of people. It roams
+through cities in search of grudges that taint people.
+!~[Shuppet, Banette]

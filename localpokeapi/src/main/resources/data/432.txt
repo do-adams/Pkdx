@@ -1,0 +1,13 @@
+432
+!~Purugly
+!~1.0 m / 3.3 ft
+!~43.8 kg / 96.6 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/432.png
+!~Gray
+!~Quadruped
+!~null
+!~Generation-iv
+!~To make itself appear intimidatingly beefy, it tightly
+cinches its waist with its twin tails.
+!~[Glameow, Purugly]

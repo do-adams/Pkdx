@@ -1,0 +1,13 @@
+506
+!~Lillipup
+!~0.4 m / 1.3 ft
+!~4.1 kg / 9.0 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/506.png
+!~Brown
+!~Quadruped
+!~null
+!~Generation-v
+!~Though it is a very brave Pokémon, it’s also smart
+enough to check its foe’s strength and avoid battle.
+!~[Lillipup, Herdier, Stoutland]

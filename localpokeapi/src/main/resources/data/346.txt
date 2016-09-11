@@ -1,0 +1,14 @@
+346
+!~Cradily
+!~1.5 m / 4.9 ft
+!~60.4 kg / 133.2 lbs
+!~[Grass, Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/346.png
+!~Green
+!~Blob
+!~Sea
+!~Generation-iii
+!~Cradily’s body serves as an anchor, preventing it from being
+washed away in rough seas. This Pokémon secretes a strong
+digestive fluid from its tentacles.
+!~[Lileep, Cradily]

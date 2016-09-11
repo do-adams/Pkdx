@@ -1,0 +1,13 @@
+661
+!~Fletchling
+!~0.3 m / 1.0 ft
+!~1.7 kg / 3.7 lbs
+!~[Flying, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/661.png
+!~Red
+!~Wings
+!~null
+!~Generation-vi
+!~Despite the beauty of its lilting voice, it’s
+merciless to intruders that enter its territory.
+!~[Fletchling, Fletchinder, Talonflame]

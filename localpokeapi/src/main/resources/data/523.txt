@@ -1,0 +1,14 @@
+523
+!~Zebstrika
+!~1.6 m / 5.2 ft
+!~79.5 kg / 175.3 lbs
+!~[Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/523.png
+!~Black
+!~Quadruped
+!~null
+!~Generation-v
+!~They have lightning-like movements.
+When Zebstrika run at full speed, the sound of
+thunder reverberates.
+!~[Blitzle, Zebstrika]

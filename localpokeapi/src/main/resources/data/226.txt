@@ -1,0 +1,14 @@
+226
+!~Mantine
+!~2.1 m / 6.9 ft
+!~220.0 kg / 485.0 lbs
+!~[Flying, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/226.png
+!~Purple
+!~Wings
+!~Sea
+!~Generation-ii
+!~On sunny days, schools of Mantine can be seen elegantly
+leaping over the sea’s waves. This Pokémon is not bothered
+by the Remoraid that hitches rides.
+!~[Mantyke, Mantine]

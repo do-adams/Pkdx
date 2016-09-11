@@ -1,0 +1,14 @@
+671
+!~Florges
+!~1.1 m / 3.6 ft
+!~10.0 kg / 22.0 lbs
+!~[Fairy]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/671.png
+!~White
+!~Arms
+!~null
+!~Generation-vi
+!~In times long past, governors of castles
+would invite Florges to create flower gardens
+to embellish the castle domains.
+!~[Flabebe, Floette, Florges]

@@ -1,0 +1,14 @@
+309
+!~Electrike
+!~0.6 m / 2.0 ft
+!~15.2 kg / 33.5 lbs
+!~[Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/309.png
+!~Green
+!~Quadruped
+!~Grassland
+!~Generation-iii
+!~Electrike runs faster than the human eye can follow.
+The friction from running is converted into electricity,
+which is then stored in this Pokémon’s fur.
+!~[Electrike, Manectric]

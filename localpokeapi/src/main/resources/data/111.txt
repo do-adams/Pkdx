@@ -1,0 +1,14 @@
+111
+!~Rhyhorn
+!~1.0 m / 3.3 ft
+!~115.0 kg / 253.5 lbs
+!~[Rock, Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png
+!~Gray
+!~Quadruped
+!~Rough-terrain
+!~Generation-i
+!~Rhyhorn’s brain is very small. It is so dense, while on a run
+it forgets why it started running in the first place. It apparently
+remembers sometimes if it demolishes something.
+!~[Rhyhorn, Rhydon, Rhyperior]

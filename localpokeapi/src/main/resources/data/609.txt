@@ -1,0 +1,13 @@
+609
+!~Chandelure
+!~1.0 m / 3.3 ft
+!~34.3 kg / 75.6 lbs
+!~[Fire, Ghost]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/609.png
+!~Black
+!~Arms
+!~null
+!~Generation-v
+!~The spirits burned up in its ominous flame lose their
+way and wander this world forever.
+!~[Litwick, Lampent, Chandelure]

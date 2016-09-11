@@ -1,0 +1,14 @@
+187
+!~Hoppip
+!~0.4 m / 1.3 ft
+!~0.5 kg / 1.1 lbs
+!~[Flying, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/187.png
+!~Pink
+!~Upright
+!~Grassland
+!~Generation-ii
+!~This Pokémon drifts and floats with the wind. If it senses the
+approach of strong winds, Hoppip links its leaves with other
+Hoppip to prepare against being blown away.
+!~[Hoppip, Skiploom, Jumpluff]

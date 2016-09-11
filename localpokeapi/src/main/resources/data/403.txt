@@ -1,0 +1,13 @@
+403
+!~Shinx
+!~0.5 m / 1.6 ft
+!~9.5 kg / 20.9 lbs
+!~[Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/403.png
+!~Blue
+!~Quadruped
+!~null
+!~Generation-iv
+!~All of its fur dazzles if danger is sensed. It flees
+while the foe is momentarily blinded.
+!~[Shinx, Luxio, Luxray]

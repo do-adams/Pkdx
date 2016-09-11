@@ -1,0 +1,15 @@
+24
+!~Arbok
+!~3.5 m / 11.5 ft
+!~65.0 kg / 143.3 lbs
+!~[Poison]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png
+!~Purple
+!~Squiggle
+!~Grassland
+!~Generation-i
+!~This Pokémon is terrifically strong in order to constrict things
+with its body. It can even flatten steel oil drums. Once Arbok
+wraps its body around its foe, escaping its crunching embrace
+is impossible.
+!~[Ekans, Arbok]

@@ -1,0 +1,14 @@
+571
+!~Zoroark
+!~1.6 m / 5.2 ft
+!~81.1 kg / 178.8 lbs
+!~[Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/571.png
+!~Gray
+!~Upright
+!~null
+!~Generation-v
+!~Bonds between these Pokémon are very strong.
+It protects the safety of its pack by tricking
+its opponents.
+!~[Zorua, Zoroark]

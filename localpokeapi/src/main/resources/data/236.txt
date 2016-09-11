@@ -1,0 +1,14 @@
+236
+!~Tyrogue
+!~0.7 m / 2.3 ft
+!~21.0 kg / 46.3 lbs
+!~[Fighting]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/236.png
+!~Purple
+!~Humanoid
+!~Urban
+!~Generation-ii
+!~Tyrogue becomes stressed out if it does not get to train every
+day. When raising this Pokémon, the Trainer must establish
+and uphold various training methods.
+!~[Tyrogue, Hitmonlee]

@@ -1,0 +1,14 @@
+317
+!~Swalot
+!~1.7 m / 5.6 ft
+!~80.0 kg / 176.4 lbs
+!~[Poison]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/317.png
+!~Purple
+!~Arms
+!~Grassland
+!~Generation-iii
+!~Swalot has no teeth, so what it eats, it swallows whole, no
+matter what. Its cavernous mouth yawns widely. An automobile
+tire could easily fit inside this Pokémon’s mouth.
+!~[Gulpin, Swalot]

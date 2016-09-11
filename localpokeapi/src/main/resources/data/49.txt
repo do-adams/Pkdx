@@ -1,0 +1,14 @@
+49
+!~Venomoth
+!~1.5 m / 4.9 ft
+!~12.5 kg / 27.6 lbs
+!~[Poison, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png
+!~Purple
+!~Bug-wings
+!~Forest
+!~Generation-i
+!~Venomoth is nocturnal—it is a Pokémon that only becomes
+active at night. Its favorite prey are small insects that gather
+around streetlights, attracted by the light in the darkness.
+!~[Venonat, Venomoth]

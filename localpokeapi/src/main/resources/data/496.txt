@@ -1,0 +1,13 @@
+496
+!~Servine
+!~0.8 m / 2.6 ft
+!~16.0 kg / 35.3 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/496.png
+!~Green
+!~Upright
+!~null
+!~Generation-v
+!~When it gets dirty, its leaves can’t be used in
+photosynthesis, so it always keeps itself clean.
+!~[Snivy, Servine, Serperior]

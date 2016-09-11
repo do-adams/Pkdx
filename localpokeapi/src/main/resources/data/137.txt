@@ -1,0 +1,14 @@
+137
+!~Porygon
+!~0.8 m / 2.6 ft
+!~36.5 kg / 80.5 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png
+!~Pink
+!~Legs
+!~Urban
+!~Generation-i
+!~Porygon is capable of reverting itself entirely back to program
+data and entering cyberspace. This Pokémon is copy protected
+so it cannot be duplicated by copying.
+!~[Porygon, Porygon2, Porygon-z]

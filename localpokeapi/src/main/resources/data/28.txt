@@ -1,0 +1,15 @@
+28
+!~Sandslash
+!~1.0 m / 3.3 ft
+!~29.5 kg / 65.0 lbs
+!~[Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png
+!~Yellow
+!~Upright
+!~Rough-terrain
+!~Generation-i
+!~Sandslash can roll up its body as if it were a ball covered
+with large spikes. In battle, this Pokémon will try to make
+the foe flinch by jabbing it with its spines. It then leaps at
+the stunned foe to tear wildly with its sharp claws.
+!~[Sandshrew, Sandslash]

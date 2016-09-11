@@ -1,0 +1,13 @@
+569
+!~Garbodor
+!~1.9 m / 6.2 ft
+!~107.3 kg / 236.6 lbs
+!~[Poison]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/569.png
+!~Green
+!~Humanoid
+!~null
+!~Generation-v
+!~Consuming garbage makes new kinds of poison
+gases and liquids inside their bodies.
+!~[Trubbish, Garbodor]

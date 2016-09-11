@@ -1,0 +1,15 @@
+53
+!~Persian
+!~1.0 m / 3.3 ft
+!~32.0 kg / 70.5 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png
+!~Yellow
+!~Quadruped
+!~Urban
+!~Generation-i
+!~Persian has six bold whiskers that give it a look of toughness.
+The whiskers sense air movements to determine what is in the
+Pokémon’s surrounding vicinity. It becomes docile if grabbed
+by the whiskers.
+!~[Meowth, Persian]

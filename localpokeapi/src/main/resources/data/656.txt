@@ -1,0 +1,14 @@
+656
+!~Froakie
+!~0.3 m / 1.0 ft
+!~7.0 kg / 15.4 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png
+!~Blue
+!~Quadruped
+!~null
+!~Generation-vi
+!~It protects its skin by covering its body in
+delicate bubbles. Beneath its happy-go-lucky air,
+it keeps a watchful eye on its surroundings.
+!~[Froakie, Frogadier, Greninja]

@@ -1,0 +1,14 @@
+280
+!~Ralts
+!~0.4 m / 1.3 ft
+!~6.6 kg / 14.6 lbs
+!~[Fairy, Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/280.png
+!~White
+!~Humanoid
+!~Urban
+!~Generation-iii
+!~Ralts has the ability to sense the emotions of people. If its
+Trainer is in a cheerful mood, this Pokémon grows cheerful
+and joyous in the same way.
+!~[Ralts, Kirlia, Gardevoir]

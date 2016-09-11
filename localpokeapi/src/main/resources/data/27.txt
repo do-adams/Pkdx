@@ -1,0 +1,14 @@
+27
+!~Sandshrew
+!~0.6 m / 2.0 ft
+!~12.0 kg / 26.5 lbs
+!~[Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png
+!~Yellow
+!~Upright
+!~Rough-terrain
+!~Generation-i
+!~Sandshrew has a very dry hide that is extremely tough.
+The Pokémon can roll into a ball that repels any attack.
+At night, it burrows into the desert sand to sleep.
+!~[Sandshrew, Sandslash]

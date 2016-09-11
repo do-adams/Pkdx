@@ -1,0 +1,14 @@
+116
+!~Horsea
+!~0.4 m / 1.3 ft
+!~8.0 kg / 17.6 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png
+!~Blue
+!~Blob
+!~Sea
+!~Generation-i
+!~If Horsea senses danger, it will reflexively spray a dense
+black ink from its mouth and try to escape. This Pokémon
+swims by cleverly flapping the fin on its back.
+!~[Horsea, Seadra, Kingdra]

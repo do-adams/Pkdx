@@ -1,0 +1,14 @@
+655
+!~Delphox
+!~1.5 m / 4.9 ft
+!~39.0 kg / 86.0 lbs
+!~[Psychic, Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/655.png
+!~Red
+!~Upright
+!~null
+!~Generation-vi
+!~Using psychic power, it generates a
+fiery vortex of 5,400 degrees Fahrenheit,
+incinerating foes swept into this whirl of flame.
+!~[Fennekin, Braixen, Delphox]

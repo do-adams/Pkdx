@@ -1,0 +1,13 @@
+578
+!~Duosion
+!~0.6 m / 2.0 ft
+!~8.0 kg / 17.6 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/578.png
+!~Green
+!~Ball
+!~null
+!~Generation-v
+!~When their two divided brains think the same
+thoughts, their psychic power is maximized.
+!~[Solosis, Duosion, Reuniclus]

@@ -1,0 +1,14 @@
+619
+!~Mienfoo
+!~0.9 m / 3.0 ft
+!~20.0 kg / 44.1 lbs
+!~[Fighting]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/619.png
+!~Yellow
+!~Upright
+!~null
+!~Generation-v
+!~In fights, they dominate with onslaughts of flowing,
+continuous attacks. With their sharp claws, they
+cut enemies.
+!~[Mienfoo, Mienshao]

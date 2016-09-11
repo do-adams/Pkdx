@@ -1,0 +1,14 @@
+39
+!~Jigglypuff
+!~0.5 m / 1.6 ft
+!~5.5 kg / 12.1 lbs
+!~[Fairy, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png
+!~Pink
+!~Humanoid
+!~Grassland
+!~Generation-i
+!~When this Pokémon sings, it never pauses to breathe.
+If it is in a battle against an opponent that does not easily
+fall asleep, Jigglypuff cannot breathe, endangering its life.
+!~[Igglybuff, Jigglypuff, Wigglytuff]

@@ -1,0 +1,14 @@
+678
+!~Meowstic-male
+!~0.6 m / 2.0 ft
+!~8.5 kg / 18.7 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/678.png
+!~White
+!~Upright
+!~null
+!~Generation-vi
+!~The eyeball patterns on the interior of its ears
+emit psychic energy. It keeps the patterns tightly
+covered because that power is too immense.
+!~[Espurr, Meowstic]

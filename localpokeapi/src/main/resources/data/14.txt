@@ -1,0 +1,15 @@
+14
+!~Kakuna
+!~0.6 m / 2.0 ft
+!~10.0 kg / 22.0 lbs
+!~[Poison, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png
+!~Yellow
+!~Squiggle
+!~Forest
+!~Generation-i
+!~Kakuna remains virtually immobile as it clings to a tree.
+However, on the inside, it is extremely busy as it prepares
+for its coming evolution.
+This is evident from how hot the shell becomes to the touch.
+!~[Weedle, Kakuna, Beedrill]

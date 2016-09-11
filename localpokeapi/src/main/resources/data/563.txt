@@ -1,0 +1,13 @@
+563
+!~Cofagrigus
+!~1.7 m / 5.6 ft
+!~76.5 kg / 168.7 lbs
+!~[Ghost]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/563.png
+!~Yellow
+!~Blob
+!~null
+!~Generation-v
+!~Grave robbers who mistake them for real coffins and
+get too close end up trapped inside their bodies.
+!~[Yamask, Cofagrigus]

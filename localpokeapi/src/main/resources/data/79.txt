@@ -1,0 +1,15 @@
+79
+!~Slowpoke
+!~1.2 m / 3.9 ft
+!~36.0 kg / 79.4 lbs
+!~[Psychic, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png
+!~Pink
+!~Quadruped
+!~Waters-edge
+!~Generation-i
+!~Slowpoke uses its tail to catch prey by dipping it in water
+at the side of a river. However, this Pokémon often forgets
+what it’s doing and often spends entire days just loafing
+at water’s edge.
+!~[Slowpoke, Slowbro]

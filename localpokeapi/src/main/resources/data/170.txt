@@ -1,0 +1,14 @@
+170
+!~Chinchou
+!~0.5 m / 1.6 ft
+!~12.0 kg / 26.5 lbs
+!~[Electric, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/170.png
+!~Blue
+!~Fish
+!~Sea
+!~Generation-ii
+!~Chinchou’s two antennas are filled with cells that generate
+strong electricity. This Pokémon’s cells create so much
+electrical power, it even makes itself tingle slightly.
+!~[Chinchou, Lanturn]

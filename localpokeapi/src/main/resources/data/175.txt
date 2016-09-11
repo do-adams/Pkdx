@@ -1,0 +1,15 @@
+175
+!~Togepi
+!~0.3 m / 1.0 ft
+!~1.5 kg / 3.3 lbs
+!~[Fairy]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png
+!~White
+!~Humanoid
+!~Forest
+!~Generation-ii
+!~As its energy, Togepi uses the positive emotions of
+compassion and pleasure exuded by people and Pokémon.
+This Pokémon stores up feelings of happiness inside its shell,
+then shares them with others.
+!~[Togepi, Togetic, Togekiss]

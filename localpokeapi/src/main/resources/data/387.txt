@@ -1,0 +1,13 @@
+387
+!~Turtwig
+!~0.4 m / 1.3 ft
+!~10.2 kg / 22.5 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/387.png
+!~Green
+!~Quadruped
+!~null
+!~Generation-iv
+!~It undertakes photosynthesis with its body, making
+oxygen. The leaf on its head wilts if it is thirsty.
+!~[Turtwig, Grotle, Torterra]

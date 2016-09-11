@@ -1,0 +1,14 @@
+361
+!~Snorunt
+!~0.7 m / 2.3 ft
+!~16.8 kg / 37.0 lbs
+!~[Ice]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/361.png
+!~Gray
+!~Humanoid
+!~Cave
+!~Generation-iii
+!~Snorunt survives by eating only snow and ice. Old folklore
+claims that a house visited by this Pokémon is sure to prosper
+for many generations to come.
+!~[Snorunt, Glalie]

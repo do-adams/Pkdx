@@ -1,0 +1,14 @@
+196
+!~Espeon
+!~0.9 m / 3.0 ft
+!~26.5 kg / 58.4 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png
+!~Purple
+!~Quadruped
+!~Urban
+!~Generation-ii
+!~Espeon is extremely loyal to any Trainer it considers to
+be worthy. It is said that this Pokémon developed its
+precognitive powers to protect its Trainer from harm.
+!~[Eevee, Vaporeon]

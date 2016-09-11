@@ -1,0 +1,14 @@
+530
+!~Excadrill
+!~0.7 m / 2.3 ft
+!~40.4 kg / 89.1 lbs
+!~[Steel, Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/530.png
+!~Gray
+!~Humanoid
+!~null
+!~Generation-v
+!~More than 300 feet below the surface, they build
+mazelike nests. Their activity can be destructive to
+subway tunnels.
+!~[Drilbur, Excadrill]

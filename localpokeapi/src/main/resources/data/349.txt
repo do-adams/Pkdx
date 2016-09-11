@@ -1,0 +1,14 @@
+349
+!~Feebas
+!~0.6 m / 2.0 ft
+!~7.4 kg / 16.3 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/349.png
+!~Brown
+!~Fish
+!~Waters-edge
+!~Generation-iii
+!~While Feebas’s body is in tatters, it has a hardy and tenacious
+life force that enables it to live anywhere. However, this
+Pokémon is also slow and dimwitted, making it an easy catch.
+!~[Feebas, Milotic]

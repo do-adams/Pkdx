@@ -1,0 +1,15 @@
+81
+!~Magnemite
+!~0.3 m / 1.0 ft
+!~6.0 kg / 13.2 lbs
+!~[Steel, Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png
+!~Gray
+!~Arms
+!~Rough-terrain
+!~Generation-i
+!~Magnemite floats in the air by emitting electromagnetic waves
+from the units at its sides. These waves block gravity. This
+Pokémon becomes incapable of flight if its internal electrical
+supply is depleted.
+!~[Magnemite, Magneton, Magnezone]

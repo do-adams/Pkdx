@@ -1,0 +1,13 @@
+568
+!~Trubbish
+!~0.6 m / 2.0 ft
+!~31.0 kg / 68.3 lbs
+!~[Poison]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/568.png
+!~Green
+!~Humanoid
+!~null
+!~Generation-v
+!~Inhaling the gas they belch will make you sleep for
+a week. They prefer unsanitary places.
+!~[Trubbish, Garbodor]

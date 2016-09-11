@@ -1,0 +1,14 @@
+134
+!~Vaporeon
+!~1.0 m / 3.3 ft
+!~29.0 kg / 63.9 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png
+!~Blue
+!~Quadruped
+!~Urban
+!~Generation-i
+!~Vaporeon underwent a spontaneous mutation and grew fins
+and gills that allow it to live underwater. This Pokémon has
+the ability to freely control water.
+!~[Eevee, Vaporeon]

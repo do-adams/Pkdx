@@ -1,0 +1,15 @@
+369
+!~Relicanth
+!~1.0 m / 3.3 ft
+!~23.4 kg / 51.6 lbs
+!~[Rock, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/369.png
+!~Gray
+!~Fish
+!~Sea
+!~Generation-iii
+!~Relicanth is a rare species that was discovered in deep-sea
+explorations. This Pokémon’s body withstands the enormous
+water pressure of the ocean depths. Its body is covered in
+tough scales that are like craggy rocks.
+!~[Relicanth]

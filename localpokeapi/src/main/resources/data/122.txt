@@ -1,0 +1,15 @@
+122
+!~Mr-mime
+!~1.3 m / 4.3 ft
+!~54.5 kg / 120.2 lbs
+!~[Fairy, Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png
+!~Pink
+!~Humanoid
+!~Urban
+!~Generation-i
+!~Mr. Mime is a master of pantomime. Its gestures and motions
+convince watchers that something unseeable actually exists.
+Once the watchers are convinced, the unseeable thing exists
+as if it were real.
+!~[Mime-jr, Mr-mime]

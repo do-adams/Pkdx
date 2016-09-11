@@ -1,0 +1,14 @@
+629
+!~Vullaby
+!~0.5 m / 1.6 ft
+!~9.0 kg / 19.8 lbs
+!~[Flying, Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/629.png
+!~Brown
+!~Wings
+!~null
+!~Generation-v
+!~Their wings are too tiny to allow them to fly.
+They guard their posteriors with bones that were
+gathered by Mandibuzz.
+!~[Vullaby, Mandibuzz]

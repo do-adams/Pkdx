@@ -1,0 +1,13 @@
+448
+!~Lucario
+!~1.2 m / 3.9 ft
+!~54.0 kg / 119.0 lbs
+!~[Steel, Fighting]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png
+!~Blue
+!~Upright
+!~null
+!~Generation-iv
+!~By reading the auras of all things, it can tell how
+others are feeling from over half a mile away.
+!~[Riolu, Lucario]

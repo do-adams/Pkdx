@@ -1,0 +1,15 @@
+375
+!~Metang
+!~1.2 m / 3.9 ft
+!~202.5 kg / 446.4 lbs
+!~[Psychic, Steel]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/375.png
+!~Blue
+!~Arms
+!~Rough-terrain
+!~Generation-iii
+!~When two Beldum fuse together, Metang is formed.
+The brains of the Beldum are joined by a magnetic
+nervous system. This Pokémon turns its arms to the
+rear for traveling at high speed.
+!~[Beldum, Metang, Metagross]

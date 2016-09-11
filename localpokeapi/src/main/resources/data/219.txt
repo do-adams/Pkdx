@@ -1,0 +1,15 @@
+219
+!~Magcargo
+!~0.8 m / 2.6 ft
+!~55.0 kg / 121.3 lbs
+!~[Rock, Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/219.png
+!~Red
+!~Squiggle
+!~Mountain
+!~Generation-ii
+!~Magcargo’s body temperature is approximately
+18,000 degrees Fahrenheit. Water is vaporized on contact.
+If this Pokémon is caught in the rain, the raindrops instantly
+turn into steam, cloaking the area in a thick fog.
+!~[Slugma, Magcargo]

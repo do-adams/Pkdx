@@ -1,0 +1,14 @@
+215
+!~Sneasel
+!~0.9 m / 3.0 ft
+!~28.0 kg / 61.7 lbs
+!~[Ice, Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/215.png
+!~Black
+!~Upright
+!~Forest
+!~Generation-ii
+!~Sneasel scales trees by punching its hooked claws into the
+bark. This Pokémon seeks out unguarded nests and steals
+eggs for food while the parents are away.
+!~[Sneasel, Weavile]

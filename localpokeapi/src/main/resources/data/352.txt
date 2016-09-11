@@ -1,0 +1,15 @@
+352
+!~Kecleon
+!~1.0 m / 3.3 ft
+!~22.0 kg / 48.5 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/352.png
+!~Green
+!~Upright
+!~Forest
+!~Generation-iii
+!~Kecleon alters its body coloration to blend in with its
+surroundings, allowing it to sneak up on its prey unnoticed.
+Then it lashes out with its long, stretchy tongue to instantly
+ensnare the unsuspecting target.
+!~[Kecleon]

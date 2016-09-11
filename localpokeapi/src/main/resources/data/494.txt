@@ -1,0 +1,14 @@
+494
+!~Victini
+!~0.4 m / 1.3 ft
+!~4.0 kg / 8.8 lbs
+!~[Fire, Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/494.png
+!~Yellow
+!~Humanoid
+!~null
+!~Generation-v
+!~When it shares the infinite energy it creates,
+that being’s entire body will be overflowing
+with power.
+!~[Victini]

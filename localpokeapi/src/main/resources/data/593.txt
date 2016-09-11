@@ -1,0 +1,13 @@
+593
+!~Jellicent
+!~2.2 m / 7.2 ft
+!~135.0 kg / 297.6 lbs
+!~[Ghost, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/593.png
+!~White
+!~Tentacles
+!~null
+!~Generation-v
+!~The fate of the ships and crew that wander into
+Jellicent’s habitat: all sunken, all lost, all vanished.
+!~[Frillish, Jellicent]

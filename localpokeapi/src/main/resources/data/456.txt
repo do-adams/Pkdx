@@ -1,0 +1,13 @@
+456
+!~Finneon
+!~0.4 m / 1.3 ft
+!~7.0 kg / 15.4 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/456.png
+!~Blue
+!~Fish
+!~null
+!~Generation-iv
+!~After long exposure to sunlight, the patterns on its
+tail fins shine vividly when darkness arrives.
+!~[Finneon, Lumineon]

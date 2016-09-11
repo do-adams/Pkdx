@@ -1,0 +1,14 @@
+200
+!~Misdreavus
+!~0.7 m / 2.3 ft
+!~1.0 kg / 2.2 lbs
+!~[Ghost]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png
+!~Gray
+!~Ball
+!~Cave
+!~Generation-ii
+!~Misdreavus frightens people with a creepy, sobbing cry.
+The Pokémon apparently uses its red spheres to absorb the
+fearful feelings of foes and turn them into nutrition.
+!~[Misdreavus, Mismagius]

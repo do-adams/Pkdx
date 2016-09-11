@@ -1,0 +1,14 @@
+271
+!~Lombre
+!~1.2 m / 3.9 ft
+!~32.5 kg / 71.7 lbs
+!~[Grass, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/271.png
+!~Green
+!~Humanoid
+!~Waters-edge
+!~Generation-iii
+!~Lombre’s entire body is covered by a slippery, slimy film.
+It feels horribly unpleasant to be touched by this Pokémon’s
+hands. Lombre is often mistaken for a human child.
+!~[Lotad, Lombre, Ludicolo]

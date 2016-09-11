@@ -1,0 +1,15 @@
+296
+!~Makuhita
+!~1.0 m / 3.3 ft
+!~86.4 kg / 190.5 lbs
+!~[Fighting]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/296.png
+!~Yellow
+!~Humanoid
+!~Mountain
+!~Generation-iii
+!~Makuhita has a tireless spirit—it will never give up hope.
+It eats a lot of food, gets plenty of sleep, and it trains very
+rigorously. By living that way, this Pokémon packs its body
+with energy.
+!~[Makuhita, Hariyama]

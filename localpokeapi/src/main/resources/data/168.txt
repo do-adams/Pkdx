@@ -1,0 +1,14 @@
+168
+!~Ariados
+!~1.1 m / 3.6 ft
+!~33.5 kg / 73.9 lbs
+!~[Poison, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png
+!~Red
+!~Armor
+!~Forest
+!~Generation-ii
+!~Ariados’s feet are tipped with tiny hooked claws that enable it
+to scuttle on ceilings and vertical walls. This Pokémon
+constricts the foe with thin and strong silk webbing.
+!~[Spinarak, Ariados]

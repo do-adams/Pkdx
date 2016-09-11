@@ -1,0 +1,14 @@
+319
+!~Sharpedo
+!~1.8 m / 5.9 ft
+!~88.8 kg / 195.8 lbs
+!~[Dark, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/319.png
+!~Blue
+!~Fish
+!~Sea
+!~Generation-iii
+!~Sharpedo can swim at speeds of up to 75 mph by jetting
+seawater out of its backside. This Pokémon’s drawback is its
+inability to swim long distances.
+!~[Carvanha, Sharpedo]

@@ -1,0 +1,14 @@
+184
+!~Azumarill
+!~0.8 m / 2.6 ft
+!~28.5 kg / 62.8 lbs
+!~[Fairy, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/184.png
+!~Blue
+!~Upright
+!~Waters-edge
+!~Generation-ii
+!~Azumarill can make balloons out of air. It makes these air
+balloons if it spots a drowning Pokémon. The air balloons
+enable the Pokémon in trouble to breathe.
+!~[Azurill, Marill, Azumarill]

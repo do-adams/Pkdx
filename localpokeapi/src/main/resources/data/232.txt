@@ -1,0 +1,14 @@
+232
+!~Donphan
+!~1.1 m / 3.6 ft
+!~120.0 kg / 264.6 lbs
+!~[Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/232.png
+!~Gray
+!~Quadruped
+!~Rough-terrain
+!~Generation-ii
+!~If Donphan were to tackle with its hard body, even a house
+could be destroyed. Using its massive strength, the Pokémon
+helps clear rock and mud slides that block mountain trails.
+!~[Phanpy, Donphan]

@@ -1,0 +1,14 @@
+358
+!~Chimecho
+!~0.6 m / 2.0 ft
+!~1.0 kg / 2.2 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/358.png
+!~Blue
+!~Arms
+!~Grassland
+!~Generation-iii
+!~In high winds, Chimecho cries as it hangs from a tree branch or
+the eaves of a building using a suction cup on its head. This
+Pokémon plucks berries with its long tail and eats them.
+!~[Chingling, Chimecho]

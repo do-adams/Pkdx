@@ -1,0 +1,14 @@
+657
+!~Frogadier
+!~0.6 m / 2.0 ft
+!~10.9 kg / 24.0 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/657.png
+!~Blue
+!~Humanoid
+!~null
+!~Generation-vi
+!~Its swiftness is unparalleled.
+It can scale a tower of more
+than 2,000 feet in a minute’s time.
+!~[Froakie, Frogadier, Greninja]

@@ -1,0 +1,14 @@
+570
+!~Zorua
+!~0.7 m / 2.3 ft
+!~12.5 kg / 27.6 lbs
+!~[Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/570.png
+!~Gray
+!~Quadruped
+!~null
+!~Generation-v
+!~To protect themselves from danger, they hide their
+true identities by transforming into people
+and Pokémon.
+!~[Zorua, Zoroark]

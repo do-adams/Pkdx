@@ -1,0 +1,15 @@
+342
+!~Crawdaunt
+!~1.1 m / 3.6 ft
+!~32.8 kg / 72.3 lbs
+!~[Dark, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/342.png
+!~Red
+!~Armor
+!~Waters-edge
+!~Generation-iii
+!~Crawdaunt molts (sheds) its shell regularly. Immediately after
+molting, its shell is soft and tender. Until the shell hardens,
+this Pokémon hides in its streambed burrow to avoid attack
+from its foes.
+!~[Corphish, Crawdaunt]

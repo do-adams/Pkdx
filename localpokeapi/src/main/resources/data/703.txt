@@ -1,0 +1,14 @@
+703
+!~Carbink
+!~0.3 m / 1.0 ft
+!~5.7 kg / 12.6 lbs
+!~[Fairy, Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/703.png
+!~Gray
+!~Ball
+!~null
+!~Generation-vi
+!~It has slept underground for hundreds of millions
+of years since its birth. It’s occasionally found
+during the excavation of caves.
+!~[Carbink]

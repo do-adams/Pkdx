@@ -1,0 +1,13 @@
+487
+!~Giratina-altered
+!~4.5 m / 14.8 ft
+!~750.0 kg / 1653.5 lbs
+!~[Dragon, Ghost]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/487.png
+!~Black
+!~Tentacles
+!~null
+!~Generation-iv
+!~It was banished for its violence. It silently gazed
+upon the old world from the Distortion World.
+!~[Giratina]

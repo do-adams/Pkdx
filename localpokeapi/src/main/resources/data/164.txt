@@ -1,0 +1,15 @@
+164
+!~Noctowl
+!~1.6 m / 5.2 ft
+!~40.8 kg / 89.9 lbs
+!~[Flying, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/164.png
+!~Brown
+!~Wings
+!~Forest
+!~Generation-ii
+!~Noctowl never fails at catching prey in darkness. This Pokémon
+owes its success to its superior vision that allows it to see in
+minimal light, and to its soft, supple wings that make no sound
+in flight.
+!~[Hoothoot, Noctowl]

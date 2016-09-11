@@ -1,0 +1,13 @@
+441
+!~Chatot
+!~0.5 m / 1.6 ft
+!~1.9 kg / 4.2 lbs
+!~[Flying, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/441.png
+!~Black
+!~Wings
+!~null
+!~Generation-iv
+!~It can learn and speak human words. If they gather,
+they all learn the same saying.
+!~[Chatot]

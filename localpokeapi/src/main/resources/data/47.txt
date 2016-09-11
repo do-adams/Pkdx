@@ -1,0 +1,14 @@
+47
+!~Parasect
+!~1.0 m / 3.3 ft
+!~29.5 kg / 65.0 lbs
+!~[Grass, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png
+!~Red
+!~Armor
+!~Forest
+!~Generation-i
+!~Parasect is known to infest large trees en masse and drain
+nutrients from the lower trunk and roots. When an infested
+tree dies, they move onto another tree all at once.
+!~[Paras, Parasect]

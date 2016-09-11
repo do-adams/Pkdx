@@ -1,0 +1,14 @@
+157
+!~Typhlosion
+!~1.7 m / 5.6 ft
+!~79.5 kg / 175.3 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/157.png
+!~Yellow
+!~Quadruped
+!~Grassland
+!~Generation-ii
+!~Typhlosion obscures itself behind a shimmering heat haze that
+it creates using its intensely hot flames. This Pokémon creates
+blazing explosive blasts that burn everything to cinders.
+!~[Cyndaquil, Quilava, Typhlosion]

@@ -1,0 +1,15 @@
+58
+!~Growlithe
+!~0.7 m / 2.3 ft
+!~19.0 kg / 41.9 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png
+!~Brown
+!~Quadruped
+!~Grassland
+!~Generation-i
+!~Growlithe has a superb sense of smell. Once it smells anything,
+this Pokémon won’t forget the scent, no matter what. It uses
+its advanced olfactory sense to determine the emotions of
+other living things.
+!~[Growlithe, Arcanine]

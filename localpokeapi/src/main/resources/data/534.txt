@@ -1,0 +1,13 @@
+534
+!~Conkeldurr
+!~1.4 m / 4.6 ft
+!~87.0 kg / 191.8 lbs
+!~[Fighting]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/534.png
+!~Brown
+!~Humanoid
+!~null
+!~Generation-v
+!~Rather than rely on force, they master moves that
+utilize the centrifugal force of spinning concrete.
+!~[Timburr, Gurdurr, Conkeldurr]

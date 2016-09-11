@@ -1,0 +1,14 @@
+274
+!~Nuzleaf
+!~1.0 m / 3.3 ft
+!~28.0 kg / 61.7 lbs
+!~[Dark, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/274.png
+!~Brown
+!~Humanoid
+!~Forest
+!~Generation-iii
+!~This Pokémon pulls out the leaf on its head and makes a flute
+with it. The sound of Nuzleaf’s flute strikes fear and uncertainty
+in the hearts of people lost in a forest.
+!~[Seedot, Nuzleaf, Shiftry]

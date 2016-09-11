@@ -1,0 +1,13 @@
+465
+!~Tangrowth
+!~2.0 m / 6.6 ft
+!~128.6 kg / 283.5 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/465.png
+!~Blue
+!~Humanoid
+!~null
+!~Generation-iv
+!~Its vines grow so profusely that, in the warm
+season, you can’t even see its eyes.
+!~[Tangela, Tangrowth]

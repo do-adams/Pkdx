@@ -1,0 +1,15 @@
+250
+!~Ho-oh
+!~3.8 m / 12.5 ft
+!~199.0 kg / 438.7 lbs
+!~[Flying, Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/250.png
+!~Red
+!~Wings
+!~Rare
+!~Generation-ii
+!~Ho-Oh’s feathers glow in seven colors depending on the angle
+at which they are struck by light. These feathers are said to
+bring happiness to the bearers. This Pokémon is said to live at
+the foot of a rainbow.
+!~[Ho-oh]

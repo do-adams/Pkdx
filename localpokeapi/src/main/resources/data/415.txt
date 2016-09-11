@@ -1,0 +1,13 @@
+415
+!~Combee
+!~0.3 m / 1.0 ft
+!~5.5 kg / 12.1 lbs
+!~[Flying, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png
+!~Yellow
+!~Heads
+!~null
+!~Generation-iv
+!~It collects and delivers honey to its colony.
+At night, they cluster to form a beehive and sleep.
+!~[Combee, Vespiquen]

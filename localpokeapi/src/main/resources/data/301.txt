@@ -1,0 +1,14 @@
+301
+!~Delcatty
+!~1.1 m / 3.6 ft
+!~32.6 kg / 71.9 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/301.png
+!~Purple
+!~Quadruped
+!~Forest
+!~Generation-iii
+!~Delcatty sleeps anywhere it wants without keeping a permanent
+nest. If other Pokémon approach it as it sleeps, this Pokémon
+will never fight—it will just move away somewhere else.
+!~[Skitty, Delcatty]

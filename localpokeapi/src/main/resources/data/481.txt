@@ -1,0 +1,13 @@
+481
+!~Mesprit
+!~0.3 m / 1.0 ft
+!~0.3 kg / 0.7 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/481.png
+!~Pink
+!~Upright
+!~null
+!~Generation-iv
+!~It sleeps at the bottom of a lake. Its spirit is said to
+leave its body to fly on the lake’s surface.
+!~[Mesprit]

@@ -1,0 +1,15 @@
+233
+!~Porygon2
+!~0.6 m / 2.0 ft
+!~32.5 kg / 71.7 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png
+!~Red
+!~Legs
+!~Urban
+!~Generation-ii
+!~Porygon2 was created by humans using the power of science.
+The man-made Pokémon has been endowed with artificial
+intelligence that enables it to learn new gestures and emotions
+on its own.
+!~[Porygon, Porygon2, Porygon-z]

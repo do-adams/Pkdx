@@ -1,0 +1,14 @@
+453
+!~Croagunk
+!~0.7 m / 2.3 ft
+!~23.0 kg / 50.7 lbs
+!~[Fighting, Poison]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/453.png
+!~Blue
+!~Humanoid
+!~null
+!~Generation-iv
+!~Inflating its poison sacs, it fills the area with an odd
+sound and hits flinching opponents with a
+poison jab.
+!~[Croagunk, Toxicroak]

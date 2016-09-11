@@ -1,0 +1,15 @@
+161
+!~Sentret
+!~0.8 m / 2.6 ft
+!~6.0 kg / 13.2 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/161.png
+!~Brown
+!~Quadruped
+!~Grassland
+!~Generation-ii
+!~When Sentret sleeps, it does so while another stands guard.
+The sentry wakes the others at the first sign of danger. When
+this Pokémon becomes separated from its pack, it becomes
+incapable of sleep due to fear.
+!~[Sentret, Furret]

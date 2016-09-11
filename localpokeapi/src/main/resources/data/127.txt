@@ -1,0 +1,15 @@
+127
+!~Pinsir
+!~1.5 m / 4.9 ft
+!~55.0 kg / 121.3 lbs
+!~[Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png
+!~Brown
+!~Humanoid
+!~Forest
+!~Generation-i
+!~Pinsir has a pair of massive horns. Protruding from the surface
+of these horns are thorns. These thorns are driven deeply into
+the foe’s body when the pincer closes, making it tough for the
+foe to escape.
+!~[Pinsir]

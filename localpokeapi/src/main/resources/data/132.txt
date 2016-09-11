@@ -1,0 +1,15 @@
+132
+!~Ditto
+!~0.3 m / 1.0 ft
+!~4.0 kg / 8.8 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png
+!~Purple
+!~Ball
+!~Urban
+!~Generation-i
+!~Ditto rearranges its cell structure to transform itself into other
+shapes. However, if it tries to transform itself into something
+by relying on its memory, this Pokémon manages to get
+details wrong.
+!~[Ditto]

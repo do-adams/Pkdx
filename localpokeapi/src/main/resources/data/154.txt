@@ -1,0 +1,14 @@
+154
+!~Meganium
+!~1.8 m / 5.9 ft
+!~100.5 kg / 221.6 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/154.png
+!~Green
+!~Quadruped
+!~Grassland
+!~Generation-ii
+!~The fragrance of Meganium’s flower soothes and calms
+emotions. In battle, this Pokémon gives off more of its
+becalming scent to blunt the foe’s fighting spirit.
+!~[Chikorita, Bayleef, Meganium]

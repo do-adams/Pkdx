@@ -1,0 +1,14 @@
+365
+!~Walrein
+!~1.4 m / 4.6 ft
+!~150.6 kg / 332.0 lbs
+!~[Water, Ice]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/365.png
+!~Blue
+!~Quadruped
+!~Sea
+!~Generation-iii
+!~Walrein swims all over in frigid seawater while crushing
+icebergs with its grand, imposing tusks. Its thick layer of
+blubber makes enemy attacks bounce off harmlessly.
+!~[Spheal, Sealeo, Walrein]

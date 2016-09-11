@@ -1,0 +1,14 @@
+463
+!~Lickilicky
+!~1.7 m / 5.6 ft
+!~140.0 kg / 308.6 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/463.png
+!~Pink
+!~Humanoid
+!~null
+!~Generation-iv
+!~Their saliva contains lots of components that can
+dissolve anything. The numbness caused by their
+lick does not dissipate.
+!~[Lickitung, Lickilicky]

@@ -1,0 +1,13 @@
+622
+!~Golett
+!~1.0 m / 3.3 ft
+!~92.0 kg / 202.8 lbs
+!~[Ghost, Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/622.png
+!~Green
+!~Humanoid
+!~null
+!~Generation-v
+!~Ancient science fashioned this Pokémon from clay.
+It’s been active for thousands of years.
+!~[Golett, Golurk]

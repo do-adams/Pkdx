@@ -1,0 +1,14 @@
+381
+!~Latios
+!~2.0 m / 6.6 ft
+!~60.0 kg / 132.3 lbs
+!~[Psychic, Dragon]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/381.png
+!~Blue
+!~Wings
+!~Waters-edge
+!~Generation-iii
+!~Latios will only open its heart to a Trainer with a
+compassionate spirit. This Pokémon can fly faster than a
+jet plane by folding its forelegs to minimize air resistance.
+!~[Latios]

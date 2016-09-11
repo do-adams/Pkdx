@@ -1,0 +1,14 @@
+621
+!~Druddigon
+!~1.6 m / 5.2 ft
+!~139.0 kg / 306.4 lbs
+!~[Dragon]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/621.png
+!~Red
+!~Upright
+!~null
+!~Generation-v
+!~It warms its body by absorbing sunlight with its
+wings. When its body temperature falls, it can no
+longer move.
+!~[Druddigon]

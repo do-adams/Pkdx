@@ -1,0 +1,15 @@
+272
+!~Ludicolo
+!~1.5 m / 4.9 ft
+!~55.0 kg / 121.3 lbs
+!~[Grass, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/272.png
+!~Green
+!~Humanoid
+!~Waters-edge
+!~Generation-iii
+!~Upon hearing an upbeat and cheerful rhythm, the cells in
+Ludicolo’s body become very energetic and active. Even
+in battle, this Pokémon will exhibit an amazing amount
+of power.
+!~[Lotad, Lombre, Ludicolo]

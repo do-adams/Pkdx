@@ -1,0 +1,15 @@
+5
+!~Charmeleon
+!~1.1 m / 3.6 ft
+!~19.0 kg / 41.9 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png
+!~Red
+!~Upright
+!~Mountain
+!~Generation-i
+!~Charmeleon mercilessly destroys its foes using its sharp
+claws. If it encounters a strong foe, it turns aggressive.
+In this excited state, the flame at the tip of its tail flares with
+a bluish white color.
+!~[Charmander, Charmeleon, Charizard]

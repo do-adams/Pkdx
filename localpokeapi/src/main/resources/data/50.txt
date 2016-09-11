@@ -1,0 +1,15 @@
+50
+!~Diglett
+!~0.2 m / 0.7 ft
+!~0.8 kg / 1.8 lbs
+!~[Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png
+!~Brown
+!~Blob
+!~Cave
+!~Generation-i
+!~Diglett are raised in most farms. The reason is simple—
+wherever this Pokémon burrows, the soil is left perfectly tilled
+for planting crops. This soil is made ideal for growing
+delicious vegetables.
+!~[Diglett, Dugtrio]

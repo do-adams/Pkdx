@@ -1,0 +1,14 @@
+651
+!~Quilladin
+!~0.7 m / 2.3 ft
+!~29.0 kg / 63.9 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/651.png
+!~Green
+!~Upright
+!~null
+!~Generation-vi
+!~They strengthen their lower bodies by
+running into one another. They are very
+kind and won’t start fights.
+!~[Chespin, Quilladin, Chesnaught]

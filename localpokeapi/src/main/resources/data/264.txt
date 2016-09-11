@@ -1,0 +1,14 @@
+264
+!~Linoone
+!~0.5 m / 1.6 ft
+!~32.5 kg / 71.7 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/264.png
+!~White
+!~Quadruped
+!~Grassland
+!~Generation-iii
+!~When hunting, Linoone will make a beeline straight for the
+prey at a full run. While this Pokémon is capable of topping
+60 mph, it has to come to a screeching halt before it can turn.
+!~[Zigzagoon, Linoone]

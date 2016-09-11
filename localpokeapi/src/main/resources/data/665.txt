@@ -1,0 +1,14 @@
+665
+!~Spewpa
+!~0.3 m / 1.0 ft
+!~8.4 kg / 18.5 lbs
+!~[Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/665.png
+!~Black
+!~Blob
+!~null
+!~Generation-vi
+!~The beaks of bird Pokémon can’t begin
+to scratch its stalwart body.
+To defend itself, it spews powder.
+!~[Scatterbug, Spewpa, Vivillon]

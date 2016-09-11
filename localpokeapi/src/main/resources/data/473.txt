@@ -1,0 +1,13 @@
+473
+!~Mamoswine
+!~2.5 m / 8.2 ft
+!~291.0 kg / 641.5 lbs
+!~[Ground, Ice]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/473.png
+!~Brown
+!~Quadruped
+!~null
+!~Generation-iv
+!~Its impressive tusks are made of ice. The population
+thinned when it turned warm after the ice age.
+!~[Swinub, Piloswine, Mamoswine]

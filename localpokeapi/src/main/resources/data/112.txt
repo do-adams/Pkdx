@@ -1,0 +1,15 @@
+112
+!~Rhydon
+!~1.9 m / 6.2 ft
+!~120.0 kg / 264.6 lbs
+!~[Rock, Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png
+!~Gray
+!~Upright
+!~Rough-terrain
+!~Generation-i
+!~Rhydon has a horn that serves as a drill. It is used for
+destroying rocks and boulders. This Pokémon occasionally
+rams into streams of magma, but the armor-like hide prevents
+it from feeling the heat.
+!~[Rhyhorn, Rhydon, Rhyperior]

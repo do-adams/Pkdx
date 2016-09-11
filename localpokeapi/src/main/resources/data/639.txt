@@ -1,0 +1,14 @@
+639
+!~Terrakion
+!~1.9 m / 6.2 ft
+!~260.0 kg / 573.2 lbs
+!~[Fighting, Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/639.png
+!~Gray
+!~Quadruped
+!~null
+!~Generation-v
+!~Spoken of in legend, this Pokémon used its
+phenomenal power to destroy a castle in its effort
+to protect Pokémon.
+!~[Terrakion]

@@ -1,0 +1,15 @@
+64
+!~Kadabra
+!~1.3 m / 4.3 ft
+!~56.5 kg / 124.6 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png
+!~Brown
+!~Upright
+!~Urban
+!~Generation-i
+!~Kadabra holds a silver spoon in its hand. The spoon is used
+to amplify the alpha waves in its brain. Without the spoon, the
+Pokémon is said to be limited to half the usual amount of its
+telekinetic powers.
+!~[Abra, Kadabra, Alakazam]

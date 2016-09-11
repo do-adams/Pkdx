@@ -1,0 +1,14 @@
+497
+!~Serperior
+!~3.3 m / 10.8 ft
+!~63.0 kg / 138.9 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/497.png
+!~Green
+!~Squiggle
+!~null
+!~Generation-v
+!~It can stop its opponents’ movements with just a
+glare. It takes in solar energy and boosts
+it internally.
+!~[Snivy, Servine, Serperior]

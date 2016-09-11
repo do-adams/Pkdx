@@ -1,0 +1,14 @@
+314
+!~Illumise
+!~0.6 m / 2.0 ft
+!~17.7 kg / 39.0 lbs
+!~[Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/314.png
+!~Purple
+!~Humanoid
+!~Forest
+!~Generation-iii
+!~Illumise leads a flight of illuminated Volbeat to draw signs in
+the night sky. This Pokémon is said to earn greater respect
+from its peers by composing more complex designs in the sky.
+!~[Illumise]

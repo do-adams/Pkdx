@@ -1,0 +1,14 @@
+77
+!~Ponyta
+!~1.0 m / 3.3 ft
+!~30.0 kg / 66.1 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png
+!~Yellow
+!~Quadruped
+!~Grassland
+!~Generation-i
+!~Ponyta is very weak at birth. It can barely stand up.
+This Pokémon becomes stronger by stumbling and
+falling to keep up with its parent.
+!~[Ponyta, Rapidash]

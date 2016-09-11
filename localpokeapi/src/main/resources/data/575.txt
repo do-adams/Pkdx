@@ -1,0 +1,14 @@
+575
+!~Gothorita
+!~0.7 m / 2.3 ft
+!~18.0 kg / 39.7 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/575.png
+!~Purple
+!~Humanoid
+!~null
+!~Generation-v
+!~According to many old tales, it creates friends for
+itself by controlling sleeping children on
+starry nights.
+!~[Gothita, Gothorita, Gothitelle]

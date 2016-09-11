@@ -1,0 +1,14 @@
+281
+!~Kirlia
+!~0.8 m / 2.6 ft
+!~20.2 kg / 44.5 lbs
+!~[Fairy, Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/281.png
+!~White
+!~Humanoid
+!~Urban
+!~Generation-iii
+!~Kirlia uses the horns on its head to amplify its psychokinetic
+power. When the Pokémon uses its power, the air around it
+becomes distorted, creating mirages of nonexistent scenery.
+!~[Ralts, Kirlia, Gardevoir]

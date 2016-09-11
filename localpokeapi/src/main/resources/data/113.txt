@@ -1,0 +1,14 @@
+113
+!~Chansey
+!~1.1 m / 3.6 ft
+!~34.6 kg / 76.3 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png
+!~Pink
+!~Upright
+!~Urban
+!~Generation-i
+!~Chansey lays nutritionally excellent eggs on an everyday basis.
+The eggs are so delicious, they are easily and eagerly
+devoured by even those people who have lost their appetite.
+!~[Happiny, Chansey, Blissey]

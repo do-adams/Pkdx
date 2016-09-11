@@ -1,0 +1,13 @@
+394
+!~Prinplup
+!~0.8 m / 2.6 ft
+!~23.0 kg / 50.7 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/394.png
+!~Blue
+!~Upright
+!~null
+!~Generation-iv
+!~It lives a solitary life. Its wings deliver wicked blows
+that can snap even the thickest of trees.
+!~[Piplup, Prinplup, Empoleon]

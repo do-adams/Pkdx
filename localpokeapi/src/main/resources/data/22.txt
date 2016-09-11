@@ -1,0 +1,14 @@
+22
+!~Fearow
+!~1.2 m / 3.9 ft
+!~38.0 kg / 83.8 lbs
+!~[Flying, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png
+!~Brown
+!~Wings
+!~Rough-terrain
+!~Generation-i
+!~Fearow is recognized by its long neck and elongated beak.
+They are conveniently shaped for catching prey in soil or
+water. It deftly moves its long and skinny beak to pluck prey.
+!~[Spearow, Fearow]

@@ -1,0 +1,13 @@
+499
+!~Pignite
+!~1.0 m / 3.3 ft
+!~55.5 kg / 122.4 lbs
+!~[Fighting, Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/499.png
+!~Red
+!~Upright
+!~null
+!~Generation-v
+!~When its internal fire flares up, its movements grow
+sharper and faster. When in trouble, it emits smoke.
+!~[Tepig, Pignite, Emboar]

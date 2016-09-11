@@ -1,0 +1,15 @@
+210
+!~Granbull
+!~1.4 m / 4.6 ft
+!~48.7 kg / 107.4 lbs
+!~[Fairy]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/210.png
+!~Purple
+!~Upright
+!~Urban
+!~Generation-ii
+!~Granbull has a particularly well-developed lower jaw.
+The enormous fangs are heavy, causing the Pokémon to tip
+its head back for balance. Unless it is startled, it will not try to
+bite indiscriminately.
+!~[Snubbull, Granbull]

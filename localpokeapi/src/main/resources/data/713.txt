@@ -1,0 +1,14 @@
+713
+!~Avalugg
+!~2.0 m / 6.6 ft
+!~505.0 kg / 1113.3 lbs
+!~[Ice]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/713.png
+!~Blue
+!~Quadruped
+!~null
+!~Generation-vi
+!~The way several Bergmite huddle
+on its back makes it look like
+an aircraft carrier made of ice.
+!~[Bergmite, Avalugg]

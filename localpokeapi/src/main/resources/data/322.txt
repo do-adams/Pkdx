@@ -1,0 +1,15 @@
+322
+!~Numel
+!~0.7 m / 2.3 ft
+!~24.0 kg / 52.9 lbs
+!~[Ground, Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/322.png
+!~Yellow
+!~Quadruped
+!~Mountain
+!~Generation-iii
+!~Numel stores magma of almost 2,200 degrees Fahrenheit
+within its body. If it gets wet, the magma cools and hardens.
+In that event, the Pokémon’s body grows heavy and its
+movements become sluggish.
+!~[Numel, Camerupt]

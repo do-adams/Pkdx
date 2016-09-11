@@ -1,0 +1,13 @@
+405
+!~Luxray
+!~1.4 m / 4.6 ft
+!~42.0 kg / 92.6 lbs
+!~[Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/405.png
+!~Blue
+!~Quadruped
+!~null
+!~Generation-iv
+!~Luxray’s ability to see through objects comes in
+handy when it’s scouting for danger.
+!~[Shinx, Luxio, Luxray]

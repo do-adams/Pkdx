@@ -1,0 +1,14 @@
+294
+!~Loudred
+!~1.0 m / 3.3 ft
+!~40.5 kg / 89.3 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/294.png
+!~Blue
+!~Upright
+!~Cave
+!~Generation-iii
+!~Loudred shouts while stamping its feet. After it finishes
+shouting, this Pokémon becomes incapable of hearing
+anything for a while. This is considered to be a weak point.
+!~[Whismur, Loudred, Exploud]

@@ -1,0 +1,14 @@
+633
+!~Deino
+!~0.8 m / 2.6 ft
+!~17.3 kg / 38.1 lbs
+!~[Dragon, Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/633.png
+!~Blue
+!~Quadruped
+!~null
+!~Generation-v
+!~Lacking sight, it’s unaware of its surroundings,
+so it bumps into things and eats anything
+that moves.
+!~[Deino, Zweilous, Hydreigon]

@@ -1,0 +1,13 @@
+468
+!~Togekiss
+!~1.5 m / 4.9 ft
+!~38.0 kg / 83.8 lbs
+!~[Flying, Fairy]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/468.png
+!~White
+!~Wings
+!~null
+!~Generation-iv
+!~It shares many blessings with people who respect
+one another’s rights and avoid needless strife.
+!~[Togepi, Togetic, Togekiss]

@@ -1,0 +1,14 @@
+628
+!~Braviary
+!~1.5 m / 4.9 ft
+!~41.0 kg / 90.4 lbs
+!~[Flying, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/628.png
+!~Red
+!~Wings
+!~null
+!~Generation-v
+!~They fight for their friends without any thought
+about danger to themselves. One can carry a car
+while flying.
+!~[Rufflet, Braviary]

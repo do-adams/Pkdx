@@ -1,0 +1,13 @@
+624
+!~Pawniard
+!~0.5 m / 1.6 ft
+!~10.2 kg / 22.5 lbs
+!~[Steel, Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/624.png
+!~Red
+!~Humanoid
+!~null
+!~Generation-v
+!~Ignoring their injuries, groups attack by sinking
+the blades that cover their bodies into their prey.
+!~[Pawniard, Bisharp]

@@ -1,0 +1,14 @@
+636
+!~Larvesta
+!~1.1 m / 3.6 ft
+!~28.8 kg / 63.5 lbs
+!~[Fire, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/636.png
+!~White
+!~Armor
+!~null
+!~Generation-v
+!~The base of volcanoes is where they make their
+homes. They shoot fire from their five horns to repel
+attacking enemies.
+!~[Larvesta, Volcarona]

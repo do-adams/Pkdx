@@ -1,0 +1,15 @@
+109
+!~Koffing
+!~0.6 m / 2.0 ft
+!~1.0 kg / 2.2 lbs
+!~[Poison]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png
+!~Purple
+!~Ball
+!~Urban
+!~Generation-i
+!~Koffing embodies toxic substances. It mixes the toxins with raw
+garbage to set off a chemical reaction that results in a terribly
+powerful poison gas. The higher the temperature, the more gas
+is concocted by this Pokémon.
+!~[Koffing, Weezing]

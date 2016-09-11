@@ -1,0 +1,14 @@
+503
+!~Samurott
+!~1.5 m / 4.9 ft
+!~94.6 kg / 208.6 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/503.png
+!~Blue
+!~Quadruped
+!~null
+!~Generation-v
+!~One swing of the sword incorporated in its armor
+can fell an opponent. A simple glare from one of
+them quiets everybody.
+!~[Oshawott, Dewott, Samurott]

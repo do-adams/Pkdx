@@ -1,0 +1,14 @@
+31
+!~Nidoqueen
+!~1.3 m / 4.3 ft
+!~60.0 kg / 132.3 lbs
+!~[Ground, Poison]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png
+!~Blue
+!~Upright
+!~Grassland
+!~Generation-i
+!~Nidoqueen’s body is encased in extremely hard scales.
+It is adept at sending foes flying with harsh tackles. This
+Pokémon is at its strongest when it is defending its young.
+!~[Nidoran-f, Nidorina, Nidoqueen]

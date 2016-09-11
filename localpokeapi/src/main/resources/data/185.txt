@@ -1,0 +1,15 @@
+185
+!~Sudowoodo
+!~1.2 m / 3.9 ft
+!~38.0 kg / 83.8 lbs
+!~[Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/185.png
+!~Brown
+!~Humanoid
+!~Forest
+!~Generation-ii
+!~Sudowoodo camouflages itself as a tree to avoid being
+attacked by enemies. However, because its hands remain
+green throughout the year, the Pokémon is easily identified
+as a fake during the winter.
+!~[Bonsly, Sudowoodo]

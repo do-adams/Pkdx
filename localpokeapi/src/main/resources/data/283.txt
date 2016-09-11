@@ -1,0 +1,14 @@
+283
+!~Surskit
+!~0.5 m / 1.6 ft
+!~1.7 kg / 3.7 lbs
+!~[Water, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/283.png
+!~Blue
+!~Armor
+!~Waters-edge
+!~Generation-iii
+!~If Surskit senses danger, it secretes a thick, sugary syrup from
+the tip of its head. There are some Pokémon that love eating
+this syrup.
+!~[Surskit, Masquerain]

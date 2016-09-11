@@ -1,0 +1,13 @@
+564
+!~Tirtouga
+!~0.7 m / 2.3 ft
+!~16.5 kg / 36.4 lbs
+!~[Rock, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/564.png
+!~Blue
+!~Quadruped
+!~null
+!~Generation-v
+!~Restored from a fossil, this Pokémon can dive to
+depths beyond half a mile.
+!~[Tirtouga, Carracosta]

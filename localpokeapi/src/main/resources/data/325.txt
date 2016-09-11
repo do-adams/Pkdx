@@ -1,0 +1,14 @@
+325
+!~Spoink
+!~0.7 m / 2.3 ft
+!~30.6 kg / 67.5 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/325.png
+!~Black
+!~Arms
+!~Mountain
+!~Generation-iii
+!~Spoink keeps a pearl on top of its head. The pearl functions to
+amplify this Pokémon’s psychokinetic powers. It is therefore on
+a constant search for a bigger pearl.
+!~[Spoink, Grumpig]

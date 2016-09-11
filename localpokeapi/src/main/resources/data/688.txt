@@ -1,0 +1,14 @@
+688
+!~Binacle
+!~0.5 m / 1.6 ft
+!~31.0 kg / 68.3 lbs
+!~[Water, Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/688.png
+!~Brown
+!~Heads
+!~null
+!~Generation-vi
+!~They stretch and then contract, yanking their
+rocks along with them in bold hops. They eat
+seaweed that washes up on the shoreline.
+!~[Binacle, Barbaracle]

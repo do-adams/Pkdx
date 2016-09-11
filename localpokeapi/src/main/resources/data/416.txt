@@ -1,0 +1,13 @@
+416
+!~Vespiquen
+!~1.2 m / 3.9 ft
+!~38.5 kg / 84.9 lbs
+!~[Flying, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/416.png
+!~Yellow
+!~Wings
+!~null
+!~Generation-iv
+!~Its abdomen is a honeycomb for grubs. It raises its
+grubs on honey collected by Combee.
+!~[Combee, Vespiquen]

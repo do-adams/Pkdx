@@ -1,0 +1,14 @@
+10
+!~Caterpie
+!~0.3 m / 1.0 ft
+!~2.9 kg / 6.4 lbs
+!~[Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png
+!~Green
+!~Squiggle
+!~Forest
+!~Generation-i
+!~Caterpie has a voracious appetite. It can devour leaves
+bigger than its body right before your eyes. From its antenna,
+this Pokémon releases a terrifically strong odor.
+!~[Caterpie, Metapod, Butterfree]

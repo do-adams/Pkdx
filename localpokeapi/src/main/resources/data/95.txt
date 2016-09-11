@@ -1,0 +1,15 @@
+95
+!~Onix
+!~8.8 m / 28.9 ft
+!~210.0 kg / 463.0 lbs
+!~[Ground, Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png
+!~Gray
+!~Squiggle
+!~Cave
+!~Generation-i
+!~Onix has a magnet in its brain. It acts as a compass so that
+this Pokémon does not lose direction while it is tunneling.
+As it grows older, its body becomes increasingly rounder
+and smoother.
+!~[Onix, Steelix]

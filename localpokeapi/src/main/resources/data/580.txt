@@ -1,0 +1,14 @@
+580
+!~Ducklett
+!~0.5 m / 1.6 ft
+!~5.5 kg / 12.1 lbs
+!~[Flying, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/580.png
+!~Blue
+!~Wings
+!~null
+!~Generation-v
+!~They are better at swimming than flying, and they
+happily eat their favorite food, peat moss, as they
+dive underwater.
+!~[Ducklett, Swanna]

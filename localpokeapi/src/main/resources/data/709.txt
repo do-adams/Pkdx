@@ -1,0 +1,14 @@
+709
+!~Trevenant
+!~1.5 m / 4.9 ft
+!~71.0 kg / 156.5 lbs
+!~[Grass, Ghost]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/709.png
+!~Brown
+!~Tentacles
+!~null
+!~Generation-vi
+!~Using its roots as a nervous system,
+it controls the trees in the forest.
+It’s kind to the Pokémon that reside in its body.
+!~[Phantump, Trevenant]

@@ -1,0 +1,14 @@
+289
+!~Slaking
+!~2.0 m / 6.6 ft
+!~130.5 kg / 287.7 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/289.png
+!~Brown
+!~Humanoid
+!~Forest
+!~Generation-iii
+!~Wherever Slaking live, rings of over a yard in diameter appear
+in grassy fields. They are made by the Pokémon as it eats all
+the grass within reach while lying prone on the ground.
+!~[Slakoth, Vigoroth, Slaking]

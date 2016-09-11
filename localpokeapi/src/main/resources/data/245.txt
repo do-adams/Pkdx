@@ -1,0 +1,14 @@
+245
+!~Suicune
+!~2.0 m / 6.6 ft
+!~187.0 kg / 412.3 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/245.png
+!~Blue
+!~Quadruped
+!~Grassland
+!~Generation-ii
+!~Suicune embodies the compassion of a pure spring of water.
+It runs across the land with gracefulness. This Pokémon has
+the power to purify dirty water.
+!~[Suicune]

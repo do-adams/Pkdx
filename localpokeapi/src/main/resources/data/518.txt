@@ -1,0 +1,14 @@
+518
+!~Musharna
+!~1.1 m / 3.6 ft
+!~60.5 kg / 133.4 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/518.png
+!~Pink
+!~Humanoid
+!~null
+!~Generation-v
+!~The dream mist coming from its forehead changes
+into many different colors depending on the dream
+that was eaten.
+!~[Munna, Musharna]

@@ -1,0 +1,14 @@
+66
+!~Machop
+!~0.8 m / 2.6 ft
+!~19.5 kg / 43.0 lbs
+!~[Fighting]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png
+!~Gray
+!~Upright
+!~Mountain
+!~Generation-i
+!~Machop exercises by hefting around a Graveler as if it were
+a barbell. There are some Machop that travel the world in a
+quest to master all kinds of martial arts.
+!~[Machop, Machoke, Machamp]

@@ -1,0 +1,14 @@
+544
+!~Whirlipede
+!~1.2 m / 3.9 ft
+!~58.5 kg / 129.0 lbs
+!~[Poison, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/544.png
+!~Gray
+!~Ball
+!~null
+!~Generation-v
+!~It is usually motionless, but when attacked,
+it rotates at high speed and then crashes into
+its opponent.
+!~[Venipede, Whirlipede, Scolipede]

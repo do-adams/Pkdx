@@ -1,0 +1,14 @@
+654
+!~Braixen
+!~1.0 m / 3.3 ft
+!~14.5 kg / 32.0 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/654.png
+!~Red
+!~Upright
+!~null
+!~Generation-vi
+!~When the twig is plucked from its tail,
+friction sets the twig alight. The flame
+is used to send signals to its allies.
+!~[Fennekin, Braixen, Delphox]

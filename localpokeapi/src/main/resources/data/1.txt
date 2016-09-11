@@ -1,0 +1,14 @@
+1
+!~Bulbasaur
+!~0.7 m / 2.3 ft
+!~6.9 kg / 15.2 lbs
+!~[Poison, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png
+!~Green
+!~Quadruped
+!~Grassland
+!~Generation-i
+!~Bulbasaur can be seen napping in bright sunlight.
+There is a seed on its back. By soaking up the sun’s rays,
+the seed grows progressively larger.
+!~[Bulbasaur, Ivysaur, Venusaur]

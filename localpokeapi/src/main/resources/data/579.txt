@@ -1,0 +1,14 @@
+579
+!~Reuniclus
+!~1.0 m / 3.3 ft
+!~20.1 kg / 44.3 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/579.png
+!~Green
+!~Arms
+!~null
+!~Generation-v
+!~When Reuniclus shake hands, a network forms
+between their brains, increasing their
+psychic power.
+!~[Solosis, Duosion, Reuniclus]

@@ -1,0 +1,15 @@
+159
+!~Croconaw
+!~1.1 m / 3.6 ft
+!~25.0 kg / 55.1 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/159.png
+!~Blue
+!~Upright
+!~Waters-edge
+!~Generation-ii
+!~Once Croconaw has clamped its jaws on its foe, it will
+absolutely not let go. Because the tips of its fangs are
+forked back like barbed fishhooks, they become impossible
+to remove when they have sunk in.
+!~[Totodile, Croconaw, Feraligatr]

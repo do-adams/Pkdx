@@ -1,0 +1,15 @@
+243
+!~Raikou
+!~1.9 m / 6.2 ft
+!~178.0 kg / 392.4 lbs
+!~[Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/243.png
+!~Yellow
+!~Quadruped
+!~Grassland
+!~Generation-ii
+!~Raikou embodies the speed of lightning. The roars of
+this Pokémon send shock waves shuddering through the
+air and shake the ground as if lightning bolts had come
+crashing down.
+!~[Raikou]

@@ -12,6 +12,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 
+import com.mianlabs.localpokeapi.LocalPokeApi;
 import com.mianlabs.pokeluv.R;
 import com.mianlabs.pokeluv.database.PokeCursorManager;
 import com.mianlabs.pokeluv.database.PokeDBContract;
@@ -54,6 +55,7 @@ public class MainActivity extends AppCompatActivity implements PokeCursorManager
         setContentView(R.layout.activity_main);
 
         mCaughtPokemon = PokePicker.catchRandomPokemon();
+        Log.v(TAG, LocalPokeApi.getPokemonData(mCaughtPokemon).toString());
 
         Intent intent = getIntent();
         Bundle bundle = new Bundle();

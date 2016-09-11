@@ -1,0 +1,14 @@
+488
+!~Cresselia
+!~1.5 m / 4.9 ft
+!~85.6 kg / 188.7 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/488.png
+!~Yellow
+!~Armor
+!~null
+!~Generation-iv
+!~Those who sleep holding Cresselia’s feather are
+assured of joyful dreams. It is said to represent
+the crescent moon.
+!~[Cresselia]

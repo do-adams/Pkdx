@@ -1,0 +1,14 @@
+508
+!~Stoutland
+!~1.2 m / 3.9 ft
+!~61.0 kg / 134.5 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/508.png
+!~Gray
+!~Quadruped
+!~null
+!~Generation-v
+!~Being wrapped in its long fur is so comfortable
+that a person would be fine even overnight on a
+wintry mountain.
+!~[Lillipup, Herdier, Stoutland]

@@ -1,0 +1,14 @@
+362
+!~Glalie
+!~1.5 m / 4.9 ft
+!~256.5 kg / 565.5 lbs
+!~[Ice]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/362.png
+!~Gray
+!~Ball
+!~Cave
+!~Generation-iii
+!~Glalie has the ability to freely control ice. For example, it can
+instantly freeze its prey solid. After immobilizing its prey in ice,
+this Pokémon enjoys eating it in leisurely fashion.
+!~[Snorunt, Glalie]

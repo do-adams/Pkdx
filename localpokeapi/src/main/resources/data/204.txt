@@ -1,0 +1,15 @@
+204
+!~Pineco
+!~0.6 m / 2.0 ft
+!~7.2 kg / 15.9 lbs
+!~[Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/204.png
+!~Gray
+!~Ball
+!~Forest
+!~Generation-ii
+!~Pineco hangs from a tree branch and patiently waits for prey to
+come along. If the Pokémon is disturbed while eating by
+someone shaking its tree, it drops down to the ground and
+explodes with no warning.
+!~[Pineco, Forretress]

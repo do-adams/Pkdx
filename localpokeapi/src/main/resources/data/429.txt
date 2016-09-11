@@ -1,0 +1,13 @@
+429
+!~Mismagius
+!~0.9 m / 3.0 ft
+!~4.4 kg / 9.7 lbs
+!~[Ghost]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/429.png
+!~Purple
+!~Ball
+!~null
+!~Generation-iv
+!~Its cries sound like incantations to torment the foe.
+It appears where you least expect it.
+!~[Misdreavus, Mismagius]

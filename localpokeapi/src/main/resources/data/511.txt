@@ -1,0 +1,14 @@
+511
+!~Pansage
+!~0.6 m / 2.0 ft
+!~10.5 kg / 23.1 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/511.png
+!~Green
+!~Upright
+!~null
+!~Generation-v
+!~It’s good at finding berries and gathers them from
+all over. It’s kind enough to share them
+with friends.
+!~[Pansage, Simisage]

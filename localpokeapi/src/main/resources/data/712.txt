@@ -1,0 +1,14 @@
+712
+!~Bergmite
+!~1.0 m / 3.3 ft
+!~99.5 kg / 219.4 lbs
+!~[Ice]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/712.png
+!~Blue
+!~Quadruped
+!~null
+!~Generation-vi
+!~Using air of -150 degrees Fahrenheit, they
+freeze opponents solid. They live in herds
+above the snow line on mountains.
+!~[Bergmite, Avalugg]

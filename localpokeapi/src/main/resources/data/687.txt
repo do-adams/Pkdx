@@ -1,0 +1,14 @@
+687
+!~Malamar
+!~1.5 m / 4.9 ft
+!~47.0 kg / 103.6 lbs
+!~[Psychic, Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/687.png
+!~Blue
+!~Blob
+!~null
+!~Generation-vi
+!~It lures its prey close with hypnotic motions,
+then wraps its tentacles around it before
+finishing it off with digestive fluids.
+!~[Inkay, Malamar]

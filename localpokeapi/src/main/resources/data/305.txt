@@ -1,0 +1,14 @@
+305
+!~Lairon
+!~0.9 m / 3.0 ft
+!~120.0 kg / 264.6 lbs
+!~[Rock, Steel]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/305.png
+!~Gray
+!~Quadruped
+!~Mountain
+!~Generation-iii
+!~Lairon feeds on iron contained in rocks and water. It makes
+its nest on mountains where iron ore is buried. As a result,
+the Pokémon often clashes with humans mining the iron ore.
+!~[Aron, Lairon, Aggron]

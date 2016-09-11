@@ -1,0 +1,14 @@
+427
+!~Buneary
+!~0.4 m / 1.3 ft
+!~5.5 kg / 12.1 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/427.png
+!~Brown
+!~Upright
+!~null
+!~Generation-iv
+!~When it senses danger, it perks up its ears.
+On cold nights, it sleeps with its head tucked into
+its fur.
+!~[Buneary, Lopunny]

@@ -1,0 +1,14 @@
+585
+!~Deerling
+!~0.6 m / 2.0 ft
+!~19.5 kg / 43.0 lbs
+!~[Grass, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585.png
+!~Yellow
+!~Quadruped
+!~null
+!~Generation-v
+!~The turning of the seasons changes the color and
+scent of this Pokémon’s fur. People use it to mark
+the seasons.
+!~[Deerling, Sawsbuck]

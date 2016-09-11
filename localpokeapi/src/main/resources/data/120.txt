@@ -1,0 +1,15 @@
+120
+!~Staryu
+!~0.8 m / 2.6 ft
+!~34.5 kg / 76.1 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png
+!~Brown
+!~Blob
+!~Sea
+!~Generation-i
+!~Staryu apparently communicates with the stars in the night sky
+by flashing the red core at the center of its body. If parts of its
+body are torn, this Pokémon simply regenerates the missing
+pieces and limbs.
+!~[Staryu, Starmie]

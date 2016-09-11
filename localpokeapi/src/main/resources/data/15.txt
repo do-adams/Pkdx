@@ -1,0 +1,14 @@
+15
+!~Beedrill
+!~1.0 m / 3.3 ft
+!~29.5 kg / 65.0 lbs
+!~[Poison, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png
+!~Yellow
+!~Bug-wings
+!~Forest
+!~Generation-i
+!~Beedrill is extremely territorial. No one should ever approach
+its nest—this is for their own safety. If angered, they will attack
+in a furious swarm.
+!~[Weedle, Kakuna, Beedrill]

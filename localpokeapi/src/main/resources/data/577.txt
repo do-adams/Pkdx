@@ -1,0 +1,13 @@
+577
+!~Solosis
+!~0.3 m / 1.0 ft
+!~1.0 kg / 2.2 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/577.png
+!~Green
+!~Ball
+!~null
+!~Generation-v
+!~They drive away attackers by unleashing psychic
+power. They can use telepathy to talk with others.
+!~[Solosis, Duosion, Reuniclus]

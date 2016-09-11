@@ -1,0 +1,13 @@
+691
+!~Dragalge
+!~1.8 m / 5.9 ft
+!~81.5 kg / 179.7 lbs
+!~[Dragon, Poison]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/691.png
+!~Brown
+!~Blob
+!~null
+!~Generation-vi
+!~Tales are told of ships that wander into
+seas where Dragalge live, never to return.
+!~[Skrelp, Dragalge]

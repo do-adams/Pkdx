@@ -1,0 +1,14 @@
+667
+!~Litleo
+!~0.6 m / 2.0 ft
+!~13.5 kg / 29.8 lbs
+!~[Normal, Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/667.png
+!~Brown
+!~Quadruped
+!~null
+!~Generation-vi
+!~They set off on their own from their pride
+and live by themselves to become stronger.
+These hot-blooded Pokémon are quick to fight.
+!~[Litleo, Pyroar]

@@ -1,0 +1,15 @@
+167
+!~Spinarak
+!~0.5 m / 1.6 ft
+!~8.5 kg / 18.7 lbs
+!~[Poison, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/167.png
+!~Green
+!~Armor
+!~Forest
+!~Generation-ii
+!~The web spun by Spinarak can be considered its second
+nervous system. It is said that this Pokémon can determine
+what kind of prey is touching its web just by the tiny vibrations
+it feels through the web’s strands.
+!~[Spinarak, Ariados]

@@ -1,0 +1,13 @@
+393
+!~Piplup
+!~0.4 m / 1.3 ft
+!~5.2 kg / 11.5 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/393.png
+!~Blue
+!~Humanoid
+!~null
+!~Generation-iv
+!~Because it is very proud, it hates accepting food
+from people. Its thick down guards it from cold.
+!~[Piplup, Prinplup, Empoleon]

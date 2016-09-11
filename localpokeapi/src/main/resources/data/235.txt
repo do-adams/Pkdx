@@ -1,0 +1,14 @@
+235
+!~Smeargle
+!~1.2 m / 3.9 ft
+!~58.0 kg / 127.9 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/235.png
+!~White
+!~Upright
+!~Urban
+!~Generation-ii
+!~Smeargle marks the boundaries of its territory using a body
+fluid that leaks out from the tip of its tail. Over 5,000 different
+marks left by this Pokémon have been found.
+!~[Smeargle]

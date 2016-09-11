@@ -1,0 +1,14 @@
+51
+!~Dugtrio
+!~0.7 m / 2.3 ft
+!~33.3 kg / 73.4 lbs
+!~[Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png
+!~Brown
+!~Heads
+!~Cave
+!~Generation-i
+!~Dugtrio are actually triplets that emerged from one body.
+As a result, each triplet thinks exactly like the other two
+triplets. They work cooperatively to burrow endlessly.
+!~[Diglett, Dugtrio]

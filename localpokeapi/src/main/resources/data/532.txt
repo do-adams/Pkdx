@@ -1,0 +1,13 @@
+532
+!~Timburr
+!~0.6 m / 2.0 ft
+!~12.5 kg / 27.6 lbs
+!~[Fighting]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/532.png
+!~Gray
+!~Humanoid
+!~null
+!~Generation-v
+!~Always carrying squared logs, they help out with
+construction. As they grow, they carry bigger logs.
+!~[Timburr, Gurdurr, Conkeldurr]

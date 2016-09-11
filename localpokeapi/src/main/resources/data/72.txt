@@ -1,0 +1,14 @@
+72
+!~Tentacool
+!~0.9 m / 3.0 ft
+!~45.5 kg / 100.3 lbs
+!~[Poison, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png
+!~Blue
+!~Tentacles
+!~Sea
+!~Generation-i
+!~Tentacool absorbs sunlight and refracts it using water inside
+its body to convert it into beam energy. This Pokémon shoots
+beams from the small round organ above its eyes.
+!~[Tentacool, Tentacruel]

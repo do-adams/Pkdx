@@ -1,0 +1,13 @@
+676
+!~Furfrou
+!~1.2 m / 3.9 ft
+!~28.0 kg / 61.7 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/676.png
+!~White
+!~Quadruped
+!~null
+!~Generation-vi
+!~Historically, in the Kalos region, these Pokémon
+were the designated guardians of the king.
+!~[Furfrou]

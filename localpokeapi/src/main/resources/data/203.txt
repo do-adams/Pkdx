@@ -1,0 +1,14 @@
+203
+!~Girafarig
+!~1.5 m / 4.9 ft
+!~41.5 kg / 91.5 lbs
+!~[Psychic, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/203.png
+!~Yellow
+!~Quadruped
+!~Grassland
+!~Generation-ii
+!~Girafarig’s rear head contains a tiny brain that is too small for
+thinking. However, the rear head doesn’t need to sleep, so it
+can keep watch over its surroundings 24 hours a day.
+!~[Girafarig]

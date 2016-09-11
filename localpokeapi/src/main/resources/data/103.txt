@@ -1,0 +1,15 @@
+103
+!~Exeggutor
+!~2.0 m / 6.6 ft
+!~120.0 kg / 264.6 lbs
+!~[Psychic, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png
+!~Yellow
+!~Legs
+!~Forest
+!~Generation-i
+!~Exeggutor originally came from the tropics. Its heads
+steadily grow larger from exposure to strong sunlight. It is
+said that when the heads fall off, they group together to
+form Exeggcute.
+!~[Exeggcute, Exeggutor]

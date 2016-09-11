@@ -1,0 +1,15 @@
+368
+!~Gorebyss
+!~1.8 m / 5.9 ft
+!~22.6 kg / 49.8 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/368.png
+!~Pink
+!~Squiggle
+!~Sea
+!~Generation-iii
+!~Although Gorebyss is the very picture of elegance and beauty
+while swimming, it is also cruel. When it spots prey, this
+Pokémon inserts its thin mouth into the prey’s body and drains
+the prey of its body fluids.
+!~[Clamperl, Huntail]

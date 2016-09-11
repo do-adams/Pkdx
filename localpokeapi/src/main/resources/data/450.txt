@@ -1,0 +1,13 @@
+450
+!~Hippowdon
+!~2.0 m / 6.6 ft
+!~300.0 kg / 661.4 lbs
+!~[Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/450.png
+!~Brown
+!~Quadruped
+!~null
+!~Generation-iv
+!~It blasts internally stored sand from ports on its
+body to create a towering twister for attack.
+!~[Hippopotas, Hippowdon]

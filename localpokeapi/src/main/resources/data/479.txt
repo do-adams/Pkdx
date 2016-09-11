@@ -1,0 +1,13 @@
+479
+!~Rotom
+!~0.3 m / 1.0 ft
+!~0.3 kg / 0.7 lbs
+!~[Ghost, Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479.png
+!~Red
+!~Ball
+!~null
+!~Generation-iv
+!~Its body is composed of plasma. It is known to
+infiltrate electronic devices and wreak havoc.
+!~[Rotom]

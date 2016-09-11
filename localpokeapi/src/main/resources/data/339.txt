@@ -1,0 +1,14 @@
+339
+!~Barboach
+!~0.4 m / 1.3 ft
+!~1.9 kg / 4.2 lbs
+!~[Ground, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/339.png
+!~Gray
+!~Fish
+!~Waters-edge
+!~Generation-iii
+!~Barboach’s body is covered with a slimy film. If a foe grabs it,
+this Pokémon just slips out of the enemy’s grip. This Pokémon
+grows weak if the slimy coating dries up.
+!~[Barboach, Whiscash]

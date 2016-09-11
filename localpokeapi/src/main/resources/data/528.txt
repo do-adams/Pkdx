@@ -1,0 +1,14 @@
+528
+!~Swoobat
+!~0.9 m / 3.0 ft
+!~10.5 kg / 23.1 lbs
+!~[Flying, Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/528.png
+!~Blue
+!~Wings
+!~null
+!~Generation-v
+!~Anyone who comes into contact with the ultrasonic
+waves emitted by a courting male experiences a
+positive mood shift.
+!~[Woobat, Swoobat]

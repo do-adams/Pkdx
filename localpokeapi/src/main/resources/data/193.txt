@@ -1,0 +1,15 @@
+193
+!~Yanma
+!~1.2 m / 3.9 ft
+!~38.0 kg / 83.8 lbs
+!~[Flying, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/193.png
+!~Red
+!~Bug-wings
+!~Forest
+!~Generation-ii
+!~Yanma is capable of seeing 360 degrees without having to
+move its eyes. It is a great flier that is adept at making sudden
+stops and turning midair. This Pokémon uses its flying ability
+to quickly chase down targeted prey.
+!~[Yanma, Yanmega]

@@ -1,0 +1,14 @@
+705
+!~Sliggoo
+!~0.8 m / 2.6 ft
+!~17.5 kg / 38.6 lbs
+!~[Dragon]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/705.png
+!~Purple
+!~Squiggle
+!~null
+!~Generation-vi
+!~Its four horns are a high-performance radar system.
+It uses them to sense sounds and smells,
+rather than using ears or a nose.
+!~[Goomy, Sliggoo, Goodra]

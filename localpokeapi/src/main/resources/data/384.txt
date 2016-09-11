@@ -1,0 +1,14 @@
+384
+!~Rayquaza
+!~7.0 m / 23.0 ft
+!~206.5 kg / 455.3 lbs
+!~[Flying, Dragon]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/384.png
+!~Green
+!~Squiggle
+!~Rare
+!~Generation-iii
+!~It flies forever through the ozone layer, consuming
+meteoroids for sustenance. The many meteoroids
+in its body provide the energy it needs to Mega Evolve.
+!~[Rayquaza]

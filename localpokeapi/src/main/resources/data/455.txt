@@ -1,0 +1,13 @@
+455
+!~Carnivine
+!~1.4 m / 4.6 ft
+!~27.0 kg / 59.5 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/455.png
+!~Green
+!~Tentacles
+!~null
+!~Generation-iv
+!~It binds itself to trees in marshes. It attracts prey
+with its sweet-smelling drool and gulps them down.
+!~[Carnivine]

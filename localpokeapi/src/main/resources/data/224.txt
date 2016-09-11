@@ -1,0 +1,14 @@
+224
+!~Octillery
+!~0.9 m / 3.0 ft
+!~28.5 kg / 62.8 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/224.png
+!~Red
+!~Tentacles
+!~Sea
+!~Generation-ii
+!~Octillery grabs onto its foe using its tentacles. This Pokémon
+tries to immobilize it before delivering the finishing blow. If the
+foe turns out to be too strong, Octillery spews ink to escape.
+!~[Remoraid, Octillery]

@@ -1,0 +1,14 @@
+128
+!~Tauros
+!~1.4 m / 4.6 ft
+!~88.4 kg / 194.9 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png
+!~Brown
+!~Quadruped
+!~Grassland
+!~Generation-i
+!~This Pokémon is not satisfied unless it is rampaging at all
+times. If there is no opponent for Tauros to battle, it will
+charge at thick trees and knock them down to calm itself.
+!~[Tauros]

@@ -1,0 +1,14 @@
+512
+!~Simisage
+!~1.1 m / 3.6 ft
+!~30.5 kg / 67.2 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/512.png
+!~Green
+!~Upright
+!~null
+!~Generation-v
+!~Ill tempered, it fights by swinging its barbed tail
+around wildly. The leaf growing on its head is
+very bitter.
+!~[Pansage, Simisage]

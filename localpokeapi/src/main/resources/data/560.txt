@@ -1,0 +1,14 @@
+560
+!~Scrafty
+!~1.1 m / 3.6 ft
+!~30.0 kg / 66.1 lbs
+!~[Fighting, Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/560.png
+!~Red
+!~Upright
+!~null
+!~Generation-v
+!~It can smash concrete blocks with its kicking
+attacks. The one with the biggest crest is the
+group leader.
+!~[Scraggy, Scrafty]

@@ -1,0 +1,14 @@
+153
+!~Bayleef
+!~1.2 m / 3.9 ft
+!~15.8 kg / 34.8 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/153.png
+!~Green
+!~Quadruped
+!~Grassland
+!~Generation-ii
+!~Bayleef’s neck is ringed by curled-up leaves. Inside each
+tubular leaf is a small shoot of a tree. The fragrance of this
+shoot makes people peppy.
+!~[Chikorita, Bayleef, Meganium]

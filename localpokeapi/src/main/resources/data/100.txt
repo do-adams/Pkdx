@@ -1,0 +1,14 @@
+100
+!~Voltorb
+!~0.5 m / 1.6 ft
+!~10.4 kg / 22.9 lbs
+!~[Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png
+!~Red
+!~Ball
+!~Urban
+!~Generation-i
+!~Voltorb is extremely sensitive—it explodes at the slightest
+of shocks. It is rumored that it was first created when a
+Poké Ball was exposed to a powerful pulse of energy.
+!~[Voltorb, Electrode]

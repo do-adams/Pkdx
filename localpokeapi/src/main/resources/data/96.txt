@@ -1,0 +1,14 @@
+96
+!~Drowzee
+!~1.0 m / 3.3 ft
+!~32.4 kg / 71.4 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png
+!~Yellow
+!~Humanoid
+!~Grassland
+!~Generation-i
+!~If your nose becomes itchy while you are sleeping, it’s a sure
+sign that one of these Pokémon is standing above your pillow
+and trying to eat your dream through your nostrils.
+!~[Drowzee, Hypno]

@@ -1,0 +1,13 @@
+470
+!~Leafeon
+!~1.0 m / 3.3 ft
+!~25.5 kg / 56.2 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/470.png
+!~Green
+!~Quadruped
+!~null
+!~Generation-iv
+!~Just like a plant, it uses photosynthesis. As a result,
+it is always enveloped in clear air.
+!~[Eevee, Vaporeon]

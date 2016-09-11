@@ -1,0 +1,13 @@
+498
+!~Tepig
+!~0.5 m / 1.6 ft
+!~9.9 kg / 21.8 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/498.png
+!~Red
+!~Quadruped
+!~null
+!~Generation-v
+!~It loves to eat roasted berries, but sometimes it
+gets too excited and burns them to a crisp.
+!~[Tepig, Pignite, Emboar]

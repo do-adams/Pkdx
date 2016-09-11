@@ -1,0 +1,14 @@
+338
+!~Solrock
+!~1.2 m / 3.9 ft
+!~154.0 kg / 339.5 lbs
+!~[Psychic, Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/338.png
+!~Red
+!~Ball
+!~Cave
+!~Generation-iii
+!~Sunlight is the source of Solrock’s power. It is said to possess
+the ability to read the emotions of others. This Pokémon gives
+off intense heat while rotating its body.
+!~[Solrock]

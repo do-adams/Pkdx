@@ -1,0 +1,15 @@
+56
+!~Mankey
+!~0.5 m / 1.6 ft
+!~28.0 kg / 61.7 lbs
+!~[Fighting]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png
+!~Brown
+!~Upright
+!~Mountain
+!~Generation-i
+!~When Mankey starts shaking and its nasal breathing turns
+rough, it’s a sure sign that it is becoming angry. However,
+because it goes into a towering rage almost instantly,
+it is impossible for anyone to flee its wrath.
+!~[Mankey, Primeape]

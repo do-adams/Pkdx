@@ -1,0 +1,15 @@
+304
+!~Aron
+!~0.4 m / 1.3 ft
+!~60.0 kg / 132.3 lbs
+!~[Rock, Steel]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/304.png
+!~Gray
+!~Quadruped
+!~Mountain
+!~Generation-iii
+!~Aron has a body of steel. With one all-out charge, this
+Pokémon can demolish even a heavy dump truck.
+The destroyed dump truck then becomes a handy meal
+for the Pokémon.
+!~[Aron, Lairon, Aggron]

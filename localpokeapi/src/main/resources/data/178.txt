@@ -1,0 +1,15 @@
+178
+!~Xatu
+!~1.5 m / 4.9 ft
+!~15.0 kg / 33.1 lbs
+!~[Flying, Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/178.png
+!~Green
+!~Wings
+!~Forest
+!~Generation-ii
+!~Xatu is known to stand motionless while staring at the sun all
+day long. Some people revere it as a mystical Pokémon out of
+their belief that Xatu is in possession of the power to see into
+the future.
+!~[Natu, Xatu]

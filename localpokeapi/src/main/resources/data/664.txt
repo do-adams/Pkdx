@@ -1,0 +1,14 @@
+664
+!~Scatterbug
+!~0.3 m / 1.0 ft
+!~2.5 kg / 5.5 lbs
+!~[Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/664.png
+!~Black
+!~Armor
+!~null
+!~Generation-vi
+!~The powder that covers its body
+regulates its temperature, so it
+can live in any region or climate.
+!~[Scatterbug, Spewpa, Vivillon]

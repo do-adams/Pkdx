@@ -1,0 +1,14 @@
+324
+!~Torkoal
+!~0.5 m / 1.6 ft
+!~80.4 kg / 177.3 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/324.png
+!~Brown
+!~Quadruped
+!~Mountain
+!~Generation-iii
+!~Torkoal generates energy by burning coal. It grows weaker
+as the fire dies down. When it is preparing for battle, this
+Pokémon burns more coal.
+!~[Torkoal]

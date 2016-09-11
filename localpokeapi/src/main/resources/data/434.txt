@@ -1,0 +1,13 @@
+434
+!~Stunky
+!~0.4 m / 1.3 ft
+!~19.2 kg / 42.3 lbs
+!~[Dark, Poison]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/434.png
+!~Purple
+!~Quadruped
+!~null
+!~Generation-iv
+!~It protects itself by spraying a noxious fluid from its
+rear. The stench lingers for 24 hours.
+!~[Stunky, Skuntank]

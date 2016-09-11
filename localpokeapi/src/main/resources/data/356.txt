@@ -1,0 +1,15 @@
+356
+!~Dusclops
+!~1.6 m / 5.2 ft
+!~30.6 kg / 67.5 lbs
+!~[Ghost]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/356.png
+!~Black
+!~Humanoid
+!~Forest
+!~Generation-iii
+!~Dusclops absorbs anything, however large the object may be.
+This Pokémon hypnotizes its foe by waving its hands in a
+macabre manner and by bringing its single eye to bear.
+The hypnotized foe is made to do Dusclops’s bidding.
+!~[Duskull, Dusclops, Dusknoir]

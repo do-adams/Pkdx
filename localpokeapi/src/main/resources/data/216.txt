@@ -1,0 +1,14 @@
+216
+!~Teddiursa
+!~0.6 m / 2.0 ft
+!~8.8 kg / 19.4 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/216.png
+!~Brown
+!~Upright
+!~Mountain
+!~Generation-ii
+!~This Pokémon likes to lick its palms that are sweetened by
+being soaked in honey. Teddiursa concocts its own honey
+by blending fruits and pollen collected by Beedrill.
+!~[Teddiursa, Ursaring]

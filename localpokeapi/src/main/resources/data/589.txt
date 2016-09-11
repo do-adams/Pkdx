@@ -1,0 +1,14 @@
+589
+!~Escavalier
+!~1.0 m / 3.3 ft
+!~33.0 kg / 72.8 lbs
+!~[Steel, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/589.png
+!~Gray
+!~Arms
+!~null
+!~Generation-v
+!~These Pokémon evolve by wearing the shell
+covering of a Shelmet. The steel armor protects
+their whole body.
+!~[Karrablast, Escavalier]

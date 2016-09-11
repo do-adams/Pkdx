@@ -1,0 +1,13 @@
+536
+!~Palpitoad
+!~0.8 m / 2.6 ft
+!~17.0 kg / 37.5 lbs
+!~[Ground, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/536.png
+!~Blue
+!~Upright
+!~null
+!~Generation-v
+!~It lives in the water and on land. It uses its long,
+sticky tongue to immobilize its opponents.
+!~[Tympole, Palpitoad, Seismitoad]

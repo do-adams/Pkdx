@@ -1,0 +1,14 @@
+699
+!~Aurorus
+!~2.7 m / 8.9 ft
+!~225.0 kg / 496.0 lbs
+!~[Ice, Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/699.png
+!~Blue
+!~Quadruped
+!~null
+!~Generation-vi
+!~Using its diamond-shaped crystals,
+it can instantly create a wall of
+ice to block an opponent’s attack.
+!~[Amaura, Aurorus]

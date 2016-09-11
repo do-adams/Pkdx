@@ -1,0 +1,14 @@
+576
+!~Gothitelle
+!~1.5 m / 4.9 ft
+!~44.0 kg / 97.0 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/576.png
+!~Purple
+!~Humanoid
+!~null
+!~Generation-v
+!~They can predict the future from the placement and
+movement of the stars. They can see Trainers’
+life spans.
+!~[Gothita, Gothorita, Gothitelle]

@@ -1,0 +1,14 @@
+263
+!~Zigzagoon
+!~0.4 m / 1.3 ft
+!~17.5 kg / 38.6 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/263.png
+!~Brown
+!~Quadruped
+!~Grassland
+!~Generation-iii
+!~The hair on Zigzagoon’s back is bristly. It rubs the hard back
+hair against trees to leave its territorial markings. This Pokémon
+may play dead to fool foes in battle.
+!~[Zigzagoon, Linoone]

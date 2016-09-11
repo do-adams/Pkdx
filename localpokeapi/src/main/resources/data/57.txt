@@ -1,0 +1,15 @@
+57
+!~Primeape
+!~1.0 m / 3.3 ft
+!~32.0 kg / 70.5 lbs
+!~[Fighting]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png
+!~Brown
+!~Upright
+!~Mountain
+!~Generation-i
+!~When Primeape becomes furious, its blood circulation
+is boosted. In turn, its muscles are made even stronger.
+However, it also becomes much less intelligent at the
+same time.
+!~[Mankey, Primeape]

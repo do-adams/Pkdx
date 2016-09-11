@@ -1,0 +1,13 @@
+515
+!~Panpour
+!~0.6 m / 2.0 ft
+!~13.5 kg / 29.8 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/515.png
+!~Blue
+!~Upright
+!~null
+!~Generation-v
+!~The water stored inside the tuft on its head is full of
+nutrients. Plants that receive its water grow large.
+!~[Panpour, Simipour]

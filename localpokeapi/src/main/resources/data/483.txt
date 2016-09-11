@@ -1,0 +1,13 @@
+483
+!~Dialga
+!~5.4 m / 17.7 ft
+!~683.0 kg / 1505.8 lbs
+!~[Dragon, Steel]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/483.png
+!~White
+!~Quadruped
+!~null
+!~Generation-iv
+!~It has the power to control time. It appears in
+Sinnoh-region myths as an ancient deity.
+!~[Dialga]

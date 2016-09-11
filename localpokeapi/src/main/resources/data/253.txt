@@ -1,0 +1,14 @@
+253
+!~Grovyle
+!~0.9 m / 3.0 ft
+!~21.6 kg / 47.6 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/253.png
+!~Green
+!~Upright
+!~Forest
+!~Generation-iii
+!~This Pokémon adeptly flies from branch to branch in trees.
+In a forest, no Pokémon can ever hope to catch a fleeing
+Grovyle however fast they may be.
+!~[Treecko, Grovyle, Sceptile]

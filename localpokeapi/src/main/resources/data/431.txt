@@ -1,0 +1,13 @@
+431
+!~Glameow
+!~0.5 m / 1.6 ft
+!~3.9 kg / 8.6 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/431.png
+!~Gray
+!~Quadruped
+!~null
+!~Generation-iv
+!~When it’s happy, Glameow demonstrates beautiful
+movements of its tail, like a dancing ribbon.
+!~[Glameow, Purugly]

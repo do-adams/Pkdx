@@ -1,0 +1,15 @@
+371
+!~Bagon
+!~0.6 m / 2.0 ft
+!~42.1 kg / 92.8 lbs
+!~[Dragon]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/371.png
+!~Blue
+!~Humanoid
+!~Rough-terrain
+!~Generation-iii
+!~Bagon harbors a never-ending dream of one day soaring high
+among the clouds. As if trying to dispel its frustration over its
+inability to fly, this Pokémon slams its hard head against huge
+rocks and shatters them into pebbles.
+!~[Bagon, Shelgon, Salamence]

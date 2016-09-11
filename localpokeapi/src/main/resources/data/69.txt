@@ -1,0 +1,14 @@
+69
+!~Bellsprout
+!~0.7 m / 2.3 ft
+!~4.0 kg / 8.8 lbs
+!~[Poison, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png
+!~Green
+!~Humanoid
+!~Forest
+!~Generation-i
+!~Bellsprout’s thin and flexible body lets it bend and sway
+to avoid any attack, however strong it may be. From its mouth,
+this Pokémon spits a corrosive fluid that melts even iron.
+!~[Bellsprout, Weepinbell, Victreebel]

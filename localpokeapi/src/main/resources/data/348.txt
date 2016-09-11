@@ -1,0 +1,15 @@
+348
+!~Armaldo
+!~1.5 m / 4.9 ft
+!~68.2 kg / 150.4 lbs
+!~[Bug, Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/348.png
+!~Gray
+!~Upright
+!~Waters-edge
+!~Generation-iii
+!~Armaldo is a Pokémon species that became extinct in
+prehistoric times. This Pokémon is said to have walked
+on its hind legs, which would have been more convenient
+for life on land.
+!~[Anorith, Armaldo]

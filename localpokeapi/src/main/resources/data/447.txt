@@ -1,0 +1,13 @@
+447
+!~Riolu
+!~0.7 m / 2.3 ft
+!~20.2 kg / 44.5 lbs
+!~[Fighting]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/447.png
+!~Blue
+!~Upright
+!~null
+!~Generation-iv
+!~The aura that emanates from its body intensifies to
+alert others if it is afraid or sad.
+!~[Riolu, Lucario]

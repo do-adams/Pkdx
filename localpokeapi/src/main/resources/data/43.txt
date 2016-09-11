@@ -1,0 +1,15 @@
+43
+!~Oddish
+!~0.5 m / 1.6 ft
+!~5.4 kg / 11.9 lbs
+!~[Poison, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png
+!~Blue
+!~Legs
+!~Grassland
+!~Generation-i
+!~Oddish searches for fertile, nutrient-rich soil, then plants itself.
+During the daytime, while it is planted, this Pokémon’s feet
+are thought to change shape and become similar to the roots
+of trees.
+!~[Oddish, Gloom, Vileplume]

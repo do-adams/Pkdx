@@ -1,0 +1,13 @@
+598
+!~Ferrothorn
+!~1.0 m / 3.3 ft
+!~110.0 kg / 242.5 lbs
+!~[Steel, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/598.png
+!~Gray
+!~Tentacles
+!~null
+!~Generation-v
+!~They attach themselves to cave ceilings, firing steel
+spikes at targets passing beneath them.
+!~[Ferroseed, Ferrothorn]

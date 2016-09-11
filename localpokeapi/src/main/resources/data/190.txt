@@ -1,0 +1,14 @@
+190
+!~Aipom
+!~0.8 m / 2.6 ft
+!~11.5 kg / 25.4 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/190.png
+!~Purple
+!~Upright
+!~Forest
+!~Generation-ii
+!~Aipom’s tail ends in a hand-like appendage that can be cleverly
+manipulated. However, because the Pokémon uses its tail so
+much, its real hands have become rather clumsy.
+!~[Aipom, Ambipom]

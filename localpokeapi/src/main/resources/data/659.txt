@@ -1,0 +1,14 @@
+659
+!~Bunnelby
+!~0.4 m / 1.3 ft
+!~5.0 kg / 11.0 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/659.png
+!~Brown
+!~Upright
+!~null
+!~Generation-vi
+!~It has ears like shovels. Digging holes
+strengthens its ears so much that they
+can sever thick roots effortlessly.
+!~[Bunnelby, Diggersby]

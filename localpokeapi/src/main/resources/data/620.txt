@@ -1,0 +1,14 @@
+620
+!~Mienshao
+!~1.4 m / 4.6 ft
+!~35.5 kg / 78.3 lbs
+!~[Fighting]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/620.png
+!~Purple
+!~Upright
+!~null
+!~Generation-v
+!~Using the long fur on its arms like whips, it
+launches into combo attacks that, once started,
+no one can stop.
+!~[Mienfoo, Mienshao]

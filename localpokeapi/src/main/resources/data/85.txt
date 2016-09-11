@@ -1,0 +1,14 @@
+85
+!~Dodrio
+!~1.8 m / 5.9 ft
+!~85.2 kg / 187.8 lbs
+!~[Flying, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png
+!~Brown
+!~Legs
+!~Grassland
+!~Generation-i
+!~Apparently, the heads aren’t the only parts of the body that
+Dodrio has three of. It has three sets of hearts and lungs as
+well, so it is capable of running long distances without rest.
+!~[Doduo, Dodrio]

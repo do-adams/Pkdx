@@ -1,0 +1,14 @@
+155
+!~Cyndaquil
+!~0.5 m / 1.6 ft
+!~7.9 kg / 17.4 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png
+!~Yellow
+!~Humanoid
+!~Grassland
+!~Generation-ii
+!~Cyndaquil protects itself by flaring up the flames on its back.
+The flames are vigorous if the Pokémon is angry. However, if it
+is tired, the flames splutter fitfully with incomplete combustion.
+!~[Cyndaquil, Quilava, Typhlosion]

@@ -1,0 +1,14 @@
+469
+!~Yanmega
+!~1.9 m / 6.2 ft
+!~51.5 kg / 113.5 lbs
+!~[Flying, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/469.png
+!~Green
+!~Bug-wings
+!~null
+!~Generation-iv
+!~This six-legged Pokémon is easily capable of
+transporting an adult in flight. The wings on its tail
+help it stay balanced.
+!~[Yanma, Yanmega]

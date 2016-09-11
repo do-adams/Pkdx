@@ -1,0 +1,15 @@
+214
+!~Heracross
+!~1.5 m / 4.9 ft
+!~54.0 kg / 119.0 lbs
+!~[Fighting, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/214.png
+!~Blue
+!~Humanoid
+!~Forest
+!~Generation-ii
+!~Heracross has sharp claws on its feet. These are planted
+firmly into the ground or the bark of a tree, giving the
+Pokémon a secure and solid footing to forcefully fling away
+foes with its proud horn.
+!~[Heracross]

@@ -1,0 +1,14 @@
+218
+!~Slugma
+!~0.7 m / 2.3 ft
+!~35.0 kg / 77.2 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/218.png
+!~Red
+!~Squiggle
+!~Mountain
+!~Generation-ii
+!~Slugma does not have any blood in its body. Instead, intensely
+hot magma circulates throughout this Pokémon’s body,
+carrying essential nutrients and oxygen to its organs.
+!~[Slugma, Magcargo]

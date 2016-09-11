@@ -1,0 +1,15 @@
+364
+!~Sealeo
+!~1.1 m / 3.6 ft
+!~87.6 kg / 193.1 lbs
+!~[Water, Ice]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/364.png
+!~Blue
+!~Fish
+!~Sea
+!~Generation-iii
+!~Sealeo often balances and rolls things on the tip of its
+nose. While the Pokémon is rolling something, it checks
+the object’s aroma and texture to determine whether it likes
+the object or not.
+!~[Spheal, Sealeo, Walrein]

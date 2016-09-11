@@ -1,0 +1,13 @@
+459
+!~Snover
+!~1.0 m / 3.3 ft
+!~50.5 kg / 111.3 lbs
+!~[Ice, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/459.png
+!~White
+!~Upright
+!~null
+!~Generation-iv
+!~In the spring, it grows berries with the texture of
+frozen treats around its belly.
+!~[Snover, Abomasnow]

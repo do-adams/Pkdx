@@ -1,0 +1,13 @@
+443
+!~Gible
+!~0.7 m / 2.3 ft
+!~20.5 kg / 45.2 lbs
+!~[Ground, Dragon]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/443.png
+!~Blue
+!~Upright
+!~null
+!~Generation-iv
+!~It nests in small, horizontal holes in cave walls.
+It pounces to catch prey that stray too close.
+!~[Gible, Gabite, Garchomp]

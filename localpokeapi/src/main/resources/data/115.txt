@@ -1,0 +1,15 @@
+115
+!~Kangaskhan
+!~2.2 m / 7.2 ft
+!~80.0 kg / 176.4 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png
+!~Brown
+!~Upright
+!~Grassland
+!~Generation-i
+!~If you come across a young Kangaskhan playing by itself,
+you must never disturb it or attempt to catch it. The baby
+Pokémon’s parent is sure to be in the area, and it will
+become violently enraged at you.
+!~[Kangaskhan]

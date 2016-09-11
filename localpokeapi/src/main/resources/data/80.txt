@@ -1,0 +1,14 @@
+80
+!~Slowbro
+!~1.6 m / 5.2 ft
+!~78.5 kg / 173.1 lbs
+!~[Psychic, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png
+!~Pink
+!~Upright
+!~Waters-edge
+!~Generation-i
+!~Slowbro’s tail has a Shellder firmly attached with a bite.
+As a result, the tail can’t be used for fishing anymore. This
+causes Slowbro to grudgingly swim and catch prey instead.
+!~[Slowpoke, Slowbro]

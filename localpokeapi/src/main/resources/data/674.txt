@@ -1,0 +1,13 @@
+674
+!~Pancham
+!~0.6 m / 2.0 ft
+!~8.0 kg / 17.6 lbs
+!~[Fighting]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/674.png
+!~White
+!~Upright
+!~null
+!~Generation-vi
+!~It does its level best to glare and pull a scary face,
+but it can’t help grinning if anyone pats its head.
+!~[Pancham, Pangoro]

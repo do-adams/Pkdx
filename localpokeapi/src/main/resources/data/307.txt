@@ -1,0 +1,14 @@
+307
+!~Meditite
+!~0.6 m / 2.0 ft
+!~11.2 kg / 24.7 lbs
+!~[Psychic, Fighting]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/307.png
+!~Blue
+!~Humanoid
+!~Mountain
+!~Generation-iii
+!~Meditite heightens its inner energy through meditation.
+It survives on just one berry a day. Minimal eating is another
+aspect of this Pokémon’s training.
+!~[Meditite, Medicham]

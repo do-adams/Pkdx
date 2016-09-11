@@ -1,0 +1,14 @@
+238
+!~Smoochum
+!~0.4 m / 1.3 ft
+!~6.0 kg / 13.2 lbs
+!~[Psychic, Ice]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/238.png
+!~Pink
+!~Humanoid
+!~Urban
+!~Generation-ii
+!~Smoochum actively runs about, but also falls quite often.
+Whenever the chance arrives, it will look for its reflection to
+make sure its face hasn’t become dirty.
+!~[Smoochum, Jynx]

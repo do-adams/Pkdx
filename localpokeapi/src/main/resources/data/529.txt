@@ -1,0 +1,13 @@
+529
+!~Drilbur
+!~0.3 m / 1.0 ft
+!~8.5 kg / 18.7 lbs
+!~[Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/529.png
+!~Gray
+!~Upright
+!~null
+!~Generation-v
+!~By spinning its body, it can dig straight through the
+ground at a speed of 30 mph.
+!~[Drilbur, Excadrill]

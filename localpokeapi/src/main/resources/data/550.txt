@@ -1,0 +1,14 @@
+550
+!~Basculin-red-striped
+!~1.0 m / 3.3 ft
+!~18.0 kg / 39.7 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/550.png
+!~Green
+!~Fish
+!~null
+!~Generation-v
+!~Red and blue Basculin usually do not get along,
+but sometimes members of one school mingle with
+the other’s school.
+!~[Basculin]

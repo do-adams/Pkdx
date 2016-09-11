@@ -1,0 +1,14 @@
+45
+!~Vileplume
+!~1.2 m / 3.9 ft
+!~18.6 kg / 41.0 lbs
+!~[Poison, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png
+!~Red
+!~Humanoid
+!~Grassland
+!~Generation-i
+!~Vileplume has the world’s largest petals. They are used to
+attract prey that are then doused with toxic spores. Once the
+prey are immobilized, this Pokémon catches and devours them.
+!~[Oddish, Gloom, Vileplume]

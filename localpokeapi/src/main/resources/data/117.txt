@@ -1,0 +1,15 @@
+117
+!~Seadra
+!~1.2 m / 3.9 ft
+!~25.0 kg / 55.1 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png
+!~Blue
+!~Blob
+!~Sea
+!~Generation-i
+!~Seadra generates whirlpools by spinning its body.
+The whirlpools are strong enough to swallow even
+fishing boats. This Pokémon weakens prey with
+these currents, then swallows it whole.
+!~[Horsea, Seadra, Kingdra]

@@ -1,0 +1,13 @@
+507
+!~Herdier
+!~0.9 m / 3.0 ft
+!~14.7 kg / 32.4 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/507.png
+!~Gray
+!~Quadruped
+!~null
+!~Generation-v
+!~It has black, cape-like fur that is very hard and
+decreases the amount of damage it receives.
+!~[Lillipup, Herdier, Stoutland]

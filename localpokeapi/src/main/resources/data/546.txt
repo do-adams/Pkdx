@@ -1,0 +1,14 @@
+546
+!~Cottonee
+!~0.3 m / 1.0 ft
+!~0.6 kg / 1.3 lbs
+!~[Fairy, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/546.png
+!~Green
+!~Ball
+!~null
+!~Generation-v
+!~Perhaps because they feel more at ease in a group,
+they stick to others they find. They end up looking
+like a cloud.
+!~[Cottonee, Whimsicott]

@@ -1,0 +1,14 @@
+329
+!~Vibrava
+!~1.1 m / 3.6 ft
+!~15.3 kg / 33.7 lbs
+!~[Dragon, Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/329.png
+!~Green
+!~Bug-wings
+!~Rough-terrain
+!~Generation-iii
+!~Vibrava’s wings have not yet completed the process of
+growing. Rather than flying long distances, they are more
+useful for generating ultrasonic waves by vibrating.
+!~[Trapinch, Vibrava, Flygon]

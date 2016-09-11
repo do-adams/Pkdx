@@ -1,0 +1,14 @@
+290
+!~Nincada
+!~0.5 m / 1.6 ft
+!~5.5 kg / 12.1 lbs
+!~[Ground, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/290.png
+!~Gray
+!~Armor
+!~Forest
+!~Generation-iii
+!~Nincada lives underground. It uses its sharp claws to carve the
+roots of trees and absorb moisture and nutrients.
+This Pokémon can’t withstand bright sunlight so avoids it.
+!~[Nincada, Ninjask]

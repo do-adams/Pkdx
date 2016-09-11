@@ -1,0 +1,14 @@
+74
+!~Geodude
+!~0.4 m / 1.3 ft
+!~20.0 kg / 44.1 lbs
+!~[Ground, Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png
+!~Brown
+!~Arms
+!~Mountain
+!~Generation-i
+!~When Geodude sleeps deeply, it buries itself halfway into the
+ground. It will not awaken even if hikers step on it unwittingly.
+In the morning, this Pokémon rolls downhill in search of food.
+!~[Geodude, Graveler, Golem]

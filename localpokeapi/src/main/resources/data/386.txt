@@ -1,0 +1,14 @@
+386
+!~Deoxys-normal
+!~1.7 m / 5.6 ft
+!~60.8 kg / 134.0 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/386.png
+!~Red
+!~Humanoid
+!~Rare
+!~Generation-iii
+!~Deoxys emerged from a virus that came from space. It is highly
+intelligent and wields psychokinetic powers. This Pokémon
+shoots lasers from the crystalline organ on its chest.
+!~[Deoxys]

@@ -1,0 +1,14 @@
+552
+!~Krokorok
+!~1.0 m / 3.3 ft
+!~33.4 kg / 73.6 lbs
+!~[Dark, Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/552.png
+!~Brown
+!~Quadruped
+!~null
+!~Generation-v
+!~The special membrane covering its eyes can sense
+the heat of objects, so it can see its surroundings
+even in darkness.
+!~[Sandile, Krokorok, Krookodile]

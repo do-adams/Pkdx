@@ -1,0 +1,14 @@
+285
+!~Shroomish
+!~0.4 m / 1.3 ft
+!~4.5 kg / 9.9 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/285.png
+!~Brown
+!~Legs
+!~Forest
+!~Generation-iii
+!~If Shroomish senses danger, it shakes its body and scatters
+spores from the top of its head. This Pokémon’s spores are
+so toxic, they make trees and weeds wilt.
+!~[Shroomish, Breloom]

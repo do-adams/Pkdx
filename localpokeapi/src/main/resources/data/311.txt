@@ -1,0 +1,14 @@
+311
+!~Plusle
+!~0.4 m / 1.3 ft
+!~4.2 kg / 9.3 lbs
+!~[Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/311.png
+!~Yellow
+!~Upright
+!~Grassland
+!~Generation-iii
+!~When Plusle is cheering on its partner, it flashes with electric
+sparks from all over its body. If its partner loses, this Pokémon
+cries loudly.
+!~[Plusle]

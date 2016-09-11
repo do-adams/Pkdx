@@ -1,0 +1,14 @@
+627
+!~Rufflet
+!~0.5 m / 1.6 ft
+!~10.5 kg / 23.1 lbs
+!~[Flying, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/627.png
+!~White
+!~Wings
+!~null
+!~Generation-v
+!~They will challenge anything, even strong
+opponents, without fear. Their frequent fights help
+them become stronger.
+!~[Rufflet, Braviary]

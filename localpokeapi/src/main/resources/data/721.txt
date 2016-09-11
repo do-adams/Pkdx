@@ -1,0 +1,14 @@
+721
+!~Volcanion
+!~1.7 m / 5.6 ft
+!~195.0 kg / 429.9 lbs
+!~[Water, Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/721.png
+!~Brown
+!~Ball
+!~null
+!~Generation-vi
+!~It expels its internal steam from the
+arms on its back. It has enough
+power to blow away a mountain.
+!~[Volcanion]

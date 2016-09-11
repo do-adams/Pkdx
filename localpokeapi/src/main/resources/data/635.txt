@@ -1,0 +1,14 @@
+635
+!~Hydreigon
+!~1.8 m / 5.9 ft
+!~160.0 kg / 352.7 lbs
+!~[Dragon, Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/635.png
+!~Blue
+!~Upright
+!~null
+!~Generation-v
+!~It responds to movement by attacking. This scary,
+three-headed Pokémon devours everything in
+its path!
+!~[Deino, Zweilous, Hydreigon]

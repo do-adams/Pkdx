@@ -1,0 +1,15 @@
+303
+!~Mawile
+!~0.6 m / 2.0 ft
+!~11.5 kg / 25.4 lbs
+!~[Fairy, Steel]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/303.png
+!~Black
+!~Humanoid
+!~Cave
+!~Generation-iii
+!~Don’t be taken in by this Pokémon’s cute face—it’s very
+dangerous. Mawile fools the foe into letting down its guard,
+then chomps down with its massive jaws. The steel jaws are
+really horns that have been transformed.
+!~[Mawile]

@@ -1,0 +1,15 @@
+130
+!~Gyarados
+!~6.5 m / 21.3 ft
+!~235.0 kg / 518.1 lbs
+!~[Flying, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png
+!~Blue
+!~Squiggle
+!~Waters-edge
+!~Generation-i
+!~Once Gyarados goes on a rampage, its ferociously violent
+blood doesn’t calm until it has burned everything down.
+There are records of this Pokémon’s rampages lasting a
+whole month.
+!~[Magikarp, Gyarados]

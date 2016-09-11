@@ -1,0 +1,14 @@
+708
+!~Phantump
+!~0.4 m / 1.3 ft
+!~7.0 kg / 15.4 lbs
+!~[Grass, Ghost]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/708.png
+!~Brown
+!~Arms
+!~null
+!~Generation-vi
+!~According to old tales, these Pokémon are
+stumps possessed by the spirits of
+children who died while lost in the forest.
+!~[Phantump, Trevenant]

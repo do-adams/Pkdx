@@ -1,0 +1,13 @@
+426
+!~Drifblim
+!~1.2 m / 3.9 ft
+!~15.0 kg / 33.1 lbs
+!~[Flying, Ghost]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/426.png
+!~Purple
+!~Arms
+!~null
+!~Generation-iv
+!~It’s drowsy in daytime, but flies off in the evening in
+big groups. No one knows where they go.
+!~[Drifloon, Drifblim]

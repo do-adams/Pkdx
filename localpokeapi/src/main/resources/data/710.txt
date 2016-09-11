@@ -1,0 +1,14 @@
+710
+!~Pumpkaboo-average
+!~0.4 m / 1.3 ft
+!~5.0 kg / 11.0 lbs
+!~[Grass, Ghost]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/710.png
+!~Brown
+!~Ball
+!~null
+!~Generation-vi
+!~It is said to carry wandering spirits
+to the place where they belong
+so they can move on.
+!~[Pumpkaboo, Gourgeist]

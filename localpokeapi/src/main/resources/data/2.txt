@@ -1,0 +1,15 @@
+2
+!~Ivysaur
+!~1.0 m / 3.3 ft
+!~13.0 kg / 28.7 lbs
+!~[Poison, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png
+!~Green
+!~Quadruped
+!~Grassland
+!~Generation-i
+!~There is a bud on this Pokémon’s back. To support its weight,
+Ivysaur’s legs and trunk grow thick and strong.
+If it starts spending more time lying in the sunlight,
+it’s a sign that the bud will bloom into a large flower soon.
+!~[Bulbasaur, Ivysaur, Venusaur]

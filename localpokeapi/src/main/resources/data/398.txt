@@ -1,0 +1,13 @@
+398
+!~Staraptor
+!~1.2 m / 3.9 ft
+!~24.9 kg / 54.9 lbs
+!~[Flying, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/398.png
+!~Brown
+!~Wings
+!~null
+!~Generation-iv
+!~When Staravia evolve into Staraptor, they leave the
+flock to live alone. They have sturdy wings.
+!~[Starly, Staravia, Staraptor]

@@ -1,0 +1,15 @@
+140
+!~Kabuto
+!~0.5 m / 1.6 ft
+!~11.5 kg / 25.4 lbs
+!~[Water, Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png
+!~Brown
+!~Armor
+!~Sea
+!~Generation-i
+!~Kabuto is a Pokémon that has been regenerated from a fossil.
+However, in extremely rare cases, living examples have
+been discovered. The Pokémon has not changed at all for
+300 million years.
+!~[Kabuto, Kabutops]

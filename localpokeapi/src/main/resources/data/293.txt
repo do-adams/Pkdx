@@ -1,0 +1,14 @@
+293
+!~Whismur
+!~0.6 m / 2.0 ft
+!~16.3 kg / 35.9 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/293.png
+!~Pink
+!~Upright
+!~Cave
+!~Generation-iii
+!~Whismur is very timid. If it starts to cry loudly, it becomes
+startled by its own crying and cries even harder. When it finally
+stops crying, the Pokémon goes to sleep, all tired out.
+!~[Whismur, Loudred, Exploud]

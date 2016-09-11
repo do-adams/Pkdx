@@ -1,0 +1,14 @@
+549
+!~Lilligant
+!~1.1 m / 3.6 ft
+!~16.3 kg / 35.9 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/549.png
+!~Green
+!~Blob
+!~null
+!~Generation-v
+!~Even veteran Trainers face a challenge in getting its
+beautiful flower to bloom. This Pokémon is popular
+with celebrities.
+!~[Petilil, Lilligant]

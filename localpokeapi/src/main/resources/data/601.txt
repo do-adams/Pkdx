@@ -1,0 +1,13 @@
+601
+!~Klinklang
+!~0.6 m / 2.0 ft
+!~81.0 kg / 178.6 lbs
+!~[Steel]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/601.png
+!~Gray
+!~Heads
+!~null
+!~Generation-v
+!~Its red core functions as an energy tank. It fires the
+charged energy through its spikes into an area.
+!~[Klink, Klang, Klinklang]

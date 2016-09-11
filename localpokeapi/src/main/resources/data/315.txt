@@ -1,0 +1,14 @@
+315
+!~Roselia
+!~0.3 m / 1.0 ft
+!~2.0 kg / 4.4 lbs
+!~[Poison, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/315.png
+!~Green
+!~Humanoid
+!~Grassland
+!~Generation-iii
+!~On extremely rare occasions, a Roselia is said to appear with
+its flowers in unusual colors. The thorns on this Pokémon’s
+head contain a vicious poison.
+!~[Budew, Roselia, Roserade]

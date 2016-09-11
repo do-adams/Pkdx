@@ -1,0 +1,15 @@
+136
+!~Flareon
+!~0.9 m / 3.0 ft
+!~25.0 kg / 55.1 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png
+!~Red
+!~Quadruped
+!~Urban
+!~Generation-i
+!~Flareon’s fluffy fur has a functional purpose—it releases heat
+into the air so that its body does not get excessively hot.
+This Pokémon’s body temperature can rise to a maximum of
+1,650 degrees Fahrenheit.
+!~[Eevee, Vaporeon]

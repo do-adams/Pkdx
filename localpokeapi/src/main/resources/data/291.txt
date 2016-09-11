@@ -1,0 +1,15 @@
+291
+!~Ninjask
+!~0.8 m / 2.6 ft
+!~12.0 kg / 26.5 lbs
+!~[Flying, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/291.png
+!~Yellow
+!~Bug-wings
+!~Forest
+!~Generation-iii
+!~If Ninjask is not trained properly, it will refuse to obey
+the Trainer and cry loudly continuously. Because of this
+quality, this Pokémon is said to be one that puts the
+Trainer’s abilities to the test.
+!~[Nincada, Ninjask]

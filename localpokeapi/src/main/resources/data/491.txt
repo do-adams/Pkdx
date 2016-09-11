@@ -1,0 +1,13 @@
+491
+!~Darkrai
+!~1.5 m / 4.9 ft
+!~50.5 kg / 111.3 lbs
+!~[Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/491.png
+!~Black
+!~Humanoid
+!~null
+!~Generation-iv
+!~It can lull people to sleep and make them dream.
+It is active during nights of the new moon.
+!~[Darkrai]

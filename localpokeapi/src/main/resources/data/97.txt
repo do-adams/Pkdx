@@ -1,0 +1,15 @@
+97
+!~Hypno
+!~1.6 m / 5.2 ft
+!~75.6 kg / 166.7 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png
+!~Yellow
+!~Humanoid
+!~Grassland
+!~Generation-i
+!~Hypno holds a pendulum in its hand. The arcing movement and
+glitter of the pendulum lull the foe into a deep state of
+hypnosis. While this Pokémon searches for prey, it polishes
+the pendulum.
+!~[Drowzee, Hypno]

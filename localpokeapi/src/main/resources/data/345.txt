@@ -1,0 +1,15 @@
+345
+!~Lileep
+!~1.0 m / 3.3 ft
+!~23.8 kg / 52.5 lbs
+!~[Grass, Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/345.png
+!~Purple
+!~Blob
+!~Sea
+!~Generation-iii
+!~Lileep is an ancient Pokémon that was regenerated from a
+fossil. It remains permanently anchored to a rock. From its
+immobile perch, this Pokémon intently scans for prey with its
+two eyes.
+!~[Lileep, Cradily]

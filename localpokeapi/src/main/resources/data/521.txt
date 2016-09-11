@@ -1,0 +1,14 @@
+521
+!~Unfezant
+!~1.2 m / 3.9 ft
+!~29.0 kg / 63.9 lbs
+!~[Flying, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/521.png
+!~Gray
+!~Wings
+!~null
+!~Generation-v
+!~Males have plumage on their heads. They will never
+let themselves feel close to anyone other than
+their Trainers.
+!~[Pidove, Tranquill, Unfezant]

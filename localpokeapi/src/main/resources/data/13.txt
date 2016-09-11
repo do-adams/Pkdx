@@ -1,0 +1,14 @@
+13
+!~Weedle
+!~0.3 m / 1.0 ft
+!~3.2 kg / 7.1 lbs
+!~[Poison, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png
+!~Brown
+!~Squiggle
+!~Forest
+!~Generation-i
+!~Weedle has an extremely acute sense of smell. It is capable
+of distinguishing its favorite kinds of leaves from those it
+dislikes just by sniffing with its big red proboscis (nose).
+!~[Weedle, Kakuna, Beedrill]

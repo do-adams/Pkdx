@@ -1,0 +1,14 @@
+295
+!~Exploud
+!~1.5 m / 4.9 ft
+!~84.0 kg / 185.2 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/295.png
+!~Blue
+!~Upright
+!~Cave
+!~Generation-iii
+!~Exploud communicates its feelings to the others by emitting
+whistle-like sounds from the tubes on its body. This Pokémon
+only raises its voice when it is in battle.
+!~[Whismur, Loudred, Exploud]

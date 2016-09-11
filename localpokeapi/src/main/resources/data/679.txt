@@ -1,0 +1,14 @@
+679
+!~Honedge
+!~0.8 m / 2.6 ft
+!~2.0 kg / 4.4 lbs
+!~[Ghost, Steel]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/679.png
+!~Brown
+!~Blob
+!~null
+!~Generation-vi
+!~If anyone dares to grab its hilt, it wraps
+a blue cloth around that person’s arm and
+drains that person’s life energy completely.
+!~[Honedge, Doublade, Aegislash]

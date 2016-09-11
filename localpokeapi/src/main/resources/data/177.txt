@@ -1,0 +1,14 @@
+177
+!~Natu
+!~0.2 m / 0.7 ft
+!~2.0 kg / 4.4 lbs
+!~[Flying, Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/177.png
+!~Green
+!~Wings
+!~Forest
+!~Generation-ii
+!~Natu has a highly developed jumping ability. The Pokémon
+flaps and leaps onto tree branches that are taller than
+grown-up people to pick at the tree’s new shoots.
+!~[Natu, Xatu]

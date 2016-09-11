@@ -1,0 +1,14 @@
+251
+!~Celebi
+!~0.6 m / 2.0 ft
+!~5.0 kg / 11.0 lbs
+!~[Grass, Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/251.png
+!~Green
+!~Humanoid
+!~Forest
+!~Generation-ii
+!~This Pokémon came from the future by crossing over time.
+It is thought that so long as Celebi appears, a bright and
+shining future awaits us.
+!~[Celebi]

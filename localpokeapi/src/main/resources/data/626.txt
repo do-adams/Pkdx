@@ -1,0 +1,13 @@
+626
+!~Bouffalant
+!~1.6 m / 5.2 ft
+!~94.6 kg / 208.6 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/626.png
+!~Brown
+!~Quadruped
+!~null
+!~Generation-v
+!~Their fluffy fur absorbs damage, even if they strike
+foes with a fierce headbutt.
+!~[Bouffalant]

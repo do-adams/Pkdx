@@ -1,0 +1,14 @@
+278
+!~Wingull
+!~0.6 m / 2.0 ft
+!~9.5 kg / 20.9 lbs
+!~[Flying, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/278.png
+!~White
+!~Wings
+!~Sea
+!~Generation-iii
+!~Wingull rides updrafts rising from the sea by extending its long
+and narrow wings to glide. This Pokémon’s long beak is useful
+for catching prey.
+!~[Wingull, Pelipper]

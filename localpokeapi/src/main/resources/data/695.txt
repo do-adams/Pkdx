@@ -1,0 +1,14 @@
+695
+!~Heliolisk
+!~1.0 m / 3.3 ft
+!~21.0 kg / 46.3 lbs
+!~[Normal, Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/695.png
+!~Yellow
+!~Upright
+!~null
+!~Generation-vi
+!~It stimulates its muscles with electricity,
+boosting the strength in its legs and enabling
+it to run 100 yards in five seconds.
+!~[Helioptile, Heliolisk]

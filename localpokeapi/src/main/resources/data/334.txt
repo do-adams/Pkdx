@@ -1,0 +1,14 @@
+334
+!~Altaria
+!~1.1 m / 3.6 ft
+!~20.6 kg / 45.4 lbs
+!~[Flying, Dragon]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/334.png
+!~Blue
+!~Wings
+!~Forest
+!~Generation-iii
+!~Altaria sings in a gorgeous soprano. Its wings are like cotton
+clouds. This Pokémon catches updrafts with its buoyant wings
+and soars way up into the wild blue yonder.
+!~[Swablu, Altaria]

@@ -1,0 +1,14 @@
+23
+!~Ekans
+!~2.0 m / 6.6 ft
+!~6.9 kg / 15.2 lbs
+!~[Poison]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png
+!~Purple
+!~Squiggle
+!~Grassland
+!~Generation-i
+!~Ekans curls itself up in a spiral while it rests. Assuming this
+position allows it to quickly respond to a threat from any
+direction with a glare from its upraised head.
+!~[Ekans, Arbok]

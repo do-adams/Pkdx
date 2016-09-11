@@ -1,0 +1,14 @@
+583
+!~Vanillish
+!~1.1 m / 3.6 ft
+!~41.0 kg / 90.4 lbs
+!~[Ice]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/583.png
+!~White
+!~Blob
+!~null
+!~Generation-v
+!~Snowy mountains are this Pokémon’s habitat.
+During an ancient ice age, they moved to
+southern areas.
+!~[Vanillite, Vanillish, Vanilluxe]

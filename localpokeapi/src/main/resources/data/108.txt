@@ -1,0 +1,14 @@
+108
+!~Lickitung
+!~1.2 m / 3.9 ft
+!~65.5 kg / 144.4 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png
+!~Pink
+!~Upright
+!~Grassland
+!~Generation-i
+!~Whenever Lickitung comes across something new, it will
+unfailingly give it a lick. It does so because it memorizes things
+by texture and by taste. It is somewhat put off by sour things.
+!~[Lickitung, Lickilicky]

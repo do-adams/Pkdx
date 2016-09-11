@@ -1,0 +1,14 @@
+472
+!~Gliscor
+!~2.0 m / 6.6 ft
+!~42.5 kg / 93.7 lbs
+!~[Flying, Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/472.png
+!~Purple
+!~Wings
+!~null
+!~Generation-iv
+!~Its flight is soundless. It uses its lengthy tail to
+carry off its prey... Then its elongated fangs do
+the rest.
+!~[Gligar, Gliscor]

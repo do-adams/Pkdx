@@ -1,0 +1,14 @@
+34
+!~Nidoking
+!~1.4 m / 4.6 ft
+!~62.0 kg / 136.7 lbs
+!~[Ground, Poison]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png
+!~Purple
+!~Upright
+!~Grassland
+!~Generation-i
+!~Nidoking’s thick tail packs enormously destructive power.
+With one swing, it can topple a metal transmission tower. Once
+this Pokémon goes on a rampage, there is no stopping it.
+!~[Nidoran-m, Nidorino, Nidoking]

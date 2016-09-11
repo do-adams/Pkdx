@@ -1,0 +1,15 @@
+205
+!~Forretress
+!~1.2 m / 3.9 ft
+!~125.8 kg / 277.3 lbs
+!~[Steel, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/205.png
+!~Purple
+!~Ball
+!~Forest
+!~Generation-ii
+!~Forretress conceals itself inside its hardened steel shell.
+The shell is opened when the Pokémon is catching prey,
+but it does so at such a quick pace that the shell’s inside
+cannot be seen.
+!~[Pineco, Forretress]

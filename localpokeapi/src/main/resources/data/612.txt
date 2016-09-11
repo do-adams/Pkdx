@@ -1,0 +1,14 @@
+612
+!~Haxorus
+!~1.8 m / 5.9 ft
+!~105.5 kg / 232.6 lbs
+!~[Dragon]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/612.png
+!~Yellow
+!~Upright
+!~null
+!~Generation-v
+!~Their sturdy tusks will stay sharp even if used to cut
+steel beams. These Pokémon are covered in
+hard armor.
+!~[Axew, Fraxure, Haxorus]

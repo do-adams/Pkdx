@@ -1,0 +1,14 @@
+683
+!~Aromatisse
+!~0.8 m / 2.6 ft
+!~15.5 kg / 34.2 lbs
+!~[Fairy]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/683.png
+!~Pink
+!~Humanoid
+!~null
+!~Generation-vi
+!~Its scent is so overpowering that, unless a Trainer
+happens to really enjoy the smell, he or she will
+have a hard time walking alongside it.
+!~[Spritzee, Aromatisse]

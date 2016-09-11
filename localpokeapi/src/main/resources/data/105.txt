@@ -1,0 +1,14 @@
+105
+!~Marowak
+!~1.0 m / 3.3 ft
+!~45.0 kg / 99.2 lbs
+!~[Ground]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png
+!~Brown
+!~Upright
+!~Mountain
+!~Generation-i
+!~Marowak is the evolved form of a Cubone that has overcome
+its sadness at the loss of its mother and grown tough. This
+Pokémon’s tempered and hardened spirit is not easily broken.
+!~[Cubone, Marowak]

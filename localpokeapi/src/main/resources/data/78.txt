@@ -1,0 +1,14 @@
+78
+!~Rapidash
+!~1.7 m / 5.6 ft
+!~95.0 kg / 209.4 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png
+!~Yellow
+!~Quadruped
+!~Grassland
+!~Generation-i
+!~Rapidash usually can be seen casually cantering in the fields
+and plains. However, when this Pokémon turns serious, its
+fiery manes flare and blaze as it gallops its way up to 150 mph.
+!~[Ponyta, Rapidash]

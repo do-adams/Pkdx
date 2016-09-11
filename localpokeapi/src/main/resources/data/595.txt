@@ -1,0 +1,14 @@
+595
+!~Joltik
+!~0.1 m / 0.3 ft
+!~0.6 kg / 1.3 lbs
+!~[Electric, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/595.png
+!~Yellow
+!~Armor
+!~null
+!~Generation-v
+!~They attach themselves to large-bodied Pokémon
+and absorb static electricity, which they store in an
+electric pouch.
+!~[Joltik, Galvantula]

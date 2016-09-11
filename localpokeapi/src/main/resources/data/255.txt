@@ -1,0 +1,14 @@
+255
+!~Torchic
+!~0.4 m / 1.3 ft
+!~2.5 kg / 5.5 lbs
+!~[Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/255.png
+!~Red
+!~Legs
+!~Grassland
+!~Generation-iii
+!~Torchic has a place inside its body where it keeps its flame.
+Give it a hug—it will be glowing with warmth. This Pokémon is
+covered all over by a fluffy coat of down.
+!~[Torchic, Combusken, Blaziken]

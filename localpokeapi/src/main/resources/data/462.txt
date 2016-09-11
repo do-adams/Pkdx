@@ -1,0 +1,13 @@
+462
+!~Magnezone
+!~1.2 m / 3.9 ft
+!~180.0 kg / 396.8 lbs
+!~[Steel, Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png
+!~Gray
+!~Arms
+!~null
+!~Generation-iv
+!~It evolved from exposure to a special magnetic
+field. Three units generate magnetism.
+!~[Magnemite, Magneton, Magnezone]

@@ -1,0 +1,13 @@
+606
+!~Beheeyem
+!~1.0 m / 3.3 ft
+!~34.5 kg / 76.1 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/606.png
+!~Brown
+!~Humanoid
+!~null
+!~Generation-v
+!~It uses psychic power to control an opponent’s
+brain and tamper with its memories.
+!~[Elgyem, Beheeyem]

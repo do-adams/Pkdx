@@ -1,0 +1,13 @@
+590
+!~Foongus
+!~0.2 m / 0.7 ft
+!~1.0 kg / 2.2 lbs
+!~[Poison, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/590.png
+!~White
+!~Arms
+!~null
+!~Generation-v
+!~It lures Pokémon with its pattern that looks just like
+a Poké Ball, then releases poison spores.
+!~[Foongus, Amoonguss]

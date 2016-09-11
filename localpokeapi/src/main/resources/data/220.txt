@@ -1,0 +1,14 @@
+220
+!~Swinub
+!~0.4 m / 1.3 ft
+!~6.5 kg / 14.3 lbs
+!~[Ground, Ice]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/220.png
+!~Brown
+!~Quadruped
+!~Cave
+!~Generation-ii
+!~Swinub roots for food by rubbing its snout against the ground.
+Its favorite food is a mushroom that grows under the cover of
+dead grass. This Pokémon occasionally roots out hot springs.
+!~[Swinub, Piloswine, Mamoswine]

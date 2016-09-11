@@ -1,0 +1,14 @@
+706
+!~Goodra
+!~2.0 m / 6.6 ft
+!~150.5 kg / 331.8 lbs
+!~[Dragon]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png
+!~Purple
+!~Upright
+!~null
+!~Generation-vi
+!~It attacks with retractable horns.
+It throws a punch that’s the equivalent
+of the force of a hundred pro boxers.
+!~[Goomy, Sliggoo, Goodra]

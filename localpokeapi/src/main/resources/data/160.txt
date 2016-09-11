@@ -1,0 +1,14 @@
+160
+!~Feraligatr
+!~2.3 m / 7.5 ft
+!~88.8 kg / 195.8 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/160.png
+!~Blue
+!~Upright
+!~Waters-edge
+!~Generation-ii
+!~Feraligatr intimidates its foes by opening its huge mouth.
+In battle, it will kick the ground hard with its thick and powerful
+hind legs to charge at the foe at an incredible speed.
+!~[Totodile, Croconaw, Feraligatr]

@@ -1,0 +1,15 @@
+123
+!~Scyther
+!~1.5 m / 4.9 ft
+!~56.0 kg / 123.5 lbs
+!~[Flying, Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png
+!~Green
+!~Bug-wings
+!~Grassland
+!~Generation-i
+!~Scyther is blindingly fast. Its blazing speed enhances the
+effectiveness of the twin scythes on its forearms. This
+Pokémon’s scythes are so effective, they can slice through
+thick logs in one wicked stroke.
+!~[Scyther, Scizor]

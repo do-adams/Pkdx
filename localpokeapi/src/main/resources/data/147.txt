@@ -1,0 +1,14 @@
+147
+!~Dratini
+!~1.8 m / 5.9 ft
+!~3.3 kg / 7.3 lbs
+!~[Dragon]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png
+!~Blue
+!~Squiggle
+!~Waters-edge
+!~Generation-i
+!~Dratini continually molts and sloughs off its old skin. It does so
+because the life energy within its body steadily builds to reach
+uncontrollable levels.
+!~[Dratini, Dragonair, Dragonite]

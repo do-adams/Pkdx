@@ -1,0 +1,14 @@
+201
+!~Unown
+!~0.5 m / 1.6 ft
+!~5.0 kg / 11.0 lbs
+!~[Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201.png
+!~Black
+!~Ball
+!~Rare
+!~Generation-ii
+!~This Pokémon is shaped like ancient writing. It is a mystery as
+to which came first, the ancient writings or the various Unown.
+Research into this topic is ongoing but nothing is known.
+!~[Unown]

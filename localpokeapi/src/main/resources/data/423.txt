@@ -1,0 +1,13 @@
+423
+!~Gastrodon
+!~0.9 m / 3.0 ft
+!~29.9 kg / 65.9 lbs
+!~[Ground, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423.png
+!~Purple
+!~Armor
+!~null
+!~Generation-iv
+!~It apparently had a huge shell for protection in
+ancient times. It lives in shallow tidal pools.
+!~[Shellos, Gastrodon]

@@ -1,0 +1,13 @@
+457
+!~Lumineon
+!~1.2 m / 3.9 ft
+!~24.0 kg / 52.9 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/457.png
+!~Blue
+!~Fish
+!~null
+!~Generation-iv
+!~To avoid detection by predators, it crawls along the
+seafloor using the two fins on its chest.
+!~[Finneon, Lumineon]

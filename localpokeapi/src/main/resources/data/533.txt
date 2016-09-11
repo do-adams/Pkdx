@@ -1,0 +1,14 @@
+533
+!~Gurdurr
+!~1.2 m / 3.9 ft
+!~40.0 kg / 88.2 lbs
+!~[Fighting]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/533.png
+!~Gray
+!~Humanoid
+!~null
+!~Generation-v
+!~This Pokémon is so muscular and strongly built that
+even a group of wrestlers could not make it budge
+an inch.
+!~[Timburr, Gurdurr, Conkeldurr]

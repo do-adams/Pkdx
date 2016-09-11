@@ -1,0 +1,13 @@
+395
+!~Empoleon
+!~1.7 m / 5.6 ft
+!~84.5 kg / 186.3 lbs
+!~[Steel, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/395.png
+!~Blue
+!~Upright
+!~null
+!~Generation-iv
+!~The three horns that extend from its beak attest to
+its power. The leader has the biggest horns.
+!~[Piplup, Prinplup, Empoleon]

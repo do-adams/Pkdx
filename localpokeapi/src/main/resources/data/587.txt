@@ -1,0 +1,14 @@
+587
+!~Emolga
+!~0.4 m / 1.3 ft
+!~5.0 kg / 11.0 lbs
+!~[Flying, Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/587.png
+!~White
+!~Quadruped
+!~null
+!~Generation-v
+!~The energy made in its cheeks’ electric pouches is
+stored inside its membrane and released while it
+is gliding.
+!~[Emolga]

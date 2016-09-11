@@ -1,0 +1,14 @@
+370
+!~Luvdisc
+!~0.6 m / 2.0 ft
+!~8.7 kg / 19.2 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/370.png
+!~Pink
+!~Fish
+!~Sea
+!~Generation-iii
+!~Luvdisc’s heart-shaped body is a symbol of love and romance.
+It is said that any couple meeting this Pokémon is promised a
+loving relationship that never ends.
+!~[Luvdisc]

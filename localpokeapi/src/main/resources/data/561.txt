@@ -1,0 +1,13 @@
+561
+!~Sigilyph
+!~1.4 m / 4.6 ft
+!~14.0 kg / 30.9 lbs
+!~[Flying, Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/561.png
+!~Black
+!~Wings
+!~null
+!~Generation-v
+!~The guardians of an ancient city, they always fly
+the same route while keeping watch for invaders.
+!~[Sigilyph]

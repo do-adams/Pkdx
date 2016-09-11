@@ -1,0 +1,13 @@
+428
+!~Lopunny
+!~1.2 m / 3.9 ft
+!~33.3 kg / 73.4 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/428.png
+!~Brown
+!~Upright
+!~null
+!~Generation-iv
+!~The ears appear to be delicate. If they are touched
+roughly, it kicks with its graceful legs.
+!~[Buneary, Lopunny]

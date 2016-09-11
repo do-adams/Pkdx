@@ -1,0 +1,14 @@
+86
+!~Seel
+!~1.1 m / 3.6 ft
+!~90.0 kg / 198.4 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png
+!~White
+!~Fish
+!~Sea
+!~Generation-i
+!~Seel hunts for prey in the frigid sea underneath sheets of ice.
+When it needs to breathe, it punches a hole through the ice
+with the sharply protruding section of its head.
+!~[Seel, Dewgong]

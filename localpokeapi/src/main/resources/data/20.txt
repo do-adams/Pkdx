@@ -1,0 +1,14 @@
+20
+!~Raticate
+!~0.7 m / 2.3 ft
+!~18.5 kg / 40.8 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png
+!~Brown
+!~Quadruped
+!~Grassland
+!~Generation-i
+!~Raticate’s sturdy fangs grow steadily. To keep them
+ground down, it gnaws on rocks and logs. It may
+even chew on the walls of houses.
+!~[Rattata, Raticate]

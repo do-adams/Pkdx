@@ -1,0 +1,13 @@
+406
+!~Budew
+!~0.2 m / 0.7 ft
+!~1.2 kg / 2.6 lbs
+!~[Poison, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/406.png
+!~Green
+!~Humanoid
+!~null
+!~Generation-iv
+!~Over the winter, it closes its bud and endures the
+cold. In spring, the bud opens and releases pollen.
+!~[Budew, Roselia, Roserade]

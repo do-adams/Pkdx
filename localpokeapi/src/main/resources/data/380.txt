@@ -1,0 +1,15 @@
+380
+!~Latias
+!~1.4 m / 4.6 ft
+!~40.0 kg / 88.2 lbs
+!~[Psychic, Dragon]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/380.png
+!~Red
+!~Wings
+!~Waters-edge
+!~Generation-iii
+!~Latias is highly intelligent and capable of understanding
+human speech. It is covered with a glass-like down.
+The Pokémon enfolds its body with its down and refracts
+light to alter its appearance.
+!~[Latias]

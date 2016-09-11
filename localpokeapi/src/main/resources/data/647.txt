@@ -1,0 +1,14 @@
+647
+!~Keldeo-ordinary
+!~1.4 m / 4.6 ft
+!~48.5 kg / 106.9 lbs
+!~[Fighting, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/647.png
+!~Yellow
+!~Quadruped
+!~null
+!~Generation-v
+!~When it is resolute, its body fills with power and it
+becomes swifter. Its jumps are then too fast
+to follow.
+!~[Keldeo]

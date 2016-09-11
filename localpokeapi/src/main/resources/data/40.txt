@@ -1,0 +1,14 @@
+40
+!~Wigglytuff
+!~1.0 m / 3.3 ft
+!~12.0 kg / 26.5 lbs
+!~[Fairy, Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png
+!~Pink
+!~Humanoid
+!~Grassland
+!~Generation-i
+!~Wigglytuff’s body is very flexible. By inhaling deeply,
+this Pokémon can inflate itself seemingly without end.
+Once inflated, Wigglytuff bounces along lightly like a balloon.
+!~[Igglybuff, Jigglypuff, Wigglytuff]

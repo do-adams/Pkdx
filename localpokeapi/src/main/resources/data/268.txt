@@ -1,0 +1,15 @@
+268
+!~Cascoon
+!~0.7 m / 2.3 ft
+!~11.5 kg / 25.4 lbs
+!~[Bug]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/268.png
+!~Purple
+!~Ball
+!~Forest
+!~Generation-iii
+!~If it is attacked, Cascoon remains motionless however badly it
+may be hurt. It does so because if it were to move, its body
+would be weak upon evolution. This Pokémon will also not
+forget the pain it endured.
+!~[Wurmple, Silcoon, Beautifly]

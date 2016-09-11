@@ -1,0 +1,14 @@
+663
+!~Talonflame
+!~1.2 m / 3.9 ft
+!~24.5 kg / 54.0 lbs
+!~[Flying, Fire]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/663.png
+!~Red
+!~Wings
+!~null
+!~Generation-vi
+!~When attacking prey, it can reach speeds
+of up to 310 mph. It finishes its prey off
+with a colossal kick.
+!~[Fletchling, Fletchinder, Talonflame]

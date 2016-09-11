@@ -1,0 +1,13 @@
+404
+!~Luxio
+!~0.9 m / 3.0 ft
+!~30.5 kg / 67.2 lbs
+!~[Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/404.png
+!~Blue
+!~Quadruped
+!~null
+!~Generation-iv
+!~Strong electricity courses through the tips of its
+sharp claws. A light scratch causes fainting in foes.
+!~[Shinx, Luxio, Luxray]

@@ -1,0 +1,15 @@
+261
+!~Poochyena
+!~0.5 m / 1.6 ft
+!~13.6 kg / 30.0 lbs
+!~[Dark]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/261.png
+!~Gray
+!~Quadruped
+!~Grassland
+!~Generation-iii
+!~Poochyena is an omnivore—it will eat anything. A distinguishing
+feature is how large its fangs are compared to its body. This
+Pokémon tries to intimidate its foes by making the hair on its
+tail bristle out.
+!~[Poochyena, Mightyena]

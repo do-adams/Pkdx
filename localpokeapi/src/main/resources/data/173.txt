@@ -1,0 +1,15 @@
+173
+!~Cleffa
+!~0.3 m / 1.0 ft
+!~3.0 kg / 6.6 lbs
+!~[Fairy]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png
+!~Pink
+!~Upright
+!~Mountain
+!~Generation-ii
+!~On nights with many shooting stars, Cleffa can be seen
+dancing in a ring. They dance through the night and stop only
+at the break of day, when these Pokémon quench their thirst
+with the morning dew.
+!~[Cleffa, Clefairy, Clefable]

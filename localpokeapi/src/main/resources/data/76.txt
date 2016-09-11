@@ -1,0 +1,15 @@
+76
+!~Golem
+!~1.4 m / 4.6 ft
+!~300.0 kg / 661.4 lbs
+!~[Ground, Rock]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png
+!~Brown
+!~Humanoid
+!~Mountain
+!~Generation-i
+!~Golem is known for rolling down from mountains. To prevent
+them from rolling into the homes of people downhill, grooves
+have been dug into the sides of mountains to serve as
+guideways for diverting this Pokémon’s course.
+!~[Geodude, Graveler, Golem]

@@ -1,0 +1,14 @@
+610
+!~Axew
+!~0.6 m / 2.0 ft
+!~18.0 kg / 39.7 lbs
+!~[Dragon]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/610.png
+!~Green
+!~Upright
+!~null
+!~Generation-v
+!~They mark their territory by leaving gashes in trees
+with their tusks. If a tusk breaks, a new one grows
+in quickly.
+!~[Axew, Fraxure, Haxorus]

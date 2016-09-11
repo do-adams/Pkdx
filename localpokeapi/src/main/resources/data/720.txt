@@ -1,0 +1,14 @@
+720
+!~Hoopa
+!~0.5 m / 1.6 ft
+!~9.0 kg / 19.8 lbs
+!~[Ghost, Psychic]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/720.png
+!~Purple
+!~Ball
+!~null
+!~Generation-vi
+!~It is said to be able to seize anything it desires
+with its six rings and six huge arms. With its power
+sealed, it is transformed into a much smaller form.
+!~[Hoopa]

@@ -1,0 +1,13 @@
+417
+!~Pachirisu
+!~0.4 m / 1.3 ft
+!~3.9 kg / 8.6 lbs
+!~[Electric]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/417.png
+!~White
+!~Quadruped
+!~null
+!~Generation-iv
+!~A pair may be seen rubbing their cheek pouches
+together in an effort to share stored electricity.
+!~[Pachirisu]

@@ -1,0 +1,14 @@
+143
+!~Snorlax
+!~2.1 m / 6.9 ft
+!~460.0 kg / 1014.1 lbs
+!~[Normal]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png
+!~Black
+!~Humanoid
+!~Mountain
+!~Generation-i
+!~Snorlax’s typical day consists of nothing more than eating and
+sleeping. It is such a docile Pokémon that there are children
+who use its expansive belly as a place to play.
+!~[Munchlax, Snorlax]

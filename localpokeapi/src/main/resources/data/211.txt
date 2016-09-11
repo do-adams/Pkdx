@@ -1,0 +1,15 @@
+211
+!~Qwilfish
+!~0.5 m / 1.6 ft
+!~3.9 kg / 8.6 lbs
+!~[Poison, Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/211.png
+!~Gray
+!~Fish
+!~Sea
+!~Generation-ii
+!~Qwilfish sucks in water, inflating itself. This Pokémon
+uses the pressure of the water it swallowed to shoot toxic
+quills all at once from all over its body. It finds swimming
+somewhat challenging.
+!~[Qwilfish]

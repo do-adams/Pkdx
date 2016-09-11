@@ -1,0 +1,13 @@
+643
+!~Reshiram
+!~3.2 m / 10.5 ft
+!~330.0 kg / 727.5 lbs
+!~[Fire, Dragon]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/643.png
+!~White
+!~Wings
+!~null
+!~Generation-v
+!~When Reshiram’s tail flares, the heat energy moves
+the atmosphere and changes the world’s weather.
+!~[Reshiram]

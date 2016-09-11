@@ -1,0 +1,14 @@
+718
+!~Zygarde
+!~5.0 m / 16.4 ft
+!~305.0 kg / 672.4 lbs
+!~[Ground, Dragon]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/718.png
+!~Green
+!~Squiggle
+!~null
+!~Generation-vi
+!~It’s hypothesized that it’s monitoring
+those who destroy the ecosystem
+from deep in the cave where it lives.
+!~[Zygarde]

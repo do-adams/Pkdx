@@ -1,0 +1,13 @@
+419
+!~Floatzel
+!~1.1 m / 3.6 ft
+!~33.5 kg / 73.9 lbs
+!~[Water]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/419.png
+!~Brown
+!~Quadruped
+!~null
+!~Generation-iv
+!~Its flotation sac developed as a result of pursuing
+aquatic prey. It can double as a rubber raft.
+!~[Buizel, Floatzel]

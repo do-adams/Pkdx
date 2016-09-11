@@ -1,0 +1,13 @@
+435
+!~Skuntank
+!~1.0 m / 3.3 ft
+!~38.0 kg / 83.8 lbs
+!~[Dark, Poison]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/435.png
+!~Purple
+!~Quadruped
+!~null
+!~Generation-iv
+!~It sprays a stinky fluid from its tail. The fluid smells
+worse the longer it is allowed to fester.
+!~[Stunky, Skuntank]

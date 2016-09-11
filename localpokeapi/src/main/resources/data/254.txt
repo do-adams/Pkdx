@@ -1,0 +1,14 @@
+254
+!~Sceptile
+!~1.7 m / 5.6 ft
+!~52.2 kg / 115.1 lbs
+!~[Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/254.png
+!~Green
+!~Upright
+!~Forest
+!~Generation-iii
+!~Sceptile has seeds growing on its back. They are said to be
+bursting with nutrients that revitalize trees. This Pokémon
+raises the trees in a forest with loving care.
+!~[Treecko, Grovyle, Sceptile]

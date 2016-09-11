@@ -1,0 +1,14 @@
+357
+!~Tropius
+!~2.0 m / 6.6 ft
+!~100.0 kg / 220.5 lbs
+!~[Flying, Grass]
+!~https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/357.png
+!~Green
+!~Quadruped
+!~Forest
+!~Generation-iii
+!~Children of the southern tropics eat as snacks the fruit that
+grows in bunches around the neck of Tropius. This Pokémon
+flies by flapping the leaves on its back as if they were wings.
+!~[Tropius]
