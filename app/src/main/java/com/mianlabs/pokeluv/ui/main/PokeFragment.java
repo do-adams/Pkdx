@@ -40,6 +40,7 @@ import com.mianlabs.localpokeapi.PokeModel;
 import com.mianlabs.pokeluv.R;
 import com.mianlabs.pokeluv.database.PokeCursorManager;
 import com.mianlabs.pokeluv.database.PokeDBContract;
+import com.mianlabs.pokeluv.ui.about.AboutActivity;
 import com.mianlabs.pokeluv.ui.favorites.PokeFavorites;
 import com.mianlabs.pokeluv.ui.generations.GenActivity;
 import com.mianlabs.pokeluv.utilities.PokePicker;
@@ -306,33 +307,21 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
 
     /**
      * Sets the Pokemon data from a valid PokeModel object into the
-     * layout views and updates their content descriptions.
+     * layout views.
      */
     private void setPokemonData(PokeModel pokeModel) {
         mPokemonNumBorder.setText(getString(R.string.poke_fragment_num_borders) + pokeModel.getPokedexNum());
-        mPokemonNumBorder.setContentDescription(getString(R.string.poke_fragment_num_borders) + pokeModel.getPokedexNum());
         mPokemonName.setText(pokeModel.getName());
-        mPokemonName.setContentDescription(pokeModel.getName());
-        mPokemonWeight.setText(getString(R.string.poke_fragment_weight) + pokeModel.getWeight());
-        mPokemonWeight.setContentDescription(getString(R.string.poke_fragment_weight) + pokeModel.getWeight());
         mPokemonHeight.setText(getString(R.string.poke_fragment_height) + pokeModel.getHeight());
-        mPokemonHeight.setContentDescription(getString(R.string.poke_fragment_height) + pokeModel.getHeight());
+        mPokemonWeight.setText(getString(R.string.poke_fragment_weight) + pokeModel.getWeight());
         mPokemonTypes.setText(PokeModel.formatListToString(pokeModel.getTypes()));
-        mPokemonTypes.setContentDescription(PokeModel.formatListToString(pokeModel.getTypes()));
         mPokemonColor.setText(getString(R.string.poke_fragment_color) + pokeModel.getColor());
-        mPokemonColor.setContentDescription(getString(R.string.poke_fragment_color) + pokeModel.getColor());
         mPokemonShape.setText(getString(R.string.poke_fragment_shape) + pokeModel.getShape());
-        mPokemonShape.setContentDescription(getString(R.string.poke_fragment_shape) + pokeModel.getShape());
-        if (pokeModel.getHabitat() != null) {
+        if (pokeModel.getHabitat() != null)
             mPokemonHabitat.setText(getString(R.string.poke_fragment_habitat) + pokeModel.getHabitat());
-            mPokemonHabitat.setContentDescription(getString(R.string.poke_fragment_habitat) + pokeModel.getHabitat());
-        }
         mPokemonGeneration.setText(pokeModel.getGeneration().toUpperCase());
-        mPokemonGeneration.setContentDescription(pokeModel.getGeneration().toUpperCase());
         mPokemonDescription.setText(pokeModel.getDescription());
-        mPokemonDescription.setContentDescription(pokeModel.getDescription());
         mPokemonEvolutions.setText(mContext.getString(R.string.poke_fragment_evolutions_header));
-        mPokemonEvolutions.setContentDescription(mContext.getString(R.string.poke_fragment_evolutions_header));
         mPokemonEvoLine.setText(PokeModel.formatListToString(pokeModel.getEvolutions()));
         // Lowercases the evolutions for the content desc. for proper pronunciation.
         mPokemonEvoLine.setContentDescription(PokeModel.formatListToString(pokeModel.getEvolutions()).toLowerCase());
@@ -433,6 +422,9 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
                 SoundUtils.playFavoritesSound(mContext);
                 startActivity(new Intent(mContext, PokeFavorites.class));
                 return true;
+            case R.id.menu_about:
+                SoundUtils.playMenuItemSound(mContext);
+                startActivity(new Intent(mContext, AboutActivity.class));
             default:
                 return false;
         }

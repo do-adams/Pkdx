@@ -4,6 +4,7 @@
     <!--Names used for the Action Bar Titles-->
     <string name="pokedex_name">Pokédex</string>
     <string name="favorites_name">BOX No. 1</string>
+    <string name="about_name">About</string>
 
     <!--Msgs to Display to the User-->
     <string name="internet_connection_msg">Poke Luv requires an internet connection. Please make sure your device is connected!</string>
@@ -23,6 +24,7 @@
     <string name="menu_add_to_favs">TRANSFER TO PC</string>
     <string name="menu_remove_from_favs">REMOVE FROM PC</string>
     <string name="menu_favorites">YOUR PC</string>
+    <string name="menu_about">ABOUT</string>
 
     <!--Text and Content Desc. for the Pokemon Fragment Layout-->
     <string name="poke_fragment_num_borders">"No. "</string>
@@ -34,12 +36,6 @@
     <string name="poke_fragment_evolutions_header">EVOLUTIONS</string>
 
     <string name="content_desc_pokemon_img">Pokémon Image</string>
-    <string name="content_desc_pokemon_num">Pokémon Number</string>
-    <string name="content_desc_pokemon_name">Pokémon Name</string>
-    <string name="content_desc_pokemon_types">Type</string>
-    <string name="content_desc_pokemon_generation">Generation</string>
-    <string name="content_desc_pokemon_description">Description</string>
-    <string name="content_desc_pokemon_evoline">Evolutionary Line</string>
 
     <!--Text for Generation Buttons-->
     <string name="gen_I_button">Kanto</string>
@@ -51,4 +47,11 @@
 
     <!-- Content Desc. for Poke List-->
     <string name="content_desc_pokemon_list">Pokémon</string>
+
+    <!--Text and Content Desc. for About Activity-->
+    <string name="about_tagline">Built by an uncle to teach his little nephew about the wonderful world of Pokémon.</string>
+    <string name="about_legal_disclaimer_title">LEGAL DISCLAIMER</string>
+    <string name="about_legal_disclaimer">This application includes data, images, sounds, and terms from the Pokémon series of video games. This is all the intellectual property of Nintendo, Creatures Inc., and GAME FREAK inc. and is protected by various copyrights and trademarks. \n\nThe developer believes that the use of this intellectual property for a fan-made nonprofit educational reference is covered by fair use and that the application is significantly deprecated without said property included.\n\nNo copyright or trademark infringement is intended in using Pokémon content on Poke Luv.</string>
+
+    <string name="content_desc_about_app_logo">App Icon Logo</string>
 </resources>

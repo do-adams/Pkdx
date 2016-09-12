@@ -21,4 +21,7 @@
 
     <!--Padding for the PokeListFragment RecyclerView -->
     <dimen name="poke_list_side_padding">16dp</dimen>
+
+    <!--Padding for the About Activity-->
+    <dimen name="about_legal_disclaimer_title_padding">64dp</dimen>
 </resources>

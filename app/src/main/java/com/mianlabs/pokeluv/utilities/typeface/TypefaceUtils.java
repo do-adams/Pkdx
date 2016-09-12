@@ -60,10 +60,10 @@ public class TypefaceUtils {
                 .setSpan(new TypefaceSpan(context, RELATIVE_PATH_TO_TYPEFACE), 0, pokedexTitle.length(),
                         Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
 
-        SpannableStringBuilder pokemonOfTheDayTitle =
+        SpannableStringBuilder catchPokemonTitle =
                 new SpannableStringBuilder(context.getString(R.string.menu_catch_pokemon));
-        pokemonOfTheDayTitle
-                .setSpan(new TypefaceSpan(context, RELATIVE_PATH_TO_TYPEFACE), 0, pokemonOfTheDayTitle.length(),
+        catchPokemonTitle
+                .setSpan(new TypefaceSpan(context, RELATIVE_PATH_TO_TYPEFACE), 0, catchPokemonTitle.length(),
                         Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
 
         SpannableStringBuilder addToFavsTitle =
@@ -84,11 +84,17 @@ public class TypefaceUtils {
                 .setSpan(new TypefaceSpan(context, RELATIVE_PATH_TO_TYPEFACE), 0, favoritesTitle.length(),
                         Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
 
+        SpannableStringBuilder aboutTitle =
+                new SpannableStringBuilder(context.getString(R.string.menu_about));
+        aboutTitle
+                .setSpan(new TypefaceSpan(context, RELATIVE_PATH_TO_TYPEFACE), 0, aboutTitle.length(),
+                        Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+
         MenuItem dexItem = menu.findItem(R.id.menu_more_pokemon);
         dexItem.setTitle(pokedexTitle);
 
-        MenuItem dailyItem = menu.findItem(R.id.menu_catch_pokemon);
-        dailyItem.setTitle(pokemonOfTheDayTitle);
+        MenuItem catchPokemonItem = menu.findItem(R.id.menu_catch_pokemon);
+        catchPokemonItem.setTitle(catchPokemonTitle);
 
         MenuItem addToFavsItem = menu.findItem(R.id.menu_add_to_favs);
         addToFavsItem.setTitle(addToFavsTitle);
@@ -98,6 +104,9 @@ public class TypefaceUtils {
 
         MenuItem favoritesItem = menu.findItem(R.id.menu_favorites);
         favoritesItem.setTitle(favoritesTitle);
+
+        MenuItem aboutItem = menu.findItem(R.id.menu_about);
+        aboutItem.setTitle(aboutTitle);
     }
 
     /**
