@@ -38,6 +38,7 @@ public class PokeWidget extends AppWidgetProvider {
 
             Intent intent = new Intent(context, MainActivity.class);
             intent.putExtra(POKE_WIDGET_KEY, caughtPokemon);
+            intent.setAction(Long.toString(System.currentTimeMillis())); // Timestamp for generating a unique Pending Intent.
             PendingIntent pendingIntent = PendingIntent.getActivity(context, 0,
                     intent, PendingIntent.FLAG_CANCEL_CURRENT);
 
