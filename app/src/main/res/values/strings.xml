@@ -7,7 +7,6 @@
     <string name="about_name">About</string>
 
     <!--Msgs to Display to the User-->
-    <string name="internet_connection_msg">Poke Luv requires an internet connection. Please make sure your device is connected!</string>
     <string name="add_pokemon_to_favs_msg">Added to your PC BOX.</string>
     <string name="redundant_fav_pokemon_msg">Already in your PC!</string>
     <string name="remove_fav_pokemon_msg">Pokémon removed from PC Box No. 1</string>

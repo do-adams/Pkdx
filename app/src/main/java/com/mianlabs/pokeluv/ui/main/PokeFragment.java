@@ -9,8 +9,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Typeface;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
@@ -67,7 +65,6 @@ import butterknife.ButterKnife;
  */
 public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCall {
     private static final String TAG = PokeFragment.class.getSimpleName();
-    private static final int NO_INTERNET_MSG_DURATION = 8;
 
     // Keys for saving state in case of configuration changes.
     private static final String POKE_MODEL_STATE_KEY = "POKE_MODEL";
@@ -195,33 +192,10 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
         mChosenPokemon = bundle.getInt(MainActivity.MAIN_KEY, 1);
         mHasPokemonBeenCaught = bundle.getBoolean(MainActivity.PKMN_CAUGHT_KEY, false);
 
-        if (isNetworkAvailable()) {
-            // If the Fragment state has not been saved.
-            if (savedInstanceState == null) {
-                // Creates a background thread to fetch and set API data.
-                getPokemonData(mChosenPokemon, mHasPokemonBeenCaught);
-            }
-        } else // Display "no internet connection found" msg.
-            TypefaceUtils.displayToast(mContext,
-                    getString(R.string.internet_connection_msg), NO_INTERNET_MSG_DURATION);
-    }
-
-    /**
-     * Checks to ensure the user can connect to the network,
-     * as per Google's Android Developer guidelines.
-     */
-    private boolean isNetworkAvailable() {
-        ConnectivityManager manager = (ConnectivityManager) mContext
-                .getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo networkInfo = manager.getActiveNetworkInfo();
-
-        // This method requires permission ACCESS_NETWORK_STATE.
-        boolean isAvailable = false;
-        if (networkInfo != null && networkInfo.isConnected()) {
-            // Checks if a network is present and connected.
-            isAvailable = true;
+        if (savedInstanceState == null) {
+            // Creates a background thread to fetch and set API data.
+            getPokemonData(mChosenPokemon, mHasPokemonBeenCaught);
         }
-        return isAvailable;
     }
 
     /**
@@ -238,8 +212,10 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
             if (mPokeModel != null) {
                 loadSpriteAndPalettes(mPokeModel);
                 setPokemonData(mPokeModel);
-            } else
+            } else {
+                // BG thread is tied to the retained instance of this Fragment.
                 Log.d(TAG, "Waiting for background thread to load Pokemon data.");
+            }
         }
     }
 
@@ -290,12 +266,16 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
                 handler.post(new Runnable() {
                     @Override
                     public void run() {
-                        if (isAdded() && mPokeModel != null) {
-                            // If the fragment has not been destroyed by the user (back button).
-                            loadSpriteAndPalettes(mPokeModel);
-                            setPokemonData(mPokeModel);
-                            displayCaughtMsg(mPokeModel, hasPokemonBeenCaught);
-                            Log.d(TAG, "Pokemon data set.");
+                        // If the fragment has not been destroyed by the user (back button).
+                        if (isAdded()) {
+                            if (mPokeModel != null) {
+                                loadSpriteAndPalettes(mPokeModel);
+                                setPokemonData(mPokeModel);
+                                displayCaughtMsg(mPokeModel, hasPokemonBeenCaught);
+                                Log.d(TAG, "Pokemon data set.");
+                            } else {
+                                Log.e(TAG, "Error while retrieving data. PokeModel is null");
+                            }
                         } else {
                             Log.d(TAG, "PokeFragment is detached.");
                         }
@@ -412,7 +392,7 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
                 return true;
             case R.id.menu_add_to_favs:
                 SoundUtils.playMenuItemSound(mContext);
-                addPokemonToFavs(mPokeModel, mListOfFavPokemon, mHasPokemonBeenCaught);
+                addPokemonToFavs(mPokeModel, mListOfFavPokemon);
                 return true;
             case R.id.menu_remove_from_favs:
                 SoundUtils.playMenuItemSound(mContext);
@@ -434,8 +414,7 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
      * Adds the Pokemon to favorites if applicable
      * and displays a message to the user.
      */
-    private void addPokemonToFavs(PokeModel pokeModel, ArrayList<Integer> listOfFavPokemon,
-                                  boolean hasPokemonBeenCaught) {
+    private void addPokemonToFavs(PokeModel pokeModel, ArrayList<Integer> listOfFavPokemon) {
         if (pokeModel != null && listOfFavPokemon != null) {
             int pokeNum = pokeModel.getPokedexNum();
 
@@ -458,10 +437,10 @@ public class PokeFragment extends Fragment implements PokeCursorManager.LoaderCa
     private void removePokemonFromFavs(PokeModel pokeModel, ArrayList<Integer> listOfFavPokemon,
                                        int chosenPokemon) {
         if (pokeModel != null && listOfFavPokemon != null) {
-            if (mListOfFavPokemon.contains(mChosenPokemon)) {
+            if (mListOfFavPokemon.contains(chosenPokemon)) {
                 mContext.getContentResolver()
                         .delete(PokeDBContract.FavoritePokemonEntry.CONTENT_URI,
-                                PokeDBContract.FavoritePokemonEntry.COLUMN_NUMBER + " = " + mChosenPokemon,
+                                PokeDBContract.FavoritePokemonEntry.COLUMN_NUMBER + " = " + chosenPokemon,
                                 null);
                 TypefaceUtils.displayToast(mContext,
                         getString(R.string.remove_fav_pokemon_msg), TypefaceUtils.TOAST_SHORT_DURATION);
