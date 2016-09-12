@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity implements PokeCursorManager
         mCaughtPokemon = PokePicker.catchRandomPokemon();
 
         Intent intent = getIntent();
+
         Bundle bundle = new Bundle();
         bundle.putInt(MAIN_KEY, mCaughtPokemon);
 
