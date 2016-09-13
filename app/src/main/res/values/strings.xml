@@ -48,9 +48,9 @@
     <string name="content_desc_pokemon_list">Pokémon</string>
 
     <!--Text and Content Desc. for About Activity-->
-    <string name="about_tagline">Built by an uncle to teach his little nephew about the wonderful world of Pokémon.</string>
+    <string name="about_tagline">Built by an uncle to teach his little nephew about the wonderful world of Pokémon.\n\nwww.mianlabs.com</string>
     <string name="about_legal_disclaimer_title">LEGAL DISCLAIMER</string>
-    <string name="about_legal_disclaimer">This application includes data, images, sounds, and terms from the Pokémon series of video games. This is all the intellectual property of Nintendo, Creatures Inc., and GAME FREAK inc. and is protected by various copyrights and trademarks. \n\nThe developer believes that the use of this intellectual property for a fan-made nonprofit educational reference is covered by fair use and that the application is significantly deprecated without said property included.\n\nNo copyright or trademark infringement is intended in using Pokémon content on Poke Luv.</string>
+    <string name="about_legal_disclaimer">This application includes data, images, sounds, and terms from the Pokémon series of video games. This is all the intellectual property of Nintendo, Creatures Inc., and GAME FREAK inc. and is protected by various copyrights and trademarks. \n\nThe developer believes that the use of this intellectual property for a fan-made nonprofit educational reference is covered by fair use and that the application is significantly deprecated without said property included.\n\nNo copyright or trademark infringement is intended in using Pokémon content on Poke Luv.\n\nThe Pixel Heart Patterns used as background for this application were designed, created, and distributed for use by artist Pandora42 from DeviantArt.</string>
 
     <string name="content_desc_about_app_logo">App Icon Logo</string>
 </resources>
