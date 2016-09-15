@@ -26,7 +26,7 @@ public class PokePicker {
      * Generates a random, valid Pokemon number.
      */
     public static int catchRandomPokemon() {
-        return new Random().nextInt(NUM_OF_POKEMON + 1);
+        return new Random().nextInt(NUM_OF_POKEMON) + 1;
     }
 
     /**
