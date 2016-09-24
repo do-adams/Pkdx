@@ -23,3 +23,4 @@
     public static int d(...);
     public static int e(...);
 }
+-dontwarn com.squareup.okhttp.**
