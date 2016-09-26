@@ -5,7 +5,7 @@ android {
     compileSdkVersion 23
     buildToolsVersion "24.0.1"
     defaultConfig {
-        applicationId "com.mianlabs.pokeluv"
+        applicationId "com.mianlabs.pkdx"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
