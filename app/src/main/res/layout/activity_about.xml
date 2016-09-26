@@ -24,7 +24,7 @@
             android:adjustViewBounds="true"
             android:contentDescription="@string/content_desc_about_app_logo"
             android:paddingBottom="@dimen/activity_vertical_margin"
-            android:src="@drawable/ic_launcher_play_store"/>
+            android:src="@drawable/ic_launcher_play_store_bw"/>
 
         <TextView
             android:id="@+id/about_title"
