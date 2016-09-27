@@ -33,6 +33,8 @@ To get started, simply clone this repository in Android Studio and run a debug o
 
 The necessary Proguard rules are included in the `proguard-rules.pro` file for successful generation of APKs.
 
+If you're not a developer and/or just want to run and use the app on your phone or Android device, you can grab a copy of the generated `.apk` file [here](https://github.com/do-adams/Pkdx/blob/master/app/app-release.apk?raw=true).
+
 # Developer's Note
 
 I made this app specifically for my little nephew. I recall introducing him to Pokémon Go in mid July and seeing him burst into cries of wonder and excitement at the sight of the first apparition of a wild Pokémon, as I got ready to take him out on our very own "Pokémon Safari" in my small neighborhood.
