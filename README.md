@@ -13,7 +13,7 @@ Upon use, <b>Pkdx</b> presents its user with a caught wild Pokémon. The user ca
 
 * All 721 (as of the time of original development) Pokémon make their appearance.
 * Innovative, nostalgic, and responsive UI design based on the original Pokémon Red, Blue, and Yellow Gameboy Color games.
-* Original sprites and sounds from the Pokémon universe.
+* Original sprites, fonts, and sounds from the Pokémon universe.
 * Ability to browse through collected Pokémon and compare description and ability data.
 * Option to transfer and view favorite Pokémon to and from a PC Box.
 * Custom app widget for catching hundreds of Pokémon directly from the home screen.
