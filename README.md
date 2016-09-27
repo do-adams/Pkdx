@@ -35,7 +35,7 @@ The necessary Proguard rules are included in the `proguard-rules.pro` file for s
 
 # Developer's Note
 
-I made this app specifically for my little nephew. I recall introducing him to Pokémon Go in mid July and seeing him burst into cries of wonder and excitement as I got ready to take him out on our very own "Pokémon Safari" in my small neighborhood.
+I made this app specifically for my little nephew. I recall introducing him to Pokémon Go in mid July and seeing him burst into cries of wonder and excitement at the sight of the first apparition of a wild Pokémon, as I got ready to take him out on our very own "Pokémon Safari" in my small neighborhood.
 
 The experience really touched me and reminded me of my most purest aim with technology: to deliver a sort of `magic` that can radically enrich and improve other people's lives. <b>Pkdx</b> is an expression of that, and it has served its purpose well - providing me with hours of bonding and bliss with my own nephew.
 
