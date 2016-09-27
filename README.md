@@ -20,6 +20,7 @@ Upon use, <b>Pkdx</b> presents its user with a caught wild Pokémon. The user ca
 
 * Cached instance of scraped [PokeApi](http://pokeapi.co/) data for fast, native access to Pokémon content.
 * Responsive UI practices for 7" Android tablets and similarly sized devices.
+* Implementation of custom fonts and Action Bar titles for Views and Activities.
 * Dynamically generated color palettes using the [Picasso](https://github.com/square/picasso) and [PicassoPalettes](https://github.com/florent37/PicassoPalette) libraries.
 * Uses its own ContentProvider to store and access DB data including SQLite tables that keep track of the user's caught and favorited Pokémon.
 * Novel use of Android's App Widgets to deliver cute Pokémon sprites to the Android home screen.
