@@ -1,3 +1,6 @@
+/*
+ * Copyright (C) 2016 Damián Adams
+ */
 package com.mianlabs.pkdx.ui.about;
 
 import android.graphics.Typeface;
