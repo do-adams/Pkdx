@@ -2,7 +2,7 @@
 A retro-themed dynamic Pokédex for Android.
 
 <p align="center">
-<a href="https://github.com/do-adams/Pkdx"><img src="/Pkdx_Poster.png" height="473" width="357"></a>
+<a href="https://github.com/do-adams/Pkdx/blob/master/Pkdx_Poster.png"><img src="/Pkdx_Poster.png" height="473" width="357"></a>
 </p>
 
 <b>Pkdx</b> (pronounced "Pikadex") is a unique Pokédex app for Android that implements the main game mechanic from the original Pokémon series of videogames. It encourages the user to continually use the app both to increase his understanding of the Pokémon world and to catch all of the available Pokémon and complete his Pokédex.
@@ -53,4 +53,4 @@ All app icons and images not otherwise copyrighted were designed and produced by
 
 # Special Thanks
 
-A big hug goes out to all those who worked on producing the great [PokeApi](http://pokeapi.co/) and the very helpful [PokeKotlin](https://github.com/PokeAPI/pokekotlin) library, as well as my small but relentless Pokémon Trainer nephew, Sebastianni. 
+A big hug goes out to all those who worked on producing the great [PokeApi](http://pokeapi.co/) and the very helpful [PokeKotlin](https://github.com/PokeAPI/pokekotlin) library, as well as to my small but relentless Pokémon Trainer nephew, Sebastianni. 
