@@ -49,7 +49,7 @@ No copyright or trademark infringement is intended in using Pokémon content on 
 
 The Pixel Heart Patterns used as background for this application were designed, created, and distributed for use by artist [Pandora42](http://pandora42.deviantart.com/art/Pixel-Heart-Patterns-for-PS-257343227) from DeviantArt.
 
-All app icons and images not otherwise copyrighted were designed and produced by me, the developer.
+All app icons and images not otherwise copyrighted were designed and produced by the developer.
 
 # Special Thanks
 
