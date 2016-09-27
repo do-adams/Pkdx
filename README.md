@@ -41,6 +41,16 @@ The experience really touched me and reminded me of my most purest aim with tech
 
 If I can do the same for anyone else with my work then I will have considered it a massive success. If <b>Pkdx</b> managed to do it for you or if you simply want to get in touch, I'd love to hear from you. You can reach me [here](https://mianlabs.com/contact/).
 
+#Legal Disclaimer
 
+This application includes data, images, sounds, and terms from the Pokémon series of video games. This is all the intellectual property of Nintendo, Creatures Inc., and GAME FREAK inc. and is protected by various copyrights and trademarks. The developer believes that the use of this intellectual property for a fan-made nonprofit educational reference is covered by fair use and that the application is significantly deprecated without said property included. 
 
+No copyright or trademark infringement is intended in using Pokémon content on Pkdx. 
 
+The Pixel Heart Patterns used as background for this application were designed, created, and distributed for use by artist [Pandora42](http://pandora42.deviantart.com/art/Pixel-Heart-Patterns-for-PS-257343227) from DeviantArt.
+
+All app icons and images not otherwise copyrighted were designed and produced by me, the developer.
+
+# Special Thanks
+
+A big hug goes out to all those who worked on producing the great [PokeApi](http://pokeapi.co/) and the very helpful [PokeKotlin](https://github.com/PokeAPI/pokekotlin) library, as well as my small but relentless Pokémon Trainer nephew, Sebastianni. 
