@@ -1,7 +1,9 @@
 # Pkdx
 A retro-themed dynamic Pokédex for Android.
 
+<p align="center">
 <a href="https://github.com/do-adams/Pkdx"><img src="/Pkdx_Poster.png" height="473" width="357"></a>
+</p>
 
 <b>Pkdx</b> (pronounced "Pikadex") is a unique Pokédex app for Android that implements the main game mechanic from the original Pokémon series of videogames. It encourages the user to continually use the app both to increase his understanding of the Pokémon world and to catch all of the available Pokémon and complete his Pokédex.
 
