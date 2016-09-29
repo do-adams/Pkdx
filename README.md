@@ -33,7 +33,7 @@ To get started, simply clone this repository in Android Studio and run a debug o
 
 The necessary Proguard rules are included in the `proguard-rules.pro` file for successful generation of APKs.
 
-If you're not a developer and/or just want to run and use the app on your phone or Android device, you can grab a copy of the generated `.apk` file [here](https://github.com/do-adams/Pkdx/blob/master/app/app-release.apk?raw=true).
+<b>If you're not a developer and/or just want to run and use the app on your phone or Android device, you can grab a copy of the generated `.apk` file [here](https://github.com/do-adams/Pkdx/blob/master/app/app-release.apk?raw=true).</b>
 
 # Developer's Note
 
