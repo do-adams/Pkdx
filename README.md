@@ -43,7 +43,7 @@ The experience really touched me and reminded me of my most purest aim with tech
 
 If I can do the same for anyone else with my work then I will have considered it a massive success. If <b>Pkdx</b> managed to do it for you or if you simply want to get in touch, I'd love to hear from you. You can reach me [here](https://mianlabs.com/contact/).
 
-#Legal Disclaimer
+# Legal Disclaimer
 
 This application includes data, images, sounds, and terms from the Pokémon series of video games. This is all the intellectual property of Nintendo, Creatures Inc., and GAME FREAK inc. and is protected by various copyrights and trademarks. The developer believes that the use of this intellectual property for a fan-made nonprofit educational reference is covered by fair use and that the application is significantly deprecated without said property included. 
 
